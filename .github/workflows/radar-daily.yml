@@ -1,9 +1,9 @@
 name: radar-daily
 # 信息差雷达 · 云端每日运行(电脑关机也能跑)
-# 北京时间 07:30 = UTC 23:30(前一日)
+# 北京时间 08:00 = UTC 00:00(同日)
 on:
   schedule:
-    - cron: "30 23 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch: {}
 
 permissions:

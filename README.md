@@ -6,7 +6,7 @@
 ## 1. 系统架构
 
 ```
-定时触发(Windows任务计划, 每日07:30) 或 手动
+定时触发(Windows任务计划, 每日08:00) 或 手动
         │
         ▼
 radar\run-radar.cmd  ──►  dsh headless（一次性agent, 按 .dsh/skills 的 radar* skills 执行）
@@ -96,8 +96,8 @@ DEEPSEEK_API_KEY=sk-你的key
 ### 4.3 注册定时任务（推荐）
 
 ```powershell
-# 每日 07:30 自动跑雷达（采集→差异→日报→LLM解读）
-schtasks /Create /TN "DSH-Radar-Daily" /TR "\"C:\Users\32094\Documents\deepseek-harness\default-workspace\radar\run-radar.cmd\"" /SC DAILY /ST 07:30 /F
+# 每日 08:00 自动跑雷达（采集→差异→日报→LLM解读）
+schtasks /Create /TN "DSH-Radar-Daily" /TR "\"C:\Users\32094\Documents\deepseek-harness\default-workspace\radar\run-radar.cmd\"" /SC DAILY /ST 08:00 /F
 
 # 可选: 每周一 08:00 生成周报(把任务文本换成"生成周报"即可, 或直接在 GUI 里让 agent 汇总近7天日报)
 schtasks /Create /TN "DSH-Radar-Weekly" /TR "\"C:\Users\32094\Documents\deepseek-harness\default-workspace\radar\run-radar-weekly.cmd\"" /SC WEEKLY /D MON /ST 08:00 /F
@@ -120,7 +120,7 @@ DSH 的 skill 加载路径（优先级从高到低）：`<项目>\.dsh\skills` �
 ## 5. 三种使用方式
 
 ### 5.1 全自动（主力）
-每天 07:30 任务计划自动产出 `radar\reports\radar-YYYY-MM-DD.md`。你只需要偶尔打开目录扫一眼，或在 DSH 里问。
+每天 08:00 云端自动产出新一天的内容并更新网页。你只需要偶尔打开网页扫一眼，或在 DSH 里问。
 
 ### 5.2 GUI 对话式（DSH Web 界面，新开一个会话即可看到 radar skills）
 - "**今天有什么信息差？**" → agent 直接读最新日报回答（不重跑脚本，零成本）
@@ -242,9 +242,9 @@ dsh headless --session-id session-xxx "继续深入分析上周的财经信号" 
 
 ## 12. 关机也能跑：云端运行（GitHub Actions，免费）
 
-采集脚本是纯 Python、LLM 解读走 DeepSeek API，**都不依赖本机**。把 `radar/` 目录推到一个 GitHub 仓库，云端每天北京时间 07:30 自动跑全套并提交结果回仓库，手机打开 GitHub 就能看。已备好组件：
+采集脚本是纯 Python、LLM 解读走 DeepSeek API，**都不依赖本机**。把 `radar/` 目录推到一个 GitHub 仓库，云端每天北京时间 08:00 自动跑全套并提交结果回仓库，手机打开 GitHub 就能看。已备好组件：
 
-- `.github\workflows\radar-daily.yml` — 每日 07:30(北京) 定时工作流：采集→差异→日报→LLM解读(可选)→提交
+- `.github\workflows\radar-daily.yml` — 每日 08:00(北京) 定时工作流：采集→差异→日报→LLM解读(可选)→精选→深读→网页→提交
 - `scripts\llm_digest.py` — 云端的 LLM 解读步骤（有 `DEEPSEEK_API_KEY` 就追加解读，没有就跳过，两种模式都兼容）
 
 ### 部署 4 步
