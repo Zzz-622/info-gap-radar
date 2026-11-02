@@ -1,97 +1,97 @@
 {
   "date": "2026-11-02",
-  "mode": "规则模式(0 成本)",
+  "mode": "LLM 精选",
   "picks": [
     {
-      "title": "OpenAI重写大模型法则，第一条：忠于人类！！",
-      "link": "https://www.qbitai.com/2026/11/507225.html",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "score": 40,
-      "reason": "命中兴趣词: ai/大模型",
-      "action": "仅观察"
+      "title": "大模型竞争进入下半场：速度正在成为新的竞争力",
+      "link": "https://www.mittrchina.com/news/detail/17182",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 88,
+      "reason": "大模型竞争从参数转向推理速度，直接影响你选型、做产品和判断算力投资的方向。",
+      "action": "读原文，梳理速度指标（tokens/s、延迟）对自家或关注产品的影响"
     },
     {
-      "title": "Show HN: AgentTM – A time-travel debugger for AI coding agents built in Go",
-      "link": "https://github.com/Jyotishmoy12/AgentTM",
+      "title": "AI infrastructure demand to stay strong until at least 2028: Schneider Electric",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVDNMZlJyN1BiZ0NNRllseHhST3lyb3RDaEt5WWQ1SEdQSDNJanlSVzJLSUlBc2N5UC05clNrMDl6OXN4MUZjU0NiQ1RBSlRVS1dqdkRKZXAxNkRtT1JQWU9ZSlNRRDdmdi0tdmRKN2NKLXBNVVkyem84THpuZmVNNTlRWEU0VkxMbEpXWWlVamhVSjZPeDNuR2xLZU53cDAzRUhOSWZWQzBCS3c3MFFVcQ?oc=5",
+      "source": "GoogleNews·AI",
+      "domain": "AI前沿",
+      "score": 85,
+      "reason": "施耐德电气给出AI基础设施需求至少强到2028年的产业判断，是算力、电力、芯片投资链条的关键信号。",
+      "action": "仅观察，可据此跟踪数据中心电力与散热相关标的"
+    },
+    {
+      "title": "Why 95% of AI Agent Prototypes Never Reach Production — and How to Build One That Does",
+      "link": "https://dev.to/irfangulzarx/why-95-of-ai-agent-prototypes-never-reach-production-and-how-to-build-one-that-does-3mk",
+      "source": "dev.to·AI",
+      "domain": "技术趋势",
+      "score": 82,
+      "reason": "直击Agent从Demo到生产的落地鸿沟，对做Agent开发或评估职业方向的人有直接方法论价值。",
+      "action": "读原文，对照检查自己项目的可靠性、评测与运维缺口"
+    },
+    {
+      "title": "The middle layer will make or break enterprise AI agents",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOV19uT0FyRzVfSHd0TWxxV3lIaFZuU1JsOHhKdmVXMlE2eUoyLXRHNGQtbjdaN2FTV19jeV80Wm9xSk1FUTB2TXBsUEMxcTNveVRNeW5HNHM2T1ZWSGRDVnpjdzFySzhyZjVleFBOVFY5TFJkUTlCWXA4OHZhNmtTbzA0Y01SQXVscE45ZWNlRzRtTHRVNUtWZDBhNzVNZw?oc=5",
+      "source": "GoogleNews·AI",
+      "domain": "AI前沿",
+      "score": 80,
+      "reason": "指出企业Agent成败在中间层，与上一条形成交叉信号，指向Agent工程化这一职业机会带。",
+      "action": "读原文，关注中间层（编排、权限、观测）相关技能与工具"
+    },
+    {
+      "title": "破解 AI 长期记忆瓶颈，阿里云赋能 Personal Agent 迈向深度个性化",
+      "link": "https://www.aibase.com/zh/news/32023",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 76,
+      "reason": "长期记忆是Personal Agent的核心瓶颈，阿里云的方案代表国内大厂技术路线，值得跟进。",
+      "action": "仅观察，留意其API/产品化进展"
+    },
+    {
+      "title": "大额存单来了！六大行全部重启发行",
+      "link": "https://www.baidu.com/s?wd=%E5%A4%A7%E9%A2%9D%E5%AD%98%E5%8D%95%E6%9D%A5%E4%BA%86%EF%BC%81%E5%85%AD%E5%A4%A7%E8%A1%8C%E5%85%A8%E9%83%A8%E9%87%8D%E5%90%AF%E5%8F%91%E8%A1%8C",
+      "source": "百度实时热点",
+      "domain": "舆情热点",
+      "score": 74,
+      "reason": "六大行同步重启大额存单，直接关系存款与债券类资产配置的收益比较。",
+      "action": "查各行大额存单利率与期限，对比货基/短债后决定是否配置"
+    },
+    {
+      "title": "Haas: Postgres 19 is late, and it's AI's fault",
+      "link": "https://lwn.net/Articles/1104210/",
       "source": "HackerNews·AI",
       "domain": "技术趋势",
-      "score": 40,
-      "reason": "命中兴趣词: ai/agent",
-      "action": "仅观察"
+      "score": 70,
+      "reason": "AI需求正在挤占开源基础设施的开发资源，是少有人注意但影响开发者长期技术选型的结构性信号。",
+      "action": "读原文，评估Postgres版本节奏对自身项目升级计划的影响"
     },
     {
-      "title": "央行出手稳市场！将开展第三次证券、基金、保险公司互换便利操作，明日接受申报",
-      "link": "https://wallstreetcn.com/articles/3784988",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "score": 30,
-      "reason": "命中兴趣词: 基金",
-      "action": "仅观察"
-    },
-    {
-      "title": "午后拉升！沪指重上3600点，传媒掀涨停潮，券商、金融科技爆发，恒科指涨超2%，权重科网股集体大涨",
-      "link": "https://wallstreetcn.com/articles/3784968",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
-    },
-    {
-      "title": "涉嫌严重违纪违法，韩劲红被查（附简历）",
-      "link": "https://finance.sina.com.cn/stock/roll/2026-11-02/doc-inixicie7328998.shtml",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
-    },
-    {
-      "title": "一个网吧网管，做了个网页，卖了 5000 万",
-      "link": "https://juejin.cn/post/7702808313616760859",
-      "source": "掘金热文",
+      "title": "Your Agent Says It Made It Faster. Benchmark Both Branches Before You Land",
+      "link": "https://dev.to/gabrielanhaia/your-agent-says-it-made-it-faster-benchmark-both-branches-before-you-land-4jnk",
+      "source": "dev.to·AI",
       "domain": "技术趋势",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
+      "score": 66,
+      "reason": "给出Agent声称优化时必须双分支基准验证的实操纪律，可直接用于代码评审流程。",
+      "action": "把双分支benchmark加入自己的Agent代码合入检查清单"
     },
     {
-      "title": "古尔曼称苹果明年上半年推出三款新 iPad：其中 iPad Air 采用 OLED 屏、iPad Pro 搭载均热板",
-      "link": "https://m.ithome.com/html/1020843.htm",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "score": 30,
-      "reason": "命中兴趣词: ai",
-      "action": "仅观察"
+      "title": "“银十”跑赢“金九”：上海10月二手房网签同比大涨33%，“市场止跌回暖信号已经明确”",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34382522",
+      "source": "澎湃热榜",
+      "domain": "新闻时政",
+      "score": 62,
+      "reason": "一线城市二手房成交同比大涨33%，是判断地产与相关资产走向的可验证数据点。",
+      "action": "仅观察，作为地产链与消费预期的跟踪指标"
     },
     {
-      "title": "Agent 在金融机构走出「试用期」后，价值账怎么算？",
-      "link": "https://www.leiphone.com/category/fintech/y2eDRanVtlSZl8w6.html",
+      "title": "ChatGPT 要能主动挂断危险对话，屡犯者直接封号",
+      "link": "https://www.aibase.com/zh/news/32025",
       "source": "Readhub",
       "domain": "科技商业",
-      "score": 30,
-      "reason": "命中兴趣词: agent",
-      "action": "仅观察"
-    },
-    {
-      "title": "特斯拉人形机器人迎来重大突破：量产版 Optimus 首次搭载端到端视觉大模型，动作流畅度对标真人",
-      "link": "https://www.aibase.com/zh/news/32017",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "score": 30,
-      "reason": "命中兴趣词: 大模型",
-      "action": "仅观察"
-    },
-    {
-      "title": "ChatGPT要和Codex共用额度，免费重置时代结束了",
-      "link": "https://www.36kr.com/p/4051737057088392",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
+      "score": 58,
+      "reason": "头部模型开始内置安全中断与封号机制，做AI产品合规与风控设计时需对齐。",
+      "action": "仅观察，若做C端AI产品则评估自身安全策略"
     }
   ],
-  "noise_note": "规则模式(未配置 LLM): 按画像关键词与加权领域筛选, 结果较粗"
+  "noise_note": "排除了百度/知乎娱乐八卦与明星话题、dev.to上的买账号/买EDU邮箱等垃圾广告、体育与地缘冲突类与画像无关的日常新闻，以及同主题重复的AI数据中心泛报道。"
 }

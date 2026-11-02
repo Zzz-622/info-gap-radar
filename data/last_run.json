@@ -1,21 +1,21 @@
 {
-  "run_ts": 1793610201,
-  "time": "2026-11-02T09:03:30",
+  "run_ts": 1793610933,
+  "time": "2026-11-02T09:15:46",
   "per_source": [
     {
       "id": "weibo-hot",
       "fetched": 30,
-      "new": 15
+      "new": 0
     },
     {
       "id": "zhihu-hot",
       "fetched": 28,
-      "new": 4
+      "new": 1
     },
     {
       "id": "baidu-hot",
-      "fetched": 29,
-      "new": 12
+      "fetched": 30,
+      "new": 4
     },
     {
       "id": "douyin-hot",
@@ -30,17 +30,17 @@
     {
       "id": "pengpai-hot",
       "fetched": 20,
-      "new": 0
+      "new": 2
     },
     {
       "id": "wallstreetcn",
       "fetched": 10,
-      "new": 2
+      "new": 0
     },
     {
       "id": "sina-finance",
       "fetched": 10,
-      "new": 1
+      "new": 0
     },
     {
       "id": "xueqiu",
@@ -50,7 +50,7 @@
     {
       "id": "36kr-hot",
       "fetched": 8,
-      "new": 5
+      "new": 0
     },
     {
       "id": "huxiu",
@@ -60,7 +60,7 @@
     {
       "id": "readhub",
       "fetched": 10,
-      "new": 6
+      "new": 3
     },
     {
       "id": "jiqizhixin",
@@ -70,22 +70,22 @@
     {
       "id": "liangziwei",
       "fetched": 10,
-      "new": 2
+      "new": 0
     },
     {
       "id": "ithome-hot",
       "fetched": 10,
-      "new": 2
+      "new": 0
     },
     {
       "id": "sspai-rss",
       "fetched": 10,
-      "new": 1
+      "new": 0
     },
     {
       "id": "juejin",
       "fetched": 19,
-      "new": 1
+      "new": 0
     },
     {
       "id": "github-top",
@@ -100,12 +100,12 @@
     {
       "id": "hn-ai",
       "fetched": 30,
-      "new": 5
+      "new": 1
     },
     {
       "id": "producthunt",
       "fetched": 30,
-      "new": 9
+      "new": 2
     },
     {
       "id": "freebuf",
@@ -115,7 +115,7 @@
     {
       "id": "bbc-zh",
       "fetched": 30,
-      "new": 1
+      "new": 0
     },
     {
       "id": "arxiv-cs-ai",
@@ -130,17 +130,17 @@
     {
       "id": "hn-front",
       "fetched": 30,
-      "new": 1
+      "new": 0
     },
     {
       "id": "lobsters",
       "fetched": 25,
-      "new": 3
+      "new": 0
     },
     {
       "id": "devto-ai",
       "fetched": 12,
-      "new": 12
+      "new": 6
     },
     {
       "id": "techcrunch",
@@ -170,12 +170,12 @@
     {
       "id": "bbc-en",
       "fetched": 30,
-      "new": 5
+      "new": 3
     },
     {
       "id": "guardian-world",
       "fetched": 30,
-      "new": 1
+      "new": 2
     },
     {
       "id": "nyt-home",
@@ -185,14 +185,14 @@
     {
       "id": "cnbc-markets",
       "fetched": 30,
-      "new": 2
+      "new": 0
     },
     {
       "id": "google-news-ai",
       "fetched": 30,
-      "new": 11
+      "new": 6
     }
   ],
   "errors": [],
-  "db_items": 1090
+  "db_items": 1120
 }
