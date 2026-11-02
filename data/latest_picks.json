@@ -3,53 +3,35 @@
   "mode": "规则模式(0 成本)",
   "picks": [
     {
-      "title": "财经早报丨百亿基金隐形持仓浮出水面 万亿AI巨头砍融资砍估值丨2026年11月2日",
-      "link": "https://finance.sina.com.cn/stock/y/2026-11-02/doc-inixhwzc2395729.shtml",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "score": 50,
-      "reason": "命中兴趣词: ai/基金/融资",
-      "action": "仅观察"
-    },
-    {
-      "title": "算力的尽头是电力？从第一性原理看AI基础设施",
-      "link": "https://www.36kr.com/p/4050946312967297",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "score": 40,
-      "reason": "命中兴趣词: ai/算力",
-      "action": "仅观察"
-    },
-    {
-      "title": "DeepSeek 开源 Super-agent 架构：以经典计算机系统思想突破单会话智能体瓶颈",
-      "link": "https://www.aibase.com/zh/news/32001",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "score": 40,
-      "reason": "命中兴趣词: agent/开源",
-      "action": "仅观察"
-    },
-    {
-      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
-      "link": "https://www.qbitai.com/2026/11/507107.html",
+      "title": "OpenAI重写大模型法则，第一条：忠于人类！！",
+      "link": "https://www.qbitai.com/2026/11/507225.html",
       "source": "量子位",
       "domain": "AI前沿",
       "score": 40,
-      "reason": "命中兴趣词: ai/开源",
+      "reason": "命中兴趣词: ai/大模型",
       "action": "仅观察"
     },
     {
-      "title": "微软大裁员后印度裔员工上班被挖",
-      "link": "https://s.weibo.com/weibo?q=%E5%BE%AE%E8%BD%AF%E5%A4%A7%E8%A3%81%E5%91%98%E5%90%8E%E5%8D%B0%E5%BA%A6%E8%A3%94%E5%91%98%E5%B7%A5%E4%B8%8A%E7%8F%AD%E8%A2%AB%E6%8C%96",
-      "source": "微博热搜榜",
-      "domain": "舆情热点",
+      "title": "Show HN: AgentTM – A time-travel debugger for AI coding agents built in Go",
+      "link": "https://github.com/Jyotishmoy12/AgentTM",
+      "source": "HackerNews·AI",
+      "domain": "技术趋势",
+      "score": 40,
+      "reason": "命中兴趣词: ai/agent",
+      "action": "仅观察"
+    },
+    {
+      "title": "央行出手稳市场！将开展第三次证券、基金、保险公司互换便利操作，明日接受申报",
+      "link": "https://wallstreetcn.com/articles/3784988",
+      "source": "华尔街见闻",
+      "domain": "财经",
       "score": 30,
-      "reason": "命中兴趣词: 裁员",
+      "reason": "命中兴趣词: 基金",
       "action": "仅观察"
     },
     {
-      "title": "华尔街见闻早餐FM-Radio | 2026年11月2日",
-      "link": "https://wallstreetcn.com/articles/3784909",
+      "title": "午后拉升！沪指重上3600点，传媒掀涨停潮，券商、金融科技爆发，恒科指涨超2%，权重科网股集体大涨",
+      "link": "https://wallstreetcn.com/articles/3784968",
       "source": "华尔街见闻",
       "domain": "财经",
       "score": 30,
@@ -57,39 +39,57 @@
       "action": "仅观察"
     },
     {
-      "title": "金融监管部门将召开座谈会，A股将迎哪些利好？",
-      "link": "https://wallstreetcn.com/articles/3784952",
-      "source": "华尔街见闻",
+      "title": "涉嫌严重违纪违法，韩劲红被查（附简历）",
+      "link": "https://finance.sina.com.cn/stock/roll/2026-11-02/doc-inixicie7328998.shtml",
+      "source": "新浪财经新闻",
       "domain": "财经",
       "score": 30,
       "reason": "告警或优先领域信号",
       "action": "仅观察"
     },
     {
-      "title": "本周重磅日程：聚焦美国中选与中国重磅金融会议，非农、AMD和苹果财报齐至",
-      "link": "https://wallstreetcn.com/articles/3784849",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "score": 30,
-      "reason": "命中兴趣词: 财报",
-      "action": "仅观察"
-    },
-    {
-      "title": "何处是底",
-      "link": "https://wallstreetcn.com/articles/3784945",
-      "source": "华尔街见闻",
-      "domain": "财经",
+      "title": "一个网吧网管，做了个网页，卖了 5000 万",
+      "link": "https://juejin.cn/post/7702808313616760859",
+      "source": "掘金热文",
+      "domain": "技术趋势",
       "score": 30,
       "reason": "告警或优先领域信号",
       "action": "仅观察"
     },
     {
-      "title": "一生难愈：高盛发现被AI取代的工人通常再就业困难，且往往落入AI的下一个猎场",
-      "link": "https://wallstreetcn.com/articles/3784943",
-      "source": "华尔街见闻",
-      "domain": "财经",
+      "title": "古尔曼称苹果明年上半年推出三款新 iPad：其中 iPad Air 采用 OLED 屏、iPad Pro 搭载均热板",
+      "link": "https://m.ithome.com/html/1020843.htm",
+      "source": "IT之家",
+      "domain": "科技数码",
       "score": 30,
       "reason": "命中兴趣词: ai",
+      "action": "仅观察"
+    },
+    {
+      "title": "Agent 在金融机构走出「试用期」后，价值账怎么算？",
+      "link": "https://www.leiphone.com/category/fintech/y2eDRanVtlSZl8w6.html",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 30,
+      "reason": "命中兴趣词: agent",
+      "action": "仅观察"
+    },
+    {
+      "title": "特斯拉人形机器人迎来重大突破：量产版 Optimus 首次搭载端到端视觉大模型，动作流畅度对标真人",
+      "link": "https://www.aibase.com/zh/news/32017",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 30,
+      "reason": "命中兴趣词: 大模型",
+      "action": "仅观察"
+    },
+    {
+      "title": "ChatGPT要和Codex共用额度，免费重置时代结束了",
+      "link": "https://www.36kr.com/p/4051737057088392",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "score": 30,
+      "reason": "告警或优先领域信号",
       "action": "仅观察"
     }
   ],
