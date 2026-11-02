@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-02",
+  "mode": "规则模式(0 成本)",
+  "picks": [
+    {
+      "title": "财经早报丨百亿基金隐形持仓浮出水面 万亿AI巨头砍融资砍估值丨2026年11月2日",
+      "link": "https://finance.sina.com.cn/stock/y/2026-11-02/doc-inixhwzc2395729.shtml",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "score": 50,
+      "reason": "命中兴趣词: ai/基金/融资",
+      "action": "仅观察"
+    },
+    {
+      "title": "算力的尽头是电力？从第一性原理看AI基础设施",
+      "link": "https://www.36kr.com/p/4050946312967297",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "score": 40,
+      "reason": "命中兴趣词: ai/算力",
+      "action": "仅观察"
+    },
+    {
+      "title": "DeepSeek 开源 Super-agent 架构：以经典计算机系统思想突破单会话智能体瓶颈",
+      "link": "https://www.aibase.com/zh/news/32001",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 40,
+      "reason": "命中兴趣词: agent/开源",
+      "action": "仅观察"
+    },
+    {
+      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
+      "link": "https://www.qbitai.com/2026/11/507107.html",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "score": 40,
+      "reason": "命中兴趣词: ai/开源",
+      "action": "仅观察"
+    },
+    {
+      "title": "微软大裁员后印度裔员工上班被挖",
+      "link": "https://s.weibo.com/weibo?q=%E5%BE%AE%E8%BD%AF%E5%A4%A7%E8%A3%81%E5%91%98%E5%90%8E%E5%8D%B0%E5%BA%A6%E8%A3%94%E5%91%98%E5%B7%A5%E4%B8%8A%E7%8F%AD%E8%A2%AB%E6%8C%96",
+      "source": "微博热搜榜",
+      "domain": "舆情热点",
+      "score": 30,
+      "reason": "命中兴趣词: 裁员",
+      "action": "仅观察"
+    },
+    {
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月2日",
+      "link": "https://wallstreetcn.com/articles/3784909",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 30,
+      "reason": "告警或优先领域信号",
+      "action": "仅观察"
+    },
+    {
+      "title": "金融监管部门将召开座谈会，A股将迎哪些利好？",
+      "link": "https://wallstreetcn.com/articles/3784952",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 30,
+      "reason": "告警或优先领域信号",
+      "action": "仅观察"
+    },
+    {
+      "title": "本周重磅日程：聚焦美国中选与中国重磅金融会议，非农、AMD和苹果财报齐至",
+      "link": "https://wallstreetcn.com/articles/3784849",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 30,
+      "reason": "命中兴趣词: 财报",
+      "action": "仅观察"
+    },
+    {
+      "title": "何处是底",
+      "link": "https://wallstreetcn.com/articles/3784945",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 30,
+      "reason": "告警或优先领域信号",
+      "action": "仅观察"
+    },
+    {
+      "title": "一生难愈：高盛发现被AI取代的工人通常再就业困难，且往往落入AI的下一个猎场",
+      "link": "https://wallstreetcn.com/articles/3784943",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 30,
+      "reason": "命中兴趣词: ai",
+      "action": "仅观察"
+    }
+  ],
+  "noise_note": "规则模式(未配置 LLM): 按画像关键词与加权领域筛选, 结果较粗"
+}

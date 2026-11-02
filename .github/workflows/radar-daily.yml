@@ -1,0 +1,58 @@
+name: radar-daily
+# 信息差雷达 · 云端每日运行(电脑关机也能跑)
+# 北京时间 07:30 = UTC 23:30(前一日)
+on:
+  schedule:
+    - cron: "30 23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 采集(38个免费源)
+        run: python scripts/fetch_radar.py
+
+      - name: 差异分析+告警
+        run: python scripts/diff_radar.py
+
+      - name: 生成基础日报(0成本)
+        run: python scripts/report_radar.py
+
+      - name: LLM 解读(未配 secret 自动跳过)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python scripts/llm_digest.py
+
+      - name: 个性化精选(私人编辑)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python scripts/pick_news.py
+
+      - name: 深读摘要(top精选)
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python scripts/deep_read.py || true
+
+      - name: 登记复习计划
+        run: python scripts/quiz_radar.py --scan || true
+
+      - name: 构建静态网页(docs/)
+        run: python scripts/build_site.py
+
+      - name: 提交日报与数据回仓库
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data reports learn docs config || true
+          git diff --cached --quiet || git commit -m "radar: $(date +%F) daily report"
+          git push

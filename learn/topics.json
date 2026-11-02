@@ -1,0 +1,29 @@
+{
+  "_note": "学习主题清单。每个主题: slug(目录名)、name、keywords(匹配信号标题用)、why(为什么关心)、open_questions(未解问题)。新增主题: 让 agent 建 learn/topics/<slug>/ 目录, 或直接在这里加对象。",
+  "topics": [
+    {
+      "slug": "ai-agents",
+      "name": "AI Agent 与自动化",
+      "keywords": ["agent", "智能体", "自动化", "工作流", "super-agent"],
+      "why": "理解 AI 从'对话工具'到'自主干活'的演进, 判断对工作的影响",
+      "open_questions": ["Agent 目前卡在什么技术瓶颈?", "哪些工作最先被 Agent 化?"],
+      "created": "2026-11-01"
+    },
+    {
+      "slug": "ai-industry-capital",
+      "name": "AI 产业与资本",
+      "keywords": ["IPO", "融资", "算力", "芯片", "大模型", "硅基流动", "token"],
+      "why": "看懂 AI 公司的商业模式与估值逻辑, 理解行业何时盈利",
+      "open_questions": ["推理 token 生意能否持续盈利?", "国产算力成本如何降?"],
+      "created": "2026-11-01"
+    },
+    {
+      "slug": "macro-markets",
+      "name": "宏观与市场机制",
+      "keywords": ["降息", "加息", "美联储", "央行", "债券", "A股", "中选", "关税"],
+      "why": "建立'利率-资金-资产价格'的传导直觉, 看懂政策新闻在说什么",
+      "open_questions": ["美联储降息如何传导到 A 股?", "为什么市场对'预期'比对'事实'反应更大?"],
+      "created": "2026-11-01"
+    }
+  ]
+}
