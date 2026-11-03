@@ -153,11 +153,26 @@ footer{
   text-align:center;
 }
 .meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
 @media (max-width:700px){
   body{padding:18px 12px 32px;font-size:15px}
   header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
   nav{width:100%}
   nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
   main{padding:24px 20px;border-radius:18px}
   main h1{font-size:1.8rem}
   h2{margin-top:2rem}
@@ -165,6 +180,7 @@ footer{
 </style></head>
 <body>
 <header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
 <main><h1>学习卡 · 2026-11-01 · 硅基流动赴港 IPO</h1>
 <blockquote>信号: 硅基流动赴港 IPO 备案申请状态显示为&quot;已接收&quot;，拟冲刺&quot;AI Token 工厂第一股&quot;</blockquote>
 <blockquote>来源: <a href="https://www.thepaper.cn/newsDetail_forward_34376118" target="_blank" rel="noopener">澎湃热榜</a> · 主题: ai-industry-capital</blockquote>

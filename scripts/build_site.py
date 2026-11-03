@@ -16,6 +16,7 @@ LEARN = RADAR_ROOT / "learn"
 CARDS = LEARN / "cards"
 TOPICS = LEARN / "topics"
 OUT = RADAR_ROOT / "docs"
+ASSETS = RADAR_ROOT / "assets"
 
 CSS = """
 :root{
@@ -165,11 +166,26 @@ footer{
   text-align:center;
 }
 .meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
 @media (max-width:700px){
   body{padding:18px 12px 32px;font-size:15px}
   header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
   nav{width:100%}
   nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
   main{padding:24px 20px;border-radius:18px}
   main h1{font-size:1.8rem}
   h2{margin-top:2rem}
@@ -242,9 +258,14 @@ def md_to_html(text):
     return "\n".join(out)
 
 
-def page(title, body, depth="", active=""):
+def page(title, body, depth="", active="", cover=False):
     nav = "".join(
         f'<a href="{depth}{u}"{" class=on" if u == active else ""}>{t}</a>' for u, t in NAV)
+    cover_html = (
+        f'<div class="cover"><img src="{depth}cover.jpg" '
+        'alt="抽象雷达信号封面" loading="eager"></div>'
+        if cover else ""
+    )
     return f"""<!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -255,6 +276,7 @@ def page(title, body, depth="", active=""):
 <style>{CSS}</style></head>
 <body>
 <header><h1>📡 信息差雷达</h1><nav>{nav}</nav></header>
+{cover_html}
 <main>{body}</main>
 <footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
 </body></html>"""
@@ -353,7 +375,7 @@ def main():
             body.append(md_to_html(f.read_text(encoding="utf-8")))
             body.append("<hr>")
     (OUT / "index.html").write_text(
-        page("今日", "\n".join(body), active="index.html"), encoding="utf-8")
+        page("今日", "\n".join(body), active="index.html", cover=True), encoding="utf-8")
 
     # PWA 附件
     (OUT / "manifest.json").write_text(
@@ -365,6 +387,10 @@ def main():
         '<circle cx="32" cy="32" r="28" fill="#c96845"/>'
         '<path d="M32 18a14 14 0 0 1 0 28M32 26a6 6 0 0 1 0 12" stroke="#fffaf6" stroke-width="4" fill="none" stroke-linecap="round"/>'
         '<circle cx="32" cy="32" r="3" fill="#fffaf6"/></svg>', encoding="utf-8")
+    cover_src = ASSETS / "cover.jpg"
+    if cover_src.exists():
+        import shutil
+        shutil.copy2(cover_src, OUT / "cover.jpg")
 
     print(f"站点已生成: {OUT} (index.html + 归档 + {len(daily)} 日报 + {len(picks)} 精选 + {len(cards)} 学习卡)")
 
