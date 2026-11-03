@@ -56,3 +56,4 @@ jobs:
           git add data reports learn docs config || true
           git diff --cached --quiet || git commit -m "radar: $(date +%F) daily report"
           git push
+# schedule re-armed 2026-11-03
