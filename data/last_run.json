@@ -1,31 +1,31 @@
 {
-  "run_ts": 1793676630,
-  "time": "2026-11-03T03:30:45",
+  "run_ts": 1793766419,
+  "time": "2026-11-04T04:27:30",
   "per_source": [
     {
       "id": "weibo-hot",
-      "fetched": 28,
-      "new": 28
+      "fetched": 27,
+      "new": 27
     },
     {
       "id": "zhihu-hot",
-      "fetched": 28,
-      "new": 28
-    },
-    {
-      "id": "baidu-hot",
       "fetched": 29,
       "new": 29
     },
     {
+      "id": "baidu-hot",
+      "fetched": 30,
+      "new": 30
+    },
+    {
       "id": "douyin-hot",
-      "fetched": 16,
-      "new": 12
+      "fetched": 15,
+      "new": 15
     },
     {
       "id": "bili-hot",
-      "fetched": 30,
-      "new": 9
+      "fetched": 29,
+      "new": 14
     },
     {
       "id": "pengpai-hot",
@@ -35,12 +35,12 @@
     {
       "id": "wallstreetcn",
       "fetched": 10,
-      "new": 8
+      "new": 10
     },
     {
       "id": "sina-finance",
       "fetched": 10,
-      "new": 10
+      "new": 4
     },
     {
       "id": "xueqiu",
@@ -50,12 +50,12 @@
     {
       "id": "36kr-hot",
       "fetched": 8,
-      "new": 7
+      "new": 8
     },
     {
       "id": "huxiu",
       "fetched": 15,
-      "new": 2
+      "new": 5
     },
     {
       "id": "readhub",
@@ -70,32 +70,32 @@
     {
       "id": "liangziwei",
       "fetched": 10,
-      "new": 4
+      "new": 10
     },
     {
       "id": "ithome-hot",
-      "fetched": 12,
+      "fetched": 11,
       "new": 11
     },
     {
       "id": "sspai-rss",
       "fetched": 10,
-      "new": 2
+      "new": 5
     },
     {
       "id": "juejin",
       "fetched": 20,
-      "new": 5
+      "new": 4
     },
     {
       "id": "github-top",
-      "fetched": 15,
-      "new": 7
+      "fetched": 13,
+      "new": 3
     },
     {
       "id": "github-trending",
-      "fetched": 15,
-      "new": 7
+      "fetched": 13,
+      "new": 3
     },
     {
       "id": "hn-ai",
@@ -105,7 +105,7 @@
     {
       "id": "producthunt",
       "fetched": 30,
-      "new": 0
+      "new": 26
     },
     {
       "id": "freebuf",
@@ -118,11 +118,6 @@
       "new": 9
     },
     {
-      "id": "arxiv-cs-ai",
-      "fetched": 10,
-      "new": 10
-    },
-    {
       "id": "fx-usd-cny",
       "fetched": 1,
       "new": 0
@@ -130,7 +125,7 @@
     {
       "id": "hn-front",
       "fetched": 30,
-      "new": 28
+      "new": 30
     },
     {
       "id": "lobsters",
@@ -155,44 +150,46 @@
     {
       "id": "arstechnica",
       "fetched": 20,
-      "new": 11
+      "new": 12
     },
     {
       "id": "wired",
       "fetched": 30,
-      "new": 16
+      "new": 26
     },
     {
       "id": "mit-tr",
       "fetched": 10,
-      "new": 4
+      "new": 3
     },
     {
       "id": "bbc-en",
       "fetched": 30,
-      "new": 28
+      "new": 29
     },
     {
       "id": "guardian-world",
       "fetched": 30,
-      "new": 13
+      "new": 16
     },
     {
       "id": "nyt-home",
-      "fetched": 19,
-      "new": 19
+      "fetched": 15,
+      "new": 14
     },
     {
       "id": "cnbc-markets",
       "fetched": 30,
-      "new": 26
+      "new": 29
     },
     {
       "id": "google-news-ai",
       "fetched": 30,
-      "new": 27
+      "new": 30
     }
   ],
-  "errors": [],
-  "db_items": 1609
+  "errors": [
+    "arxiv-cs-ai: TimeoutError: The read operation timed out"
+  ],
+  "db_items": 2140
 }

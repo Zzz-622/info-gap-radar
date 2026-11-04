@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-04-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-04</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-04T04:27:30</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [财经] AMD Q3营收超预期增45%，数据中心收入近翻倍，Q4指引提速又新高</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 算力芯片需求的最直接财报验证，数据中心收入近翻倍是AI资本开支仍在加速的硬证据，直接影响芯片股与算力链投资判断。</li>
+<li><strong>可行动作</strong>: 对照CNBC同题报道交叉验证，梳理AMD与英伟达、英特尔的份额变化，更新算力板块持仓逻辑</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785112" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [科技商业] Anthropic 发布开源系统 FlashProve：通过密码学指纹实现 AI 模型身份可验证</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 模型身份可验证是Agent大规模互调、模型溯源与合规的前提设施，开源可上手，属长期值得跟踪的技术底座。</li>
+<li><strong>可行动作</strong>: 读官方仓库与设计文档，评估能否用于自己项目的模型调用链审计</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32061" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [科技商业] 中国开源AI调用量连续27周超越美国，成海外企业和开发者香饽饽</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 调用量是比榜单更硬的采用度指标，直接关系到开源模型选型、出海产品技术栈与相关公司估值叙事。</li>
+<li><strong>可行动作</strong>: 查证数据来源与统计口径，作为模型选型与开源生态判断的参考</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32074" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [科技商业] 消息称字节跳动大面积限制员工自费使用第三方AI工具</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 大厂AI工具治理风向标，涉及数据合规与自建工具链，对开发者选型和企业内AI落地有直接参考价值。</li>
+<li><strong>可行动作</strong>: 关注后续是否蔓延至其他大厂，评估自己团队第三方AI工具使用的合规风险</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32070" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [财经·海外] 苹果警告AI Agent可能以&#x27;意外或不可预测&#x27;方式行事</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 与CrowdStrike同日推出Agent急停开关形成交叉信号：Agent安全正从概念变成产品与合规要求。</li>
+<li><strong>可行动作</strong>: 梳理Agent权限边界与人工兜底设计，纳入自己Agent项目的风险清单</li>
+<li><strong>来源</strong>: CNBC Markets · <a href="https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [财经·海外] CrowdStrike新&#x27;急停开关&#x27;可拦截失控AI Agent</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Agent治理从讨论走向可采购产品，是安全赛道新增长点，也是Agent落地的前置条件。</li>
+<li><strong>可行动作</strong>: 跟踪产品形态与定价，评估企业Agent部署的管控方案</li>
+<li><strong>来源</strong>: CNBC Markets · <a href="https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [科技·海外] AI推理初创Fal估值翻倍至160亿美元，需求激增</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 推理侧估值半年翻倍，说明AI价值正从训练转向推理，是判断算力需求结构与一级市场热点的关键信号。</li>
+<li><strong>可行动作</strong>: 关注推理成本曲线与相关上市公司，作为算力投资的结构性线索</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [科技·海外] 数据中心等电太久，开始改用退役喷气发动机供电</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 电力已成AI扩张的真实瓶颈，这条少有人注意的细节揭示了算力基建的隐性约束与配套投资机会。</li>
+<li><strong>可行动作</strong>: 把电力/供电设备纳入算力产业链跟踪清单</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [AI前沿] 模型谁都买得到，拉开差距的是AI生产力系统</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 点出个人与团队竞争力的真正来源是工作流而非模型本身，契合职业成长与效率用途。</li>
+<li><strong>可行动作</strong>: 对照文中框架，盘点自己现有AI工作流缺口并补一个环节</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/507448.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [科技商业] 「奥尔特曼」斯坦福访谈：一个人如何借助AI完成百人团队的工作</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 可直接迁移的个人效率与组织杠杆方法论，对职业与技能成长有实操价值。</li>
+<li><strong>可行动作</strong>: 提炼2-3条可立即试用的AI协作方式，本周落地验证</li>
+<li><strong>来源</strong>: 36氪24h热榜 · <a href="https://www.36kr.com/p/4053498297193347" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了中期选举与伊朗局势的重复快讯、百度/微博纯流量社会话题、手机刷机与新品图赏等消费数码噪音，以及雪球个人投资感悟类帖子。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. AMD Q3营收超预期增45%，数据中心收入近翻倍，Q4指引提速又新高</h3>
+<h3>摘要</h3>
+<p>AMD 2026年第三季度营收同比增长45%至133.77亿美元，创单季新高并超出市场预期，非GAAP每股收益同比增长74%。数据中心业务收入同比增长97%至85.46亿美元，占总营收64%，成为公司增长主引擎，主要由EPYC服务器CPU需求和Instinct MI450系列GPU创纪录销售驱动。公司给出的四季度营收指引中值约170亿美元，意味着同比增长约66%，显著高于分析师预期，并预计随着Helios机架级AI系统和Venice CPU扩产，增长将进一步加速。财报公布后股价盘后一度涨近10%。不过自由现金流同比下降64%至5.5亿美元，远逊预期，主要受库存大增拖累。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这份财报是观察AI基础设施需求能否持续转化为实际收入和利润的关键样本，AMD数据中心收入近翻倍且指引再提速，强化了AI算力产业链的景气叙事；对职业与学习成长而言，AMD从单一GPU供应商向全栈AI基础设施供应商转型的路径，也提供了理解科技公司战略升级的典型案例。</p>
+<h3>值得记住</h3>
+<p>四季度营收指引中值170亿美元，较英特尔同期指引高近10%——AMD单季收入规模有望超过英特尔整个公司的季度收入区间，标志着两家公司叙事差距进一步拉开。</p>
+<hr>
+<h3>2. Anthropic 发布开源系统 FlashProve：通过密码学指纹实现 AI 模型身份可验证</h3>
+<h3>摘要</h3>
+<p>Anthropic 发布开源系统 FlashProve，用密码学指纹为 AI 模型身份和输出真实性提供数学层面的验证保证。系统要求模型发布方公开特定“指纹”，客户端可加密匹配，从而识别服务商是否暗中替换模型（如用低成本模型冒充高性能模型）。指纹机制不泄露模型内部权重，兼顾商业保密，并支持本地设备轻量验证。目前技术规范与工作代码已在 GitHub 开源，暂无商业部署计划。</p>
+<h3>为什么重要</h3>
+<p>对从事 AI 开发或采购的从业者，这意味着未来调用第三方模型时多了一层可验证的信任机制，降低“套壳缩水”风险；对关注 AI 基础设施投资的人，模型身份验证可能成为新的合规与竞争维度。</p>
+<h3>值得记住</h3>
+<p>核心机制是“密码学指纹 + 本地验证”：不暴露模型权重即可完成身份匹配，把信任从服务商声明转移到可数学验证的证明上。</p>
+<hr>
+<h3>3. 中国开源AI调用量连续27周超越美国，成海外企业和开发者香饽饽</h3>
+<h3>摘要</h3>
+<p>文章以2026年乌镇世界互联网大会为背景，报道中国开源AI大模型在全球的快速崛起。据OpenRouter统计，中国大模型Token调用量已连续27周超过美国，全球周调用量前五中中国占四席，DeepSeek位居榜首。海外硅谷公司和德国近半数中小企业已在日常工作中使用中国开源模型，乌干达非营利组织基于千问开发了覆盖68种非洲语言的本地模型。与会专家认为，开源降低了中小企业研发成本、打破技术垄断，是消除数字鸿沟的关键路径。</p>
+<h3>为什么重要</h3>
+<p>对关注AI工具选型与学习成长的人，这提示开源模型（尤其中国模型）在性价比和可及性上已具备全球竞争力，值得纳入技术选型与学习对象；对投资理财视角，开源生态扩张意味着AI应用层和中小企业创新门槛下降，相关产业链机会值得留意。</p>
+<h3>值得记住</h3>
+<p>关键数据：中国大模型Token调用量连续27周超越美国，全球周调用量前五中占四席，DeepSeek居首。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>

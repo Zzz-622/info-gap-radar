@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-04 · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>信息差雷达日报 · 2026-11-04</h1>
+<blockquote>数据时间: 2026-11-04T04:27:30 · 新增 531 / 变化 60 / 告警 226 · 自动生成(0 成本模式)</blockquote>
+<h2>🚨 告警信号</h2>
+<ul>
+<li>[舆情热点] <a href="https://www.zhihu.com/question/2100892435056259459" target="_blank" rel="noopener">如何看待 GPT-6 Astra 仅改动 0.016% 权重就让 Qwen3.5 数学能力涨 6 倍？</a> — 命中关键词 gpt</li>
+<li>[舆情热点] <a href="https://www.zhihu.com/question/2100514961130778724" target="_blank" rel="noopener">思科计划 2 年内用 AI 重写 98% 遗留代码，这一目标在工程上可行吗？</a> — 命中关键词 ai</li>
+<li>[舆情热点] <a href="https://www.bilibili.com/video/av117541477291987/" target="_blank" rel="noopener">【文明与地图】12个大模型扮演君主谁能带领人类走向星际文明？</a> — 命中关键词 大模型</li>
+<li>[新闻时政] <a href="https://www.thepaper.cn/newsDetail_forward_34390827" target="_blank" rel="noopener">AI有意识吗？——从脑机智能与脑机接口谈起</a> — 命中关键词 ai</li>
+<li>[财经] <a href="https://wallstreetcn.com/articles/3785114" target="_blank" rel="noopener">华尔街见闻早餐FM-Radio \| 2026年11月4日</a> — 优先领域</li>
+<li>[财经] <a href="https://wallstreetcn.com/articles/3785045" target="_blank" rel="noopener">美国中期选举日，芯片股三日大跌后反弹，纳指涨0.83%，盘后AMD大涨近8%</a> — 优先领域</li>
+<li>[财经] <a href="https://wallstreetcn.com/articles/3785069" target="_blank" rel="noopener">美国中选“最可能剧本”，将是美股“最危险剧本”？</a> — 优先领域</li>
+<li>[财经] <a href="https://wallstreetcn.com/articles/3785095" target="_blank" rel="noopener">伊朗拒绝开放霍尔木兹，要求美国回应七项条件，特朗普称美军发动“小规模攻击”</a> — 优先领域</li>
+<li>[财经] <a href="https://wallstreetcn.com/articles/3785079" target="_blank" rel="noopener">伊朗军方提出五项和平原则：解除制裁、战争赔偿，还要霍尔木兹海峡主权......</a> — 命中关键词 制裁；优先领域</li>
+<li>[财经] <a href="https://wallstreetcn.com/articles/3785112" target="_blank" rel="noopener">未步英特尔后尘！AMD Q3营收超预期增45%，数据中心收入近翻倍，Q4指引提速又新高｜财报见闻</a> — 优先领域</li>
+<li>[财经] <a href="https://wallstreetcn.com/articles/3785042" target="_blank" rel="noopener">沪指尾盘险守3600点，多只宽基ETF尾盘“爆量”，科创50跌近4%，“易中天”集体大跌，电池产业链逆势拉升</a> — 优先领域</li>
+<li>[财经] <a href="https://wallstreetcn.com/articles/3785119" target="_blank" rel="noopener">美国中选，今天市场怎么看</a> — 优先领域</li>
+<li>[财经] <a href="https://wallstreetcn.com/articles/3785077" target="_blank" rel="noopener">等待最后一跌？大摩Wilson：无论中选结果如何，都或是抄底美股的良机</a> — 优先领域</li>
+<li>[财经] <a href="https://wallstreetcn.com/articles/3785134" target="_blank" rel="noopener">民主党中选强势领跑，美股期货跳水，美元下跌，美债上涨，亚洲股市承压</a> — 优先领域</li>
+<li>[财经] <a href="https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixmnpz0018511.shtml" target="_blank" rel="noopener">补办身份证得先刷身份证，这不陷入“循环论证”了么</a> — 优先领域</li>
+<li>[财经] <a href="https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixkrkm0205008.shtml" target="_blank" rel="noopener">证监会发布多项政策 全力稳市场稳预期</a> — 优先领域</li>
+<li>[财经] <a href="https://finance.sina.com.cn/stock/companyt/2026-11-02/doc-inixkmas2718270.shtml" target="_blank" rel="noopener">胡锡进：抖音副总裁恶语回应专家批评，很失大公司风度</a> — 优先领域</li>
+<li>[财经] <a href="https://finance.sina.com.cn/wm/2026-11-03/doc-inixmhhh2356280.shtml" target="_blank" rel="noopener">一夜3家A股公司被立案，晶华微4个证券账户、7个银行账户被冻结</a> — 优先领域</li>
+<li>[财经] <a href="http://www.xueqiu.com/1632625377/415185671" target="_blank" rel="noopener">如何看待当前产能去化——生猪产业近期交流汇总②</a> — 优先领域</li>
+<li>[财经] <a href="http://www.xueqiu.com/3638220949/415253244" target="_blank" rel="noopener">Linerlytica Week 2644(新船订单量破年度记录)</a> — 优先领域</li>
+<li>[财经] <a href="http://www.xueqiu.com/1859139457/415266780" target="_blank" rel="noopener">白酒行业换挡期，泸州老窖深蹲起跳</a> — 优先领域</li>
+<li>[财经] <a href="http://www.xueqiu.com/3505189104/415273597" target="_blank" rel="noopener">以机构持仓为视角，看当下的生猪和白酒</a> — 优先领域</li>
+<li>[财经] <a href="http://www.xueqiu.com/5068022281/415179549" target="_blank" rel="noopener">科技东升西降，节奏轮换！</a> — 优先领域</li>
+<li>[财经] <a href="http://www.xueqiu.com/2386334596/415180866" target="_blank" rel="noopener">两种博弈：职场存量厮杀与股市增量修行</a> — 优先领域</li>
+<li>[财经] <a href="http://www.xueqiu.com/2645674042/415191883" target="_blank" rel="noopener">不惑之年，唯确定性可贵</a> — 优先领域</li>
+<li>[财经] <a href="http://www.xueqiu.com/3552430478/415214504" target="_blank" rel="noopener">未来2年AH投资保命投资策略：尾随险资</a> — 优先领域</li>
+<li>[科技商业] <a href="https://www.36kr.com/p/4053559560213385" target="_blank" rel="noopener">苹果把给AI的钱都给了股东</a> — 命中关键词 ai</li>
+<li>[科技商业] <a href="https://www.36kr.com/p/4053418750841731" target="_blank" rel="noopener">苹果：存储反噬终究来了，AI对面的“避风港”要漏风？</a> — 命中关键词 ai</li>
+<li>[科技商业] <a href="https://www.36kr.com/p/4053498297193347" target="_blank" rel="noopener">「奥尔特曼」斯坦福访谈：一个人如何借助 AI，完成百人团队的工作</a> — 命中关键词 ai</li>
+<li>[科技商业] <a href="https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/" target="_blank" rel="noopener">Agentic cheminformatics with Google Antigravity</a> — 命中关键词 agent</li>
+<li>[科技商业] <a href="https://www.aibase.com/zh/news/32066" target="_blank" rel="noopener">2027 年起 K-12 学生账户 AI 与搜索服务将默认关闭，禁用 AI 将连带失去传统搜索</a> — 命中关键词 ai/关闭</li>
+<li>[科技商业] <a href="https://www.aibase.com/zh/news/32061" target="_blank" rel="noopener">Anthropic 发布开源系统 FlashProve：通过密码学指纹实现 AI 模型身份可验证</a> — 命中关键词 ai</li>
+<li>[科技商业] <a href="https://www.aibase.com/zh/news/32075" target="_blank" rel="noopener">YouTube 用 AI 配乐工具帮创作者一键化解版权申诉</a> — 命中关键词 ai</li>
+<li>[科技商业] <a href="https://www.aibase.com/zh/news/32074" target="_blank" rel="noopener">中国开源 AI 凭什么火遍全球？乌镇峰会揭秘：调用量连续 27 周超越美国，成海外企业和开发者的香饽饽</a> — 命中关键词 ai</li>
+<li>[科技商业] <a href="https://www.aibase.com/zh/news/32070" target="_blank" rel="noopener">消息称字节跳动大面积限制员工自费使用第三方 AI 工具</a> — 命中关键词 ai</li>
+<li>[AI前沿] <a href="https://www.qbitai.com/2026/11/507533.html" target="_blank" rel="noopener">让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落</a> — 命中关键词 agent</li>
+<li>[AI前沿] <a href="https://www.qbitai.com/2026/11/507507.html" target="_blank" rel="noopener">机器人干活，AI当厂长！这家巨头要造下一代自主智能仓</a> — 命中关键词 ai</li>
+<li>[AI前沿] <a href="https://www.qbitai.com/2026/11/507448.html" target="_blank" rel="noopener">模型谁都买得到，拉开差距的是AI生产力系统</a> — 命中关键词 ai</li>
+<li>[AI前沿] <a href="https://www.qbitai.com/2026/11/507419.html" target="_blank" rel="noopener">纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri</a> — 命中关键词 agent</li>
+<li>[AI前沿] <a href="https://www.qbitai.com/2026/11/507405.html" target="_blank" rel="noopener">AI数据平台OceanBase获世界互联网大会杰出贡献奖</a> — 命中关键词 ai</li>
+</ul>
+<h2>🔥 热度 TOP15</h2>
+<ul>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E5%8A%AA%E5%8A%9B%E8%AE%A9%E8%BF%99%E6%9D%A1%E6%AF%8D%E4%BA%B2%E6%B2%B3%E8%B6%8A%E6%9D%A5%E8%B6%8A%E7%BE%8E%E2%80%9D" target="_blank" rel="noopener">“努力让这条母亲河越来越美”</a> · 热度 790.4万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E5%9B%9E%E5%BA%94%E2%80%9C%E6%A0%A1%E6%8B%9B%E5%B9%B4%E8%96%AA10%E4%B8%87%E8%B5%B7%E8%A2%AB%E5%AB%8C%E4%BD%8E%E2%80%9D" target="_blank" rel="noopener">张雪回应“校招年薪10万起被嫌低”</a> · 热度 780.8万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E5%85%B1%E5%92%8C%E5%85%9A%E7%A5%A8%E4%BB%93%E6%96%99%E9%80%89%E5%87%BA%E6%B0%91%E4%B8%BB%E5%85%9A%E5%8F%82%E8%AE%AE%E5%91%98" target="_blank" rel="noopener">共和党票仓料选出民主党参议员</a> · 热度 771.4万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=9%E5%9B%BE%E7%9C%8B%E4%B8%AD%E5%9B%BD%E4%BA%92%E8%81%94%E7%BD%91%E5%8F%91%E5%B1%95%E6%9C%80%E6%96%B0%E6%88%90%E5%B0%B1" target="_blank" rel="noopener">9图看中国互联网发展最新成就</a> · 热度 761.9万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E9%BB%84%E6%B5%A6%E6%B1%9F%E6%9C%89%E4%BA%BA%E6%94%BE%E7%94%9F%E5%A4%A7%E6%89%B9%E5%A4%A7%E9%97%B8%E8%9F%B9" target="_blank" rel="noopener">黄浦江有人放生大批大闸蟹</a> · 热度 752.3万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E7%8E%8B%E6%A5%9A%E9%92%A6%E4%B9%8B%E5%A4%96+%E5%9B%BD%E4%B9%92%E7%94%B7%E9%98%9F%E8%BF%98%E8%83%BD%E9%9D%A0%E8%B0%81" target="_blank" rel="noopener">王楚钦之外 国乒男队还能靠谁</a> · 热度 742.8万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E8%80%81%E4%B8%AD%E5%8C%BB%E5%8E%BB%E4%B8%96%E5%90%8E%E6%8A%8A100%E4%B8%AA%E8%8D%AF%E6%96%B9%E5%88%BB%E5%9C%A8%E5%A2%93%E7%A2%91" target="_blank" rel="noopener">老中医去世后把100个药方刻在墓碑</a> · 热度 733.4万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=2%E5%90%8D%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BE%BF%E5%88%A9%E5%BA%97%E6%89%93%E5%B7%A524%E5%B0%8F%E6%97%B6%E8%BD%AC%E6%AD%A3%E5%A4%B1%E8%B4%A5" target="_blank" rel="noopener">2名机器人便利店打工24小时转正失败</a> · 热度 723.3万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E5%88%B0%E5%BA%95%E5%93%AA%E4%BA%9B%E4%B8%93%E4%B8%9A%E5%8F%AF%E4%BB%A5%E6%8B%BF%E4%BA%94%E4%B8%87%E6%9C%88%E8%96%AA" target="_blank" rel="noopener">到底哪些专业可以拿五万月薪</a> · 热度 713.9万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E2%80%9C%E7%AC%AC%E4%B8%80%E7%BD%91%E7%BA%A2%E2%80%9D%E9%87%8E%E5%85%BD%E5%85%88%E7%94%9F%E5%8D%96%E9%9B%B6%E9%A3%9F%E8%B5%9A%E7%BF%BB%E4%BA%86" target="_blank" rel="noopener">“第一网红”野兽先生卖零食赚翻了</a> · 热度 703.9万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E5%8F%B8%E6%9C%BA%E7%94%A8%E9%94%A1%E7%BA%B8%E5%8C%85ETC%E8%AE%BE%E5%A4%87%E9%80%83%E8%B4%B9138%E6%AC%A1" target="_blank" rel="noopener">司机用锡纸包ETC设备逃费138次</a> · 热度 694.8万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E7%BD%91%E6%B0%91%E7%BC%96%E9%80%A0%E2%80%9C%E4%B8%80%E5%AE%B6%E4%BA%94%E5%8F%A3%E7%83%A7%E7%82%AD%E8%87%AA%E6%9D%80%E2%80%9D%E8%A2%AB%E7%BD%9A" target="_blank" rel="noopener">网民编造“一家五口烧炭自杀”被罚</a> · 热度 685.6万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=S16%E7%AA%81%E5%8F%91%E6%95%85%E9%9A%9C" target="_blank" rel="noopener">S16突发故障</a> · 热度 676.0万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=iPhone%E7%B3%BB%E7%BB%9F%E5%A4%A9%E6%B0%94bug+%E6%98%BE%E7%A4%BA%E4%B8%8B%E5%91%A8%E4%BA%94-32%E2%84%83" target="_blank" rel="noopener">iPhone系统天气bug 显示下周五-32℃</a> · 热度 665.7万</li>
+<li>[舆情热点] <a href="https://www.baidu.com/s?wd=%E7%8F%A0%E5%B3%B0%E5%8D%97%E5%9D%A1%E6%B5%B7%E6%8B%944410%E7%B1%B3%E9%85%92%E5%BA%97%E9%9B%AA%E4%B8%AD%E8%A2%AB%E7%83%A7%E6%AF%81" target="_blank" rel="noopener">珠峰南坡海拔4410米酒店雪中被烧毁</a> · 热度 657.0万</li>
+</ul>
+<h2>🆕 今日新增（按领域）</h2>
+<h3>舆情热点（15）</h3>
+<ul>
+<li><a href="https://s.weibo.com/weibo?q=%E8%8B%B9%E6%9E%9C%E5%A4%A9%E6%B0%94%E7%AA%81%E7%8E%B0-32" target="_blank" rel="noopener">苹果天气突现-32</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=%E5%A5%B3%E7%94%9F%E5%88%B7%E5%88%B0%E5%8F%A6%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%AB%9F%E6%98%AF%E5%8F%8C%E8%83%9E%E8%83%8E" target="_blank" rel="noopener">女生刷到另一个自己竟是双胞胎</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=2026%E4%B8%AD%E5%9B%BD%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E7%B2%BE%E5%93%81%E5%88%9B%E4%BD%9C%E5%A4%A7%E4%BC%9A" target="_blank" rel="noopener">2026中国广播电视精品创作大会</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E7%BB%8F%E7%BA%AA%E4%BA%BA%E6%94%BE%E4%BA%86%E5%8E%89%E5%A8%9C%E4%B8%A4%E9%A9%AC" target="_blank" rel="noopener">厉娜经纪人放了厉娜两马</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=TES%E5%AF%B9%E6%88%98IG%E6%AF%94%E8%B5%9B%E6%9A%82%E5%81%9C" target="_blank" rel="noopener">TES对战IG比赛暂停</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E4%BA%86%E4%B9%90%E4%BA%8B%E5%A4%A7%E5%A5%96%E6%80%8E%E4%B9%88%E8%8A%B1" target="_blank" rel="noopener">中了乐事大奖怎么花</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E5%87%8C%E6%99%A8%E8%A2%AB%E9%99%8C%E7%94%9F%E4%BA%BA%E9%92%BB%E8%A2%AB%E7%AA%9D%E8%B4%B4%E8%84%B8%E7%AA%A5%E6%8E%A2" target="_blank" rel="noopener">女子凌晨被陌生人钻被窝贴脸窥探</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=%E6%B0%94%E8%B1%A1%E5%B1%80%E5%9B%9E%E5%BA%94%E8%8B%B9%E6%9E%9C%E5%A4%A9%E6%B0%94APP%E9%A2%84%E6%8A%A5%E6%9E%81%E7%AB%AF%E5%A4%A9%E6%B0%94" target="_blank" rel="noopener">气象局回应苹果天气APP预报极端天气</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=LOL%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94S16%E9%95%BF%E6%9A%82%E5%81%9C" target="_blank" rel="noopener">LOL官方回应S16长暂停</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=%E6%9D%8E%E9%92%9F%E7%A1%95%E6%96%B0%E5%89%A7%E5%B0%BA%E5%BA%A6" target="_blank" rel="noopener">李钟硕新剧尺度</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=%E5%BE%90%E8%89%BA%E6%B4%8B%E5%8E%9F%E6%9C%AC%E6%89%93%E7%AE%97%E5%B0%86%E7%BD%97%E6%AD%A3%E7%A4%BC%E9%87%91%E5%85%A8%E9%83%A8%E9%80%80%E5%9B%9E" target="_blank" rel="noopener">徐艺洋原本打算将罗正礼金全部退回</a> · 微博热搜榜</li>
+<li><a href="https://s.weibo.com/weibo?q=S16%E9%A6%96%E4%B8%AA%E9%95%BF%E6%9A%82%E5%81%9C" target="_blank" rel="noopener">S16首个长暂停</a> · 微博热搜榜</li>
+</ul>
+<h3>新闻时政（15）</h3>
+<ul>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34396560" target="_blank" rel="noopener">一图世界｜美国中期选举开始投票，谁说了算？候选人都在吵什么？</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34397296" target="_blank" rel="noopener">多地机关单位内部厕所常态化对外开放，进一步补充公共资源</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34397841" target="_blank" rel="noopener">马上评｜一流学府何必强求抬头率？</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34398550" target="_blank" rel="noopener">潘功胜：维护股票、债券、外汇等金融市场平稳运行，守住不发生系统性金融风险底线</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34397635" target="_blank" rel="noopener">四川泸州住建局就“短时间内两次核查结论反转”发布情况说明</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34395745" target="_blank" rel="noopener">马上评｜“老人挥拳”相互道歉？一断于法，无关年龄</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34394801" target="_blank" rel="noopener">8000元网购西高地犬后“仅退款”案件将开庭，卖家曾驱车600公里寻狗</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34395921" target="_blank" rel="noopener">受贿6750万余元，东航原董事长刘绍勇一审被判十四年</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34399924" target="_blank" rel="noopener">校方回应“22名学生网购服装演出后退款”：已批评教育，部分学生私信向商家道歉</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34390827" target="_blank" rel="noopener">AI有意识吗？——从脑机智能与脑机接口谈起</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34401814" target="_blank" rel="noopener">南京大学回应“智慧教室”争议：否认到课率挂钩成绩，称已不再统计抬头率</a> · 澎湃热榜</li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_34395480" target="_blank" rel="noopener">期中“烤”｜从“美国梦”到生存账单：拉美裔蓝领对两党都失去信心</a> · 澎湃热榜</li>
+</ul>
+<h3>财经（15）</h3>
+<ul>
+<li><a href="https://wallstreetcn.com/articles/3785114" target="_blank" rel="noopener">华尔街见闻早餐FM-Radio \| 2026年11月4日</a> · 华尔街见闻</li>
+<li><a href="https://wallstreetcn.com/articles/3785045" target="_blank" rel="noopener">美国中期选举日，芯片股三日大跌后反弹，纳指涨0.83%，盘后AMD大涨近8%</a> · 华尔街见闻</li>
+<li><a href="https://wallstreetcn.com/articles/3785069" target="_blank" rel="noopener">美国中选“最可能剧本”，将是美股“最危险剧本”？</a> · 华尔街见闻</li>
+<li><a href="https://wallstreetcn.com/articles/3785095" target="_blank" rel="noopener">伊朗拒绝开放霍尔木兹，要求美国回应七项条件，特朗普称美军发动“小规模攻击”</a> · 华尔街见闻</li>
+<li><a href="https://wallstreetcn.com/articles/3785079" target="_blank" rel="noopener">伊朗军方提出五项和平原则：解除制裁、战争赔偿，还要霍尔木兹海峡主权......</a> · 华尔街见闻</li>
+<li><a href="https://wallstreetcn.com/articles/3785112" target="_blank" rel="noopener">未步英特尔后尘！AMD Q3营收超预期增45%，数据中心收入近翻倍，Q4指引提速又新高｜财报见闻</a> · 华尔街见闻</li>
+<li><a href="https://wallstreetcn.com/articles/3785042" target="_blank" rel="noopener">沪指尾盘险守3600点，多只宽基ETF尾盘“爆量”，科创50跌近4%，“易中天”集体大跌，电池产业链逆势拉升</a> · 华尔街见闻</li>
+<li><a href="https://wallstreetcn.com/articles/3785119" target="_blank" rel="noopener">美国中选，今天市场怎么看</a> · 华尔街见闻</li>
+<li><a href="https://wallstreetcn.com/articles/3785077" target="_blank" rel="noopener">等待最后一跌？大摩Wilson：无论中选结果如何，都或是抄底美股的良机</a> · 华尔街见闻</li>
+<li><a href="https://wallstreetcn.com/articles/3785134" target="_blank" rel="noopener">民主党中选强势领跑，美股期货跳水，美元下跌，美债上涨，亚洲股市承压</a> · 华尔街见闻</li>
+<li><a href="https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixmnpz0018511.shtml" target="_blank" rel="noopener">补办身份证得先刷身份证，这不陷入“循环论证”了么</a> · 新浪财经新闻</li>
+<li><a href="https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixkrkm0205008.shtml" target="_blank" rel="noopener">证监会发布多项政策 全力稳市场稳预期</a> · 新浪财经新闻</li>
+</ul>
+<h3>科技商业（15）</h3>
+<ul>
+<li><a href="https://www.36kr.com/p/4053676712891526" target="_blank" rel="noopener">Anthropic 14万亿参数神级模型泄露，6个月内杀死视频、图像模型</a> · 36氪24h热榜</li>
+<li><a href="https://www.36kr.com/p/4054687391143044" target="_blank" rel="noopener">8点1氪丨豆包用户数被红果超越；iPhone Duo屏幕开裂争议，特努斯首度回应；美股要“通宵”了，纳斯达克将全天交易23小时</a> · 36氪24h热榜</li>
+<li><a href="https://www.36kr.com/p/4053733300196487" target="_blank" rel="noopener">独家 \| Seedance 海外收入占比已达 50%，国内市场腾讯、B站等互联网企业为主要客户</a> · 36氪24h热榜</li>
+<li><a href="https://www.36kr.com/p/4053642187330696" target="_blank" rel="noopener">美女陪玩、年入过亿，这个曾经的“暴利”行业又复活了</a> · 36氪24h热榜</li>
+<li><a href="https://www.36kr.com/p/4053559560213385" target="_blank" rel="noopener">苹果把给AI的钱都给了股东</a> · 36氪24h热榜</li>
+<li><a href="https://www.36kr.com/p/4054101446726789" target="_blank" rel="noopener">iPad mini 8 首发评测：本该是一台完美的平板电脑</a> · 36氪24h热榜</li>
+<li><a href="https://www.36kr.com/p/4053418750841731" target="_blank" rel="noopener">苹果：存储反噬终究来了，AI对面的“避风港”要漏风？</a> · 36氪24h热榜</li>
+<li><a href="https://www.36kr.com/p/4053498297193347" target="_blank" rel="noopener">「奥尔特曼」斯坦福访谈：一个人如何借助 AI，完成百人团队的工作</a> · 36氪24h热榜</li>
+<li><a href="https://www.huxiu.com/article/4899986.html" target="_blank" rel="noopener">腾讯憋了个大招，就这？</a> · 虎嗅网热文</li>
+<li><a href="https://www.huxiu.com/article/4902185.html" target="_blank" rel="noopener">这个看似自律的好习惯，正在耗尽你的能量</a> · 虎嗅网热文</li>
+<li><a href="https://www.huxiu.com/article/4902210.html" target="_blank" rel="noopener">大学生宿舍擦边直播：一门正在变脏的生意</a> · 虎嗅网热文</li>
+<li><a href="https://www.huxiu.com/article/4902262.html" target="_blank" rel="noopener">哈佛经济学家追踪十万孩子的30年：搬家，可以“改命”</a> · 虎嗅网热文</li>
+</ul>
+<h3>AI前沿（15）</h3>
+<ul>
+<li><a href="https://www.qbitai.com/2026/11/507533.html" target="_blank" rel="noopener">让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落</a> · 量子位</li>
+<li><a href="https://www.qbitai.com/2026/11/507507.html" target="_blank" rel="noopener">机器人干活，AI当厂长！这家巨头要造下一代自主智能仓</a> · 量子位</li>
+<li><a href="https://www.qbitai.com/2026/11/507473.html" target="_blank" rel="noopener">智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池</a> · 量子位</li>
+<li><a href="https://www.qbitai.com/2026/11/507448.html" target="_blank" rel="noopener">模型谁都买得到，拉开差距的是AI生产力系统</a> · 量子位</li>
+<li><a href="https://www.qbitai.com/2026/11/507419.html" target="_blank" rel="noopener">纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri</a> · 量子位</li>
+<li><a href="https://www.qbitai.com/2026/11/507410.html" target="_blank" rel="noopener">苹果被曝的新产品，中国央企8个月前已装进公共卫生间</a> · 量子位</li>
+<li><a href="https://www.qbitai.com/2026/11/507405.html" target="_blank" rel="noopener">AI数据平台OceanBase获世界互联网大会杰出贡献奖</a> · 量子位</li>
+<li><a href="https://www.qbitai.com/2026/11/507396.html" target="_blank" rel="noopener">小米斩获乌镇峰会双料大奖：小米集团获“杰出贡献奖”，小米具身基座模型获“领先科技奖”</a> · 量子位</li>
+<li><a href="https://www.qbitai.com/2026/11/507382.html" target="_blank" rel="noopener">A社紧急修改招股书！RSI我们快要控制不住了</a> · 量子位</li>
+<li><a href="https://www.qbitai.com/2026/11/507367.html" target="_blank" rel="noopener">模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义</a> · 量子位</li>
+<li><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPa2ZWRmYyZW9YZng5SmhjYnpjQ213dnRKVjVjNW1rcS1RRFoxVUFKYnl2VlVjMk1abE1kQTE2Qk1Ea09WcHlvMjFNbTREWnhmYXZiTjE5RTY0bUdMZGsyRFRCNDNWQjg0SG90WXlaSVV1d19iV0x4UEVnVlFzS3dyVWZB?oc=5" target="_blank" rel="noopener">Google Will Turn Off Search for Schools That Reject A.I. - The New York Times</a> · GoogleNews·AI</li>
+<li><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNenhBb3YzeXFrNE9nVmR3QUZTZ3M2RlRleVpqMjZMUll0azhuR2ZtUmwyOEcxeEluUlN4UDdQNU54ak9HTUI2ekY4azRzUk9aTVh5dUJYVnhkTVdPMGtIYjR6V0xmdWlqb3hNRmROVzFmZFNEZlJZZV9DaTRlSGQ4akRkSGxjZ1p2dV92cTFxaEUzMTVCNTByZW42T3ZGS3hUR0JOZzRaYWozM0nSAbABQVVfeXFMTktHaFBsT1hOVXFLTVo2RUhyZHNWbkVUU3FhVjdxczdRT2ZUOXFUakJCV0pHUnNkU2NycUd6NEMxS0ozT2VxRFAtbWpnc2lKUWhBZ3c0NHRFMk9vQ19pNTBxc0NCS1N3TmZqNGdwdUcwbE51by1NdEJiM1pOcl9HQXpiMmwwaklRTWhpVC02anVSMmF2QU8yZThyWVpwUWNJb1lObmVYdDc1S0x4VDFrVmQ?oc=5" target="_blank" rel="noopener">Google responds to political backlash over removing search from schools that ban AI - CNBC</a> · GoogleNews·AI</li>
+</ul>
+<h3>科技数码（15）</h3>
+<ul>
+<li><a href="https://m.ithome.com/html/1021617.htm" target="_blank" rel="noopener">真“全面屏 iPhone”：开发者放出小米 REDMI K20 Pro 刷苹果 iOS 16 测试固件包</a> · IT之家</li>
+<li><a href="https://m.ithome.com/html/1021483.htm" target="_blank" rel="noopener">明确房东不得加收水电费、违者最高罚 5 倍金额，广州新规表决通过</a> · IT之家</li>
+<li><a href="https://m.ithome.com/html/1021776.htm" target="_blank" rel="noopener">大刷机时代来临：华为 MateBook E Go 2023 二合一平板电脑成功刷入 iOS 16 系统</a> · IT之家</li>
+<li><a href="https://m.ithome.com/html/1021861.htm" target="_blank" rel="noopener">国行「Apple 智能与 Siri」如约而至，iPhone 15 Pro 及更新机型升级 iOS 27.3 开发者预览版可用</a> · IT之家</li>
+<li><a href="https://m.ithome.com/html/1021606.htm" target="_blank" rel="noopener">收机赌溢价终“血亏十几万”：消息称高价囤货苹果 iPhone Duo 的黄牛如今“卖一台亏一台”</a> · IT之家</li>
+<li><a href="https://m.ithome.com/html/1021825.htm" target="_blank" rel="noopener">价格不低！消息称华为子品牌星芒新品配置对标旗舰产线</a> · IT之家</li>
+<li><a href="https://m.ithome.com/html/1021655.htm" target="_blank" rel="noopener">消息称 iPhone 18e / 18 / Air 2 明年上半年齐发，标准版搭 2nm 制程 A20 芯片预估价格会涨</a> · IT之家</li>
+<li><a href="https://m.ithome.com/html/1021867.htm" target="_blank" rel="noopener">国行 Apple 智能首批上线核心功能汇总：AirPods 实时翻译登场，iPhone 可联手千问实现更多功能</a> · IT之家</li>
+<li><a href="https://m.ithome.com/html/1021827.htm" target="_blank" rel="noopener">【IT之家开箱】苹果 iPad mini 8 图赏：升级 OLED 屏、A20 Pro 芯片，机身薄至 5.4mm</a> · IT之家</li>
+<li><a href="https://m.ithome.com/html/1021589.htm" target="_blank" rel="noopener">华为 Pura 100 系列影像旗舰阔直板机被曝测试 BOE 新开屏，Pro Max 有望采用双层 OLED 技术</a> · IT之家</li>
+<li><a href="https://m.ithome.com/html/1021895.htm" target="_blank" rel="noopener">#iPhone 天气下周五温差#冲上热搜：苹果自带天气 App 多地显示 13 日最低气温零下 32 度，网友调侃“极寒末日守好庇护所”</a> · IT之家</li>
+<li><a href="https://sspai.com/post/118404" target="_blank" rel="noopener">国行 Apple 智能上手：这些功能已经准备好</a> · 少数派RSS</li>
+</ul>
+<h3>技术趋势（15）</h3>
+<ul>
+<li><a href="https://juejin.cn/post/7703379063838310434" target="_blank" rel="noopener">程序员 1v1 访谈系列第十期：纯前端坚持不了多久了</a> · 掘金热文</li>
+<li><a href="https://juejin.cn/post/7703046191176990771" target="_blank" rel="noopener">为什么几乎所有的知名开源项目都是外国人写的？</a> · 掘金热文</li>
+<li><a href="https://juejin.cn/post/7701870817484210230" target="_blank" rel="noopener">腾讯 Buddy One 来了，办公全家桶一键打通WorkBuddy（附教程）</a> · 掘金热文</li>
+<li><a href="https://juejin.cn/post/7701991107366731785" target="_blank" rel="noopener">最近 Android 有什么更新：Android Dev Summit 2026 技术解读</a> · 掘金热文</li>
+<li><a href="https://github.com/spotify/portal-ai-plugins" target="_blank" rel="noopener">spotify / portal-ai-plugins</a> · GitHub热榜</li>
+<li><a href="https://github.com/floci-io/floci" target="_blank" rel="noopener">floci-io / floci</a> · GitHub热榜</li>
+<li><a href="https://github.com/Usagi-org/ai-goofish-monitor" target="_blank" rel="noopener">Usagi-org / ai-goofish-monitor</a> · GitHub热榜</li>
+<li><a href="https://github.com/spotify/portal-ai-plugins" target="_blank" rel="noopener">spotify/portal-ai-plugins</a> · GitHub Trending</li>
+<li><a href="https://github.com/floci-io/floci" target="_blank" rel="noopener">floci-io/floci</a> · GitHub Trending</li>
+<li><a href="https://github.com/Usagi-org/ai-goofish-monitor" target="_blank" rel="noopener">Usagi-org/ai-goofish-monitor</a> · GitHub Trending</li>
+<li><a href="https://news.ycombinator.com/item?id=50361440" target="_blank" rel="noopener">VibeVoted – The best software products as ranked by 10 leading AI models</a> · HackerNews·AI</li>
+<li><a href="https://news.ycombinator.com/item?id=50361385" target="_blank" rel="noopener">American military unit which collects lines of thought has this technology</a> · HackerNews·AI</li>
+</ul>
+<h3>产品出海（15）</h3>
+<ul>
+<li><a href="https://www.producthunt.com/products/nexupira" target="_blank" rel="noopener">NEXUPIRA</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/corvo-3" target="_blank" rel="noopener">Corvo</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/brink-2" target="_blank" rel="noopener">Brink</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/one-roof" target="_blank" rel="noopener">One Roof</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/nana-2" target="_blank" rel="noopener">nana</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/oreja-de-van-gogh" target="_blank" rel="noopener">Oreja de Van Gogh</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/calendarly-calendar-on-lock-screen" target="_blank" rel="noopener">Calendarly</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/sun-ai" target="_blank" rel="noopener">SUN Web &amp;amp; API</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/prism-40" target="_blank" rel="noopener">Prism</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/lidcommit" target="_blank" rel="noopener">LidCommit</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/context-dev" target="_blank" rel="noopener">People Search by Context.dev</a> · Product Hunt</li>
+<li><a href="https://www.producthunt.com/products/flockbay" target="_blank" rel="noopener">Flockbay</a> · Product Hunt</li>
+</ul>
+<h3>国际（9）</h3>
+<ul>
+<li><a href="https://www.bbc.com/zhongwen/articles/c977pge1jkmdo/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">APEC峰會前，美智庫解析「技術民族主義」下的中俄軍工合作細節與限度</a> · BBC中文</li>
+<li><a href="https://www.bbc.com/zhongwen/articles/c6lykq34zd19o/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">有望成為首位穆斯林美國參議員，42歲的賽義德是誰？</a> · BBC中文</li>
+<li><a href="https://www.bbc.com/zhongwen/articles/c6eq3ez3qvnxo/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">《蘋果日報》前社長張劍虹提早獲釋，向官媒稱「好懊悔」</a> · BBC中文</li>
+<li><a href="https://www.bbc.com/zhongwen/articles/c63r50z3npr7o/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">英國移民改革改什麼？BNO港人會受影響嗎？</a> · BBC中文</li>
+<li><a href="https://www.bbc.com/zhongwen/articles/c91461p7mvv4o/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">印尼有毒煙霾正令鄰國陷入政治難題</a> · BBC中文</li>
+<li><a href="https://www.bbc.com/zhongwen/articles/c5rmyrm0n8k8o/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">2026年美國中期選舉實時更新結果</a> · BBC中文</li>
+<li><a href="https://www.bbc.com/zhongwen/articles/cw99z83yxg4jo/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">美國中期選舉：競選開支120億美元打破紀錄，馬斯克已花5億</a> · BBC中文</li>
+<li><a href="https://www.bbc.com/zhongwen/articles/cmkgk61rgzj4o/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">如果黑客能夠控制超市的冷凍櫃，其他科技設備又有多脆弱？</a> · BBC中文</li>
+<li><a href="https://www.bbc.com/zhongwen/watch/cqx2v747w8p1o/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">為何美國中期選舉對特朗普至關重要？</a> · BBC中文</li>
+</ul>
+<h3>科技·海外（15）</h3>
+<ul>
+<li><a href="https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/" target="_blank" rel="noopener">Anthropic is working on a system to prove AI models’ identity</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/" target="_blank" rel="noopener">Data centers are turning to old jet engines as the wait for power grows</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/" target="_blank" rel="noopener">Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/" target="_blank" rel="noopener">Hiding inside Palantir’s skyrocketing quarter is a foreboding signal</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/" target="_blank" rel="noopener">Orbital Matter 3D-printed the first rigid beam in the vacuum of space</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/" target="_blank" rel="noopener">Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/" target="_blank" rel="noopener">AI inference startup Fal doubles its valuation to $16B as demand surges</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/" target="_blank" rel="noopener">Reddit tests ads in search results as traffic declines and growth concerns mount</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/ten-years-later-pokemon-go-to-the-polls-still-haunts-the-internet/" target="_blank" rel="noopener">Ten years later, ‘Pokémon Go to the polls’ still haunts the internet</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/ferraris-controversial-luce-ev-is-sold-out-for-2027/" target="_blank" rel="noopener">Ferrari’s controversial Luce EV is sold out for 2027</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/" target="_blank" rel="noopener">Netflix’s new AI Discover tab helps you find something to watch based on your mood</a> · TechCrunch</li>
+<li><a href="https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/" target="_blank" rel="noopener">CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off</a> · TechCrunch</li>
+</ul>
+<h3>国际·英文（15）</h3>
+<ul>
+<li><a href="https://www.bbc.co.uk/news/articles/cwz0v5lv30lyo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Anthony Zurcher: Democrats push deep into Republican territory with historic wins</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">South Carolina elects Democratic senator for first time in almost three decades</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/cq20321y2nlyo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">When will we know who wins control of Congress?</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/cqwyrmm2k4mpo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Democratic rising star Ossoff projected to hold Georgia seat</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/cm8ezneewr9lo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Miliband says slavery apology will not bring cost for UK taxpayers</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/cm9qz93ew22no?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">&#x27;Multi-cancer&#x27; blood tests coming to some GP surgeries soon</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Spanish transport minister resigns days after deadly train crash</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/cqglwjdgg045o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Celebrity loses injunction bid but will stay anonymous pending appeal</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">No more rice grains in Kellogg&#x27;s Rice Krispies due to changing weather</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/c65ynez5y599o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/c50me7ywd1wlo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Andrew Mountbatten-Windsor called to give evidence in fraud trial in December</a> · BBC News</li>
+<li><a href="https://www.bbc.co.uk/news/articles/cdx8080nq74o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">Scammers using AI-generated images of missing pets to demand reward money</a> · BBC News</li>
+</ul>
+<h3>财经·海外（15）</h3>
+<ul>
+<li><a href="https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html" target="_blank" rel="noopener">Midterm elections could jolt stocks as Democrats look poised to sweep Congress</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html" target="_blank" rel="noopener">Google responds to political backlash over removing search from schools that ban AI</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/trump-doj-election-lawsuits-monitors-2026-midterms.html" target="_blank" rel="noopener">Trump DOJ sends target letters to Democrats in Alaska Senate criminal probe: Reports</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/midterm-elections-congress-trump-democrats-republicans.html" target="_blank" rel="noopener">What the 2026 midterm elections could mean for Trump&#x27;s final two years</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html" target="_blank" rel="noopener">Apple warns of risks related to AI agents behaving in &#x27;unintended or unpredictable&#x27; ways</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html" target="_blank" rel="noopener">AMD stock jumps 8% on earnings as data center revenue nearly doubles</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/binance-co-ceo-teng-says-hackers-used-fake-job-interviews-to-steal-6point3-billion-in-crypto.html" target="_blank" rel="noopener">Binance co-CEO Richard Teng says hackers used fake job interviews, AI tool to steal $6.3 billion in crypto</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/binance-breach-puts-custody-at-center-of-crypto-infrastructure-trade.html" target="_blank" rel="noopener">Binance breach puts custody at center of crypto infrastructure trade</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says.html" target="_blank" rel="noopener">CrowdStrike&#x27;s new kill switch can stop rogue AI agents in their tracks, CEO says</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/strand-bookstore-ppp-loan-ron-wyden-wife-settlement.html" target="_blank" rel="noopener">Strand bookstore to pay nearly $1.5 million over Covid loan tied to Sen. Wyden&#x27;s wife</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/jim-cramer-sees-signs-of-life-in-tech-stocks-but-not-from-the-usual-winners.html" target="_blank" rel="noopener">Jim Cramer sees signs of life in tech stocks — but not from the usual winners</a> · CNBC Markets</li>
+<li><a href="https://www.cnbc.com/2026/11/03/amd-has-been-crushed-into-earnings-heres-one-way-to-trade-it.html" target="_blank" rel="noopener">AMD has been crushed into earnings. Here’s one way to trade it</a> · CNBC Markets</li>
+</ul>
+<h2>📌 变化条目</h2>
+<ul>
+<li>[舆情热点] 灭建国的超能力</li>
+<li>[舆情热点] 全球笑点下降2000倍而我不变【第二集】</li>
+<li>[舆情热点] 《动物声卡驱动异常》</li>
+<li>[舆情热点] 【漫士】这可能是人类提出最深刻的数学/计算机问题</li>
+<li>[科技商业] 中国AI最有权力的数据掌舵人：8家公司，11位核心负责人</li>
+<li>[科技商业] 张一鸣又造出一个国民级APP</li>
+<li>[科技商业] 别急着笑段永平</li>
+<li>[科技商业] 短短一周时间里，B站被DeepSeek狠狠入侵了</li>
+<li>[科技商业] 油价在涨，用户在撤，车企还在苦守</li>
+<li>[科技商业] 土地卖不动以后，中国财政正在发生什么？</li>
+</ul>
+<hr>
+<p>*本报告由雷达脚本自动生成；如需 LLM 深度解读，在 DSH 中说「用 radar-report skill 解读今日雷达」。*</p>
+<h2>🧭 雷达解读（LLM）</h2>
+<h1>雷达解读（2026-11-04）</h1>
+<h2>一、被低估的变化：AI 治理与“身份验证”在悄悄铺路</h2>
+<ul>
+<li><strong>Anthropic 开源 FlashProve</strong>（Readhub）：用密码学指纹验证模型身份，热度仅第6，但这是监管合规的前置基础设施。</li>
+<li><strong>Google 回应“禁 AI 即禁搜索”争议</strong>（CNBC Markets）：K-12 默认关闭 AI 与搜索（Readhub），教育场景的 AI 准入正在被政策化，而非产品化。</li>
+<li><strong>字节大面积限制员工自费用第三方 AI</strong>（Readhub）：企业侧“AI 白名单化”信号，比模型发布更影响工具生态。</li>
+<li><strong>动作</strong>：关注模型溯源/合规工具链；企业采购侧提前梳理第三方 AI 使用台账。<strong>仅观察</strong>教育政策落地节奏。</li>
+</ul>
+<h2>二、与主流叙事相反的信号</h2>
+<ul>
+<li>主流说“AI 资本开支狂飙”，但 <strong>苹果把给 AI 的钱给了股东</strong>（36氪）、<strong>苹果警告 AI Agent 不可预测风险</strong>（CNBC）：头部现金牛在收缩而非加码，与“军备竞赛”叙事背离。</li>
+<li>主流说“中国开源 AI 崛起”，但 <strong>豆包用户数被红果超越</strong>（36氪 8点1氪）：国内 AI 应用侧出现流量退潮，与调用量叙事不同步。</li>
+<li><strong>大摩 Wilson“无论中选结果都是抄底良机”</strong>（华尔街见闻）与“最危险剧本”同源并列，机构口径自相矛盾。</li>
+<li><strong>动作</strong>：对“AI 全面扩张”叙事打折，区分算力侧与应用侧。<strong>仅观察</strong>苹果资本配置后续。</li>
+</ul>
+<h2>三、未来 7 天可能发酵</h2>
+<ul>
+<li><strong>美国中期选举结果</strong>（华尔街见闻/百度热榜）：民主党领跑，芯片股、美元、美债已异动，波动将外溢至 A 股科创板块（沪指险守 3600、科创50跌近4%）。</li>
+<li><strong>霍尔木兹海峡</strong>（华尔街见闻）：伊朗拒开放+美军“小规模攻击”，能源与航运风险未定价。</li>
+<li><strong>AMD 财报后大涨 8%</strong>（CNBC）：数据中心近翻倍，或带动算力链情绪修复。</li>
+<li><strong>动作</strong>：选举结果落地前控制科创仓位；能源/航运仅观察，不追。数据不足处（如具体持仓变动）未做推断。</li>
+</ul>
+<p>*注：以上均基于给定信号，未补充外部数据。*</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>

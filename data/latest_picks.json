@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "Anthropic IPO前更新招股书凸显盈利压力：Q3营收近170亿美元、同比增11倍，净亏损扩大92%，算力承诺近9000亿",
-      "link": "https://wallstreetcn.com/articles/3785012",
+      "title": "AMD Q3营收超预期增45%，数据中心收入近翻倍，Q4指引提速又新高",
+      "link": "https://wallstreetcn.com/articles/3785112",
       "source": "华尔街见闻",
       "domain": "财经",
-      "score": 95,
-      "reason": "AI头部公司首次完整披露财务与算力承诺，是判断AI泡沫与算力投资回报的关键一手数据。",
-      "action": "读原文，记录营收增速与亏损、算力承诺的比例，作为AI板块估值锚点"
-    },
-    {
-      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-      "link": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
       "score": 92,
-      "reason": "与招股书S-1披露的“递归式自我改进阈值”多源交叉，是AI能力拐点的强信号，影响职业与投资判断。",
-      "action": "读原文，关注RSI定义与时间表，纳入AI能力跟踪主题"
+      "reason": "算力芯片需求的最直接财报验证，数据中心收入近翻倍是AI资本开支仍在加速的硬证据，直接影响芯片股与算力链投资判断。",
+      "action": "对照CNBC同题报道交叉验证，梳理AMD与英伟达、英特尔的份额变化，更新算力板块持仓逻辑"
     },
     {
-      "title": "央行等三部门优化资本市场支持工具，回购增持再贷款利率降至1%",
-      "link": "https://wallstreetcn.com/articles/3784999",
-      "source": "华尔街见闻",
-      "domain": "财经",
+      "title": "Anthropic 发布开源系统 FlashProve：通过密码学指纹实现 AI 模型身份可验证",
+      "link": "https://www.aibase.com/zh/news/32061",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 88,
-      "reason": "利率下调直接降低上市公司回购增持成本，是A股资金面的可操作政策信号。",
-      "action": "关注高股息、破净且有回购计划的标的，观察后续资金流入"
+      "reason": "模型身份可验证是Agent大规模互调、模型溯源与合规的前提设施，开源可上手，属长期值得跟踪的技术底座。",
+      "action": "读官方仓库与设计文档，评估能否用于自己项目的模型调用链审计"
     },
     {
-      "title": "央行明日开展证券、基金、保险公司互换便利操作，申报额度超1000亿元、远超前两次",
-      "link": "https://wallstreetcn.com/articles/3784992",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "score": 86,
-      "reason": "额度远超预期，说明机构加杠杆意愿强，是流动性边际宽松的量化信号。",
-      "action": "跟踪操作结果与中标利率，判断券商、保险板块短期弹性"
+      "title": "中国开源AI调用量连续27周超越美国，成海外企业和开发者香饽饽",
+      "link": "https://www.aibase.com/zh/news/32074",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 85,
+      "reason": "调用量是比榜单更硬的采用度指标，直接关系到开源模型选型、出海产品技术栈与相关公司估值叙事。",
+      "action": "查证数据来源与统计口径，作为模型选型与开源生态判断的参考"
     },
     {
-      "title": "MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍",
-      "link": "https://www.qbitai.com/2026/11/507322.html",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "score": 84,
-      "reason": "模型直接改权重的能力若成立，将改变微调与开源模型生态，对开发者有直接技术价值。",
-      "action": "读原文核实方法与复现条件，评估对现有微调工作流的影响"
+      "title": "消息称字节跳动大面积限制员工自费使用第三方AI工具",
+      "link": "https://www.aibase.com/zh/news/32070",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 83,
+      "reason": "大厂AI工具治理风向标，涉及数据合规与自建工具链，对开发者选型和企业内AI落地有直接参考价值。",
+      "action": "关注后续是否蔓延至其他大厂，评估自己团队第三方AI工具使用的合规风险"
     },
     {
-      "title": "海外三份投行研报梳理：AI光模块需求未变，短期交付与估值逻辑正在重估",
-      "link": "http://www.xueqiu.com/3196557688/415073405",
-      "source": "雪球热帖",
-      "domain": "财经",
+      "title": "苹果警告AI Agent可能以'意外或不可预测'方式行事",
+      "link": "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
       "score": 82,
-      "reason": "把投行研报的共识与分歧梳理清楚，是AI算力链投资中少见的“需求vs估值”拆解。",
-      "action": "对照自己持仓的光模块/算力标的，检查估值假设是否需调整"
+      "reason": "与CrowdStrike同日推出Agent急停开关形成交叉信号：Agent安全正从概念变成产品与合规要求。",
+      "action": "梳理Agent权限边界与人工兜底设计，纳入自己Agent项目的风险清单"
     },
     {
-      "title": "苹果上季营收盈利均超预期，但内存成本高企、毛利率收窄、在华业绩逊色、服务增速放缓 | 财报见闻",
-      "link": "https://wallstreetcn.com/articles/3785024",
-      "source": "华尔街见闻",
-      "domain": "财经",
+      "title": "CrowdStrike新'急停开关'可拦截失控AI Agent",
+      "link": "https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
       "score": 80,
-      "reason": "内存涨价传导到终端毛利，是存储周期与消费电子盈利的交叉验证点。",
-      "action": "关注存储涨价链（内存/模组）与苹果供应链的利润分配变化"
+      "reason": "Agent治理从讨论走向可采购产品，是安全赛道新增长点，也是Agent落地的前置条件。",
+      "action": "跟踪产品形态与定价，评估企业Agent部署的管控方案"
     },
     {
-      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "link": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "title": "AI推理初创Fal估值翻倍至160亿美元，需求激增",
+      "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges",
       "source": "TechCrunch",
       "domain": "科技·海外",
       "score": 78,
-      "reason": "用真实token支出量化Agent重度使用者的成本结构，对评估Agent落地ROI有参考价值。",
-      "action": "估算自己或团队的Agent token预算，判断是否值得投入自动化"
+      "reason": "推理侧估值半年翻倍，说明AI价值正从训练转向推理，是判断算力需求结构与一级市场热点的关键信号。",
+      "action": "关注推理成本曲线与相关上市公司，作为算力投资的结构性线索"
     },
     {
-      "title": "我用 DeepSeek 做了 4 个零依赖的赚钱小工具，全部开源",
-      "link": "https://juejin.cn/post/7673809190474629155",
-      "source": "掘金热文",
-      "domain": "技术趋势",
+      "title": "数据中心等电太久，开始改用退役喷气发动机供电",
+      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
+      "score": 76,
+      "reason": "电力已成AI扩张的真实瓶颈，这条少有人注意的细节揭示了算力基建的隐性约束与配套投资机会。",
+      "action": "把电力/供电设备纳入算力产业链跟踪清单"
+    },
+    {
+      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
+      "link": "https://www.qbitai.com/2026/11/507448.html",
+      "source": "量子位",
+      "domain": "AI前沿",
       "score": 74,
-      "reason": "开源+变现的完整案例，可直接复用为副业或效率工具，契合学习与投资用途。",
-      "action": "clone 仓库跑通一个工具，评估能否改造为自己的场景"
+      "reason": "点出个人与团队竞争力的真正来源是工作流而非模型本身，契合职业成长与效率用途。",
+      "action": "对照文中框架，盘点自己现有AI工作流缺口并补一个环节"
     },
     {
-      "title": "卡帕西用Claude两小时重做了YouTube，每个人都能拥有一个自己的互联网",
-      "link": "https://www.36kr.com/p/4053199433749385",
+      "title": "「奥尔特曼」斯坦福访谈：一个人如何借助AI完成百人团队的工作",
+      "link": "https://www.36kr.com/p/4053498297193347",
       "source": "36氪24h热榜",
       "domain": "科技商业",
       "score": 72,
-      "reason": "顶级工程师用Agent快速交付完整产品的示范，是学习Agent工作流的高价值样本。",
-      "action": "读原文拆解其提示与工具链，尝试复刻一个小型项目"
+      "reason": "可直接迁移的个人效率与组织杠杆方法论，对职业与技能成长有实操价值。",
+      "action": "提炼2-3条可立即试用的AI协作方式，本周落地验证"
     }
   ],
-  "noise_note": "排除了微博/百度娱乐与社会琐事热搜、B站AI整活视频、重复的油价与黄金行情快讯，以及纯情绪化的“AI泡沫”评论。"
+  "noise_note": "排除了中期选举与伊朗局势的重复快讯、百度/微博纯流量社会话题、手机刷机与新品图赏等消费数码噪音，以及雪球个人投资感悟类帖子。"
 }
