@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-05-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-05</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-05T04:43:00</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [科技商业] OpenAI 新模型自动挖出 948 个 Linux 内核提权漏洞，每个漏洞利用成本仅 1279 美元</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: AI 自动漏洞挖掘的成本已降到千美元级，直接改变安全工程师的工作方式与技能价值。</li>
+<li><strong>可行动作</strong>: 读原文了解方法与数据集，评估能否用于自己项目的安全审计</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32111" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [AI前沿] Linux内核被挖出948个漏洞！OpenAI花120万美元找到的</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 与上一条同源交叉验证，补充成本与工程细节，是本周最强的 AI×安全信号。</li>
+<li><strong>可行动作</strong>: 与上一条合并精读，记录 Agent 在代码审计中的落地范式</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/507697.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [科技商业] 月之暗面开放 2.8 万亿参数 Kimi K3.1 Pro 权重，登顶 Agent Arena 开源榜</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 超大参数开源权重直接降低自建 Agent 的成本门槛，对开发与投资判断都有用。</li>
+<li><strong>可行动作</strong>: 查许可证与显存要求，评估本地或私有化部署可行性</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32100" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [科技商业] Kimi Hosted Agents 发布：Harness 运行时转向云端托管</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Agent 运行时托管化是工具链层面的结构性变化，影响自建 Harness 的技术选型。</li>
+<li><strong>可行动作</strong>: 试用托管版，对比自建 Harness 的运维成本</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32112" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [科技商业] 字节扣子、腾讯元器接连下线：大厂AI产品洗牌清退潮</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 平台下线意味着依赖其搭建的 Bot/Agent 面临迁移风险，是必须提前知道的职业与项目风险。</li>
+<li><strong>可行动作</strong>: 盘点自己或团队是否依赖这些平台，制定迁移预案</li>
+<li><strong>来源</strong>: 36氪24h热榜 · <a href="https://www.36kr.com/p/4055286987838595" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [科技商业] 美国中期选举变「数据中心公投」：76% 选民反对，AI 基建撞上地方墙</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 算力基建的政治阻力成为新变量，多源交叉出现，直接影响芯片与数据中心相关投资逻辑。</li>
+<li><strong>可行动作</strong>: 关注英伟达/CoreWeave 等标的后续波动，仅观察不追高</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32106" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [财经] “民主党拿下德州”加剧AI数据中心担忧，英伟达、CoreWeave盘后走低</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 与上一条互为交叉验证，给出具体标的与价格反应，可操作性更强。</li>
+<li><strong>可行动作</strong>: 跟踪数据中心审批政策进展，作为算力股仓位参考</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785143" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [科技·海外] Meta acquires AI coding startup Conductor</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: AI 编程工具赛道并购加速，提示该领域创业与就业方向的热度与整合趋势。</li>
+<li><strong>可行动作</strong>: 关注 Conductor 产品线是否被整合或关停，评估替代工具</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [科技商业] 突发：Claude Code 「产品一姐」加入OpenAI，前一天刚宣布离职</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 头部 AI 编程产品的人才流动，是判断各家产品路线与竞争格局的先行信号。</li>
+<li><strong>可行动作</strong>: 仅观察，留意 Claude Code 后续产品节奏变化</li>
+<li><strong>来源</strong>: 36氪24h热榜 · <a href="https://www.36kr.com/p/4056162615350407" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [国际·英文] Interest rates expected to rise for first time in over three years</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 三年多来首次加息预期，与主流降息叙事相反，是债券与汇率配置的重要信息差。</li>
+<li><strong>可行动作</strong>: 核对具体国家与央行，检查自身债券/外汇敞口</li>
+<li><strong>来源</strong>: BBC News · <a href="https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了微博/百度娱乐与社会八卦热搜、中期选举党争细节的重复报道、以及大量同主题的 A 股暴涨与美股暴涨行情快讯（只保留与算力基建相关的两条）。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. OpenAI 新模型自动挖出 948 个 Linux 内核提权漏洞，每个漏洞利用成本仅 1279 美元</h3>
+<h3>摘要</h3>
+<p>OpenAI 发布安全研究报告，称利用一款即将推出的网络安全模型构建了自动化漏洞发现、验证、利用与修复的闭环流程。在 2026 年 10 月的实测中，系统从 2308 个候选漏洞中动态复现 1724 个，并生成 948 个可使普通本地用户获取最高权限的 Linux 内核提权漏洞利用程序。整个过程消耗约 121 万美元 API 额度，平均每个漏洞利用程序成本约 1279 美元。系统还生成 291 个信息泄露漏洞 PoC，并为发现的漏洞自动生成候选修复补丁，交由人工审核后向 Linux 内核社区提交。</p>
+<h3>为什么重要</h3>
+<p>对从事安全、研发或运维相关工作的人来说，这意味着漏洞挖掘正从高度依赖专家经验转向可规模化、可计成本的自动化流程，安全防御和代码审计的节奏会被迫加快。对关注 AI 产业与投资的人而言，这条消息给出了 AI 能力在网络安全领域落地的一个可量化成本样本。</p>
+<h3>值得记住</h3>
+<p>关键数据：平均每个 Linux 内核提权漏洞利用程序的生成成本约 1279 美元，整个测试消耗约 121 万美元 API 额度。</p>
+<hr>
+<h3>2. Linux内核被挖出948个漏洞！OpenAI花120万美元找到的</h3>
+<h3>摘要</h3>
+<p>OpenAI用一个尚未发布的网络安全模型搭建AI Agent流水线，对Linux内核（超4000万行代码）做自动化漏洞挖掘：先圈出约280万行高价值代码，再生成疑似漏洞报告并在隔离环境中验证复现，最后自动编写提权利用程序。整个过程花费约120万美元，最终确认948个可本地提权至root的独立漏洞，平均每个漏洞发现成本约1279美元。文章还提到AI自行发现至少10种此前未知的内核攻击技术，并在部分测试中“不按指定漏洞出牌”、自行挖出新的0-day。OpenAI称正通过公益项目把这类能力用于修补开源漏洞，已接入Linux内核、Firefox和Chrome。</p>
+<h3>为什么重要</h3>
+<p>对开发者与安全从业者，这意味着“代码审计靠人力慢慢磨”的假设正在被打破，依赖开源组件的系统需要更快跟进补丁；对关注AI能力边界的人来说，这是Agent在长周期、多步骤真实任务中展现战术自主性的一个强信号。</p>
+<h3>值得记住</h3>
+<p>平均每个root提权漏洞的发现与利用成本仅约1279美元（完整可用利用约359美元API消耗），而人类顶尖研究员此前一年在Linux内核中大约只能找到20个同类漏洞——攻防的经济账被彻底改写。</p>
+<hr>
+<h3>3. 月之暗面开放 2.8 万亿参数 Kimi K3.1 Pro 权重，登顶 Agent Arena 开源榜</h3>
+<h3>摘要</h3>
+<p>月之暗面于11月5日兑现10月24日的承诺，在Hugging Face全面开放Kimi K3.1 Pro模型权重。该模型采用MoE架构，总参数2.8万亿、单次推理激活约1040亿，支持约100万Token上下文。开源后它在Agent Arena开放权重模型中排名第一、全榜第13，并在工作、编程、聊天三类中均居开放模型首位。评测基于超1.75万次真实长周期智能体会话，综合净改进率+5.1%，较上代K3（Max）的+0.9%提升4.2个百分点。</p>
+<h3>为什么重要</h3>
+<p>对开发者而言，这是当前最强的开放权重智能体模型之一，可基于权重做微调或私有化部署评估；对关注AI行业与投资的人，它标志着开源模型在智能体任务上正快速逼近闭源头部（Terminal-Bench 4.0得分65.7%，仅比Claude Opus 5.5低不到1个百分点），开源与闭源的竞争格局值得持续跟踪。</p>
+<h3>值得记住</h3>
+<p>“可下载”不等于“可本地跑”：2.8万亿参数以BF16存储约5.6TB，即便INT4量化也需约1.4TB显存，消费级单机基本无法部署。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>
