@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-06-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-06</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-06T01:58:22</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [财经] AI交易大撤退、美股创纪录“血洗”2.8万亿！纳指跌近6%、芯片指数狂泻超10%，数据中心产业链跳水</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: AI叙事首次遭遇系统性估值重估，直接决定你持仓的AI/芯片/算力资产定价逻辑。</li>
+<li><strong>可行动作</strong>: 对照自己AI相关仓位做压力测试，标记数据中心产业链敞口</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785294" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [财经] 中期选举后民主党高层呼吁限制人工智能产业扩张：“立即暂停全国数据中心建设”</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 政策转向是这轮暴跌的触发点，数据中心监管风险从传闻变成政治议程。</li>
+<li><strong>可行动作</strong>: 把“美国数据中心政策风险”加入长期跟踪清单，关注得州相关标的</li>
+<li><strong>来源</strong>: 新浪财经新闻 · <a href="https://finance.sina.com.cn/stock/usstock/c/2026-11-06/doc-inixttce5171077.shtml" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [财经] 美国45%数据中心扩张计划面临暂停威胁，如今全市场都盯着得州！</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 量化了政策风险的实际影响面（45%扩张计划），比情绪化暴跌报道更有信息量。</li>
+<li><strong>可行动作</strong>: 仅观察，等待得州政策落地信号</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785228" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [科技商业] OpenAI 最强安全模型 GPT-6 Cyber 揪出 81 个 Firefox 漏洞</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: AI Agent在真实安全场景的落地验证，是判断Agent能力边界的关键案例。</li>
+<li><strong>可行动作</strong>: 阅读OpenAI官方博客，评估安全类Agent对自身开发工作流的影响</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32135" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [财经] 一个反共识逻辑：反AI运动不会让需求消失，但留给行业更多时间吸收泡沫</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 在一致恐慌中提供反向框架，帮助区分“情绪杀”与“基本面杀”。</li>
+<li><strong>可行动作</strong>: 作为投资决策的反方观点存档，避免追跌杀跌</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785285" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [AI前沿] 百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 国产开源小模型刷新SOTA，直接影响开发者选型与本地部署成本。</li>
+<li><strong>可行动作</strong>: 下载权重做一次本地推理测试，对比现有模型</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/507787.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [科技数码] DeepSeek Harness：日活跃用户达 154 万、日消耗 Token 约 92 万亿，将建设官方插件市场</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 插件市场是Agent生态的关键基础设施信号，开发者可提前布局。</li>
+<li><strong>可行动作</strong>: 关注插件市场上线时间，评估是否开发插件</li>
+<li><strong>来源</strong>: IT之家 · <a href="https://m.ithome.com/html/1023011.htm" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [科技数码] 内存涨价环境下 Discord 弃用 Electron：改用 Rust 重写客户端，占用体积从 4GB 降至 290MB</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Rust替代Electron的实战案例，对客户端开发技术选型有直接参考价值。</li>
+<li><strong>可行动作</strong>: 收藏为技术选型案例，评估Rust在自身项目的可行性</li>
+<li><strong>来源</strong>: IT之家 · <a href="https://m.ithome.com/html/1022673.htm" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [科技·海外] OpenAI president Greg Brockman says company could be IPO ready in 2027</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: OpenAI IPO时间表是AI行业资本化的里程碑信号，影响一级市场估值锚。</li>
+<li><strong>可行动作</strong>: 仅观察，纳入IPO日历跟踪</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [国际·英文] Firms told to publish salaries in job adverts ahead of new law</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 薪资透明立法趋势，对求职谈判和薪酬预期有实际参考意义。</li>
+<li><strong>可行动作</strong>: 了解立法细节，更新自身薪资谈判信息</li>
+<li><strong>来源</strong>: BBC News · <a href="https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了体育赛事、明星八卦、健康养生、地方民生琐事及同一暴跌事件的重复报道（仅保留信息量最大的三条）。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. AI交易大撤退、美股创纪录“血洗”2.8万亿！纳指跌近6%、芯片指数狂泻超10%，数据中心产业链跳水</h3>
+<h3>摘要</h3>
+<p>2026年11月5日，美股遭遇历史性抛售，AI交易大规模撤退，纳指跌5.52%、纳斯达克100跌约6.4%，费城半导体指数暴跌逾12%，科技股一日市值蒸发约2.5万亿美元，美股整体蒸发约2.8万亿美元，刷新单日纪录。抛售从芯片制造商蔓延至云计算、数据中心能源、光通信等AI基础设施全产业链，并扩散至标普全部11个行业板块。触发因素包括民主党中期选举大胜带来的数据中心政策与监管不确定性、AI巨额资本开支回报周期受质疑、微软对新兴云服务商项目延期的担忧，以及高通业绩指引不及预期。市场关注点正从&quot;AI需求有多旺&quot;转向&quot;投入能否按时交付并转化为利润&quot;。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是一次典型的&quot;拥挤交易+高估值&quot;放大跌幅的案例，提醒集中押注单一主题的风险；对职业与学习成长而言，AI产业链的瓶颈正从算力需求转向电力、交付与融资执行能力，理解这一变化比追逐概念更有价值。</p>
+<h3>值得记住</h3>
+<p>科技股单日蒸发约2.5万亿美元、七巨头损失约1万亿美元，且抛售扩散至标普全部11个行业板块——与以往&quot;资金轮动到其他板块&quot;不同，这次是风险偏好的全面收缩，说明市场对AI的定价逻辑已从&quot;讲故事&quot;切换到&quot;看回报&quot;。</p>
+<hr>
+<h3>2. 中期选举后民主党高层呼吁限制人工智能产业扩张：“立即暂停全国数据中心建设”</h3>
+<p>（深读失败: HTTPError, 请点链接阅读）</p>
+<hr>
+<h3>3. 美国45%数据中心扩张计划面临暂停威胁，如今全市场都盯着得州！</h3>
+<h3>摘要</h3>
+<p>2026年美国中期选举中，得克萨斯州30余年来首次由民主党人赢得州长职位，其核心竞选承诺是暂停新数据中心审批，将原本与审计挂钩的冻结升级为与立法挂钩，最早要到2027年5月底才可能解除。高盛测算，民主党在多个州胜选可能导致约45%的美国计划数据中心扩张容量面临暂停令，其中得州独占约25%、约13GW容量直接暴露于政策风险。佐治亚、俄亥俄、密歇根等州已在效仿，沃尔夫研究将得州定性为“反AI建设运动的样板”，资本开始向路易斯安那、俄克拉荷马等友好州转移。设备订单、融资链条和AI营收均面临连锁冲击，得州数据中心每减少10%将对全美AI资本开支造成约1.6%的冲击。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是AI资本开支叙事中一个被市场严重低估的政治风险变量——预测平台选前仅给民主党候选人24.5%胜率，说明定价远不充分，持有AI算力、电力设备、公用事业相关敞口需重新评估州级政策风险。对职业与学习成长而言，它展示了“物理约束之外还有政治约束”的分析盲区，提醒任何产业判断都要把监管与选举周期纳入框架。</p>
+<h3>值得记住</h3>
+<p>约13GW得州数据中心容量直接暴露于暂停令，按BNEF估算的每GW每月17.6亿美元AI营收计算，延迟12至18个月意味着约2750亿至4100亿美元营收被推迟——而电力设备交货周期已延伸至2030年，远超许可证约18个月的可视窗口，设备槽位错配可能放大延误。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>
