@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-06",
-  "mode": "规则回退",
+  "date": "2026-11-07",
+  "mode": "LLM 精选",
   "picks": [
     {
-      "title": "ChemE-as-Code: An Open-Source Platform for Agentic AI in Chemical Engineering",
-      "link": "http://arxiv.org/abs/2611.07947v1",
-      "source": "arXiv cs.AI",
-      "domain": "学术前沿",
-      "score": 40,
-      "reason": "命中兴趣词: ai/agent",
-      "action": "仅观察"
-    },
-    {
-      "title": "tok: a textual concrete syntax of BPMN and DMN for humans and AI agents",
-      "link": "http://arxiv.org/abs/2611.07945v1",
-      "source": "arXiv cs.AI",
-      "domain": "学术前沿",
-      "score": 40,
-      "reason": "命中兴趣词: ai/agent",
-      "action": "仅观察"
-    },
-    {
-      "title": "美国得州当选州长：在保护人民利益措施出台之前，必须暂停数据中心相关工作",
-      "link": "https://wallstreetcn.com/articles/3785316",
+      "title": "微软收缩AI算力租赁！据称逐步退出甲骨文云协议，“新云”CoreWeave闪跌",
+      "link": "https://wallstreetcn.com/articles/3785404",
       "source": "华尔街见闻",
       "domain": "财经",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
+      "score": 95,
+      "reason": "AI算力需求端首次出现龙头收缩信号，直接冲击算力租赁与neocloud商业模式，与你的算力/芯片/投资兴趣高度相关。",
+      "action": "对照CNBC同题报道交叉验证，梳理微软、甲骨文、CoreWeave、Nebius等算力链标的敞口，评估持仓或关注清单风险"
     },
     {
-      "title": "科技股抛售潮席卷亚太股市，韩股暴跌近9%触发熔断，日经跌破6万点、步入技术性熊市",
-      "link": "https://wallstreetcn.com/articles/3785315",
+      "title": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
+      "link": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
+      "score": 92,
+      "reason": "与华尔街见闻同题互为交叉源，补充“AI基建承压”的英文一手细节，信息差强于国内转述。",
+      "action": "精读原文，记录微软对neocloud的取舍逻辑，作为判断算力租赁板块估值的依据"
+    },
+    {
+      "title": "OpenAI 完成 110 亿美元新融资，估值 1.25 万亿美元，软银、红杉资本等参投",
+      "link": "https://www.36kr.com/newsflashes/4058926444729220",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 90,
+      "reason": "超大额融资叠加TechCrunch同题报道，是AI一级市场定价的关键锚点，对投资与职业判断都有长期价值。",
+      "action": "仅观察：跟踪后续估值与Anthropic IPO定价对比，判断AI资产泡沫程度"
+    },
+    {
+      "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+      "link": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
+      "score": 88,
+      "reason": "与OpenAI融资形成对照：一级市场对头部AI公司估值开始打折，是少有人注意的转向信号。",
+      "action": "仅观察：把Anthropic与OpenAI估值预期并列记录，作为AI板块情绪指标"
+    },
+    {
+      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
+      "score": 86,
+      "reason": "企业端AI支出停滞的实证数据，与微软收缩算力租赁互相印证，是判断AI资本开支周期的硬信号。",
+      "action": "精读原文找数据口径，纳入自己的AI景气度跟踪表"
+    },
+    {
+      "title": "美国10月非农就业激增16.5万，远超预期！失业率意外降至4.1%，12月加息预期升温",
+      "link": "https://wallstreetcn.com/articles/3785395",
       "source": "华尔街见闻",
       "domain": "财经",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
+      "score": 84,
+      "reason": "加息预期重定价是今日所有资产波动的源头，直接影响股票、债券、黄金配置。",
+      "action": "更新利率路径假设，检查债券久期与成长股仓位对12月加息的敏感度"
     },
     {
-      "title": "中选靴子落地后，华尔街集体转向看多美股",
-      "link": "https://wallstreetcn.com/articles/3785264",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
+      "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+      "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
+      "score": 82,
+      "reason": "强非农表象下的长期失业恶化，是标题数字之外的信息差，对判断真实就业与降息节奏有用。",
+      "action": "精读原文，修正对“就业强劲=经济健康”的简单判断"
     },
     {
-      "title": "lz4 / lz4",
-      "link": "https://github.com/lz4/lz4",
-      "source": "GitHub热榜",
-      "domain": "技术趋势",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
+      "title": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
+      "link": "https://www.qbitai.com/2026/11/507967.html",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "score": 80,
+      "reason": "开源Agent模型能力与调用量双升，与雪球“Hy4配不配最强开源”形成交叉，对开发者选型有直接参考价值。",
+      "action": "评估Hy4作为Agent开发底座，跑通一个内部小场景做对比测试"
     },
     {
-      "title": "国务院关于金融工作情况的报告提出：支持中央汇金发挥类平准基金作用 巩固完善稳市机制",
-      "link": "https://finance.sina.com.cn/jjxw/2026-11-06/doc-inixthph8614577.shtml",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "score": 30,
-      "reason": "命中兴趣词: 基金",
-      "action": "仅观察"
+      "title": "淘宝 MNN 团队开源 0.3B 手机模型，苹果 iPhone 18 Pro 离线跑出 350 token/s",
+      "link": "https://m.ithome.com/html/1023212.htm",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "score": 78,
+      "reason": "端侧小模型开源+实测性能，对做移动端AI产品的开发者是可立即上手的工具信号。",
+      "action": "拉取MNN仓库，评估端侧离线推理在自身产品中的可行性"
     },
     {
-      "title": "美股史诗级抛售：马斯克一人损失近1000亿美元，福布斯前五“输家”单日蒸发1500亿美元",
-      "link": "https://finance.sina.com.cn/jjxw/2026-11-06/doc-inixthpq9256021.shtml",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
-    },
-    {
-      "title": "以信心为锚，中国资本市场从“独立叙事”到“独立行情”",
-      "link": "https://finance.sina.com.cn/stock/marketresearch/2026-11-06/doc-inixucte8867596.shtml",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
-    },
-    {
-      "title": "Python 类型注解与 mypy：提升代码可维护性",
-      "link": "https://juejin.cn/post/7704241004282609698",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "score": 30,
-      "reason": "告警或优先领域信号",
-      "action": "仅观察"
+      "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
+      "link": "https://www.qbitai.com/2026/11/508155.html",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "score": 76,
+      "reason": "稀疏计算路线+国产芯片融资，连接算力、芯片、融资三条兴趣线，且属少有人深挖的技术商业信号。",
+      "action": "仅观察：记录该公司与稀疏计算路线，纳入国产算力跟踪清单"
     }
   ],
-  "noise_note": "规则模式(未配置 LLM): 按画像关键词与加权领域筛选, 结果较粗"
+  "noise_note": "排除了百度/微博热搜的民生娱乐八卦、雪球泛泛投资感悟、Product Hunt新品罗列、GitHub常驻热榜及与画像无关的时政国际琐事，同主题（非农加息、AI抛售）只保留信息量最大的一条。"
 }

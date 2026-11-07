@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-07-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-07</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-07T04:09:50</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [财经] 微软收缩AI算力租赁！据称逐步退出甲骨文云协议，“新云”CoreWeave闪跌</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: AI算力需求端首次出现龙头收缩信号，直接冲击算力租赁与neocloud商业模式，与你的算力/芯片/投资兴趣高度相关。</li>
+<li><strong>可行动作</strong>: 对照CNBC同题报道交叉验证，梳理微软、甲骨文、CoreWeave、Nebius等算力链标的敞口，评估持仓或关注清单风险</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785404" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [财经·海外] Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 与华尔街见闻同题互为交叉源，补充“AI基建承压”的英文一手细节，信息差强于国内转述。</li>
+<li><strong>可行动作</strong>: 精读原文，记录微软对neocloud的取舍逻辑，作为判断算力租赁板块估值的依据</li>
+<li><strong>来源</strong>: CNBC Markets · <a href="https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [科技商业] OpenAI 完成 110 亿美元新融资，估值 1.25 万亿美元，软银、红杉资本等参投</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 超大额融资叠加TechCrunch同题报道，是AI一级市场定价的关键锚点，对投资与职业判断都有长期价值。</li>
+<li><strong>可行动作</strong>: 仅观察：跟踪后续估值与Anthropic IPO定价对比，判断AI资产泡沫程度</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.36kr.com/newsflashes/4058926444729220" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [财经·海外] Investors brace for lower Anthropic valuation, calling $1.5 trillion a &#x27;stretch&#x27;</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 与OpenAI融资形成对照：一级市场对头部AI公司估值开始打折，是少有人注意的转向信号。</li>
+<li><strong>可行动作</strong>: 仅观察：把Anthropic与OpenAI估值预期并列记录，作为AI板块情绪指标</li>
+<li><strong>来源</strong>: CNBC Markets · <a href="https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [科技·海外] Ramp data shows AI spending stalling just as Anthropic nears its IPO</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 企业端AI支出停滞的实证数据，与微软收缩算力租赁互相印证，是判断AI资本开支周期的硬信号。</li>
+<li><strong>可行动作</strong>: 精读原文找数据口径，纳入自己的AI景气度跟踪表</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [财经] 美国10月非农就业激增16.5万，远超预期！失业率意外降至4.1%，12月加息预期升温</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 加息预期重定价是今日所有资产波动的源头，直接影响股票、债券、黄金配置。</li>
+<li><strong>可行动作</strong>: 更新利率路径假设，检查债券久期与成长股仓位对12月加息的敏感度</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785395" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [财经·海外] A disturbing employment trend is hiding beneath the latest strong job numbers</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 强非农表象下的长期失业恶化，是标题数字之外的信息差，对判断真实就业与降息节奏有用。</li>
+<li><strong>可行动作</strong>: 精读原文，修正对“就业强劲=经济健康”的简单判断</li>
+<li><strong>来源</strong>: CNBC Markets · <a href="https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [AI前沿] 腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 开源Agent模型能力与调用量双升，与雪球“Hy4配不配最强开源”形成交叉，对开发者选型有直接参考价值。</li>
+<li><strong>可行动作</strong>: 评估Hy4作为Agent开发底座，跑通一个内部小场景做对比测试</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/507967.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [科技数码] 淘宝 MNN 团队开源 0.3B 手机模型，苹果 iPhone 18 Pro 离线跑出 350 token/s</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 端侧小模型开源+实测性能，对做移动端AI产品的开发者是可立即上手的工具信号。</li>
+<li><strong>可行动作</strong>: 拉取MNN仓库，评估端侧离线推理在自身产品中的可行性</li>
+<li><strong>来源</strong>: IT之家 · <a href="https://m.ithome.com/html/1023212.htm" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [AI前沿] DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 稀疏计算路线+国产芯片融资，连接算力、芯片、融资三条兴趣线，且属少有人深挖的技术商业信号。</li>
+<li><strong>可行动作</strong>: 仅观察：记录该公司与稀疏计算路线，纳入国产算力跟踪清单</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/508155.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了百度/微博热搜的民生娱乐八卦、雪球泛泛投资感悟、Product Hunt新品罗列、GitHub常驻热榜及与画像无关的时政国际琐事，同主题（非农加息、AI抛售）只保留信息量最大的一条。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. 微软收缩AI算力租赁！据称逐步退出甲骨文云协议，“新云”CoreWeave闪跌</h3>
+<h3>摘要</h3>
+<p>微软正逐步退出与甲骨文的部分AI算力租赁协议，原因是甲骨文服务器搭载的旧一代英伟达芯片已不符合微软技术规格。此前一天已有报道称，微软对CoreWeave、Nebius、IREN、Nscale等“新云”供应商的高成本和交付延迟不满，正加强审查并退出高风险项目。消息引发甲骨文和“新云”概念股盘中跳水，但多数最终收涨。分析人士认为此次涉及合同规模有限，市场反应存在过度解读，但这一系列动作反映微软正从大规模外租算力转向更多依赖自建资产。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是观察AI算力供需拐点和“新云”商业模式风险的关键信号——微软的审查与退出可能压低相关公司估值预期，也提示旧代GPU的租赁价值存在分歧。对职业与学习而言，它说明AI基础设施竞争正从“抢算力”转向“算经济账和交付能力”，供应链管理与项目执行的重要性上升。</p>
+<h3>值得记住</h3>
+<p>微软此前向外部云企业承诺的算力租赁支出超过800亿美元；而此次甲骨文相关合同据分析仅约50–100MW的A100芯片规模，微软可内部转移至25–40MW的Hopper架构芯片满足需求——市场反应可能大于实际影响。</p>
+<hr>
+<h3>2. Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain</h3>
+<h3>摘要</h3>
+<p>原文仅抓取到 CNBC 网页的导航栏、栏目链接和标题，正文内容被截断，无法获取微软减少使用 neocloud（新型云服务商）的具体原因、涉及厂商或数据。从标题可推测：微软计划收缩与 neocloud 的合作关系，背景是 AI 基础设施建设显现压力迹象。但除标题外无实质信息，无法展开主线。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，微软作为 AI 资本开支的风向标，若真在收缩 neocloud 合作，可能影响相关云服务商估值与 AI 算力产业链预期；但本文正文缺失，暂不足以支撑判断。</p>
+<h3>值得记住</h3>
+<p>无特别值得记的（原文正文未抓到，仅有标题，禁止据此编造细节）。</p>
+<hr>
+<h3>3. OpenAI 完成 110 亿美元新融资，估值 1.25 万亿美元，软银、红杉资本等参投</h3>
+<h3>摘要</h3>
+<p>OpenAI 已完成约 110 亿美元新融资，这是其 1.25 万亿美元估值融资轮的首笔交割，资金已于周五到账。本轮融资总额可能增至最高 200 亿美元，预计未来数周内完成。参与首笔交割的投资者包括 Coatue Management 和 T. Rowe Price，软银、红杉资本、Founders Fund、Andreessen Horowitz 及一个阿联酋投资者财团也参与本轮。此前 OpenAI 推迟 IPO，并因 AI 板块公开市场暴跌，将原计划 1.4 万亿美元估值融资 300 亿美元以上的方案缩减。公司还在与投行合作，向高净值个人和零售投资者募资。</p>
+<h3>为什么重要</h3>
+<p>对关注投资理财的你，这是观察 AI 龙头估值与一级市场资金动向的重要信号：融资规模被下调、IPO 推迟，说明即便头部公司也在适应市场降温。对职业与学习成长而言，OpenAI 的融资节奏和投资者结构变化，可作为判断 AI 行业周期与就业机会的参考。</p>
+<h3>值得记住</h3>
+<p>融资计划从“1.4 万亿美元估值融资 300 亿美元以上”缩减至“1.25 万亿美元估值、首笔 110 亿美元、总额最高 200 亿美元”，显示 AI 板块公开市场暴跌已传导至一级市场融资预期。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>
