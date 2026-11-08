@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "微软收缩AI算力租赁！据称逐步退出甲骨文云协议，“新云”CoreWeave闪跌",
-      "link": "https://wallstreetcn.com/articles/3785404",
+      "title": "AI泡沫破裂了吗？高盛：当下更像1998年，而非2000年",
+      "link": "https://wallstreetcn.com/articles/3785440",
       "source": "华尔街见闻",
       "domain": "财经",
-      "score": 95,
-      "reason": "AI算力需求端首次出现龙头收缩信号，直接冲击算力租赁与neocloud商业模式，与你的算力/芯片/投资兴趣高度相关。",
-      "action": "对照CNBC同题报道交叉验证，梳理微软、甲骨文、CoreWeave、Nebius等算力链标的敞口，评估持仓或关注清单风险"
-    },
-    {
-      "title": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
-      "link": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
       "score": 92,
-      "reason": "与华尔街见闻同题互为交叉源，补充“AI基建承压”的英文一手细节，信息差强于国内转述。",
-      "action": "精读原文，记录微软对neocloud的取舍逻辑，作为判断算力租赁板块估值的依据"
+      "reason": "高盛用1998年类比给AI行情定性，直接决定你持仓的AI/算力/芯片仓位该减还是该扛，是今天最有决策价值的一条。",
+      "action": "读原文看高盛的具体估值与盈利指标，对照自己AI相关持仓做一次压力测试"
     },
     {
-      "title": "OpenAI 完成 110 亿美元新融资，估值 1.25 万亿美元，软银、红杉资本等参投",
-      "link": "https://www.36kr.com/newsflashes/4058926444729220",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "score": 90,
-      "reason": "超大额融资叠加TechCrunch同题报道，是AI一级市场定价的关键锚点，对投资与职业判断都有长期价值。",
-      "action": "仅观察：跟踪后续估值与Anthropic IPO定价对比，判断AI资产泡沫程度"
-    },
-    {
-      "title": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
-      "link": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
-      "score": 88,
-      "reason": "与OpenAI融资形成对照：一级市场对头部AI公司估值开始打折，是少有人注意的转向信号。",
-      "action": "仅观察：把Anthropic与OpenAI估值预期并列记录，作为AI板块情绪指标"
-    },
-    {
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "link": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
-      "score": 86,
-      "reason": "企业端AI支出停滞的实证数据，与微软收缩算力租赁互相印证，是判断AI资本开支周期的硬信号。",
-      "action": "精读原文找数据口径，纳入自己的AI景气度跟踪表"
-    },
-    {
-      "title": "美国10月非农就业激增16.5万，远超预期！失业率意外降至4.1%，12月加息预期升温",
-      "link": "https://wallstreetcn.com/articles/3785395",
+      "title": "AI基建融资新裂痕！一批数据中心贷款被打包甩卖，星际之门项目也在其中",
+      "link": "https://wallstreetcn.com/articles/3785434",
       "source": "华尔街见闻",
       "domain": "财经",
-      "score": 84,
-      "reason": "加息预期重定价是今日所有资产波动的源头，直接影响股票、债券、黄金配置。",
-      "action": "更新利率路径假设，检查债券久期与成长股仓位对12月加息的敏感度"
+      "score": 90,
+      "reason": "数据中心贷款被打包甩卖是AI资本开支链条出现信用裂缝的早期信号，比股价波动更领先，多数人还没注意。",
+      "action": "跟踪后续是否有更多数据中心ABS/贷款抛售，作为AI基建股的风险预警指标"
     },
     {
-      "title": "A disturbing employment trend is hiding beneath the latest strong job numbers",
-      "link": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+      "title": "投降式抛售后，大摩反思AI交易：从“建设”转向“应用”",
+      "link": "https://wallstreetcn.com/articles/3785432",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 88,
+      "reason": "大摩给出AI投资主线从基建切换到应用的判断，直接指向下一阶段的选股与职业方向（应用层岗位）。",
+      "action": "梳理自己关注的AI标的，区分“建设端”与“应用端”敞口，考虑再平衡"
+    },
+    {
+      "title": "中选只不过是最后一根稻草？市场终于正视AI“循环融资”的雷",
+      "link": "https://wallstreetcn.com/articles/3785435",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 86,
+      "reason": "“循环融资”是当前AI泡沫争论的核心机制，理解它才能判断这轮调整是回调还是转折。",
+      "action": "仅观察，与上一条数据中心贷款抛售交叉验证"
+    },
+    {
+      "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
+      "link": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "score": 82,
-      "reason": "强非农表象下的长期失业恶化，是标题数字之外的信息差，对判断真实就业与降息节奏有用。",
-      "action": "精读原文，修正对“就业强劲=经济健康”的简单判断"
+      "score": 85,
+      "reason": "Anthropic启动IPO叠加数据中心遭政治反弹，是AI一级市场定价与政策风险的双重信号，与国内AI融资叙事互为镜像。",
+      "action": "关注Anthropic招股书披露的营收与算力成本结构，作为评估AI公司估值锚"
     },
     {
-      "title": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
-      "link": "https://www.qbitai.com/2026/11/507967.html",
+      "title": "伯克希尔Q3净利润大降28%，投资收益缩水近半，回购创年内单季新高，现金升至3774亿美元 | 财报见闻",
+      "link": "https://wallstreetcn.com/articles/3785460",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 83,
+      "reason": "伯克希尔现金创纪录+回购加码，是“聪明钱”在高位选择防守的最直接证据，对个人仓位配置有参考意义。",
+      "action": "对照自身现金比例，思考是否需要在AI高波动期提高防御仓位"
+    },
+    {
+      "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+      "link": "https://www.qbitai.com/2026/11/508264.html",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "score": 82,
+      "reason": "Agent Harness是Agent工程化的关键基础设施，直接关系到你能否用更低成本搭出自己的Agent工作流。",
+      "action": "读原文并试用其开源实现，评估能否替换现有Agent编排方案"
+    },
+    {
+      "title": "AGENTS.MD，危险危险危险！！！",
+      "link": "https://www.qbitai.com/2026/11/508244.html",
       "source": "量子位",
       "domain": "AI前沿",
       "score": 80,
-      "reason": "开源Agent模型能力与调用量双升，与雪球“Hy4配不配最强开源”形成交叉，对开发者选型有直接参考价值。",
-      "action": "评估Hy4作为Agent开发底座，跑通一个内部小场景做对比测试"
+      "reason": "AGENTS.MD是当前Agent项目的事实标准，其安全隐患直接影响你写的Agent代码与团队协作规范。",
+      "action": "检查自己项目里的AGENTS.MD配置，排查提示注入与权限越界风险"
     },
     {
-      "title": "淘宝 MNN 团队开源 0.3B 手机模型，苹果 iPhone 18 Pro 离线跑出 350 token/s",
-      "link": "https://m.ithome.com/html/1023212.htm",
-      "source": "IT之家",
-      "domain": "科技数码",
+      "title": "anthropics / skills",
+      "link": "https://github.com/anthropics/skills",
+      "source": "GitHub热榜",
+      "domain": "技术趋势",
       "score": 78,
-      "reason": "端侧小模型开源+实测性能，对做移动端AI产品的开发者是可立即上手的工具信号。",
-      "action": "拉取MNN仓库，评估端侧离线推理在自身产品中的可行性"
+      "reason": "Anthropic官方Skills仓库高热，是学习如何把大模型能力封装成可复用技能的最直接教材，对编程与效率提升立竿见影。",
+      "action": "clone下来跑通一个示例skill，纳入本周学习清单"
     },
     {
-      "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
-      "link": "https://www.qbitai.com/2026/11/508155.html",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "score": 76,
-      "reason": "稀疏计算路线+国产芯片融资，连接算力、芯片、融资三条兴趣线，且属少有人深挖的技术商业信号。",
-      "action": "仅观察：记录该公司与稀疏计算路线，纳入国产算力跟踪清单"
+      "title": "加息大消息！美联储官员，最新发声！",
+      "link": "https://finance.sina.com.cn/stock/marketresearch/2026-11-07/doc-inixwtha4800436.shtml",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "score": 75,
+      "reason": "美联储官员加息表态直接影响债券与成长股估值，是本周宏观仓位调整的关键变量。",
+      "action": "读原文确认是鹰派表态还是例行讲话，再决定是否调整债券久期"
     }
   ],
-  "noise_note": "排除了百度/微博热搜的民生娱乐八卦、雪球泛泛投资感悟、Product Hunt新品罗列、GitHub常驻热榜及与画像无关的时政国际琐事，同主题（非农加息、AI抛售）只保留信息量最大的一条。"
+  "noise_note": "排除了微博/百度热搜的体育、天气、明星、社会琐事，以及AI漫剧营收、ChatGPT封号传闻等纯流量话题和同主题重复的AI泡沫评论。"
 }
