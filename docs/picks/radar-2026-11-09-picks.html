@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-09-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-09</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-09T04:07:57</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [财经] 野村：“蓝色浪潮”冲击美国数据中心，中国AI反而受益</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 美国算力扩张受政治约束、中国AI相对受益，是少有人注意的产业链再定价逻辑，直接关系AI投资与职业判断。</li>
+<li><strong>可行动作</strong>: 读原文，梳理受益环节（国产算力/IDC/应用），对照持仓或求职方向</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785477" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [财经] 中选之后“美国新增算力被锁死”，马斯克成为“AI格局胜负手”</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 与野村那条互为交叉信号：美国新增算力供给受限将改变全球AI竞争与资本流向，属高信息差宏观变量。</li>
+<li><strong>可行动作</strong>: 与野村一文对照阅读，形成“算力供给约束”主题笔记</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785472" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [科技商业] DeepSeek 开源智能体应用 Harness 日活突破 154 万：上线不到三月，单日大模型消耗飙升至 92T 词元</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 开源Agent应用的真实用量数据（DAU+token消耗）是判断Agent落地节奏的硬指标，对开发者和投资都直接可用。</li>
+<li><strong>可行动作</strong>: 试用Harness，评估能否接入自己的工作流；记录token消耗量级作为行业基准</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32172" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [科技商业] 九成代码AI写，谁来审？Claude Code亮出6道关卡！</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: AI生成代码的审查机制是编程职业当下最实际的能力缺口，看完可直接改进团队代码评审流程。</li>
+<li><strong>可行动作</strong>: 提炼6道关卡要点，落地到自己项目的CI/评审清单</li>
+<li><strong>来源</strong>: 36氪24h热榜 · <a href="https://www.36kr.com/p/4060672855757954" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [技术趋势] GitHub 上最值得装的 8 个 Agent Skill 仓库，亲测好用！</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 可直接安装使用的Agent技能仓库清单，效率工具属性强、上手成本低。</li>
+<li><strong>可行动作</strong>: 挑2-3个仓库本地试用，纳入个人工具链</li>
+<li><strong>来源</strong>: 掘金热文 · <a href="https://juejin.cn/post/7703423062713516082" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [AI前沿] GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 代码托管基础设施成为AI巨头争夺点，是开发者生态的长期结构性变化，值得提前关注迁移风险。</li>
+<li><strong>可行动作</strong>: 仅观察，留意替代平台的开放注册与迁移工具</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/508449.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [科技商业] OpenAI 新一轮融资筹集 110 亿美元，估值达 1.25 万亿美元</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 与“融资不及原计划一半”交叉出现，说明AI一级市场估值与募资节奏正在降温，对投资判断有参考价值。</li>
+<li><strong>可行动作</strong>: 对照量子位“不及原计划一半”一文，更新对AI资产估值的预期</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32165" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [AI前沿] 资本正在撤离“世界模型”</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 指出细分技术路线的资本退潮，属于少有人注意但影响技术选型与就业方向的信号。</li>
+<li><strong>可行动作</strong>: 仅观察，避免把学习/求职押注在退潮路线上</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/508466.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [财经] 10月末我国外汇储备规模为34052亿美元 黄金储备连续24个月增加</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 央行连续24个月增持黄金是持续性的资产配置信号，对个人大类资产配置有直接参考。</li>
+<li><strong>可行动作</strong>: 检查自身组合中黄金/避险资产比例是否需调整</li>
+<li><strong>来源</strong>: 新浪财经新闻 · <a href="https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyakhh6631499.shtml" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [财经·海外] China wholesale inflation hits highest in more than four years as consumer measure slows</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: PPI创四年新高而CPI放缓，是判断国内中下游企业利润与政策空间的关键宏观数据。</li>
+<li><strong>可行动作</strong>: 仅观察，跟踪后续政策与相关行业盈利预期</li>
+<li><strong>来源</strong>: CNBC Markets · <a href="https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了BLG/Faker等电竞热搜、明星八卦与黄仁勋私生活、火灾陨石等社会突发、纯带货与产品促销、以及同主题重复的AI融资与算力报道（各留信息量最大一条）。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. 野村：“蓝色浪潮”冲击美国数据中心，中国AI反而受益</h3>
+<h3>摘要</h3>
+<p>野村证券认为，美国民主党在中期选举中获胜（“蓝色浪潮”）将导致美国数据中心建设面临更严格的监管与电价约束，扩张放缓。这将压低全球AI芯片（GPU、HBM）需求和黑市溢价，反而降低中国企业获取高端算力的难度与成本，整体利好中国AI经济。摩根士丹利补充称，更看好中国“自主可控”AI主题，而非依赖全球资本开支的出口链标的，并提示中美关系并未实质性缓和。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这篇文章提供了一个反直觉的跨市场传导逻辑：美国政治变局→数据中心资本开支放缓→芯片价格回落→中国AI产业链受益，可作为调整中美科技股仓位的参考框架。对职业与学习成长而言，它示范了如何从政策事件出发做产业链推演，而非停留在新闻表面。</p>
+<h3>值得记住</h3>
+<p>在美国数据中心建设高峰期，亚洲物流枢纽的先进GPU和HBM模组溢价往往高达标价的200%至300%；一旦西方需求降温，这些投机性溢价可能大幅崩塌——这是“美国踩刹车、中国捡便宜”的核心机制。</p>
+<hr>
+<h3>2. 中选之后“美国新增算力被锁死”，马斯克成为“AI格局胜负手”</h3>
+<h3>摘要</h3>
+<p>美国中期选举后，多州新当选州长暂停发放新建数据中心许可，导致市场预期美国新增算力供给被“锁死”，科技股随之遭遇巨额市值蒸发。文章援引硅谷投资人Chamath Palihapitiya在All-In Podcast的披露，称SpaceX与Anthropic的算力供应合同含“90天双向退出条款”，在算力紧缺时SpaceX可按现货价2-3倍重新定价，从而掌握Anthropic乃至AI格局的生死开关。文章进一步将算力市场分为坐拥存量算力的超大规模云厂商（“包租公”）与依赖外部租算力的新云和前沿模型公司（“租客”），认为后者将面临生存危机。同时警告若审批壁垒持续，吉瓦级数据中心项目可能外迁，美国或从算力出口国沦为Token进口国。</p>
+<h3>为什么重要</h3>
+<p>对关注投资理财的读者，这篇文章提示AI算力供给的政策风险可能重塑科技股与AI产业链估值；对职业与学习成长而言，它说明算力合同条款、许可政策等“非技术变量”正成为决定AI竞争格局的关键。</p>
+<h3>值得记住</h3>
+<p>SpaceX与Anthropic合同中的“90天双向退出条款”：在算力供给收紧时，SpaceX可终止合约并以原合约2-3倍的现货价格重新定价，这一条款被视为可能改写整个AI产业格局的“核按钮”。</p>
+<hr>
+<h3>3. DeepSeek 开源智能体应用 Harness 日活突破 154 万：上线不到三月，单日大模型消耗飙升至 92T 词元</h3>
+<h3>摘要</h3>
+<p>DeepSeek 开源智能体应用框架 Harness 上线不到三个月，官方 API 日活跃用户数已达 154 万，较 9 月底桌面版推出后的 7 日均值 271K 大幅增长。伴随用户爆发，平台单日大模型词元消耗飙升至约 92T，人均每天约消耗 6000 万词元，凸显长时智能体任务的算力开销远超传统对话机器人。Harness 采用极致开放的插件化机制，社区已构建约 3.5 万个自定义插件，约 60% 活跃用户亲手制作过至少一个插件。DeepSeek 计划推出官方插件市场和创作者激励计划，以词元补贴、技术支持和流量推广扶持生态，在模型价格优势之外补齐生态丰富度。</p>
+<h3>为什么重要</h3>
+<p>对关注 AI 工具落地与工作流自动化的人来说，这是智能体从“聊天”走向“长时执行任务”后算力成本结构的直观信号；对投资理财视角，它提示智能体应用的商业化竞争正从模型价格转向插件生态与创作者激励。</p>
+<h3>值得记住</h3>
+<p>关键数据：154 万日活用户每天合计消耗约 92T 词元，人均约 6000 万词元/天——长时智能体任务的资源开销远高于普通对话场景。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>

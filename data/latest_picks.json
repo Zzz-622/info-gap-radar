@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "AI泡沫破裂了吗？高盛：当下更像1998年，而非2000年",
-      "link": "https://wallstreetcn.com/articles/3785440",
+      "title": "野村：“蓝色浪潮”冲击美国数据中心，中国AI反而受益",
+      "link": "https://wallstreetcn.com/articles/3785477",
       "source": "华尔街见闻",
       "domain": "财经",
       "score": 92,
-      "reason": "高盛用1998年类比给AI行情定性，直接决定你持仓的AI/算力/芯片仓位该减还是该扛，是今天最有决策价值的一条。",
-      "action": "读原文看高盛的具体估值与盈利指标，对照自己AI相关持仓做一次压力测试"
+      "reason": "美国算力扩张受政治约束、中国AI相对受益，是少有人注意的产业链再定价逻辑，直接关系AI投资与职业判断。",
+      "action": "读原文，梳理受益环节（国产算力/IDC/应用），对照持仓或求职方向"
     },
     {
-      "title": "AI基建融资新裂痕！一批数据中心贷款被打包甩卖，星际之门项目也在其中",
-      "link": "https://wallstreetcn.com/articles/3785434",
+      "title": "中选之后“美国新增算力被锁死”，马斯克成为“AI格局胜负手”",
+      "link": "https://wallstreetcn.com/articles/3785472",
       "source": "华尔街见闻",
       "domain": "财经",
       "score": 90,
-      "reason": "数据中心贷款被打包甩卖是AI资本开支链条出现信用裂缝的早期信号，比股价波动更领先，多数人还没注意。",
-      "action": "跟踪后续是否有更多数据中心ABS/贷款抛售，作为AI基建股的风险预警指标"
+      "reason": "与野村那条互为交叉信号：美国新增算力供给受限将改变全球AI竞争与资本流向，属高信息差宏观变量。",
+      "action": "与野村一文对照阅读，形成“算力供给约束”主题笔记"
     },
     {
-      "title": "投降式抛售后，大摩反思AI交易：从“建设”转向“应用”",
-      "link": "https://wallstreetcn.com/articles/3785432",
-      "source": "华尔街见闻",
-      "domain": "财经",
+      "title": "DeepSeek 开源智能体应用 Harness 日活突破 154 万：上线不到三月，单日大模型消耗飙升至 92T 词元",
+      "link": "https://www.aibase.com/zh/news/32172",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 88,
-      "reason": "大摩给出AI投资主线从基建切换到应用的判断，直接指向下一阶段的选股与职业方向（应用层岗位）。",
-      "action": "梳理自己关注的AI标的，区分“建设端”与“应用端”敞口，考虑再平衡"
+      "reason": "开源Agent应用的真实用量数据（DAU+token消耗）是判断Agent落地节奏的硬指标，对开发者和投资都直接可用。",
+      "action": "试用Harness，评估能否接入自己的工作流；记录token消耗量级作为行业基准"
     },
     {
-      "title": "中选只不过是最后一根稻草？市场终于正视AI“循环融资”的雷",
-      "link": "https://wallstreetcn.com/articles/3785435",
-      "source": "华尔街见闻",
-      "domain": "财经",
+      "title": "九成代码AI写，谁来审？Claude Code亮出6道关卡！",
+      "link": "https://www.36kr.com/p/4060672855757954",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
       "score": 86,
-      "reason": "“循环融资”是当前AI泡沫争论的核心机制，理解它才能判断这轮调整是回调还是转折。",
-      "action": "仅观察，与上一条数据中心贷款抛售交叉验证"
+      "reason": "AI生成代码的审查机制是编程职业当下最实际的能力缺口，看完可直接改进团队代码评审流程。",
+      "action": "提炼6道关卡要点，落地到自己项目的CI/评审清单"
     },
     {
-      "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
-      "link": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
-      "score": 85,
-      "reason": "Anthropic启动IPO叠加数据中心遭政治反弹，是AI一级市场定价与政策风险的双重信号，与国内AI融资叙事互为镜像。",
-      "action": "关注Anthropic招股书披露的营收与算力成本结构，作为评估AI公司估值锚"
+      "title": "GitHub 上最值得装的 8 个 Agent Skill 仓库，亲测好用！",
+      "link": "https://juejin.cn/post/7703423062713516082",
+      "source": "掘金热文",
+      "domain": "技术趋势",
+      "score": 84,
+      "reason": "可直接安装使用的Agent技能仓库清单，效率工具属性强、上手成本低。",
+      "action": "挑2-3个仓库本地试用，纳入个人工具链"
     },
     {
-      "title": "伯克希尔Q3净利润大降28%，投资收益缩水近半，回购创年内单季新高，现金升至3774亿美元 | 财报见闻",
-      "link": "https://wallstreetcn.com/articles/3785460",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "score": 83,
-      "reason": "伯克希尔现金创纪录+回购加码，是“聪明钱”在高位选择防守的最直接证据，对个人仓位配置有参考意义。",
-      "action": "对照自身现金比例，思考是否需要在AI高波动期提高防御仓位"
-    },
-    {
-      "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
-      "link": "https://www.qbitai.com/2026/11/508264.html",
+      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+      "link": "https://www.qbitai.com/2026/11/508449.html",
       "source": "量子位",
       "domain": "AI前沿",
       "score": 82,
-      "reason": "Agent Harness是Agent工程化的关键基础设施，直接关系到你能否用更低成本搭出自己的Agent工作流。",
-      "action": "读原文并试用其开源实现，评估能否替换现有Agent编排方案"
+      "reason": "代码托管基础设施成为AI巨头争夺点，是开发者生态的长期结构性变化，值得提前关注迁移风险。",
+      "action": "仅观察，留意替代平台的开放注册与迁移工具"
     },
     {
-      "title": "AGENTS.MD，危险危险危险！！！",
-      "link": "https://www.qbitai.com/2026/11/508244.html",
+      "title": "OpenAI 新一轮融资筹集 110 亿美元，估值达 1.25 万亿美元",
+      "link": "https://www.aibase.com/zh/news/32165",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 80,
+      "reason": "与“融资不及原计划一半”交叉出现，说明AI一级市场估值与募资节奏正在降温，对投资判断有参考价值。",
+      "action": "对照量子位“不及原计划一半”一文，更新对AI资产估值的预期"
+    },
+    {
+      "title": "资本正在撤离“世界模型”",
+      "link": "https://www.qbitai.com/2026/11/508466.html",
       "source": "量子位",
       "domain": "AI前沿",
-      "score": 80,
-      "reason": "AGENTS.MD是当前Agent项目的事实标准，其安全隐患直接影响你写的Agent代码与团队协作规范。",
-      "action": "检查自己项目里的AGENTS.MD配置，排查提示注入与权限越界风险"
-    },
-    {
-      "title": "anthropics / skills",
-      "link": "https://github.com/anthropics/skills",
-      "source": "GitHub热榜",
-      "domain": "技术趋势",
       "score": 78,
-      "reason": "Anthropic官方Skills仓库高热，是学习如何把大模型能力封装成可复用技能的最直接教材，对编程与效率提升立竿见影。",
-      "action": "clone下来跑通一个示例skill，纳入本周学习清单"
+      "reason": "指出细分技术路线的资本退潮，属于少有人注意但影响技术选型与就业方向的信号。",
+      "action": "仅观察，避免把学习/求职押注在退潮路线上"
     },
     {
-      "title": "加息大消息！美联储官员，最新发声！",
-      "link": "https://finance.sina.com.cn/stock/marketresearch/2026-11-07/doc-inixwtha4800436.shtml",
+      "title": "10月末我国外汇储备规模为34052亿美元 黄金储备连续24个月增加",
+      "link": "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyakhh6631499.shtml",
       "source": "新浪财经新闻",
       "domain": "财经",
-      "score": 75,
-      "reason": "美联储官员加息表态直接影响债券与成长股估值，是本周宏观仓位调整的关键变量。",
-      "action": "读原文确认是鹰派表态还是例行讲话，再决定是否调整债券久期"
+      "score": 76,
+      "reason": "央行连续24个月增持黄金是持续性的资产配置信号，对个人大类资产配置有直接参考。",
+      "action": "检查自身组合中黄金/避险资产比例是否需调整"
+    },
+    {
+      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+      "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
+      "score": 74,
+      "reason": "PPI创四年新高而CPI放缓，是判断国内中下游企业利润与政策空间的关键宏观数据。",
+      "action": "仅观察，跟踪后续政策与相关行业盈利预期"
     }
   ],
-  "noise_note": "排除了微博/百度热搜的体育、天气、明星、社会琐事，以及AI漫剧营收、ChatGPT封号传闻等纯流量话题和同主题重复的AI泡沫评论。"
+  "noise_note": "排除了BLG/Faker等电竞热搜、明星八卦与黄仁勋私生活、火灾陨石等社会突发、纯带货与产品促销、以及同主题重复的AI融资与算力报道（各留信息量最大一条）。"
 }
