@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "野村：“蓝色浪潮”冲击美国数据中心，中国AI反而受益",
-      "link": "https://wallstreetcn.com/articles/3785477",
+      "title": "Anthropic招股文件刚发就撤！693亿美元融资细节意外泄露，英伟达、微软、台积电等集体押注260亿",
+      "link": "https://wallstreetcn.com/articles/3785616",
       "source": "华尔街见闻",
       "domain": "财经",
+      "score": 95,
+      "reason": "AI头部公司IPO与融资细节直接关系AI板块估值锚与一级市场定价，是投资与职业判断的关键信息差。",
+      "action": "追踪Anthropic IPO进展与承销名单，对照自身AI相关持仓/求职目标做评估"
+    },
+    {
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
       "score": 92,
-      "reason": "美国算力扩张受政治约束、中国AI相对受益，是少有人注意的产业链再定价逻辑，直接关系AI投资与职业判断。",
-      "action": "读原文，梳理受益环节（国产算力/IDC/应用），对照持仓或求职方向"
+      "reason": "与华尔街见闻同题交叉出现，强化Anthropic IPO为强信号，海外视角补充细节。",
+      "action": "仅观察（与上条合并为一个跟踪主题）"
     },
     {
-      "title": "中选之后“美国新增算力被锁死”，马斯克成为“AI格局胜负手”",
-      "link": "https://wallstreetcn.com/articles/3785472",
+      "title": "软银为美国数据中心业务放缓制定预案，考虑转向其他国家",
+      "link": "https://wallstreetcn.com/articles/3785567",
       "source": "华尔街见闻",
       "domain": "财经",
-      "score": 90,
-      "reason": "与野村那条互为交叉信号：美国新增算力供给受限将改变全球AI竞争与资本流向，属高信息差宏观变量。",
-      "action": "与野村一文对照阅读，形成“算力供给约束”主题笔记"
+      "score": 88,
+      "reason": "算力基建需求放缓的早期信号，影响AI算力链投资逻辑与相关岗位景气度。",
+      "action": "检查算力/数据中心相关标的与供应链公司预期，留意后续资本开支指引"
     },
     {
-      "title": "DeepSeek 开源智能体应用 Harness 日活突破 154 万：上线不到三月，单日大模型消耗飙升至 92T 词元",
-      "link": "https://www.aibase.com/zh/news/32172",
+      "title": "高盛：2027年美股牛市还有”最后一搏“，但随后的情形酷似2000年泡沫破灭前夕",
+      "link": "https://wallstreetcn.com/articles/3785523",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 85,
+      "reason": "给出可操作的中期资产配置时间框架，对投资理财用途直接有用。",
+      "action": "记录该观点作为2027年仓位与止盈纪律的参考假设，不立即调仓"
+    },
+    {
+      "title": "给失控 AI 智能体装「急刹车」：OpenAI 35 秒熔断机制上线",
+      "link": "https://www.aibase.com/zh/news/32201",
       "source": "Readhub",
       "domain": "科技商业",
-      "score": 88,
-      "reason": "开源Agent应用的真实用量数据（DAU+token消耗）是判断Agent落地节奏的硬指标，对开发者和投资都直接可用。",
-      "action": "试用Harness，评估能否接入自己的工作流；记录token消耗量级作为行业基准"
-    },
-    {
-      "title": "九成代码AI写，谁来审？Claude Code亮出6道关卡！",
-      "link": "https://www.36kr.com/p/4060672855757954",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "score": 86,
-      "reason": "AI生成代码的审查机制是编程职业当下最实际的能力缺口，看完可直接改进团队代码评审流程。",
-      "action": "提炼6道关卡要点，落地到自己项目的CI/评审清单"
-    },
-    {
-      "title": "GitHub 上最值得装的 8 个 Agent Skill 仓库，亲测好用！",
-      "link": "https://juejin.cn/post/7703423062713516082",
-      "source": "掘金热文",
-      "domain": "技术趋势",
       "score": 84,
-      "reason": "可直接安装使用的Agent技能仓库清单，效率工具属性强、上手成本低。",
-      "action": "挑2-3个仓库本地试用，纳入个人工具链"
+      "reason": "Agent安全与熔断机制是开发Agent产品必须了解的工程约束，兼具学习与落地价值。",
+      "action": "查阅机制细节，评估在自己Agent项目中加入超时/熔断与人工接管设计"
     },
     {
-      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
-      "link": "https://www.qbitai.com/2026/11/508449.html",
+      "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
+      "link": "https://www.qbitai.com/2026/11/508798.html",
       "source": "量子位",
       "domain": "AI前沿",
       "score": 82,
-      "reason": "代码托管基础设施成为AI巨头争夺点，是开发者生态的长期结构性变化，值得提前关注迁移风险。",
-      "action": "仅观察，留意替代平台的开放注册与迁移工具"
+      "reason": "Team Agent落地实测，直接对应Agent工具选型与办公效率提升。",
+      "action": "试用千问办公2.0的Team Agent能力，对比现有工作流"
     },
     {
-      "title": "OpenAI 新一轮融资筹集 110 亿美元，估值达 1.25 万亿美元",
-      "link": "https://www.aibase.com/zh/news/32165",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "score": 80,
-      "reason": "与“融资不及原计划一半”交叉出现，说明AI一级市场估值与募资节奏正在降温，对投资判断有参考价值。",
-      "action": "对照量子位“不及原计划一半”一文，更新对AI资产估值的预期"
-    },
-    {
-      "title": "资本正在撤离“世界模型”",
-      "link": "https://www.qbitai.com/2026/11/508466.html",
+      "title": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
+      "link": "https://www.qbitai.com/2026/11/507843.html",
       "source": "量子位",
       "domain": "AI前沿",
-      "score": 78,
-      "reason": "指出细分技术路线的资本退潮，属于少有人注意但影响技术选型与就业方向的信号。",
-      "action": "仅观察，避免把学习/求职押注在退潮路线上"
+      "score": 80,
+      "reason": "开源模型+Agent工具组合的实测，与掘金Workbuddy帖交叉，属可上手的技术选型信息。",
+      "action": "本地/云端跑一次Hy4+WorkBuddy组合，评估替代闭源方案的成本"
     },
     {
-      "title": "10月末我国外汇储备规模为34052亿美元 黄金储备连续24个月增加",
-      "link": "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyakhh6631499.shtml",
+      "title": "中美关税延期两个月：178项产品豁免落地，出口链迎来缓冲窗口",
+      "link": "https://finance.sina.com.cn/stock/2026-11-10/doc-iniyexvn9507362.shtml",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "score": 78,
+      "reason": "具体豁免清单与时间窗口，对出口链相关股票判断有直接可操作性。",
+      "action": "查178项豁免清单，核对是否涉及关注行业/公司"
+    },
+    {
+      "title": "存储猛涨、汽车止跌、黄金回落，读懂10月物价关键信号",
+      "link": "https://finance.sina.com.cn/roll/2026-11-10/doc-iniyexvh6056058.shtml",
       "source": "新浪财经新闻",
       "domain": "财经",
       "score": 76,
-      "reason": "央行连续24个月增持黄金是持续性的资产配置信号，对个人大类资产配置有直接参考。",
-      "action": "检查自身组合中黄金/避险资产比例是否需调整"
+      "reason": "用物价结构变化读出行业景气拐点，是少有人细读但有投资价值的信息差。",
+      "action": "对照存储/汽车/黄金相关持仓做一次景气度复核"
     },
     {
-      "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-      "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
+      "title": "国家数据集团校招、社招都开了：总部雄安，这些技术岗值得认真看看",
+      "link": "https://juejin.cn/post/7704235293701914678",
+      "source": "掘金热文",
+      "domain": "技术趋势",
       "score": 74,
-      "reason": "PPI创四年新高而CPI放缓，是判断国内中下游企业利润与政策空间的关键宏观数据。",
-      "action": "仅观察，跟踪后续政策与相关行业盈利预期"
+      "reason": "直接命中职业与招聘用途，央企数据集团岗位信息具体可行动。",
+      "action": "打开岗位列表，筛选匹配的技术岗并评估投递"
     }
   ],
-  "noise_note": "排除了BLG/Faker等电竞热搜、明星八卦与黄仁勋私生活、火灾陨石等社会突发、纯带货与产品促销、以及同主题重复的AI融资与算力报道（各留信息量最大一条）。"
+  "noise_note": "排除了黄仁勋婚外情/间谍风波的多源重复八卦、花坛藏尸案与明星网红类纯流量热搜、双十一促销与数码新品导购，以及同主题重复的纳指/美股收盘快讯。"
 }
