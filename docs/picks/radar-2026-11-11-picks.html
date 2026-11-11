@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-11-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-11</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-11T04:12:24</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [财经] 纳指期货跳水！沃勒释放美联储“最鹰信号”：若通胀居高不下，12月应加息50基点，需收回此前“三次预防性降息”</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 美联储政策路径从降息急转为可能加息50bp，是今日全球资产定价的核心变量，直接影响股票、债券、基金仓位。</li>
+<li><strong>可行动作</strong>: 重估利率敏感型持仓（成长股、长久期债券、黄金），关注12月FOMC前的通胀与就业数据</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785652" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [财经] 美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: CPI数据是加息预期的直接触发因素，多源交叉（澎湃、新浪、CNBC）确认，信息差在于市场此前普遍押注降息。</li>
+<li><strong>可行动作</strong>: 对照自身组合的久期与beta暴露，考虑分批而非一次性调仓</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785664" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [财经] 冲击美国科技IPO融资纪录！Anthropic最高募资904亿美元、完全稀释估值1.4万亿美元</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: AI头部公司IPO定价是AI泡沫与算力资本开支周期的关键锚点，对投资与职业判断都有参考价值。</li>
+<li><strong>可行动作</strong>: 跟踪路演定价与基石认购情况，作为AI板块估值参照；关注招股书披露的算力成本结构</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785657" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [财经] 阿里巴巴：拟分拆平头哥在港股独立上市</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 国产AI芯片资产证券化，是算力自主链条的重要资本事件，CNBC同步报道形成交叉信号。</li>
+<li><strong>可行动作</strong>: 关注分拆估值与港股招股时间表，评估对阿里整体估值与国产芯片板块的传导</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785661" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [财经] CoreWeave季报暂缓AI放缓担忧：营收暴增168%、全年指引上调，但债务依然高企｜财报见闻</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: AI算力租赁龙头的财报是验证“AI资本开支是否见顶”的一手数据，营收与债务的背离值得注意。</li>
+<li><strong>可行动作</strong>: 对比其债务结构与客户集中度，作为判断算力租赁商业模式可持续性的样本</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785683" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [AI前沿] Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Agent经验学习框架属于可直接迁移到工程实践的方法论，契合用户对Agent与开发的学习需求。</li>
+<li><strong>可行动作</strong>: 阅读框架设计，评估能否用于自身Agent项目的记忆/经验沉淀模块</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/508998.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [AI前沿] 从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 开源触觉基础模型，与TechNode英文报道交叉出现，是具身智能可复用的开源资产。</li>
+<li><strong>可行动作</strong>: 查看开源仓库与模型卡，评估接入门槛；关注后续生态工具链</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/508996.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [科技商业] 一台机器 2000 万，隐秘的天价 GPU 生意 | 深氪 Lite</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 揭示GPU算力交易的灰色定价与流通链条，是理解算力成本与供给紧张的一手产业观察。</li>
+<li><strong>可行动作</strong>: 仅观察，作为判断算力租赁毛利与供给瓶颈的背景材料</li>
+<li><strong>来源</strong>: 36氪24h热榜 · <a href="https://www.36kr.com/p/4063602885039238" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [技术趋势] AI 正在蚕食我们的编码能力</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 直接关系开发者技能演进与职业竞争力，属于长期学习主题而非短期热点。</li>
+<li><strong>可行动作</strong>: 结合自身AI编码工具使用习惯，制定刻意练习计划保留核心调试与架构能力</li>
+<li><strong>来源</strong>: 掘金热文 · <a href="https://juejin.cn/post/7705961716425490447" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [科技数码] 首款「逻辑折叠」技术 τ 芯片：华为详解麒麟 9050 系列核心升级，晶体管密度暴涨 53.5%</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 国产芯片架构级创新细节，对判断国产算力路线与供应链有长期参考价值。</li>
+<li><strong>可行动作</strong>: 仅观察，记录架构路线作为芯片主题学习素材</li>
+<li><strong>来源</strong>: IT之家 · <a href="https://m.ithome.com/html/1024869.htm" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了微博/百度热搜的娱乐八卦、金鸡奖、地震、外卖摆拍等纯流量话题，以及雪球个股吹票帖和重复的加息快讯（只保留信息量最大的两条）。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. 纳指期货跳水！沃勒释放美联储“最鹰信号”：若通胀居高不下，12月应加息50基点，需收回此前“三次预防性降息”</h3>
+<h3>摘要</h3>
+<p>美联储理事沃勒发表迄今最强鹰派表态，明确支持12月加息，并为加息幅度设定数据门槛：若10月核心CPI环比涨幅在0.3%或更高，应在12月考虑加息50个基点；若通胀改善，则倾向加息25个基点。他强调当前通胀仍过高，美联储至少需要收回此前“三次预防性降息”，但不会将利率提高150或200个基点。沃勒发言后，现货黄金、纳指期货跳水，美元拉升，交易员完全消化12月加息25个基点的预期。文章同时提示，本次CPI报告因去年政府停摆导致同比数据无法计算，市场聚焦核心CPI环比。</p>
+<h3>为什么重要</h3>
+<p>对投资理财者而言，这是一条直接冲击全球风险资产定价的货币政策信号——加息预期升温会压制成长股（如纳指）和黄金，并推升美元，需关注持仓的利率敏感度。对职场与学习成长而言，它展示了“用明确数据门槛管理市场预期”的沟通方式，值得在决策与表达中借鉴。</p>
+<h3>值得记住</h3>
+<p>关键机制：沃勒把12月加息幅度与“核心CPI环比是否≥0.3%”直接挂钩——0.3%对应50基点、改善则25基点，用一个可观测数据替代模糊表态，从而重塑市场预期。</p>
+<hr>
+<h3>2. 美国10月核心CPI环比上涨0.3%超预期，12月加息50基点预期骤然升温</h3>
+<h3>摘要</h3>
+<p>美国10月核心CPI环比上涨0.3%、整体CPI环比上涨0.4%，双双超出市场预期，且70位分析师中仅1人预测到这一结果。数据公布后，市场对美联储12月加息的定价升至100%，其中加息50个基点的概率约为11%。住房、食品、能源分项全面升温，叠加美联储理事Waller此前明确表示&quot;核心CPI达0.3%就应考虑加息50基点&quot;，使12月会议的核心辩题从&quot;是否加息&quot;变为&quot;加25还是50个基点&quot;。美债应声遭抛售，2年至10年期收益率涨幅均超10个基点，10年期升至4.97%附近。</p>
+<h3>为什么重要</h3>
+<p>这是一份直接改变市场利率预期的通胀数据：对投资理财而言，它意味着美债收益率和美元资产的重新定价，也提示加息预期升温对全球风险资产的压制；对职业与学习而言，它展示了&quot;单一数据点+官员前瞻指引&quot;如何共同驱动市场定价，是理解宏观事件传导的典型案例。</p>
+<h3>值得记住</h3>
+<p>反常识点：70位分析师中仅1人预测到CPI超预期——共识预测几乎集体失准，说明此类通胀数据的可预测性极低，押注&quot;预期值&quot;本身风险很大。</p>
+<hr>
+<h3>3. 冲击美国科技IPO融资纪录！Anthropic最高募资904亿美元、完全稀释估值1.4万亿美元</h3>
+<h3>摘要</h3>
+<p>Anthropic 向 SEC 提交招股文件，计划通过 IPO 及同步私募配售合计募资最高 904 亿美元，完全稀释估值约 1.4 万亿美元，有望刷新美国科技公司 IPO 融资纪录。公司第三季度营收接近 170 亿美元、同比暴增，但运营支出跳升至 175 亿美元，重新陷入运营亏损。其总承诺支出高达 8950 亿美元（主要用于算力和芯片采购），收入却几乎完全依赖单一 AI 服务，商业化逻辑仍待验证。公司以公益公司架构上市并设&quot;长期利益信托&quot;，招股书同时明确警示 AI 的灾难性风险。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是检验市场对 AI 高估值与商业化前景接受度的标志性事件，且&quot;算力供应商同时是股东和客户&quot;的循环资本结构值得警惕；对职业与学习成长而言，它展示了前沿 AI 公司&quot;高增长、高支出、单一收入&quot;的典型财务画像，是理解 AI 产业经济学的鲜活样本。</p>
+<h3>值得记住</h3>
+<p>最反常识的一点：Anthropic 总承诺支出达 8950 亿美元，其中约 700 亿美元需在截至 2027 年 9 月的一年内支付——这一数字已超过标普 500 约三分之二成分公司的个别市值，而公司收入几乎全部来自单一 AI 业务。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>
