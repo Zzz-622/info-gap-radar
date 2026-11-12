@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-12-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-12</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-12T05:23:34</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [财经·海外] 英伟达董事会今日开会决定黄仁勋去留，已启动新CEO遴选与过渡方案</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 全球AI算力核心公司出现治理危机，直接牵动AI芯片供应链、算力成本与相关股票持仓，是今日最高信息密度事件。</li>
+<li><strong>可行动作</strong>: 关注董事会决议结果与盘后股价，评估自身AI/半导体相关持仓与算力采购合同风险</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785773" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [财经] Anthropic IPO认购数倍超额，目标估值1.4万亿美元；有投资人称这将是美股AI行情高点</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: AI头部公司IPO定价是判断AI资产泡沫位置的关键锚点，且与&#x27;做多中国AI&#x27;的对立观点形成可操作的分歧信号。</li>
+<li><strong>可行动作</strong>: 记录该估值作为AI板块情绪参照点，观察后续AI股与IPO定价的偏离</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785750" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [财经] Anthropic大清洗：Claude最严封号潮11月12日全面生效</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 直接影响所有用Claude API做产品或工作流的开发者，封号规则变化可能中断线上服务。</li>
+<li><strong>可行动作</strong>: 检查自有账号与API调用合规性，准备备用模型（Gemini/开源模型）做降级方案</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785747" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [科技·海外] CoreWeave财报解读：转向客户预付款与缩短合同来支撑AI扩张</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 新云厂商的融资结构变化是算力泡沫最真实的先行指标，比股价更能反映AI基建的真实需求强度。</li>
+<li><strong>可行动作</strong>: 作为算力/云板块投资与行业判断的观察指标，跟踪其应收账款与合同期限变化</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [科技商业] 高盛：全球AI只剩两个玩家</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 顶级投行对AI竞争格局的收敛判断，影响职业选择（去哪类AI公司）与投资配置方向。</li>
+<li><strong>可行动作</strong>: 阅读全文，对照自身技能与所在赛道判断是否处于&#x27;两个玩家&#x27;生态内</li>
+<li><strong>来源</strong>: 虎嗅网热文 · <a href="https://www.huxiu.com/article/4904329.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [科技·海外] 英国AI芯片公司Fractile获7.2亿美元融资、估值70亿美元，Anthropic成首批客户</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 英伟达之外的AI芯片新势力获大额融资且有头部模型公司背书，是芯片赛道多元化的早期信号。</li>
+<li><strong>可行动作</strong>: 加入芯片赛道跟踪清单，关注其技术路线与后续客户披露</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [科技商业] MiniMax开源H3 Image，被称为最强开源图像模型</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 开源多模态模型能力跃升，可直接用于降低产品中的图像生成成本，属于可立即试用的工具型信息。</li>
+<li><strong>可行动作</strong>: 本地或云端部署试用，评估替换现有闭源图像API的成本收益</li>
+<li><strong>来源</strong>: 36氪24h热榜 · <a href="https://www.36kr.com/p/4064758500660099" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [科技商业] Claude API新增&#x27;挡位&#x27;：对话中可临时调节AI努力程度</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 推理成本可控性提升，对做Agent产品的开发者是直接降本手段。</li>
+<li><strong>可行动作</strong>: 在现有调用中测试低挡位场景，量化token成本节省</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32271" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [科技商业] 谷歌Gemini新旗舰全面上线，一夜复刻OpenCode桌面应用</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 头部模型竞争加剧意味着能力与价格快速变化，是选型与技能更新的直接依据。</li>
+<li><strong>可行动作</strong>: 对比测试Gemini与当前主力模型在自身核心任务上的表现</li>
+<li><strong>来源</strong>: 36氪24h热榜 · <a href="https://www.36kr.com/p/4064780118463617" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [技术趋势] 你们公司有35岁以上的前端吗？</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 开发者职业生命周期话题，与职业规划用途直接相关，社区讨论含真实行业样本。</li>
+<li><strong>可行动作</strong>: 阅读评论区行业样本，反思自身技能护城河与转型方向</li>
+<li><strong>来源</strong>: 掘金热文 · <a href="https://juejin.cn/post/7706534471420461098" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了黄仁勋桃色丑闻的重复多源报道（仅保留治理与股价影响一条）、微博/百度娱乐与社会琐事热搜、体育赛事、消费促销与Product Hunt日常上新等纯流量内容。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. 英伟达董事会今日开会决定黄仁勋去留，已启动新CEO遴选与过渡方案</h3>
+<h3>摘要</h3>
+<p>英伟达董事会于周三召开会议，决定CEO黄仁勋的去留，并已与外部机构合作启动新CEO遴选，包括考虑任命过渡CEO。事件起因是黄仁勋卷入多起婚外情丑闻，其中最新一桩涉及直接下属，董事会已启动内部调查。消息引发市场剧烈反应，英伟达盘后股价一度重挫9%，并拖累其他AI概念股。调查核心焦点在于黄仁勋是否曾就相关关系向公司主动披露，这将成为董事会处分决定的关键依据。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是典型的&quot;关键人物风险&quot;事件——全球最高市值公司的领导人不确定性直接冲击AI赛道定价与资金链情绪，持仓相关资产需重估风险敞口。对职业与学习成长而言，它也是一堂公司治理课：创始人光环、董事会独立性、利益冲突披露义务如何在危机中接受检验。</p>
+<h3>值得记住</h3>
+<p>Polymarket数据显示，市场押注黄仁勋在2026年11月30日前离职的概率已升至86%，到2027年底达93%——预测市场对这类事件的定价速度远快于传统分析师评级。</p>
+<hr>
+<h3>2. Anthropic IPO认购数倍超额，目标估值1.4万亿美元；有投资人称这将是美股AI行情高点</h3>
+<h3>摘要</h3>
+<p>Anthropic即将进行的IPO获得数倍超额认购，认购需求主要来自机构投资者的大额锚定意向，而非分散的散户需求。公司计划通过IPO及私募配售合计募资最高904亿美元，有望成为史上规模最大的上市交易，完全摊薄估值目标约1.4万亿美元，略低于部分投资者此前预期。此次上市由高盛和摩根士丹利联席主承销，另有20家银行参与，股票将在纳斯达克以“ANT”为代码交易。公司正密集路演造势，CEO Dario Amodei将与摩根大通CEO Jamie Dimon同台对话。需注意，标题中“有投资人称这将是美股AI行情高点”的说法在正文中并未出现，原文未提供该信息。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是观察当前AI资产估值热度与一级市场资金拥挤程度的标志性事件，超额认购与保守定价策略的组合值得作为判断市场情绪的参照。对职业与学习成长而言，Anthropic作为头部AI公司的上市进程，也提示关注AI行业资本化节奏对就业与技能需求的影响。</p>
+<h3>值得记住</h3>
+<p>IPO与私募配售合计募资最高904亿美元，若完成将超越SpaceX预期IPO规模，成为有史以来最大规模上市交易；同时1.4万亿美元估值目标低于部分投资者此前预期，反映发行方在火热需求下仍采取保守定价策略。</p>
+<hr>
+<h3>3. Anthropic大清洗：Claude最严封号潮11月12日全面生效</h3>
+<h3>摘要</h3>
+<p>Anthropic宣布自11月12日起实施史上最严封号政策，从用户物理位置、企业注册地/总部、实际控制权三条红线限制非支持地区访问，并禁止通过消费级订阅转发API请求。新规还引入30天安全监控数据留存，通过行为规律而非瞬时IP识别违规账户。此举发生在Anthropic筹备IPO之际，招股书披露过去9个月有5%至7%的收入来自事后认定的违规客户。对开发者而言，轻则限速警告，重则永久封号，需紧急备份并寻找合规替代方案。</p>
+<h3>为什么重要</h3>
+<p>对依赖Claude API的开发者与内容/产品团队，这是一次合规与业务连续性的硬约束，需尽快排查账号与调用链路是否触碰三条红线；对关注AI赛道的投资者，Anthropic上市前主动&quot;清洗&quot;违规收入，短期影响收入口径，但意在换取更干净的招股书与更低的合规风险。</p>
+<h3>值得记住</h3>
+<p>过去9个月Anthropic有5%至7%的收入来自事后被认定为违规的客户——这是其上市前痛下杀手、主动牺牲短期收入的直接动因。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>
