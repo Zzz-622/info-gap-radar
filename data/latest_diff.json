@@ -1,1890 +1,2011 @@
 {
-  "ts": 1794461002,
-  "time": "2026-11-12T05:23:34",
+  "ts": 1794544699,
+  "time": "2026-11-13T04:38:31",
   "counts": {
-    "new": 518,
+    "new": 554,
     "updated": 60,
-    "alerts": 212
+    "alerts": 250
   },
   "new": [
     {
-      "id": "d4899755a080f4884fec38f0",
+      "id": "0cc0941f3e24fab2294e88c3",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "曝腾讯裁员传闻挤崩同事圈",
-      "link": "https://s.weibo.com/weibo?q=%E6%9B%9D%E8%85%BE%E8%AE%AF%E8%A3%81%E5%91%98%E4%BC%A0%E9%97%BB%E6%8C%A4%E5%B4%A9%E5%90%8C%E4%BA%8B%E5%9C%88",
+      "title": "男子失业断供与银行协商还贷被拒",
+      "link": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E5%A4%B1%E4%B8%9A%E6%96%AD%E4%BE%9B%E4%B8%8E%E9%93%B6%E8%A1%8C%E5%8D%8F%E5%95%86%E8%BF%98%E8%B4%B7%E8%A2%AB%E6%8B%92",
       "extra": {
-        "hot": "348万",
-        "hot_num": 3480000.0
+        "hot": "115万",
+        "hot_num": 1150000.0
       }
     },
     {
-      "id": "221098e94fb5b0c00685a66b",
+      "id": "19fc8dca063100f554e52284",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "后会友期",
-      "link": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F",
+      "title": "中国正在编织这样一张大网",
+      "link": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E6%AD%A3%E5%9C%A8%E7%BC%96%E7%BB%87%E8%BF%99%E6%A0%B7%E4%B8%80%E5%BC%A0%E5%A4%A7%E7%BD%91",
       "extra": {
-        "hot": "166万",
-        "hot_num": 1660000.0
+        "hot": "67万",
+        "hot_num": 670000.0
       }
     },
     {
-      "id": "25acbe9951a3c1b0591acb68",
+      "id": "12b9bf2b2eab6029244cb7d0",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "何以中国壮美八桂",
-      "link": "https://s.weibo.com/weibo?q=%E4%BD%95%E4%BB%A5%E4%B8%AD%E5%9B%BD%E5%A3%AE%E7%BE%8E%E5%85%AB%E6%A1%82",
+      "title": "北汽星钽5X上市焕新价12.69万元起",
+      "link": "https://s.weibo.com/weibo?q=%E5%8C%97%E6%B1%BD%E6%98%9F%E9%92%BD5X%E4%B8%8A%E5%B8%82%E7%84%95%E6%96%B0%E4%BB%B712.69%E4%B8%87%E5%85%83%E8%B5%B7",
       "extra": {
-        "hot": "88万",
-        "hot_num": 880000.0
+        "hot": "66万",
+        "hot_num": 660000.0
       }
     },
     {
-      "id": "8730bfef178c30645a020db2",
+      "id": "05a92f773b5d3a9a616f8658",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "女孩没带课本被老师打到抽搐倒地",
-      "link": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%A9%E6%B2%A1%E5%B8%A6%E8%AF%BE%E6%9C%AC%E8%A2%AB%E8%80%81%E5%B8%88%E6%89%93%E5%88%B0%E6%8A%BD%E6%90%90%E5%80%92%E5%9C%B0",
+      "title": "张萌后悔叫马天宇上节目",
+      "link": "https://s.weibo.com/weibo?q=%E5%BC%A0%E8%90%8C%E5%90%8E%E6%82%94%E5%8F%AB%E9%A9%AC%E5%A4%A9%E5%AE%87%E4%B8%8A%E8%8A%82%E7%9B%AE",
       "extra": {
-        "hot": "80万",
-        "hot_num": 800000.0
+        "hot": "66万",
+        "hot_num": 660000.0
       }
     },
     {
-      "id": "09eaa8a7ff3148013eda88fd",
+      "id": "bb0bd613eebdc768de619707",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "没想到节目也爆了",
-      "link": "https://s.weibo.com/weibo?q=%E6%B2%A1%E6%83%B3%E5%88%B0%E8%8A%82%E7%9B%AE%E4%B9%9F%E7%88%86%E4%BA%86",
+      "title": "微软Outlook服务宕机",
+      "link": "https://s.weibo.com/weibo?q=%E5%BE%AE%E8%BD%AFOutlook%E6%9C%8D%E5%8A%A1%E5%AE%95%E6%9C%BA",
       "extra": {
-        "hot": "64万",
-        "hot_num": 640000.0
+        "hot": "54万",
+        "hot_num": 540000.0
       }
     },
     {
-      "id": "83cbb9355016c1b8d3e8000a",
+      "id": "76ce23439d9aa8a49bb26d76",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "青稚在马天宇怀里大哭",
-      "link": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E5%9C%A8%E9%A9%AC%E5%A4%A9%E5%AE%87%E6%80%80%E9%87%8C%E5%A4%A7%E5%93%AD",
+      "title": "王子璇白小纯4公里开了三小时",
+      "link": "https://s.weibo.com/weibo?q=%E7%8E%8B%E5%AD%90%E7%92%87%E7%99%BD%E5%B0%8F%E7%BA%AF4%E5%85%AC%E9%87%8C%E5%BC%80%E4%BA%86%E4%B8%89%E5%B0%8F%E6%97%B6",
       "extra": {
-        "hot": "60万",
-        "hot_num": 600000.0
+        "hot": "54万",
+        "hot_num": 540000.0
       }
     },
     {
-      "id": "257b22d130cf4699028a84e9",
+      "id": "8a6d73231513ffc792b6764a",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "韩红基金会回应张雪改口",
-      "link": "https://s.weibo.com/weibo?q=%E9%9F%A9%E7%BA%A2%E5%9F%BA%E9%87%91%E4%BC%9A%E5%9B%9E%E5%BA%94%E5%BC%A0%E9%9B%AA%E6%94%B9%E5%8F%A3",
+      "title": "后会友期接人vs花少接人",
+      "link": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E6%8E%A5%E4%BA%BAvs%E8%8A%B1%E5%B0%91%E6%8E%A5%E4%BA%BA",
       "extra": {
-        "hot": "49万",
-        "hot_num": 490000.0
+        "hot": "54万",
+        "hot_num": 540000.0
       }
     },
     {
-      "id": "6688b0ec8cb48df9a85d33e9",
+      "id": "f73b043d17aa7bf83a120973",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "冰尘25岁生日手写信",
-      "link": "https://s.weibo.com/weibo?q=%E5%86%B0%E5%B0%9825%E5%B2%81%E7%94%9F%E6%97%A5%E6%89%8B%E5%86%99%E4%BF%A1",
+      "title": "高中生困电梯2小时被让等物业上班",
+      "link": "https://s.weibo.com/weibo?q=%E9%AB%98%E4%B8%AD%E7%94%9F%E5%9B%B0%E7%94%B5%E6%A2%AF2%E5%B0%8F%E6%97%B6%E8%A2%AB%E8%AE%A9%E7%AD%89%E7%89%A9%E4%B8%9A%E4%B8%8A%E7%8F%AD",
       "extra": {
-        "hot": "48万",
-        "hot_num": 480000.0
+        "hot": "54万",
+        "hot_num": 540000.0
       }
     },
     {
-      "id": "ba39dc688a13feb0996548b2",
+      "id": "72d8d696de43f0cf01adb476",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "有比亚迪车主开3个月才发现轮辋装反",
-      "link": "https://s.weibo.com/weibo?q=%E6%9C%89%E6%AF%94%E4%BA%9A%E8%BF%AA%E8%BD%A6%E4%B8%BB%E5%BC%803%E4%B8%AA%E6%9C%88%E6%89%8D%E5%8F%91%E7%8E%B0%E8%BD%AE%E8%BE%8B%E8%A3%85%E5%8F%8D",
+      "title": "7碗米饭摆拍到底骗了多少善意",
+      "link": "https://s.weibo.com/weibo?q=7%E7%A2%97%E7%B1%B3%E9%A5%AD%E6%91%86%E6%8B%8D%E5%88%B0%E5%BA%95%E9%AA%97%E4%BA%86%E5%A4%9A%E5%B0%91%E5%96%84%E6%84%8F",
       "extra": {
-        "hot": "48万",
-        "hot_num": 480000.0
+        "hot": "53万",
+        "hot_num": 530000.0
       }
     },
     {
-      "id": "f653c3448c9f27074ec2f901",
+      "id": "3942000f3e37921fcf35ffef",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "库里回应妻子拍吻戏遭抨击",
-      "link": "https://s.weibo.com/weibo?q=%E5%BA%93%E9%87%8C%E5%9B%9E%E5%BA%94%E5%A6%BB%E5%AD%90%E6%8B%8D%E5%90%BB%E6%88%8F%E9%81%AD%E6%8A%A8%E5%87%BB",
+      "title": "普通人用AI和会用AI的人",
+      "link": "https://s.weibo.com/weibo?q=%E6%99%AE%E9%80%9A%E4%BA%BA%E7%94%A8AI%E5%92%8C%E4%BC%9A%E7%94%A8AI%E7%9A%84%E4%BA%BA",
       "extra": {
-        "hot": "48万",
-        "hot_num": 480000.0
+        "hot": "53万",
+        "hot_num": 530000.0
       }
     },
     {
-      "id": "1cfa004ab1bf4830e673eb88",
+      "id": "4cafbaed48a315e42afa2bce",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "纯稚",
-      "link": "https://s.weibo.com/weibo?q=%E7%BA%AF%E7%A8%9A",
+      "title": "黄仁勋辞职马斯克回应",
+      "link": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E8%BE%9E%E8%81%8C%E9%A9%AC%E6%96%AF%E5%85%8B%E5%9B%9E%E5%BA%94",
       "extra": {
-        "hot": "48万",
-        "hot_num": 480000.0
+        "hot": "53万",
+        "hot_num": 530000.0
       }
     },
     {
-      "id": "dd505ad52f0d7c66b40d357a",
+      "id": "d6071425d306ff9dcdba5e6f",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "高迪曾称她给我生了仨孩子我该挨骂",
-      "link": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%BF%AA%E6%9B%BE%E7%A7%B0%E5%A5%B9%E7%BB%99%E6%88%91%E7%94%9F%E4%BA%86%E4%BB%A8%E5%AD%A9%E5%AD%90%E6%88%91%E8%AF%A5%E6%8C%A8%E9%AA%82",
+      "title": "金晨发文秒删",
+      "link": "https://s.weibo.com/weibo?q=%E9%87%91%E6%99%A8%E5%8F%91%E6%96%87%E7%A7%92%E5%88%A0",
       "extra": {
-        "hot": "48万",
-        "hot_num": 480000.0
+        "hot": "52万",
+        "hot_num": 520000.0
       }
     },
     {
-      "id": "bb3cdd529903265e7f548408",
+      "id": "feb7f43abbb3349b7d73acd9",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "别让玩梗毁掉一个名字",
-      "link": "https://s.weibo.com/weibo?q=%E5%88%AB%E8%AE%A9%E7%8E%A9%E6%A2%97%E6%AF%81%E6%8E%89%E4%B8%80%E4%B8%AA%E5%90%8D%E5%AD%97",
+      "title": "黄仁勋离职后硅谷会掀起抢人潮吗",
+      "link": "https://s.weibo.com/weibo?q=%E9%BB%84%E4%BB%81%E5%8B%8B%E7%A6%BB%E8%81%8C%E5%90%8E%E7%A1%85%E8%B0%B7%E4%BC%9A%E6%8E%80%E8%B5%B7%E6%8A%A2%E4%BA%BA%E6%BD%AE%E5%90%97",
       "extra": {
-        "hot": "48万",
-        "hot_num": 480000.0
+        "hot": "52万",
+        "hot_num": 520000.0
       }
     },
     {
-      "id": "041ba9f0738cd2f781f049fd",
+      "id": "256e0451b32b38afe5791243",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "曝女子推理社3首录全阵容",
-      "link": "https://s.weibo.com/weibo?q=%E6%9B%9D%E5%A5%B3%E5%AD%90%E6%8E%A8%E7%90%86%E7%A4%BE3%E9%A6%96%E5%BD%95%E5%85%A8%E9%98%B5%E5%AE%B9",
+      "title": "减重多样选择",
+      "link": "https://s.weibo.com/weibo?q=%E5%87%8F%E9%87%8D%E5%A4%9A%E6%A0%B7%E9%80%89%E6%8B%A9",
       "extra": {
-        "hot": "48万",
-        "hot_num": 480000.0
+        "hot": "52万",
+        "hot_num": 520000.0
       }
     },
     {
-      "id": "ee620232abdcada92aced101",
+      "id": "6ecd19206f3ba6fc9666691b",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "大美高迪已无商业关联",
-      "link": "https://s.weibo.com/weibo?q=%E5%A4%A7%E7%BE%8E%E9%AB%98%E8%BF%AA%E5%B7%B2%E6%97%A0%E5%95%86%E4%B8%9A%E5%85%B3%E8%81%94",
+      "title": "曝汤臣二公子和90花隐婚",
+      "link": "https://s.weibo.com/weibo?q=%E6%9B%9D%E6%B1%A4%E8%87%A3%E4%BA%8C%E5%85%AC%E5%AD%90%E5%92%8C90%E8%8A%B1%E9%9A%90%E5%A9%9A",
       "extra": {
-        "hot": "48万",
-        "hot_num": 480000.0
+        "hot": "51万",
+        "hot_num": 510000.0
       }
     },
     {
-      "id": "f9e49d465350a18c4b375bf8",
+      "id": "8c0d0ee6c610689c899863d1",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "澎湃回声｜山东临沂回应“非标农用地膜”涉嫌违法产销问题：已依法立案调查",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34453548",
+      "title": "详讯丨纪念孙中山先生诞辰160周年大会在京举行，习近平发表重要讲话",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34458812",
       "extra": {
         "hot": "1.",
         "hot_num": 1.0
       }
     },
     {
-      "id": "8c9e97dd899a49ece42afb04",
+      "id": "f65edb539d57d695083754b9",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "见微知沪｜上海交警英语执法“走红”，值得点赞的不只是口语",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34453911",
+      "title": "证监会：汇聚各方合力，全力维护市场平稳运行",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34458880",
       "extra": {
         "hot": "2.",
         "hot_num": 2.0
       }
     },
     {
-      "id": "10ffb72e8f86cc14847c675d",
+      "id": "d2644418922b96165054d384",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "原四川长虹电子集团有限公司党委书记、董事局主席倪润峰逝世",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34455672",
+      "title": "重庆梁平：“饭店老板为连吃7碗米饭母女放钱”视频系摆拍，已立案调查",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34459574",
       "extra": {
         "hot": "3.",
         "hot_num": 3.0
       }
     },
     {
-      "id": "997a2dd93e10480142ac0e17",
+      "id": "f78b1944aac72bb463224aae",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "媒体：四年跑步570公里才能毕业？四川一高校回应",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34455512",
+      "title": "秋假催热11月旅游淡季：主题乐园被“挤爆”，研学团陆续出发",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34459298",
       "extra": {
         "hot": "4.",
         "hot_num": 4.0
       }
     },
     {
-      "id": "ff86d02d02986b6d9c149884",
+      "id": "ee382e2cc627587874d19cbe",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "央媒起底MCN机构“暴力起号”套路，四川宜宾成立调查组",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34453975",
+      "title": "刘欢已在北京安葬，妻子卢璐发文",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34462488",
       "extra": {
         "hot": "5.",
         "hot_num": 5.0
       }
     },
     {
-      "id": "fbcc615955a1563866b98770",
+      "id": "6a2d453ad03af20b2e597d03",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "马上评丨流量剧本背后怎么总有MCN机构的身影",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34451739",
+      "title": "“上海交警英文执法”出圈背后：“申城第一岗”有了00后接棒",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34460458",
       "extra": {
         "hot": "6.",
         "hot_num": 6.0
       }
     },
     {
-      "id": "3537831ede9085d478d78999",
+      "id": "016ace41d40a04296a034a06",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "伊朗女性参加“为伊朗捐躯”培训：随时准备为国献身",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34453188",
+      "title": "言短意长｜“闹哄哄”的乡政府大院为何感动人",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34462683",
       "extra": {
         "hot": "7.",
         "hot_num": 7.0
       }
     },
     {
-      "id": "6b6f437ca2fe70e96786cf06",
+      "id": "b09997868c23a3c5e16d8597",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "用英文丝滑执法的交警找到了，他说“中国警察在英语执法上是有能力的”",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34452595",
+      "title": "“甲醛白菜”案等18起涉食品安全重大犯罪案件被挂牌督办",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34459136",
       "extra": {
         "hot": "8.",
         "hot_num": 8.0
       }
     },
     {
-      "id": "6e32e87bb751567e97887b12",
+      "id": "fd63a2b70150de9eb4867f17",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "00后女作家被判定涉嫌洗稿，《人民文学》再度声明追回稿酬并向读者致歉",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34458009",
+      "title": "克雷斯就任英伟达临时首席执行官",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34463141",
       "extra": {
         "hot": "9.",
         "hot_num": 9.0
       }
     },
     {
-      "id": "eff657bbe2ce3e8cf3f823f7",
+      "id": "a00375128408126af31c0bf0",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "泽连斯基：虽说可能不礼貌，但我的工作不是哄特朗普开心",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34453537",
+      "title": "赵丽颖起诉红果和抖音，律师：关键是公众能不能认出这个AI人像赵丽颖",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34458622",
       "extra": {
         "hot": "10.",
         "hot_num": 10.0
       }
     },
     {
-      "id": "3334c242743e1910844537a4",
+      "id": "d124a46cb1b58acf09acb188",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "业内人士谈金鸡奖获奖名单：不能以一时的流量热度取代艺术判断",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34455070",
-      "extra": {
-        "hot": "11.",
-        "hot_num": 11.0
-      }
-    },
-    {
-      "id": "728e8be52eeae9755240869f",
-      "source": "澎湃热榜",
-      "domain": "新闻时政",
-      "title": "2026年中央八项规定精神贯彻执行情况网络调查问卷正式开启",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34454123",
+      "title": "德芙旗舰店礼盒广告宣扬错误婚恋观，被罚80万元",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34458875",
       "extra": {
         "hot": "12.",
         "hot_num": 12.0
       }
     },
     {
-      "id": "3835b271d78942a7ce93e3cb",
+      "id": "da8fe22f1a4114be9ab0e7f5",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "中方领导人APEC期间是否会与日本首相举行会晤？外交部回应",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34452494",
+      "title": "观察｜俄美要重画欧洲安全版图？乌克兰和欧洲为何坐不住了",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34460800",
       "extra": {
         "hot": "13.",
         "hot_num": 13.0
       }
     },
     {
-      "id": "7809a7f88c01556e2986f850",
+      "id": "87eb09c41bcded7d1e18b217",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "伊朗公布新建地下“导弹城”，隧道内摆满各种导弹",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34452199",
+      "title": "媒体：东莞卫健局介入“患者欠费扣医生钱”事件，责成立即停止",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34459166",
       "extra": {
         "hot": "14.",
         "hot_num": 14.0
       }
     },
     {
-      "id": "5410af8771a2ec4fcdbea808",
+      "id": "29e187ac3d803e030c88e2c1",
       "source": "澎湃热榜",
       "domain": "新闻时政",
-      "title": "香港名媛蔡天凤碎尸案有重大进展：前夫被当庭指认为凶手",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34454757",
+      "title": "罗大友被打假后仍以茶文化专业委员会主任身份出席活动，该机构介入调查",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34458811",
       "extra": {
         "hot": "15.",
         "hot_num": 15.0
       }
     },
     {
-      "id": "b4cdefa1a7b7483b973f55da",
+      "id": "ab196541e91a97baac5bd889",
+      "source": "澎湃热榜",
+      "domain": "新闻时政",
+      "title": "地标是如何炼成的｜宽窄巷子里，他们的川剧表演曾让诺奖得主着迷",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34445056",
+      "extra": {
+        "hot": "16.",
+        "hot_num": 16.0
+      }
+    },
+    {
+      "id": "1700f7dc4fe6c8e1276ff34a",
       "source": "华尔街见闻",
       "domain": "财经",
-      "title": "黄仁勋再曝新婚外情，董事会准备罢免！英伟达盘后跌幅达8%",
-      "link": "https://wallstreetcn.com/articles/3785765",
+      "title": "黄仁勋下台有何影响？市场给出答案：博通、AMD大涨，CoreWeave、Nebius承压，费半指数微跌",
+      "link": "https://wallstreetcn.com/articles/3785829",
       "extra": {
-        "hot": "25.0万",
-        "hot_num": 250000.0
+        "hot": "51.5万",
+        "hot_num": 515000.0
       }
     },
     {
-      "id": "018277a229e1e6805a0c97a7",
+      "id": "2b52cf200827da7db05e184e",
       "source": "华尔街见闻",
       "domain": "财经",
-      "title": "AI交易重燃，美股指反弹，CoreWeave飙升24%，美元续涨，黄金跌破4000",
-      "link": "https://wallstreetcn.com/articles/3785732",
+      "title": "黄仁勋辞职叠加油价走强，美股承压，英伟达市值一度跌破4万亿，美债、黄金遭抛售",
+      "link": "https://wallstreetcn.com/articles/3785806",
       "extra": {
-        "hot": "18.8万",
-        "hot_num": 188000.0
+        "hot": "21.2万",
+        "hot_num": 212000.0
       }
     },
     {
-      "id": "9684a772edf236c1013f347f",
+      "id": "d53304ce1552f2828c637c46",
       "source": "华尔街见闻",
       "domain": "财经",
-      "title": "今日开会决定“黄仁勋是否下台”！英伟达董事会已开始遴选新CEO，考虑任命过渡CEO",
-      "link": "https://wallstreetcn.com/articles/3785773",
+      "title": "“拯救黄仁勋”！马斯克等硅谷大佬集体声援：调查结束前不应解雇",
+      "link": "https://wallstreetcn.com/articles/3785804",
       "extra": {
-        "hot": "13.2万",
-        "hot_num": 132000.0
+        "hot": "18.4万",
+        "hot_num": 184000.0
       }
     },
     {
-      "id": "53eac2af465fb896f53817a2",
+      "id": "9638f263aabaef05d39718c2",
       "source": "华尔街见闻",
       "domain": "财经",
-      "title": "华尔街见闻早餐FM-Radio | 2026年11月12日",
-      "link": "https://wallstreetcn.com/articles/3785764",
+      "title": "英伟达关于黄仁勋辞职及领导团队调整的声明全文",
+      "link": "https://wallstreetcn.com/articles/3785832",
       "extra": {
-        "hot": "11.1万",
-        "hot_num": 111000.0
+        "hot": "13.0万",
+        "hot_num": 130000.0
       }
     },
     {
-      "id": "805f50f7b10b830a07363f73",
+      "id": "2e1ffce1ad940531d571b110",
       "source": "华尔街见闻",
       "domain": "财经",
-      "title": "英伟达美股盘后跳水，媒体报道称：黄仁勋曾与英伟达高管有过婚外情",
-      "link": "https://wallstreetcn.com/articles/3785762",
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月13日",
+      "link": "https://wallstreetcn.com/articles/3785833",
       "extra": {
-        "hot": "8.5万",
-        "hot_num": 85000.0
+        "hot": "10.1万",
+        "hot_num": 101000.0
       }
     },
     {
-      "id": "fb5ccbcdfbc714b90d480f7d",
+      "id": "9aa1930b4c0443b3d391c581",
       "source": "华尔街见闻",
       "domain": "财经",
-      "title": "Anthropic IPO遭疯抢！认购需求数倍超额，目标估值1.4万亿美元",
-      "link": "https://wallstreetcn.com/articles/3785750",
+      "title": "苏姿丰、库克、陈立武…谁能接黄仁勋的班？“Nobody”！分权或是更好的解法",
+      "link": "https://wallstreetcn.com/articles/3785791",
       "extra": {
-        "hot": "6.1万",
-        "hot_num": 61000.0
+        "hot": "8.0万",
+        "hot_num": 80000.0
       }
     },
     {
-      "id": "9d1befbf1be08bacca62131f",
+      "id": "81e11d704154c905aa0763f0",
       "source": "华尔街见闻",
       "domain": "财经",
-      "title": "Anthropic大清洗：Claude最严封号潮来了！11月12日全面生效",
-      "link": "https://wallstreetcn.com/articles/3785747",
+      "title": "特朗普称美国不需要与伊朗达成协议，油价直线拉升",
+      "link": "https://wallstreetcn.com/articles/3785827",
       "extra": {
-        "hot": "6.1万",
-        "hot_num": 61000.0
+        "hot": "7.8万",
+        "hot_num": 78000.0
       }
     },
     {
-      "id": "cc6449e4517fd91698f9a084",
+      "id": "8981b8158ad831873752c049",
       "source": "华尔街见闻",
       "domain": "财经",
-      "title": "光回来了？微软发声，CPO概念集体沸腾！",
-      "link": "https://wallstreetcn.com/articles/3785709",
+      "title": "失去黄仁勋，英伟达会怎样？",
+      "link": "https://wallstreetcn.com/articles/3785823",
       "extra": {
-        "hot": "6.0万",
-        "hot_num": 60000.0
+        "hot": "7.6万",
+        "hot_num": 76000.0
       }
     },
     {
-      "id": "c174d9e7eba5fe86dfee1f4f",
+      "id": "fc5ce4f0a45186376ead9bc6",
       "source": "华尔街见闻",
       "domain": "财经",
-      "title": "俄美乌三方会谈第二天：不到两小时结束，核心分歧依然难解",
-      "link": "https://wallstreetcn.com/articles/3785738",
+      "title": "伯恩斯坦：为什么现在绝对不能抄底英伟达？",
+      "link": "https://wallstreetcn.com/articles/3785817",
       "extra": {
-        "hot": "6.0万",
-        "hot_num": 60000.0
+        "hot": "6.8万",
+        "hot_num": 68000.0
       }
     },
     {
-      "id": "a4248a7e11a01ca0ed96330f",
+      "id": "179c9d9a1fa64a2f97dc118f",
       "source": "华尔街见闻",
       "domain": "财经",
-      "title": "科技老将：Anthropic IPO将是美股AI行情高点，有条件会“大举做多中国AI”",
-      "link": "https://wallstreetcn.com/articles/3785720",
-      "extra": {
-        "hot": "5.3万",
-        "hot_num": 53000.0
-      }
-    },
-    {
-      "id": "6a30eefe36b260d868eb7f6f",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "title": "中日领导人是否将在APEC峰会期间会晤？外交部回应",
-      "link": "https://finance.sina.com.cn/china/2026-11-11/doc-iniyixxz1890596.shtml",
-      "extra": {
-        "hot": "7,348",
-        "hot_num": 7348.0
-      }
-    },
-    {
-      "id": "0dc5b9416d29d2ba2c0c0f20",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "title": "一艘装载约4万吨俄罗斯柴油、原计划驶往美国纽约的油轮途中停航，目前在北大西洋，下一步航向不明",
-      "link": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyipka5301551.shtml",
-      "extra": {
-        "hot": "6,443",
-        "hot_num": 6443.0
-      }
-    },
-    {
-      "id": "f9a445a03efe90dd69f5e10f",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "title": "万亿赛道，利好来了！北京，最新发布！",
-      "link": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniykehe9122897.shtml",
-      "extra": {
-        "hot": "5,146",
-        "hot_num": 5146.0
-      }
-    },
-    {
-      "id": "f51101d09cac69338c7d8d61",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "title": "27只滞涨科技股三季报业绩高增 部分公司拟大举回购",
-      "link": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyiiak8680190.shtml",
-      "extra": {
-        "hot": "4,268",
-        "hot_num": 4268.0
-      }
-    },
-    {
-      "id": "0e1d6f16fbb39008fd12f5b9",
-      "source": "雪球热帖",
-      "domain": "财经",
-      "title": "A股上市企业都是周期股？不值得投资？",
-      "link": "http://www.xueqiu.com/1843761023/416349240",
-      "extra": {
-        "hot": "1.",
-        "hot_num": 1.0
-      }
-    },
-    {
-      "id": "d31819055344f2768141b6c5",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "title": "8点1氪丨黄仁勋已回英伟达上班，就最近的风波向员工致歉；贾国龙质押西贝全部股份；Anthropic IPO获数倍超额认购",
-      "link": "https://www.36kr.com/p/4066019497464960",
-      "extra": {
-        "hot": "1.",
-        "hot_num": 1.0
-      }
-    },
-    {
-      "id": "f7b0d6ce9539b2fdbde6227c",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "title": "突发，Anthropic大清洗：Claude最严封号潮来了，11月12日全面生效",
-      "link": "https://www.36kr.com/p/4065245506917251",
-      "extra": {
-        "hot": "3.",
-        "hot_num": 3.0
-      }
-    },
-    {
-      "id": "63ba733882b7d68104ac6346",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "title": "奇袭Claude，谷歌Gemini新旗舰全面上线，一夜复刻OpenCode桌面应用",
-      "link": "https://www.36kr.com/p/4064780118463617",
-      "extra": {
-        "hot": "4.",
-        "hot_num": 4.0
-      }
-    },
-    {
-      "id": "41af5a249ac237aa5b31ca7c",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "title": "Claude 上线白板和表格，把打工人当甲方伺候",
-      "link": "https://www.36kr.com/p/4064759599683206",
-      "extra": {
-        "hot": "5.",
-        "hot_num": 5.0
-      }
-    },
-    {
-      "id": "75073f8aec6c6c6142034749",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "title": "M6 MacBook Pro 体验：38 块的灵魂，一万五的身体",
-      "link": "https://www.36kr.com/p/4064837927441288",
-      "extra": {
-        "hot": "6.",
-        "hot_num": 6.0
-      }
-    },
-    {
-      "id": "0711209a7c925df4e6dfde9c",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "title": "澎程放量、问界腰斩，增程车的出路在哪？",
-      "link": "https://www.36kr.com/p/4065145780441985",
-      "extra": {
-        "hot": "7.",
-        "hot_num": 7.0
-      }
-    },
-    {
-      "id": "b622eb5cdfe78660ef37df4d",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "title": "突发，「源神」 MiniMax 开源H3 Image，最强开源模型中国造",
-      "link": "https://www.36kr.com/p/4064758500660099",
-      "extra": {
-        "hot": "8.",
-        "hot_num": 8.0
-      }
-    },
-    {
-      "id": "9d3f4f8307d39cfb1adde22a",
-      "source": "虎嗅网热文",
-      "domain": "科技商业",
-      "title": "高盛：全球AI只剩两个玩家",
-      "link": "https://www.huxiu.com/article/4904329.html",
-      "extra": {
-        "hot": "5.",
-        "hot_num": 5.0
-      }
-    },
-    {
-      "id": "7419f60754ba0c8706e69990",
-      "source": "虎嗅网热文",
-      "domain": "科技商业",
-      "title": "牛肉自由，到头了",
-      "link": "https://www.huxiu.com/article/4904308.html",
-      "extra": {
-        "hot": "7.",
-        "hot_num": 7.0
-      }
-    },
-    {
-      "id": "9981bbc4092c107dbe8f27e4",
-      "source": "虎嗅网热文",
-      "domain": "科技商业",
-      "title": "赛博义父终于扛不住了",
-      "link": "https://www.huxiu.com/article/4904580.html",
-      "extra": {
-        "hot": "9.",
-        "hot_num": 9.0
-      }
-    },
-    {
-      "id": "3d19f0305a0abed047906fa2",
-      "source": "虎嗅网热文",
-      "domain": "科技商业",
-      "title": "每天白送3000碗面，零元面馆，逼退隔壁15年老店？",
-      "link": "https://www.huxiu.com/article/4903838.html",
-      "extra": {
-        "hot": "11.",
-        "hot_num": 11.0
-      }
-    },
-    {
-      "id": "4a75d51cc1f2fc8e062e4b09",
-      "source": "虎嗅网热文",
-      "domain": "科技商业",
-      "title": "消费三姐妹，为什么不香了？",
-      "link": "https://www.huxiu.com/article/4904005.html",
-      "extra": {
-        "hot": "14.",
-        "hot_num": 14.0
-      }
-    },
-    {
-      "id": "e1601762649af9da378c219e",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "title": "Anthropic 发布 MAMUBench：多智能体团队协作为何常常「一盘散沙」？",
-      "link": "https://www.aibase.com/zh/news/32270",
-      "extra": {
-        "hot": "1.",
-        "hot_num": 1.0
-      }
-    },
-    {
-      "id": "f7f3259f2f33079592bea65c",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "title": "Runway 开源 27B 世界动作模型 Praxis-1：登顶机器人权威榜单，全面支持 Apache 2.0 商业开源",
-      "link": "https://www.aibase.com/zh/news/32267",
-      "extra": {
-        "hot": "2.",
-        "hot_num": 2.0
-      }
-    },
-    {
-      "id": "efe7a7997006609feab9e21a",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "title": "同一段 DNA，在不同细胞里命运不同：AlphaGenome 2 把预测拉到细胞级",
-      "link": "https://www.aibase.com/zh/news/32261",
-      "extra": {
-        "hot": "3.",
-        "hot_num": 3.0
-      }
-    },
-    {
-      "id": "07258a0d6c1266d94017bdf1",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
-      "link": "https://www.qbitai.com/2026/11/509146.html",
-      "extra": {
-        "hot": "1.",
-        "hot_num": 1.0
-      }
-    },
-    {
-      "id": "c0a9097e1dc52489a7cb99f4",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "title": "从“卖Token”到“卖结果” | 科技有「联想」沙龙激辩Token经济三大议题",
-      "link": "https://www.qbitai.com/2026/11/509088.html",
-      "extra": {
-        "hot": "2.",
-        "hot_num": 2.0
-      }
-    },
-    {
-      "id": "e47e44f38bf4cf4efa452e49",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
-      "link": "https://www.qbitai.com/2026/11/509085.html",
-      "extra": {
-        "hot": "3.",
-        "hot_num": 3.0
-      }
-    },
-    {
-      "id": "3abb071d47806a0199f79e97",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "title": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光",
-      "link": "https://www.qbitai.com/2026/11/509052.html",
-      "extra": {
-        "hot": "4.",
-        "hot_num": 4.0
-      }
-    },
-    {
-      "id": "7ec67a529c07de5b52ee0ce1",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "title": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
-      "link": "https://www.qbitai.com/2026/11/509032.html",
-      "extra": {
-        "hot": "5.",
-        "hot_num": 5.0
-      }
-    },
-    {
-      "id": "c7fdb64d7ca6bb8a80914a73",
-      "source": "GoogleNews·AI",
-      "domain": "AI前沿",
-      "title": "New research could lead to faster, trustworthy AI models for climate prediction - MIT News",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOWdxak9ZS1dSck1Bd2V1ZG1IaU1GbWZBUGtuN3VVaS13TjJCQmZfTkxmdE9DUmFZZW9EbGw1Rkc0V3JsVG9DLS1jOVZ2Y2p3TGpiMjlTcm9nTURTWndqaVUxODNSYjUwbVQwZC04cGRwUnZvVWZMQ3NEcDdSSl9BUWlPaU9PNmZNMDIxbmozLXQ5TVhHTFhBNlg1TTdyQ183eU5Fdw?oc=5",
-      "extra": {
-        "desc": "New research could lead to faster, trustworthy AI models for climate prediction&nbsp;&nbsp;MIT News",
-        "pub": "Thu, 12 Nov 2026 05:00:00 GMT"
-      }
-    },
-    {
-      "id": "53aca50d35106d2473671c49",
-      "source": "GoogleNews·AI",
-      "domain": "AI前沿",
-      "title": "Future of AI brain models sparks debate - The Transmitter",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ2JwS2FZcWhFM0tScjVQX2E2TnVrcTBydjFsQmF6RUE3c002X1JJS05sUVRxd0RsazBDZWZFM1I1aUJNTk05RkI1clNVZ0tPb3JscFp2OFExWV9ISGVTZDZzSkpSTHU0azl5eTV4NnNRN1Y4OFROUjNNQ004MEZSR1dSWUF3TElBcDlmb3RoUFpwT0k4aVJz?oc=5",
-      "extra": {
-        "desc": "Future of AI brain models sparks debate&nbsp;&nbsp;The Transmitter",
-        "pub": "Thu, 12 Nov 2026 04:44:24 GMT"
-      }
-    },
-    {
-      "id": "4739361b9fac4b06ca4e2f6e",
-      "source": "GoogleNews·AI",
-      "domain": "AI前沿",
-      "title": "Google warned school districts about disabling AI mode for its search engine. Some Chicagoans replied with protest. - Chalkbeat",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeE1OM3ZDcVNTcTBtSDU3Q3huN25xTm5Ic3AwTlpFd3JLc2syUGZPNE1NTkNrU0JBYU1oU1lTT3lFUlRtRlhpQ1g5dXU3aGFyUm1IOXBFaTdOLVh4cjMxRzRpOHJLNWZTcG1jTlg3TzNQZ29DSnBxRDAyd0VDWU5Zc3RFdXltZkhhTFM1Xzg4YTBYWmhJdkEyb3dRcTVhbnpVLXgwQUV6QjZ5eHFI?oc=5",
-      "extra": {
-        "desc": "Google warned school districts about disabling AI mode for its search engine. Some Chicagoans replied with protest.&nbsp;&nbsp;Chalkbeat",
-        "pub": "Thu, 12 Nov 2026 02:34:00 GMT"
-      }
-    },
-    {
-      "id": "8f4611899fd0a963a7119f86",
-      "source": "GoogleNews·AI",
-      "domain": "AI前沿",
-      "title": "Commerce Department Finalizing Long-Awaited AI Remote Access Rule - The Information",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONDhiSnYyNXlKQkZBVVh4MVRIbjhYOHNGR05fOGtVTTJ2cW5NYVN1T3FMcnpnNUNVSHI5Z0pVaDVYcHphOV96T2tSR29PaEEweTNNbnozX1JXa0JXY29fMUVzcDlKY29HQnNOYjFuLVNIQWZWaEJSTS1SQnJNeWpERnpRWEhWQVlBclZaM3Z6RXQ5VjhHeEw1MW56N3ZRd2VteDFkVzU2dnQ?oc=5",
-      "extra": {
-        "desc": "Commerce Department Finalizing Long-Awaited AI Remote Access Rule&nbsp;&nbsp;The Information",
-        "pub": "Thu, 12 Nov 2026 02:52:00 GMT"
-      }
-    },
-    {
-      "id": "3c8ba6a9a00a41dcbf27c876",
-      "source": "GoogleNews·AI",
-      "domain": "AI前沿",
-      "title": "KPMG scale trusted enterprise AI in Thailand through Microsoft Copilot and Microsoft Agent 365 - Microsoft Source",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQSXFtTlZoQ0IyMFU2M0REX24yN3FWYVppZnBHM3A3bHF5TVphWFp0X254WHc4Z3N6V2EzT1BSX1Q1ci1mekQxdkp5ZFJXLWZKSm00OWpmVVRuUC1vOU5FYzJTUWZWZkhIWkstOVpOUmc4WkVXSnNDc0tyRHhDQW1fVEhjcXBYel9JWDZ3TktyeXQzTUNEZnNPbjB5TDV0T1ZmRWwzTHNaWHF5Y015aTB1Uy1xSEl4M1BLVXpXdjBFR3oyaTI2aElYamQ1RUd2OE1jdGR3Tm1MQnRqeW5XVnc?oc=5",
-      "extra": {
-        "desc": "KPMG scale trusted enterprise AI in Thailand through Microsoft Copilot and Microsoft Agent 365&nbsp;&nbsp;Microsoft Source",
-        "pub": "Thu, 12 Nov 2026 03:41:41 GMT"
-      }
-    },
-    {
-      "id": "94543850e153945d8294d9f5",
-      "source": "GoogleNews·AI",
-      "domain": "AI前沿",
-      "title": "Naver Profit Nearly Halves as AI Spending Squeezes Margins - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNkdFOWZIb3VyYzE2RkstVllKYXZjdDAtc2IwcmZhUEtUM3hsaG8wRmZpV3RIcjBxd09NT2pTeV9iMXZTSG8tYkhkVDJGVXFwQk5vUzZCcklHVVRIX0JsQy0wcGozbkc1SHBLRTMtWF9lSVRTOW5qODk0ME5VazZGZE94RDFFcHRiMUhlRHdZZlJySnNCQXhWSW16cDJERHBNQVJpS3doMA?oc=5",
-      "extra": {
-        "desc": "Naver Profit Nearly Halves as AI Spending Squeezes Margins&nbsp;&nbsp;WSJ",
-        "pub": "Thu, 12 Nov 2026 04:17:28 GMT"
-      }
-    },
-    {
-      "id": "9932058e773ccc5de7c35019",
-      "source": "GoogleNews·AI",
-      "domain": "AI前沿",
-      "title": "November AI workshops offer hands-on learning - Clemson News",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5cTd4YlBBZVRlSlhnZ3ZtajBRQWlsT0VOcUsxT3AybUNBcl83azNjNTVEV2ZRTGFyV3J3dFVXN0d3eWt0REVtbzNxblBnTVZOcjA1RG1uRXR2MFhveEcxNzNQeDVHeWpNMFJnQW8wMG1nS0phLTRybHZaMA?oc=5",
-      "extra": {
-        "desc": "November AI workshops offer hands-on learning&nbsp;&nbsp;Clemson News",
-        "pub": "Thu, 12 Nov 2026 01:53:33 GMT"
-      }
-    },
-    {
-      "id": "c134dd727782f16f047409ea",
-      "source": "GoogleNews·AI",
-      "domain": "AI前沿",
-      "title": "Students, faculty express confusion over new Barnard AI policy - Columbia Daily Spectator",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYWZOV2s2M3B3a01SMmdVNmdwWndUNkFkOXlmcjExRjRPTFBDQ3BGMlhYSXU3dk5LUGp2RDc5bTctVVl1WW5IRTVtUV9NVkszcjRxd3Z6eHVSM0hZQkl5ejhpQUtTVVhLTXlXRHhQWXpOXzdDUUoyTFF5RWxHckU5VjZBcU51R1dKdV9XMXpuSE5zWS00RDVBcFVmMXNGY1pweVJLdG9BcXJPTnpDVFV6N0lR?oc=5",
-      "extra": {
-        "desc": "Students, faculty express confusion over new Barnard AI policy&nbsp;&nbsp;Columbia Daily Spectator",
-        "pub": "Thu, 12 Nov 2026 04:55:20 GMT"
-      }
-    },
-    {
-      "id": "5cb3d469e2e033c063622e40",
-      "source": "GoogleNews·AI",
-      "domain": "AI前沿",
-      "title": "United Airlines moves to block AI agents from its platform over security concerns - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVlJLSUtLZnlkQ2FuamtrbzJqMUw5RFVQWnAtV0tyUmI4YVJzeXpSYS0wS2dGSkdvb0RybTR5ck9FRFFGY25pb1V6cm1RbFpSTGhhZUNIN3BjVHFyTmpoYVJOTWhGZjFDb21WNUYtMFFVUWgzUG9CTURNUTFsQWtUcGw5Tmh5TFA3ZHRKZzhRWFVVRjZFaFBWQzZrV0tkYkZSS2FMWGN5OFpTM1JsR0xKSEhkYWFKRFBKcVFTU0hDaktQMEox?oc=5",
-      "extra": {
-        "desc": "United Airlines moves to block AI agents from its platform over security concerns&nbsp;&nbsp;Reuters",
-        "pub": "Wed, 11 Nov 2026 20:05:38 GMT"
-      }
-    },
-    {
-      "id": "1ef9f52ffb0589800c0bdd76",
-      "source": "GoogleNews·AI",
-      "domain": "AI前沿",
-      "title": "United Airlines bans AI agents from booking flights on behalf of travelers - CBS News",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZDJtSXdwdkJWUlI4SlRWMzhQNlFKTG00LW4xVW9tZ1pLcFUtRzBQYklOMWRvZVZ4a3AwOTliX2hvcWpjYTN2eGR4NWp2M1BiMGNUMl9SZUxqQnpOWDU0QnRpUkdyX1FVSkVaRDFSUmw1R1pQWFFEMzNfVDN1MjY3QUNn?oc=5",
-      "extra": {
-        "desc": "United Airlines bans AI agents from booking flights on behalf of travelers&nbsp;&nbsp;CBS News",
-        "pub": "Wed, 11 Nov 2026 19:37:38 GMT"
-      }
-    },
-    {
-      "id": "8cbe9a85c710ebd22dc9c5b0",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "不仅一段婚外情？消息称英伟达正准备罢免 CEO 黄仁勋，公司股价盘后大跌",
-      "link": "https://m.ithome.com/html/1025829.htm",
-      "extra": {
-        "hot": "1.",
-        "hot_num": 1.0
-      }
-    },
-    {
-      "id": "e747322ea9f97f3762b3b0bf",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "桃色丑闻重创 AI 芯片巨头：黄仁勋第二段婚外情曝光，英伟达盘后股价重挫逾 9%",
-      "link": "https://m.ithome.com/html/1025855.htm",
-      "extra": {
-        "hot": "2.",
-        "hot_num": 2.0
-      }
-    },
-    {
-      "id": "226c953aeba1334d615b2266",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "Polymarket 预测黄仁勋之女黄敏珊成接任英伟达 CEO 热门人选",
-      "link": "https://m.ithome.com/html/1025857.htm",
-      "extra": {
-        "hot": "3.",
-        "hot_num": 3.0
-      }
-    },
-    {
-      "id": "6168f223e02e762535b4b58b",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "“小米换机”应用上架华为鸿蒙应用市场，支持将 HarmonyOS 数据迁移至小米设备",
-      "link": "https://m.ithome.com/html/1025443.htm",
-      "extra": {
-        "hot": "4.",
-        "hot_num": 4.0
-      }
-    },
-    {
-      "id": "f369c070befa0a420157c173",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "英伟达董事会已聘请外部机构物色新 CEO 候选人以接替黄仁勋，同时考虑临时 CEO 方案",
-      "link": "https://m.ithome.com/html/1025852.htm",
-      "extra": {
-        "hot": "5.",
-        "hot_num": 5.0
-      }
-    },
-    {
-      "id": "1ae967e4927f474c4a9a39e6",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "阿维塔 1300 台「战损车基地」曝光，副总裁雍军曾透露价值约 6 个亿",
-      "link": "https://m.ithome.com/html/1025566.htm",
-      "extra": {
-        "hot": "6.",
-        "hot_num": 6.0
-      }
-    },
-    {
-      "id": "cc30dff88707e66b2ddb477f",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "央视起底 MCN 机构“暴力起号”套路，四川宜宾成立调查组",
-      "link": "https://m.ithome.com/html/1025725.htm",
-      "extra": {
-        "hot": "7.",
-        "hot_num": 7.0
-      }
-    },
-    {
-      "id": "d0e120414bd4af74d0f2c179",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "特斯拉上海内环高架斗车事件后续：42 岁司机涉嫌刑事犯罪被移送审查起诉，另一 71 岁司机被罚款",
-      "link": "https://m.ithome.com/html/1025842.htm",
-      "extra": {
-        "hot": "8.",
-        "hot_num": 8.0
-      }
-    },
-    {
-      "id": "1a7d32ad40e42a36956f30cc",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "5999 → 5499 元：HUAWEI Pura X View 阔直板手机 12+256G 国补直降",
-      "link": "https://m.ithome.com/html/1025778.htm",
-      "extra": {
-        "hot": "9.",
-        "hot_num": 9.0
-      }
-    },
-    {
-      "id": "9f2948b19a770cd24b712c57",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "外籍乘客探出高铁车厢门外吸烟引争议，12306 回应称“个人素质行为”无法阻止",
-      "link": "https://m.ithome.com/html/1025837.htm",
-      "extra": {
-        "hot": "10.",
-        "hot_num": 10.0
-      }
-    },
-    {
-      "id": "893b162b2f0b245ebff6d1ea",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "黄仁勋遭美国议员要求辞职，英伟达面临国会问询压力",
-      "link": "https://m.ithome.com/html/1025883.htm",
-      "extra": {
-        "hot": "11.",
-        "hot_num": 11.0
-      }
-    },
-    {
-      "id": "ab3e172335095db323123382",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "多名用户反馈苹果 iPhone Duo 更新 QQ iOS 最新 9.3.85 版本后无法打开 App：卡在启动页或直接黑屏",
-      "link": "https://m.ithome.com/html/1025777.htm",
-      "extra": {
-        "hot": "12.",
-        "hot_num": 12.0
-      }
-    },
-    {
-      "id": "5c9e5cc3c7dc6bbf03d9988b",
-      "source": "少数派RSS",
-      "domain": "科技数码",
-      "title": "让老音箱焕发新生：Home Assistant Connect AUX-2 首发体验",
-      "link": "https://sspai.com/post/118921",
-      "extra": {
-        "desc": "玩智能家居这几年，灯光、传感器和开关基本已经靠着Matter和HomeAssistant打通了，唯独多房间音频（Multi-roomAudio）还停留在各自为战的阶段。想让客厅的HomePod、书房的 ...查看全文",
-        "pub": "Thu, 12 Nov 2026 11:12:02 +0800"
-      }
-    },
-    {
-      "id": "583024f6c14334e080a08df8",
-      "source": "少数派RSS",
-      "domain": "科技数码",
-      "title": "派早报：Apple 公布 Swift Student Challenge 安排、微软发布 Auto SR 等",
-      "link": "https://sspai.com/post/118935",
-      "extra": {
-        "desc": "Arm 发布 Cortex-M42 处理器、任天堂宣布「轻松登入」功能将下线等。查看全文",
-        "pub": "Thu, 12 Nov 2026 08:22:09 +0800"
-      }
-    },
-    {
-      "id": "6b433ae11a95100bb16f95f3",
-      "source": "少数派RSS",
-      "domain": "科技数码",
-      "title": "城市漫步指南 | 安特卫普，时尚就在生活中",
-      "link": "https://sspai.com/post/118781",
-      "extra": {
-        "desc": "原本今年夏天的旅行是要在佛罗伦萨结束的，但突发状况导致我不用上班了，就顺势使用了我的国际机票退改券，增加了一段安特卫普的行程。打卡安特卫普的理由跟意大利一样奇怪——因为这个地方举办过好几届体操世锦赛（ ...查看全文",
-        "pub": "Wed, 11 Nov 2026 17:30:00 +0800"
-      }
-    },
-    {
-      "id": "7c968c215adeed695e07f482",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "你们公司有 35 岁以上的前端吗？",
-      "link": "https://juejin.cn/post/7706534471420461098",
-      "extra": {
-        "hot": "3017",
-        "hot_num": 3017.0
-      }
-    },
-    {
-      "id": "cf193c85d1df9aab2ba4fd8a",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "HarmonyOS 做桌面卡片 onAddForm 要同步返回但数据在数据库里的解法",
-      "link": "https://juejin.cn/post/7706832865795702818",
-      "extra": {
-        "hot": "2204",
-        "hot_num": 2204.0
-      }
-    },
-    {
-      "id": "d29364000b7cbe815f16b171",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "workbuddy接管我的浏览器，帮我干活了",
-      "link": "https://juejin.cn/post/7705911807923322943",
-      "extra": {
-        "hot": "1363",
-        "hot_num": 1363.0
-      }
-    },
-    {
-      "id": "f93f1e34a70a1a4696383a7c",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "为什么越来越多人用 AI Gateway？",
-      "link": "https://juejin.cn/post/7706346256684023846",
-      "extra": {
-        "hot": "1100",
-        "hot_num": 1100.0
-      }
-    },
-    {
-      "id": "40571d4cea448e1f2cb5ca79",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "再见了 Typora",
-      "link": "https://juejin.cn/post/7706418656682803200",
-      "extra": {
-        "hot": "993",
-        "hot_num": 993.0
-      }
-    },
-    {
-      "id": "4266ad8e5bce9073239344bf",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "C++26 草案被否，二十八年来头一回",
-      "link": "https://juejin.cn/post/7705316753005674511",
-      "extra": {
-        "hot": "918",
-        "hot_num": 918.0
-      }
-    },
-    {
-      "id": "186ed90e228c4b5b4ca1d01d",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "AI 还原 Figma 效果总达不到预期？先别急着让它写代码",
-      "link": "https://juejin.cn/post/7704502089117368320",
-      "extra": {
-        "hot": "910",
-        "hot_num": 910.0
-      }
-    },
-    {
-      "id": "346d253eaff6eb1f9c815ace",
-      "source": "GitHub热榜",
-      "domain": "技术趋势",
-      "title": "GoogleChrome / modern-web-guidance-src",
-      "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "extra": {
-        "hot": "1935",
-        "hot_num": 1935.0
-      }
-    },
-    {
-      "id": "a1a2d79a7f816f46a11452a2",
-      "source": "GitHub热榜",
-      "domain": "技术趋势",
-      "title": "shadcn / improve",
-      "link": "https://github.com/shadcn/improve",
-      "extra": {
-        "hot": "1.1万",
-        "hot_num": 11000.0
-      }
-    },
-    {
-      "id": "c83af1e1fa9e7027def834cc",
-      "source": "GitHub热榜",
-      "domain": "技术趋势",
-      "title": "openai / codex-security",
-      "link": "https://github.com/openai/codex-security",
-      "extra": {
-        "hot": "1.2万",
-        "hot_num": 12000.0
-      }
-    },
-    {
-      "id": "f9da5fbfdfddcfc80ea4e551",
-      "source": "GitHub热榜",
-      "domain": "技术趋势",
-      "title": "TheAlgorithms / Java",
-      "link": "https://github.com/TheAlgorithms/Java",
+      "title": "黄仁勋下台，14家华尔街投行火速解读：共识是“无人可替”，有人感叹“他哪来的时间？”",
+      "link": "https://wallstreetcn.com/articles/3785851",
       "extra": {
         "hot": "6.7万",
         "hot_num": 67000.0
       }
     },
     {
-      "id": "bded081ed8fc968affd3efac",
-      "source": "GitHub Trending",
-      "domain": "技术趋势",
-      "title": "GoogleChrome/modern-web-guidance-src",
-      "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "extra": {}
+      "id": "f317a534fe0a27fffbd1ca8f",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "第3段婚外情？黄仁勋被曝与另一名英伟达员工存在亲密关系",
+      "link": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypvhn8064919.shtml",
+      "extra": {
+        "hot": "11,965",
+        "hot_num": 11965.0
+      }
     },
     {
-      "id": "982cc97700cf0419f7c6e12b",
-      "source": "GitHub Trending",
-      "domain": "技术趋势",
-      "title": "shadcn/improve",
-      "link": "https://github.com/shadcn/improve",
-      "extra": {}
+      "id": "b91f1a4c77bea4dfbd1b00e7",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "大瓜！黄仁勋第4个情妇曝光",
+      "link": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypvhm1323562.shtml",
+      "extra": {
+        "hot": "6,479",
+        "hot_num": 6479.0
+      }
     },
     {
-      "id": "1aad794f086213ddfebb4cd4",
-      "source": "GitHub Trending",
-      "domain": "技术趋势",
-      "title": "openai/codex-security",
-      "link": "https://github.com/openai/codex-security",
-      "extra": {}
+      "id": "3fd9844aae9f8d9a22196cda",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "牛弹琴：黄仁勋黯然辞职，释放的三重信号",
+      "link": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypvhn8111955.shtml",
+      "extra": {
+        "hot": "6,078",
+        "hot_num": 6078.0
+      }
     },
     {
-      "id": "0f485718e4cea57d31ad926c",
-      "source": "GitHub Trending",
-      "domain": "技术趋势",
-      "title": "TheAlgorithms/Java",
-      "link": "https://github.com/TheAlgorithms/Java",
-      "extra": {}
+      "id": "85675a55aa6ca30f7a0f6d78",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "操盘必读：影响股市利好或利空消息_2026年11月13日_财经新闻",
+      "link": "https://finance.sina.com.cn/stock/cpbd/2026-11-13/doc-iniypvhf1056829.shtml",
+      "extra": {
+        "hot": "5,207",
+        "hot_num": 5207.0
+      }
     },
     {
-      "id": "ac220c6387bd0247d8ee2e92",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "Reddit Reviews",
-      "link": "https://www.producthunt.com/products/reddit",
+      "id": "a33426e98bc8149ad617612f",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "微软多项服务发生大规模故障，Outlook异常报告超过13万起",
+      "link": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypkss8257052.shtml",
+      "extra": {
+        "hot": "4,010",
+        "hot_num": 4010.0
+      }
+    },
+    {
+      "id": "861e959314e04f9cb4c3f4be",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "马斯克给黄仁勋留了个工位",
+      "link": "https://www.36kr.com/p/4066274942571652",
       "extra": {
         "hot": "1.",
         "hot_num": 1.0
       }
     },
     {
-      "id": "20e547e76c100d161841d321",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "bonds chat",
-      "link": "https://www.producthunt.com/products/bonds-2",
+      "id": "63791295e9af10f92574fc63",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "8点1氪丨英伟达宣布CEO黄仁勋辞职，特朗普：建议库克接任；腾讯“裁员50%”？知情人士回应；宣扬错误婚恋观，德芙代运营方被罚80万",
+      "link": "https://www.36kr.com/p/4067443683120000",
       "extra": {
         "hot": "2.",
         "hot_num": 2.0
       }
     },
     {
-      "id": "f31f98c74700d1698fbb7349",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "Mister Blocks",
-      "link": "https://www.producthunt.com/products/mister-blocks",
+      "id": "401e99a55772a614f33f3dc5",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "失去黄仁勋，英伟达会怎样？",
+      "link": "https://www.36kr.com/p/4066690965132167",
       "extra": {
         "hot": "3.",
         "hot_num": 3.0
       }
     },
     {
-      "id": "45a965683ad2b0d6999a378f",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "RigSpark",
-      "link": "https://www.producthunt.com/products/rigspark",
+      "id": "e22e4a823dbf3ea5bb88f289",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "547亿元收购后首次同台，李飞飞对话苏姿丰，详解统一世界模型Atlas",
+      "link": "https://www.36kr.com/p/4066226367632263",
       "extra": {
         "hot": "4.",
         "hot_num": 4.0
       }
     },
     {
-      "id": "279c146a745570c6ebffc0ac",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "Earlybird",
-      "link": "https://www.producthunt.com/products/earlybird-5",
+      "id": "8be9d9d3027cda8ba49482aa",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "古代监控火了，武松打虎「实拍」流出，AI整活快把网友整不会了",
+      "link": "https://www.36kr.com/p/4065518830360449",
       "extra": {
         "hot": "5.",
         "hot_num": 5.0
       }
     },
     {
-      "id": "7e1ecee2893a9bf2b9107834",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "Binqo",
-      "link": "https://www.producthunt.com/products/binqo",
+      "id": "43693201046d60b7d11a216e",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "大厂大减员，真的是因为AI抢人类饭碗吗？",
+      "link": "https://www.36kr.com/p/4066248518440832",
       "extra": {
         "hot": "6.",
         "hot_num": 6.0
       }
     },
     {
-      "id": "d732cd68577b47760321a645",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "Xolace",
-      "link": "https://www.producthunt.com/products/xolace",
+      "id": "2f0f9a9a47ba84164e492ee3",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "黄仁勋辞职，英伟达为什么偏偏选中她…...",
+      "link": "https://www.36kr.com/p/4066982873896840",
       "extra": {
         "hot": "7.",
         "hot_num": 7.0
       }
     },
     {
-      "id": "853def4b924fbebe7a6f14dc",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "Skipbox",
-      "link": "https://www.producthunt.com/products/skipbox",
+      "id": "334fbfeb56fc23798c190457",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "英伟达，今日开会决定“黄仁勋是否下台”",
+      "link": "https://www.36kr.com/p/4066242381419400",
       "extra": {
         "hot": "8.",
         "hot_num": 8.0
       }
     },
     {
-      "id": "7815caa3a8b329b17adff76d",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "Padrail",
-      "link": "https://www.producthunt.com/products/padrail",
+      "id": "cf7a1c3013fb3e8369d1f440",
+      "source": "虎嗅网热文",
+      "domain": "科技商业",
+      "title": "银行的王座，受到挑战？",
+      "link": "https://www.huxiu.com/article/4903940.html",
+      "extra": {
+        "hot": "5.",
+        "hot_num": 5.0
+      }
+    },
+    {
+      "id": "5e5ccbd0338fb8c6466e9ac1",
+      "source": "虎嗅网热文",
+      "domain": "科技商业",
+      "title": "越来越多的中国人，正在花钱买别人的命",
+      "link": "https://www.huxiu.com/article/4904447.html",
       "extra": {
         "hot": "9.",
         "hot_num": 9.0
       }
     },
     {
-      "id": "d3c9c40361fcb7189449f6cf",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "Mitra MCP",
-      "link": "https://www.producthunt.com/products/mitra-5",
-      "extra": {
-        "hot": "10.",
-        "hot_num": 10.0
-      }
-    },
-    {
-      "id": "f82b9048968136be007ef0b6",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "Scribe v3 by ElevenLabs",
-      "link": "https://www.producthunt.com/products/elevenlabs",
+      "id": "b8048417b3c139b0f81ed58d",
+      "source": "虎嗅网热文",
+      "domain": "科技商业",
+      "title": "“零元面馆”终将成闹剧，因为慈善有边界、人性无下限",
+      "link": "https://www.huxiu.com/article/4904620.html",
       "extra": {
         "hot": "11.",
         "hot_num": 11.0
       }
     },
     {
-      "id": "9efa9b8a1b80ce2cd9730f6c",
-      "source": "Product Hunt",
-      "domain": "产品出海",
-      "title": "MiniMax H3-Image",
-      "link": "https://www.producthunt.com/products/minimax",
+      "id": "33eacbec1794de27523edd6f",
+      "source": "虎嗅网热文",
+      "domain": "科技商业",
+      "title": "字节旧部创业，在海外杀疯了",
+      "link": "https://www.huxiu.com/article/4902431.html",
       "extra": {
         "hot": "12.",
         "hot_num": 12.0
       }
     },
     {
-      "id": "394efccf4d5dfd156cdc20ba",
+      "id": "2ce602537f3e83b3681cc0f5",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "link": "https://openai.com/business/customer-stories/amplitude",
+      "extra": {
+        "hot": "1.",
+        "hot_num": 1.0
+      }
+    },
+    {
+      "id": "8cb0398500140aa03dd86178",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "title": "微软给 AI 算力的电费账单：不蹭补贴，也不让邻居买单",
+      "link": "https://www.aibase.com/zh/news/32306",
+      "extra": {
+        "hot": "2.",
+        "hot_num": 2.0
+      }
+    },
+    {
+      "id": "8bb8cadc43809717aab4f726",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "title": "关停五年，「虾米」借 AI 还魂：阿里 30 元推出快乐虾米",
+      "link": "https://www.aibase.com/zh/news/32305",
+      "extra": {
+        "hot": "3.",
+        "hot_num": 3.0
+      }
+    },
+    {
+      "id": "4089a41d830b477b50fd0813",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "link": "https://www.qbitai.com/2026/11/509440.html",
+      "extra": {
+        "hot": "1.",
+        "hot_num": 1.0
+      }
+    },
+    {
+      "id": "8e97da27cc5fb2e7c9c9cd9d",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
+      "link": "https://www.qbitai.com/2026/11/509404.html",
+      "extra": {
+        "hot": "2.",
+        "hot_num": 2.0
+      }
+    },
+    {
+      "id": "e634df2434bc173bfa74292b",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
+      "link": "https://www.qbitai.com/2026/11/509381.html",
+      "extra": {
+        "hot": "3.",
+        "hot_num": 3.0
+      }
+    },
+    {
+      "id": "57e3e51f693d03f253fda5fb",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "title": "马斯克Grok泄露自家机密！SpaceX特斯拉工资绩效全曝光",
+      "link": "https://www.qbitai.com/2026/11/509355.html",
+      "extra": {
+        "hot": "4.",
+        "hot_num": 4.0
+      }
+    },
+    {
+      "id": "a23a07a83563ea77cd3a8642",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "title": "让AI真正懂业务：璇玑如何成为企业AI的语义基础设施",
+      "link": "https://www.qbitai.com/2026/11/509349.html",
+      "extra": {
+        "hot": "5.",
+        "hot_num": 5.0
+      }
+    },
+    {
+      "id": "019d7652ac690c2dae50f069",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "title": "马斯克已准备好聘请黄仁勋",
+      "link": "https://www.qbitai.com/2026/11/509334.html",
+      "extra": {
+        "hot": "6.",
+        "hot_num": 6.0
+      }
+    },
+    {
+      "id": "903a66d3f7ffaa27df63e83a",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "title": "Anthropic玻璃翼计划被质疑！近4万个候补漏洞，只修了217条",
+      "link": "https://www.qbitai.com/2026/11/509291.html",
+      "extra": {
+        "hot": "7.",
+        "hot_num": 7.0
+      }
+    },
+    {
+      "id": "7cb655fb41e982ee127cca21",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "title": "百曜科技入选全球 The Information 50！",
+      "link": "https://www.qbitai.com/2026/11/509285.html",
+      "extra": {
+        "hot": "8.",
+        "hot_num": 8.0
+      }
+    },
+    {
+      "id": "8c09609b4d3b8339cd0aab2e",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "title": "“双十一”机器人在物流仓“埋头苦干”：昆腾动力开启具身智能规模化获客与交付阶段",
+      "link": "https://www.qbitai.com/2026/11/509281.html",
+      "extra": {
+        "hot": "9.",
+        "hot_num": 9.0
+      }
+    },
+    {
+      "id": "1b12335069f7e056ef10b6e7",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+      "link": "https://www.qbitai.com/2026/11/509224.html",
+      "extra": {
+        "hot": "10.",
+        "hot_num": 10.0
+      }
+    },
+    {
+      "id": "3c19813612ae6aef6756d6d3",
+      "source": "GoogleNews·AI",
+      "domain": "AI前沿",
+      "title": "AI’s Role in Finance Is Here to Stay—and Adoption Near Universal: BDO - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQk4zQ05hUzZ3R3E2WnVielpTdElGLWxBUnFKWUJRUndKemJINUotQnRPTDF6ZmxDbGFwVFdVWkdwWmtWZktvR0Y5clNhY3lSbG9QUVNMTDl5NW14U1JVemZZZDQ4OHY4OG1PdTFWQmFRd0hxSGctcEtFY0NaSGIxVjhaZ1JpMy12RVpWTkxkamZLX005VzliaW5aYXdnMUVNTXltSWxyYzNoWG8?oc=5",
+      "extra": {
+        "desc": "AI’s Role in Finance Is Here to Stay—and Adoption Near Universal: BDO&nbsp;&nbsp;WSJ",
+        "pub": "Thu, 12 Nov 2026 23:40:17 GMT"
+      }
+    },
+    {
+      "id": "8b92b3a64474e84b627966c8",
+      "source": "GoogleNews·AI",
+      "domain": "AI前沿",
+      "title": "The AI 100: benchmarks for the third supercycle - Bessemer Venture Partners",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE96QkdwYnZxS1FNZjRMYk1lb1Q4NlFPbXhzZllPYUZqSW9YQjdOa2RtcGg2SUVPQy1mNmR3Q3FjX04xaXJCUGFZdXJoTy1yclg4RDZzTHBnZnh3Qjg4THJPUjA1R29tYndVMHVkeXpSSzVPV19HbFRSVlRIeWU?oc=5",
+      "extra": {
+        "desc": "The AI 100: benchmarks for the third supercycle&nbsp;&nbsp;Bessemer Venture Partners",
+        "pub": "Thu, 12 Nov 2026 19:40:37 GMT"
+      }
+    },
+    {
+      "id": "a0bcb861c348350dc813246b",
+      "source": "GoogleNews·AI",
+      "domain": "AI前沿",
+      "title": "OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWTR4ak5BdnRmV3hzYTZOcVhBYklWU01YRmtLak03b2hmeC1PMTd5blRQWUkxR2Q1ZXZWRC0xNkNxVDVoN2VOdTVlX1hFMXgwS1Y5TW1fUGt4NThQaEhRVFdna1YxUDhLTnBYUFJ6WTlFajlLM1BZTTRwNk5sWFMydkZtMlJNUnU4MWlDcUN6QmNtVHdUT1pLNXd6QXc4QVk0WmMtM1JxWU5XVC1PUGRIMVJNY2wzN1Z1d2N6WWJkbw?oc=5",
+      "extra": {
+        "desc": "OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development&nbsp;&nbsp;Reuters",
+        "pub": "Thu, 12 Nov 2026 20:35:49 GMT"
+      }
+    },
+    {
+      "id": "346446483b875bbbd7584571",
+      "source": "GoogleNews·AI",
+      "domain": "AI前沿",
+      "title": "5 Best AI Stocks to Buy After Wells Fargo’s Outlook Upgrade - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTHFEckJOOFdrVExHYVBVeGQ0SDNULUczQmlRODZ2NzhOUXpBWEtwaHpFU2M4ZXBZLTVHdER6dW1NeGMxVlFyR0JPY1FNYlBra3JMZXpTMDBDMk1mSFI1REZIWkFjLURObWp5bWozSF9HRVg3UmtHSll2QWtsTURrNDVQcURZbUhsd3Z2Rmxn?oc=5",
+      "extra": {
+        "desc": "5 Best AI Stocks to Buy After Wells Fargo’s Outlook Upgrade&nbsp;&nbsp;Yahoo Finance",
+        "pub": "Thu, 12 Nov 2026 23:14:28 GMT"
+      }
+    },
+    {
+      "id": "357288d5bbfd6d3cd1f41ef8",
+      "source": "GoogleNews·AI",
+      "domain": "AI前沿",
+      "title": "Anthropic, OpenAI and other AI developers can't control their own tech, new lawsuit alleges - CBS News",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Nd0pKdEtsZnJ6UWhKZlR1dUJNV2UwUDRLSHdfVExwQUhNb3hnLW1vYzFuRWRMNlM1dk53dHZyM3pqQXB6Uy1lNlhQc251N2gyVXdxdEFIMUN0X0hadFdZc0ZCMGNkRnVKYVJCMERNdw?oc=5",
+      "extra": {
+        "desc": "Anthropic, OpenAI and other AI developers can't control their own tech, new lawsuit alleges&nbsp;&nbsp;CBS News",
+        "pub": "Thu, 12 Nov 2026 22:12:48 GMT"
+      }
+    },
+    {
+      "id": "70c2022f25097dd8807f9928",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "即刻生效！黄仁勋辞去英伟达总裁、首席执行官和董事会成员职务",
+      "link": "https://m.ithome.com/html/1026394.htm",
+      "extra": {
+        "hot": "1.",
+        "hot_num": 1.0
+      }
+    },
+    {
+      "id": "62341d33cc7db5429d52f07b",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "黄仁勋辞职后，特朗普呼吁苹果执行董事长库克接任英伟达 CEO",
+      "link": "https://m.ithome.com/html/1026439.htm",
+      "extra": {
+        "hot": "2.",
+        "hot_num": 2.0
+      }
+    },
+    {
+      "id": "eeaa64777abe63e42666f711",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "黄仁勋辞任英伟达 CEO，公司美股盘前跌幅扩大至 10%",
+      "link": "https://m.ithome.com/html/1026397.htm",
+      "extra": {
+        "hot": "3.",
+        "hot_num": 3.0
+      }
+    },
+    {
+      "id": "41b803c76ec04b6ac5d490a6",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "黄仁勋辞去 CEO 后，英伟达任命执行副总裁兼首席财务官科莱特 &#183; 克雷斯为临时首席执行官",
+      "link": "https://m.ithome.com/html/1026396.htm",
+      "extra": {
+        "hot": "4.",
+        "hot_num": 4.0
+      }
+    },
+    {
+      "id": "45f8a2bbea8063ed8e6a2a61",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "黄仁勋辞去 CEO 后，英伟达首任董事会主席哈维 &#183; 琼斯发表内部信",
+      "link": "https://m.ithome.com/html/1026431.htm",
+      "extra": {
+        "hot": "5.",
+        "hot_num": 5.0
+      }
+    },
+    {
+      "id": "366a9146429c2daa1474c6f7",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "黄仁勋辞去 CEO 后，英伟达市值失守 4 万亿美元",
+      "link": "https://m.ithome.com/html/1026424.htm",
+      "extra": {
+        "hot": "6.",
+        "hot_num": 6.0
+      }
+    },
+    {
+      "id": "14edc8faff7f5cca1480d1a4",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "“我算个什么东西”：黄仁勋离任英伟达 CEO 最后时刻心力交瘁，把“随便”和“我不在乎”挂在嘴边",
+      "link": "https://m.ithome.com/html/1026529.htm",
+      "extra": {
+        "hot": "7.",
+        "hot_num": 7.0
+      }
+    },
+    {
+      "id": "6fad8c348aa47360d737dc31",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "黄仁勋辞职后续：美国司法部对英伟达启动多项调查，包括反垄断调查",
+      "link": "https://m.ithome.com/html/1026451.htm",
+      "extra": {
+        "hot": "8.",
+        "hot_num": 8.0
+      }
+    },
+    {
+      "id": "6a1ebd7a24e0855f65d5b16f",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "微软 365 核心服务全球性大规模瘫痪：Outlook、OneDrive、Teams 均受影响，正逐步重启恢复",
+      "link": "https://m.ithome.com/html/1026460.htm",
+      "extra": {
+        "hot": "9.",
+        "hot_num": 9.0
+      }
+    },
+    {
+      "id": "5b4e2c2173bc07446d2f4566",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "黄仁勋辞任英伟达 CEO 重创全球 AI 概念股，AMD、博通逆势上涨",
+      "link": "https://m.ithome.com/html/1026437.htm",
+      "extra": {
+        "hot": "11.",
+        "hot_num": 11.0
+      }
+    },
+    {
+      "id": "c6ea195d5177fcbbd4c08e66",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "title": "英伟达临时 CEO 科莱特 &#183; 克雷斯发表内部信：我对公司、对未来充满信心，你们是最宝贵的力量",
+      "link": "https://m.ithome.com/html/1026428.htm",
+      "extra": {
+        "hot": "12.",
+        "hot_num": 12.0
+      }
+    },
+    {
+      "id": "314910c9dd0331e47e394cbb",
+      "source": "少数派RSS",
+      "domain": "科技数码",
+      "title": "在快 AI 时代，我是怎么把 Mole 做成一款「慢产品」的？",
+      "link": "https://sspai.com/post/118512",
+      "extra": {
+        "desc": "距离写完上一篇在少数派发的《从开源清理工具到付费Mac应用，用户教会了我如何做产品》已经过去两个多月。这段时间里，Mole从1.13一路发到了1.19，加上了AI工具清理和系统数据清理，Windows ...查看全文",
+        "pub": "Fri, 13 Nov 2026 11:35:48 +0800"
+      }
+    },
+    {
+      "id": "e0579508bc0e06866fe84245",
+      "source": "少数派RSS",
+      "domain": "科技数码",
+      "title": "派早报：英伟达 CEO 黄仁勋宣布辞职等",
+      "link": "https://sspai.com/post/118966",
+      "extra": {
+        "desc": "2026 年金摇杆奖获奖名单公布，Apex Compute 推出跨平台 AI 帧生成技术 ANR 等。查看全文",
+        "pub": "Fri, 13 Nov 2026 08:48:17 +0800"
+      }
+    },
+    {
+      "id": "08151901e07ca128724e160b",
+      "source": "少数派RSS",
+      "domain": "科技数码",
+      "title": "城市漫步指南｜夏末大阪，「青黄不接」的时节刚刚好",
+      "link": "https://sspai.com/post/118366",
+      "extra": {
+        "desc": "在炎热但逐渐清爽的夏末，我和女朋友去了一趟日本。我尝试用眼用心记录下所见所感，转写成文字。当我重新阅读这些词句，闭上眼睛，仿佛又回到了关西。我希望能把这份心情与光景，也分享给你。4:3/3:4比例的图 ...查看全文",
+        "pub": "Thu, 12 Nov 2026 16:37:25 +0800"
+      }
+    },
+    {
+      "id": "9b6a8733d523a7d841d67410",
+      "source": "少数派RSS",
+      "domain": "科技数码",
+      "title": "Mac 选购指南 2026 冬季版",
+      "link": "https://sspai.com/post/85735",
+      "extra": {
+        "desc": "内存、存储涨价但又得换 Mac？记得收下这份选购指南。查看全文",
+        "pub": "Thu, 12 Nov 2026 14:42:04 +0800"
+      }
+    },
+    {
+      "id": "7d8f8a7f40516e8b92450050",
+      "source": "掘金热文",
+      "domain": "技术趋势",
+      "title": "Qwen4 被嘲笑了！国模被啥锁死了？",
+      "link": "https://juejin.cn/post/7706826190912880680",
+      "extra": {
+        "hot": "1538",
+        "hot_num": 1538.0
+      }
+    },
+    {
+      "id": "dc4a35c957bc6dcce20fa0ba",
+      "source": "掘金热文",
+      "domain": "技术趋势",
+      "title": "Flutter 3.50 & Dart 3.14  发布，快来看看有什么更新吧",
+      "link": "https://juejin.cn/post/7706740008510963722",
+      "extra": {
+        "hot": "802",
+        "hot_num": 802.0
+      }
+    },
+    {
+      "id": "cb71b66b9001220a945a564e",
+      "source": "掘金热文",
+      "domain": "技术趋势",
+      "title": "由 key 引发的思考",
+      "link": "https://juejin.cn/post/7705976844432457766",
+      "extra": {
+        "hot": "877",
+        "hot_num": 877.0
+      }
+    },
+    {
+      "id": "4f48a03719687dc0c4a550ee",
+      "source": "掘金热文",
+      "domain": "技术趋势",
+      "title": "实测 agent-desktop：AI 控制桌面不截图、不占鼠标键盘，连点 55 次计算器 0 失误",
+      "link": "https://juejin.cn/post/7704923158558621750",
+      "extra": {
+        "hot": "984",
+        "hot_num": 984.0
+      }
+    },
+    {
+      "id": "257ae877ccbf5cc738ca1d06",
+      "source": "GitHub热榜",
+      "domain": "技术趋势",
+      "title": "nvm-sh / nvm",
+      "link": "https://github.com/nvm-sh/nvm",
+      "extra": {
+        "hot": "9.6万",
+        "hot_num": 96000.0
+      }
+    },
+    {
+      "id": "51bf1e0906625a268f119a03",
+      "source": "GitHub热榜",
+      "domain": "技术趋势",
+      "title": "pookjw / HermesEnabler",
+      "link": "https://github.com/pookjw/HermesEnabler",
+      "extra": {
+        "hot": "1605",
+        "hot_num": 1605.0
+      }
+    },
+    {
+      "id": "ce370cc74f9eae2a9bbff4c7",
+      "source": "GitHub热榜",
+      "domain": "技术趋势",
+      "title": "QwenLM / qwen-code",
+      "link": "https://github.com/QwenLM/qwen-code",
+      "extra": {
+        "hot": "3.0万",
+        "hot_num": 30000.0
+      }
+    },
+    {
+      "id": "5c503eee41ba74a405dd5c44",
+      "source": "GitHub热榜",
+      "domain": "技术趋势",
+      "title": "ashhart / TensorFold",
+      "link": "https://github.com/ashhart/TensorFold",
+      "extra": {
+        "hot": "1992",
+        "hot_num": 1992.0
+      }
+    },
+    {
+      "id": "3d333ec67007d35248ed879e",
+      "source": "GitHub热榜",
+      "domain": "技术趋势",
+      "title": "nodejs / node",
+      "link": "https://github.com/nodejs/node",
+      "extra": {
+        "hot": "12.4万",
+        "hot_num": 124000.0
+      }
+    },
+    {
+      "id": "6b7e7be481aa5ce6c0e40cea",
+      "source": "GitHub热榜",
+      "domain": "技术趋势",
+      "title": "Alishahryar1 / free-claude-code",
+      "link": "https://github.com/Alishahryar1/free-claude-code",
+      "extra": {
+        "hot": "6.9万",
+        "hot_num": 69000.0
+      }
+    },
+    {
+      "id": "231f7b14e4dd97842fe51d5d",
+      "source": "GitHub热榜",
+      "domain": "技术趋势",
+      "title": "ggml-org / llama.cpp",
+      "link": "https://github.com/ggml-org/llama.cpp",
+      "extra": {
+        "hot": "13.5万",
+        "hot_num": 135000.0
+      }
+    },
+    {
+      "id": "fc9dcaefdeb44eb12c9b41dd",
+      "source": "GitHub Trending",
+      "domain": "技术趋势",
+      "title": "nvm-sh/nvm",
+      "link": "https://github.com/nvm-sh/nvm",
+      "extra": {}
+    },
+    {
+      "id": "911cc78065019a55777d0433",
+      "source": "GitHub Trending",
+      "domain": "技术趋势",
+      "title": "pookjw/HermesEnabler",
+      "link": "https://github.com/pookjw/HermesEnabler",
+      "extra": {}
+    },
+    {
+      "id": "51888fd571c4d2057c05fb7a",
+      "source": "GitHub Trending",
+      "domain": "技术趋势",
+      "title": "QwenLM/qwen-code",
+      "link": "https://github.com/QwenLM/qwen-code",
+      "extra": {}
+    },
+    {
+      "id": "0a626dfaa81692f58135ce67",
+      "source": "GitHub Trending",
+      "domain": "技术趋势",
+      "title": "ashhart/TensorFold",
+      "link": "https://github.com/ashhart/TensorFold",
+      "extra": {}
+    },
+    {
+      "id": "0f3806386ba14f2ab0fbbc99",
       "source": "Product Hunt",
       "domain": "产品出海",
-      "title": "Subscriptrack",
-      "link": "https://www.producthunt.com/products/subscriptrack",
+      "title": "Didit MCP",
+      "link": "https://www.producthunt.com/products/didit-3",
+      "extra": {
+        "hot": "1.",
+        "hot_num": 1.0
+      }
+    },
+    {
+      "id": "823a0723a3b3f179e39dadd7",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "Hoy for Mac",
+      "link": "https://www.producthunt.com/products/hoy-for-mac",
+      "extra": {
+        "hot": "2.",
+        "hot_num": 2.0
+      }
+    },
+    {
+      "id": "df7e143ad2241afa86844975",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "Crossfade",
+      "link": "https://www.producthunt.com/products/crossfade",
+      "extra": {
+        "hot": "3.",
+        "hot_num": 3.0
+      }
+    },
+    {
+      "id": "8a45f8c744b4a653df55b690",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "Offstage Cloud",
+      "link": "https://www.producthunt.com/products/offstage-cloud",
+      "extra": {
+        "hot": "4.",
+        "hot_num": 4.0
+      }
+    },
+    {
+      "id": "754d1349c7a8bc1d7bf46af4",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "Oxagen",
+      "link": "https://www.producthunt.com/products/oxagen",
+      "extra": {
+        "hot": "5.",
+        "hot_num": 5.0
+      }
+    },
+    {
+      "id": "fcf70b7a99c4d3078b3de319",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "Blendra",
+      "link": "https://www.producthunt.com/products/blendra",
+      "extra": {
+        "hot": "6.",
+        "hot_num": 6.0
+      }
+    },
+    {
+      "id": "68ef3343e6d31c753b8af19a",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "Nameshot",
+      "link": "https://www.producthunt.com/products/nameshot-2",
+      "extra": {
+        "hot": "7.",
+        "hot_num": 7.0
+      }
+    },
+    {
+      "id": "83ed8f4e9391dc77027840c5",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "Jot 2.0",
+      "link": "https://www.producthunt.com/products/jot-2-0",
+      "extra": {
+        "hot": "8.",
+        "hot_num": 8.0
+      }
+    },
+    {
+      "id": "779a9b0085467e543523fd52",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "WizardNote",
+      "link": "https://www.producthunt.com/products/wizardnote",
+      "extra": {
+        "hot": "9.",
+        "hot_num": 9.0
+      }
+    },
+    {
+      "id": "3fdf6b4ea0936464bf532772",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "Skysoon",
+      "link": "https://www.producthunt.com/products/skysoon",
+      "extra": {
+        "hot": "10.",
+        "hot_num": 10.0
+      }
+    },
+    {
+      "id": "4ed0baa8eb23b7c6a9e8593a",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "Infinite Drive",
+      "link": "https://www.producthunt.com/products/infinite-drive",
+      "extra": {
+        "hot": "11.",
+        "hot_num": 11.0
+      }
+    },
+    {
+      "id": "0816285753e632812b6a05a0",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "Foxpit",
+      "link": "https://www.producthunt.com/products/foxpit",
+      "extra": {
+        "hot": "12.",
+        "hot_num": 12.0
+      }
+    },
+    {
+      "id": "1a0cbefeddaaf201f7d55cef",
+      "source": "Product Hunt",
+      "domain": "产品出海",
+      "title": "LeaseWire",
+      "link": "https://www.producthunt.com/products/leasewire",
       "extra": {
         "hot": "13.",
         "hot_num": 13.0
       }
     },
     {
-      "id": "44485bfb94fe1819ed4efe52",
+      "id": "f401d083100efd4b0a5b5eb1",
       "source": "Product Hunt",
       "domain": "产品出海",
-      "title": "Nod by n8n",
-      "link": "https://www.producthunt.com/products/n8n-io",
+      "title": "Gemini Decisions API",
+      "link": "https://www.producthunt.com/products/google",
       "extra": {
         "hot": "14.",
         "hot_num": 14.0
       }
     },
     {
-      "id": "9d6c25582ebd7138597b043e",
+      "id": "95b12ae97ef3f5f35d94d1c5",
       "source": "Product Hunt",
       "domain": "产品出海",
-      "title": "StableBar",
-      "link": "https://www.producthunt.com/products/stablebar",
+      "title": "Grok Bot 1.0",
+      "link": "https://www.producthunt.com/products/grok",
       "extra": {
         "hot": "15.",
         "hot_num": 15.0
       }
     },
     {
-      "id": "c9870d9498744ac0502a61af",
+      "id": "c251a96cc16609da6eacbb1b",
       "source": "BBC中文",
       "domain": "国际",
-      "title": "黃仁勳疑涉另一宗婚外情，Nvidia董事會傳擬撤換執行長",
-      "link": "https://www.bbc.com/zhongwen/articles/c63egjy85wq8o/trad?at_medium=RSS&at_campaign=rss",
+      "title": "深陷醜聞的黃仁勳辭職，AI芯片巨頭Nvidia陷入動盪",
+      "link": "https://www.bbc.com/zhongwen/articles/cmn80j4vnj1jo/trad?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "隨着第二宗婚外情的報導曝光，Nvidia股價大幅下跌。據報董事會正與一家外部公司合作，尋找黃仁勳的潛在繼任者。",
-        "pub": "Thu, 12 Nov 2026 05:20:57 GMT"
+        "desc": "美國議員現在想就他被指控的其中一段關係是否與中國間諜有關對他進行質詢。",
+        "pub": "Fri, 13 Nov 2026 04:33:40 GMT"
       }
     },
     {
-      "id": "4e9f473966efdf2d73c91256",
+      "id": "b483174f8c0a8a6ba0b2d3aa",
       "source": "BBC中文",
       "domain": "国际",
-      "title": "黃仁勳婚外情：黃樂據稱已返回中國，曾多次入境美國、台灣",
+      "title": "Nvidia董事會宣佈黃仁勳辭任執行長",
+      "link": "https://www.bbc.com/zhongwen/articles/c63egjy85wq8o/trad?at_medium=RSS&at_campaign=rss",
+      "extra": {
+        "desc": "Nvidia董事會宣布，黃仁勳已辭去公司執行長一職，原任公司執行副總裁兼財務長的科萊特·克雷斯（Colette Kress）已同意出任臨時執行長。",
+        "pub": "Thu, 12 Nov 2026 14:28:57 GMT"
+      }
+    },
+    {
+      "id": "1c38f6c8162f619af68691ed",
+      "source": "BBC中文",
+      "domain": "国际",
+      "title": "微軟系統全球癱瘓：Outlook、Teams、Copilot受影響",
+      "link": "https://www.bbc.com/zhongwen/articles/crvg2d7v05yno/trad?at_medium=RSS&at_campaign=rss",
+      "extra": {
+        "desc": "監測網站顯示，這次中斷影響74個國家的用戶，已持續超過八小時。",
+        "pub": "Fri, 13 Nov 2026 04:10:29 GMT"
+      }
+    },
+    {
+      "id": "2a6c6e5ef06196048a1733bb",
+      "source": "BBC中文",
+      "domain": "国际",
+      "title": "黃仁勳辭職：暫時接掌Nvidia的克雷斯是誰？還有哪些正式接班人選？",
+      "link": "https://www.bbc.com/zhongwen/articles/cm894lw1925eo/trad?at_medium=RSS&at_campaign=rss",
+      "extra": {
+        "desc": "財務長科萊特·克雷斯將暫時接替黃仁勳，但另有數人被視為可能的正式接班人。",
+        "pub": "Thu, 12 Nov 2026 16:12:19 GMT"
+      }
+    },
+    {
+      "id": "c58aee42b668cfedaad7ea65",
+      "source": "BBC中文",
+      "domain": "国际",
+      "title": "「你甚至不會告訴密友」：分娩後遺症，為何多年後仍揮之不去？",
+      "link": "https://www.bbc.com/zhongwen/articles/cwr7grvx00yxo/trad?at_medium=RSS&at_campaign=rss",
+      "extra": {
+        "desc": "從失禁到長期疼痛，數以百萬計的女性在分娩數十年後仍然飽受後遺症困擾。",
+        "pub": "Thu, 12 Nov 2026 08:33:39 GMT"
+      }
+    },
+    {
+      "id": "4e22c56c7a527240721e5b2e",
+      "source": "BBC中文",
+      "domain": "国际",
+      "title": "黃仁勳辭職：這位AI遠見者，如何栽在自己的錯誤決定上",
+      "link": "https://www.bbc.com/zhongwen/articles/c6eq4ng2xrvyo/trad?at_medium=RSS&at_campaign=rss",
+      "extra": {
+        "desc": "對許多人而言，黃仁勳就是Nvidia的化身。他對工作標準要求極高，也毫不介意在全員大會上直接點出個別員工的失誤。如今，他自身的缺陷被攤在公眾面前，職業生涯也因此被迫畫下殘酷的句點。",
+        "pub": "Fri, 13 Nov 2026 04:20:11 GMT"
+      }
+    },
+    {
+      "id": "2cc6bc40863d5dba30770999",
+      "source": "BBC中文",
+      "domain": "国际",
+      "title": "從科技巨星到跌落神壇——黃仁勳如何深陷醜聞漩渦？",
+      "link": "https://www.bbc.com/zhongwen/articles/cm3wgp60p952o/trad?at_medium=RSS&at_campaign=rss",
+      "extra": {
+        "desc": "短短幾天內，黃仁勳作為全球科技競賽領軍人物、看似無可撼動的地位便迅速崩塌。",
+        "pub": "Thu, 12 Nov 2026 16:14:41 GMT"
+      }
+    },
+    {
+      "id": "dcc1cb34a39dde0de049a274",
+      "source": "BBC中文",
+      "domain": "国际",
+      "title": "黃仁勳婚外情：黃樂據稱身在北京，台灣廢止其入境許可證",
       "link": "https://www.bbc.com/zhongwen/articles/cje391ee1xvlo/trad?at_medium=RSS&at_campaign=rss",
       "extra": {
         "desc": "據報導，捲入婚外情、被指涉入中國間諜活動的女子黃樂（Alice Huang Le）已經返回中國。近年來，她曾十次入境美國、八次入境台灣。",
-        "pub": "Thu, 12 Nov 2026 05:16:54 GMT"
+        "pub": "Thu, 12 Nov 2026 10:15:57 GMT"
       }
     },
     {
-      "id": "3ea0f7d0dafb5f6f4a6f2457",
-      "source": "BBC中文",
-      "domain": "国际",
-      "title": "西班牙大罷工：數萬人參與、巴塞羅那爆發警民衝突",
-      "link": "https://www.bbc.com/zhongwen/articles/c8wy5x2q2wryo/trad?at_medium=RSS&at_campaign=rss",
+      "id": "http://arxiv.org/abs/2611.15569v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "title": "TraceKV: Policy-Preserving Low-Rank KV Cache Compression for Reasoning Vision-Language Models",
+      "link": "http://arxiv.org/abs/2611.15569v1",
       "extra": {
-        "desc": "數以萬計民眾參與這場由西班牙主要工會發起的工業行動，抗議住房問題及生活成本高漲。",
-        "pub": "Thu, 12 Nov 2026 03:10:40 GMT"
+        "pub": "2026-11-11T14:54:19Z",
+        "abs": "Reasoning vision-language models (VLMs) impose substantial KV cache demands from both large multimodal contexts and growing reasoning traces. Low-rank KV compression has emerged as a promising paradig"
       }
     },
     {
-      "id": "a8b450a1bbfb25678a4f942b",
-      "source": "BBC中文",
-      "domain": "国际",
-      "title": "中美能源大戰，如何影響你的帳單？",
-      "link": "https://www.bbc.com/zhongwen/articles/cmvg2er51z1wo/trad?at_medium=RSS&at_campaign=rss",
+      "id": "http://arxiv.org/abs/2611.15543v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "title": "Testing Conversation Preservation Across LLM APIs: A Rule-Based Oracle for Detecting Silent Information Loss",
+      "link": "http://arxiv.org/abs/2611.15543v1",
       "extra": {
-        "desc": "中美之間的博弈可能會對能源成本產生重大影響，但誰會最終獲勝？",
-        "pub": "Thu, 12 Nov 2026 01:45:18 GMT"
+        "pub": "2026-11-11T14:28:01Z",
+        "abs": "LLM applications increasingly rely on translators and compatibility layers to move conversations across APIs. Yet a translated request can be accepted by the target API while silently losing informati"
       }
     },
     {
-      "id": "89a23e2ba76d68d574d4b11f",
-      "source": "BBC中文",
-      "domain": "国际",
-      "title": "「中國間諜案」獲撤控男子BBC專訪：我是情報部門的替罪羊",
-      "link": "https://www.bbc.com/zhongwen/articles/cm9d71qne5p9o/trad?at_medium=RSS&at_campaign=rss",
+      "id": "http://arxiv.org/abs/2611.15538v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "title": "Faithful in Steps: Improving Generalization and Citation in RAG via Query Decomposition",
+      "link": "http://arxiv.org/abs/2611.15538v1",
       "extra": {
-        "desc": "BBC取得並查閱的數千則訊息顯示，一名中國官員曾設法了解多項敏感政治事務的內情。",
-        "pub": "Wed, 11 Nov 2026 13:43:29 GMT"
+        "pub": "2026-11-11T14:22:09Z",
+        "abs": "Retrieval-augment generation is a prevalent strategy to mitigate hallucinations of LLMs. The attributable RAG (RAGQ) generates quotes for its answers. The quotes indicate which input contexts support "
       }
     },
     {
-      "id": "e8d20983fc2844fe846212d3",
-      "source": "BBC中文",
-      "domain": "国际",
-      "title": "黃仁勳疑落入間諜戰「美人計」——韓國也曾中招",
-      "link": "https://www.bbc.com/zhongwen/articles/cj93rp9vzeg1o/trad?at_medium=RSS&at_campaign=rss",
+      "id": "http://arxiv.org/abs/2611.15530v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "title": "MAGIC: Modality-Aware Gini Inspection for Clinical Hallucination Detection in LMMs",
+      "link": "http://arxiv.org/abs/2611.15530v1",
       "extra": {
-        "desc": "黃仁勳的婚外情對象被懷疑是中國間諜，使「美人計」再度受到關注。在韓國，朝鮮特工元正花曾利用與軍官的關係蒐集軍事情報。",
-        "pub": "Wed, 11 Nov 2026 13:07:08 GMT"
+        "pub": "2026-11-11T14:16:43Z",
+        "abs": "Recent advances in medical large multimodal models (LMMs) have brought promising progress to clinical decision support, yet hallucination, the generation of confident but clinically unverifiable outpu"
       }
     },
     {
-      "id": "7596d119bbcbb67c09e68005",
-      "source": "BBC中文",
-      "domain": "国际",
-      "title": "「台灣之光」形象重挫？民眾如何看黃仁勳婚外情風波",
-      "link": "https://www.bbc.com/zhongwen/articles/cm0e0ey0qx7yo/trad?at_medium=RSS&at_campaign=rss",
+      "id": "http://arxiv.org/abs/2611.15523v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "title": "An Approach to Hinton's Mother-Child Proposal: Neural Networks Learning and Preserving Care in a Finite World",
+      "link": "http://arxiv.org/abs/2611.15523v1",
       "extra": {
-        "desc": "輝達（英偉達）執行長黃仁勳捲入婚外情風波，部分美國媒體引述情報官員指，涉事女子與中國情報系統有關。BBC中文在台北街頭採訪民眾，了解他們如何看待這場仍在持續發醇的風波。",
-        "pub": "Wed, 11 Nov 2026 04:28:59 GMT"
+        "pub": "2026-11-11T14:14:17Z",
+        "abs": "Hinton proposed that artificial intelligence should be given \"maternal instincts\" and relate to us as a mother to her child. We argue that care must first be learned, with the network itself as the ch"
       }
     },
     {
-      "id": "5b106a0469745cc4fd96ba5c",
+      "id": "http://arxiv.org/abs/2611.15522v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "title": "GHAgentCI: A Dataset of Coding-Agent Invocations in CI Workflow Histories",
+      "link": "http://arxiv.org/abs/2611.15522v1",
+      "extra": {
+        "pub": "2026-11-11T14:13:33Z",
+        "abs": "Coding agents are increasingly integrated into GitHub Actions to review pull requests, triage issues and modify code. Identifying these integrations is challenging because agentic workflows often rese"
+      }
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.15521v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "title": "DecArena: Evaluating Large-Scale Decentralized Multi-Agent Collaboration",
+      "link": "http://arxiv.org/abs/2611.15521v1",
+      "extra": {
+        "pub": "2026-11-11T14:13:26Z",
+        "abs": "Emerging personal AI agents raise fundamental scalability and privacy concerns for centralized multi-agent systems (MASs), which rely on a global orchestrator with broad access to agents, resources, a"
+      }
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.15515v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "title": "Incentive-Responsive Agents: A Principal-Agent Framework, Metric Suite, and Runtime Architecture for Long-Lived Personal AI Agents",
+      "link": "http://arxiv.org/abs/2611.15515v1",
+      "extra": {
+        "pub": "2026-11-11T14:09:13Z",
+        "abs": "Personal AI agents now persist: they hold accounts, mailboxes, long-term memory, and open-ended task streams, yet the dominant way to improve them remains capability-side: prompt engineering, larger m"
+      }
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.15507v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "title": "ReShap: Interpretable Reinforcement Learning for High-Dimensional Multi-Action Settings",
+      "link": "http://arxiv.org/abs/2611.15507v1",
+      "extra": {
+        "pub": "2026-11-11T14:02:55Z",
+        "abs": "Deep Reinforcement Learning (RL) plays a crucial role in tackling complex tasks, yet its reliance on deep neural networks makes the learned policies opaque. To enhance the trustworthiness of RL polici"
+      }
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.15481v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "title": "SkillEarth: Teaching General-Purpose Agents to Act on Earth via Skill Evolution",
+      "link": "http://arxiv.org/abs/2611.15481v1",
+      "extra": {
+        "pub": "2026-11-11T13:44:34Z",
+        "abs": "Recently developed remote sensing (RS) agents execute real-world tasks with complex workflows through multi-step tool invocation. These agents, however, typically rely on predefined expertise or param"
+      }
+    },
+    {
+      "id": "dd9cd2ea12c0780cbee0a268",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
-      "link": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
       "extra": {
-        "desc": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
-        "pub": "Thu, 12 Nov 2026 03:13:10 +0000"
+        "desc": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+        "pub": "Thu, 12 Nov 2026 22:42:51 +0000"
       }
     },
     {
-      "id": "18b62215b8f853a2af62709d",
+      "id": "cc274b2f47e6001dae87b8da",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "link": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "link": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
       "extra": {
-        "desc": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-        "pub": "Wed, 11 Nov 2026 23:50:00 +0000"
+        "desc": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+        "pub": "Thu, 12 Nov 2026 22:22:28 +0000"
       }
     },
     {
-      "id": "75c829f8f3e3ee5849073c57",
+      "id": "f23fbb3377ce2597c1bac6e8",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
-      "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
       "extra": {
-        "desc": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
-        "pub": "Wed, 11 Nov 2026 23:28:45 +0000"
+        "desc": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+        "pub": "Thu, 12 Nov 2026 21:27:10 +0000"
       }
     },
     {
-      "id": "e9e0584e6563e46e5f71391d",
+      "id": "79f1274242de31932b97c7fe",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
-      "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
       "extra": {
-        "desc": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
-        "pub": "Wed, 11 Nov 2026 23:17:05 +0000"
+        "desc": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+        "pub": "Thu, 12 Nov 2026 20:26:47 +0000"
       }
     },
     {
-      "id": "fd4261d660f4d5455a4828b2",
+      "id": "f345c2704d5a66b0daa81c84",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Why the data center you dread might never even be built",
-      "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
       "extra": {
-        "desc": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into pla",
-        "pub": "Wed, 11 Nov 2026 20:15:15 +0000"
+        "desc": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+        "pub": "Thu, 12 Nov 2026 19:27:45 +0000"
       }
     },
     {
-      "id": "bd6844868b918b45be09a433",
+      "id": "30d3a41c6e9f03d4d1364368",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Meta is losing its longtime head of  infrastructure",
-      "link": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
       "extra": {
-        "desc": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
-        "pub": "Wed, 11 Nov 2026 20:12:01 +0000"
+        "desc": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+        "pub": "Thu, 12 Nov 2026 19:11:00 +0000"
       }
     },
     {
-      "id": "9cc509ab872ed51772571eab",
+      "id": "1f883bd592cdf63ad83e552d",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Olaf Sakkers is betting he can beat the emerging-manager squeeze",
-      "link": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/",
+      "title": "Microsoft’s Outlook email hit by new outage",
+      "link": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/",
       "extra": {
-        "desc": "Entering into the world of venture capital has never been easy, especially as a first-time fund manager. But it's especially daunting right now. Olaf Sakkers has spent the past five years proving that",
-        "pub": "Wed, 11 Nov 2026 20:04:28 +0000"
+        "desc": "Microsoft hasn't yet given a cause for the outage, which is affecting Outlook email users.",
+        "pub": "Thu, 12 Nov 2026 19:03:39 +0000"
       }
     },
     {
-      "id": "2e5b02c2cf2a567e01ad2947",
+      "id": "daf3a314bfea942e6c1250b5",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-      "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
       "extra": {
-        "desc": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s thir",
-        "pub": "Wed, 11 Nov 2026 19:54:00 +0000"
+        "desc": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company n",
+        "pub": "Thu, 12 Nov 2026 18:39:23 +0000"
       }
     },
     {
-      "id": "853aee804705726ef923959b",
+      "id": "7bed06607363bdcf4b2efa6e",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-      "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "link": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
       "extra": {
-        "desc": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
-        "pub": "Wed, 11 Nov 2026 19:34:55 +0000"
+        "desc": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+        "pub": "Thu, 12 Nov 2026 17:36:40 +0000"
       }
     },
     {
-      "id": "b35baeb0963157d8576addce",
+      "id": "32c313e5cbe73138c3176e5d",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
-      "link": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
       "extra": {
-        "desc": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
-        "pub": "Wed, 11 Nov 2026 19:22:22 +0000"
+        "desc": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+        "pub": "Thu, 12 Nov 2026 17:17:58 +0000"
       }
     },
     {
-      "id": "82ec26dc136a519d185fecf1",
+      "id": "4fdafaf288e3a984ed50e826",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
-      "link": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
       "extra": {
-        "desc": "“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said.",
-        "pub": "Wed, 11 Nov 2026 16:16:07 +0000"
+        "desc": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+        "pub": "Thu, 12 Nov 2026 17:00:52 +0000"
       }
     },
     {
-      "id": "1b243d7f93d56162e3b628da",
+      "id": "f34ad07df96e64c2ed9564c4",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-      "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
       "extra": {
-        "desc": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
-        "pub": "Wed, 11 Nov 2026 16:14:44 +0000"
+        "desc": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos",
+        "pub": "Thu, 12 Nov 2026 17:00:00 +0000"
       }
     },
     {
-      "id": "e50b6be5b8af095274d0bcea",
+      "id": "a62ec39bbd630ab64b76907d",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Siri co-founder backs Helix for its voice ID tech",
-      "link": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/",
+      "title": "Jensen Huang agrees to testify before Congress",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
       "extra": {
-        "desc": "With the rise of AI agents like Instinct and Muse, the industry needs to rethink human identity on the internet and rely on biometric signals like voice, which is where Helix comes in.",
-        "pub": "Wed, 11 Nov 2026 15:02:47 +0000"
+        "desc": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+        "pub": "Thu, 12 Nov 2026 16:36:37 +0000"
       }
     },
     {
-      "id": "39496ac7a9146f6f8818cd5f",
+      "id": "bf053d9be7a423bd4c380c83",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
-      "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
       "extra": {
-        "desc": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He ",
-        "pub": "Wed, 11 Nov 2026 15:00:00 +0000"
+        "desc": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+        "pub": "Thu, 12 Nov 2026 16:32:33 +0000"
       }
     },
     {
-      "id": "d1560da5b83ceb48a5fa92c4",
+      "id": "e9b732aa72e695085cd45c36",
       "source": "TechCrunch",
       "domain": "科技·海外",
-      "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
-      "link": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+      "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
       "extra": {
-        "desc": "Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.",
-        "pub": "Wed, 11 Nov 2026 14:00:00 +0000"
+        "desc": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+        "pub": "Thu, 12 Nov 2026 16:12:44 +0000"
       }
     },
     {
-      "id": "d074e7d40f3f21193fe8147c",
+      "id": "862e9622ee0599995e65dbcd",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Some under-25s should get fewer benefits, Milburn review to say",
-      "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+      "title": "Military base asylum plans granted planning approval",
+      "link": "https://www.bbc.co.uk/news/articles/c58j4798874go?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
-        "pub": "Wed, 11 Nov 2026 23:22:04 GMT"
+        "desc": "The Home Office's application to house up to 1,256 men at the site near Bicester was fast-tracked.",
+        "pub": "Fri, 13 Nov 2026 02:31:02 GMT"
       }
     },
     {
-      "id": "75be06bccdabca5966037441",
+      "id": "b6de030e573168013c37f0d0",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Government could force media industry to improve safeguards after Walliams allegations",
-      "link": "https://www.bbc.co.uk/news/articles/cm3egj20v5x4o?at_medium=RSS&at_campaign=rss",
+      "title": "Junior doctor burnout putting maternity patients at risk, says regulator",
+      "link": "https://www.bbc.co.uk/news/articles/ckx28le8dv9wo?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "Culture Secretary Lisa Nandy could force participation in an industry watchdog to protect whistleblowers, the BBC understands.",
-        "pub": "Thu, 12 Nov 2026 04:01:50 GMT"
+        "desc": "Trainee doctors delivering babies are more likely to suffer from overwork and burnout than other specialties, evidence suggests.",
+        "pub": "Fri, 13 Nov 2026 00:55:31 GMT"
       }
     },
     {
-      "id": "69965af5a0b75341a3ee4195",
+      "id": "8f44676f2fce15704ff7cd45",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
-        "pub": "Thu, 12 Nov 2026 00:49:05 GMT"
+        "desc": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+        "pub": "Fri, 13 Nov 2026 03:57:01 GMT"
       }
     },
     {
-      "id": "7a1f9ef4107cb34ddaf0ea7c",
+      "id": "4c44a39c38625ca618cf4a01",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Significant drop in levels of toxic 'forever' chemicals in England's rivers",
-      "link": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
+      "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+      "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "The decline has been put down to severe restrictions placed on the substances' use.",
-        "pub": "Thu, 12 Nov 2026 00:12:59 GMT"
+        "desc": "The Ukrainian president says it makes sense for European leaders to be involved as Ukraine hopes to eventually join the EU.",
+        "pub": "Fri, 13 Nov 2026 02:01:35 GMT"
       }
     },
     {
-      "id": "857cd129fa5b548c5bdb4dca",
+      "id": "4ea23e718192c5939dc8d1df",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Are max strength cold and flu pills worth the money?",
-      "link": "https://www.bbc.co.uk/news/articles/cjkgep4rgngro?at_medium=RSS&at_campaign=rss",
+      "title": "The school where white working-class pupils defy the odds",
+      "link": "https://www.bbc.co.uk/news/articles/cm369259g0j2o?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "Some cold and flu remedies cost 20 times as much as a basic pack of paracetamol or ibuprofen.",
-        "pub": "Thu, 12 Nov 2026 00:12:28 GMT"
+        "desc": "Politicians are worried about the outcomes of white, working-class pupils. But one school in Sunderland seems to have defied gravity",
+        "pub": "Fri, 13 Nov 2026 00:53:49 GMT"
       }
     },
     {
-      "id": "116834ed33f0ee9e369200dd",
+      "id": "8c74d75701360d0790ab25a4",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
-      "link": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
+      "title": "Timothée Chalamet among Hollywood stars and charity heroes stepping up for BBC Children In Need",
+      "link": "https://www.bbc.co.uk/news/articles/cqly4lnxn031o?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "Following a ceremony marking Veterans Day, a group that included Defence Secretary Pete Hegseth was shouted at to be quiet.",
-        "pub": "Wed, 11 Nov 2026 21:43:35 GMT"
+        "desc": "Viewers of the annual TV charity event will see the actor playing a prank on Rylan.",
+        "pub": "Fri, 13 Nov 2026 00:54:04 GMT"
       }
     },
     {
-      "id": "858e8b886ec969345f5fb72d",
+      "id": "1802e42403d7956c727d25ff",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-      "link": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+      "title": "Burnham says 'win-win' deal can be agreed between UK and EU",
+      "link": "https://www.bbc.co.uk/news/articles/cm2l5n07l87vo?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
-        "pub": "Wed, 11 Nov 2026 18:04:58 GMT"
+        "desc": "The prime minister says the deal could be \"more like the Brexit people thought they were voting for\" in 2016.",
+        "pub": "Fri, 13 Nov 2026 01:17:58 GMT"
       }
     },
     {
-      "id": "83e22e9af5097999679d838c",
+      "id": "5a83b6d69101a5df01c79ae1",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Lego marketplace BrickLink offline after 'unusual activity' detected",
-      "link": "https://www.bbc.co.uk/news/articles/c6rmgw8zynr4o?at_medium=RSS&at_campaign=rss",
+      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+      "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "Known as the eBay of Lego, it has been down for three days and is yet to disclose what caused the shutdown.",
-        "pub": "Wed, 11 Nov 2026 22:26:18 GMT"
+        "desc": "The attack is thought to be the first time Ukrainian drones have attacked a Russian ship in an open stretch of the Baltic Sea.",
+        "pub": "Thu, 12 Nov 2026 20:09:16 GMT"
       }
     },
     {
-      "id": "1012bdb698239929cf7a9601",
+      "id": "59f565d8eaa76d4f456ca1c0",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Survivor pulled from rubble of deadly building collapse in New York",
-      "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+      "title": "How could the Nvidia CEO’s affair threaten US national security?",
+      "link": "https://www.bbc.co.uk/news/videos/cm7526d2qeg4o?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "Two people are dead and several others injured as rescuers scour the debris in Brooklyn.",
-        "pub": "Thu, 12 Nov 2026 02:33:12 GMT"
+        "desc": "BBC's Asma Khalid explains how the Nvidia affair could threaten US national security and risk sensitive US technology getting into China.",
+        "pub": "Fri, 13 Nov 2026 02:15:59 GMT"
       }
     },
     {
-      "id": "6cfb9f50cd76d46b69d74ef2",
+      "id": "5b7179da6c5dee5b81473284",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Sunbed firms must not downplay cancer risk, says watchdog",
-      "link": "https://www.bbc.co.uk/news/articles/c98r7xyjx8g4o?at_medium=RSS&at_campaign=rss",
+      "title": "Cricket sandpaper scandal claims '100% wrong', Australia captain says",
+      "link": "https://www.bbc.co.uk/sport/cricket/articles/cwq6e4y9525mo?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "The advertising watchdog says they also must not make misleading claims that sunbeds can treat skin conditions or improve mental health.",
-        "pub": "Thu, 12 Nov 2026 00:13:27 GMT"
+        "desc": "Australia captain Pat Cummins hits back at former team-mate Usman Khawaja’s claims over the sandpaper scandal, calling them “100% wrong” and “utter nonsense”.",
+        "pub": "Fri, 13 Nov 2026 04:26:57 GMT"
       }
     },
     {
-      "id": "a575b91b095019a4312547be",
+      "id": "d7cecae10a2af674831f4b2e",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
-      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "title": "Brand will face 'hell on earth' in Wandsworth prison, says former inmate",
+      "link": "https://www.bbc.co.uk/news/articles/ck7v25pp19m8o?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
-        "pub": "Thu, 12 Nov 2026 04:00:30 GMT"
+        "desc": "The disgraced entertainer was sentenced to 10 years and six months for rape and sexual assault.",
+        "pub": "Fri, 13 Nov 2026 00:15:27 GMT"
       }
     },
     {
-      "id": "941c95c4a6cf41c68f63c54c",
+      "id": "434ab177136833dab0c6ec79",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Burnham's push for closer EU ties causes ripples in his party and others",
-      "link": "https://www.bbc.co.uk/news/articles/cr78251892z7o?at_medium=RSS&at_campaign=rss",
+      "title": "How AI visionary Jensen Huang was undone by his own bad decisions",
+      "link": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "Ahead of a week which will focus minds on the UK's relationship with the bloc, the prime minister's stance on Europe is causing MPs to think about their leaders' individual strategy.",
-        "pub": "Thu, 12 Nov 2026 00:30:48 GMT"
+        "desc": "Zoe Kleinman explains how the man who built Nvidia from the ground up lost everything in a matter of days.",
+        "pub": "Thu, 12 Nov 2026 16:43:36 GMT"
       }
     },
     {
-      "id": "c7afb72e28ae0d601e70602d",
+      "id": "5c6021b4e1e4761c10815037",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "'You're triggering me': How to understand your therapy-speak teen",
-      "link": "https://www.bbc.co.uk/news/articles/c962y743y458o?at_medium=RSS&at_campaign=rss",
+      "title": "The rise of 'housefishing' - when does using AI go from enhancing to misleading?",
+      "link": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "Words most often heard in the therapist's chair have made their way into day-to-day conversation - here's a parents' guide to understanding it.",
-        "pub": "Thu, 12 Nov 2026 00:51:19 GMT"
+        "desc": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+        "pub": "Fri, 13 Nov 2026 00:13:35 GMT"
       }
     },
     {
-      "id": "f1001f4262381cd29587e115",
+      "id": "8d6458bb97ae6e94d2ebbf31",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "How much art does your council own and is it locked away or on display?",
-      "link": "https://www.bbc.co.uk/news/articles/crgqwgzxeexno?at_medium=RSS&at_campaign=rss",
+      "title": "Skye Newman gets 'goosebumps' over record-breaking Brixton Academy run",
+      "link": "https://www.bbc.co.uk/news/articles/ckvg25g323ymo?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "More than 500,000 pieces of art are owned by 225 councils, the BBC finds, but most of it is storage.",
-        "pub": "Thu, 12 Nov 2026 01:03:53 GMT"
+        "desc": "She is the first British female solo singer to play a five-gig residency at the venue.",
+        "pub": "Fri, 13 Nov 2026 00:24:11 GMT"
       }
     },
     {
-      "id": "d51d964f47ac615e27c3df86",
+      "id": "f1913e22273f017a2586c035",
       "source": "BBC News",
       "domain": "国际·英文",
-      "title": "Trying Tourette's device was the best day of my life",
-      "link": "https://www.bbc.co.uk/news/articles/cmp3g3e5q4zxo?at_medium=RSS&at_campaign=rss",
+      "title": "Ankle injuries are more common than you think - here's how to protect yours",
+      "link": "https://www.bbc.co.uk/news/articles/c6vgxjevv5v7o?at_medium=RSS&at_campaign=rss",
       "extra": {
-        "desc": "Katie is one of many that say a device developed by researchers in Nottingham helped calm her symptoms.",
-        "pub": "Thu, 12 Nov 2026 01:07:47 GMT"
+        "desc": "Performance physiotherapist Genevieve Taiwah shares her top tips for looking after your ankles.",
+        "pub": "Fri, 13 Nov 2026 00:14:12 GMT"
       }
     },
     {
-      "id": "7c940a243d4a2940b5fd4368",
+      "id": "5c0ba4438a6c392e18c3fd7d",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+      "title": "Alice Huang tied to Nvidia’s biggest Chinese competitor",
+      "link": "https://www.cnbc.com/2026/11/12/alice-huang-jensen-huang-nvidia-huawei.html",
       "extra": {
-        "desc": "Nvidia's board is meeting days after CEO Jensen Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy.",
-        "pub": "Thu, 12 Nov 2026 03:46:56 GMT"
+        "desc": "The woman with whom Jensen Huang reportedly had a relationship also owned stakes in companies that provided computing power to Huawei, a key Nvidia competitor.",
+        "pub": "Thu, 12 Nov 2026 22:47:28 GMT"
       }
     },
     {
-      "id": "bad046ba89b6b074abc091c2",
+      "id": "c91d4ceacc57e1b2a2e60ab2",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "What we know so far about Nvidia partner Megaspeed’s Asia footprint",
-      "link": "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html",
+      "title": "As Nvidia reels from Huang's affairs, who stands to gain?",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html",
       "extra": {
-        "desc": "Megaspeed is at the center of a U.S. probe over its role in sending billions of restricted Nvidia chips to China, and its executive's alleged affair with Jensen Huang.",
-        "pub": "Thu, 12 Nov 2026 03:02:03 GMT"
+        "desc": "That shift comes as Nvidia grapples with the fallout from Huang's resignation, following revelations about his multiple affairs.",
+        "pub": "Fri, 13 Nov 2026 03:59:40 GMT"
       }
     },
     {
-      "id": "f513b43dc185386e17790943",
+      "id": "2301fc704f8da9878511bd88",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Elon Musk says it would be an 'honor' to hire Nvidia's Jensen Huang",
-      "link": "https://www.cnbc.com/2026/11/12/elon-musk-jensen-huang-nvidia-tesla.html",
+      "title": "Widespread Microsoft outage takes down Outlook and other 365 services",
+      "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
       "extra": {
-        "desc": "The post on X comes amid reports that Nvidia's board is preparing to oust Huang.",
-        "pub": "Thu, 12 Nov 2026 03:25:05 GMT"
+        "desc": "A Microsoft outage on Thursday affected users of services like Outlook, Teams and 365.",
+        "pub": "Thu, 12 Nov 2026 22:24:12 GMT"
       }
     },
     {
-      "id": "a426bdcbf41d883982c1e0b1",
+      "id": "1807cdd7dc37841d7b5cbdb9",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "The world's super-rich are piling into alternative investments. Here's why",
-      "link": "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
+      "title": "IRS announces 2027 401(k) contribution limits, raises savings cap: What it means for your money",
+      "link": "https://www.cnbc.com/2026/11/12/401k-contribution-limits-2027.html",
       "extra": {
-        "desc": "Alternative investments now account for 60% of single-family office portfolios, surpassing traditional assets for the first time, according to BNY Wealth.",
-        "pub": "Thu, 12 Nov 2026 03:36:44 GMT"
+        "desc": "The IRS has announced higher 401(k) contribution limits for 2027. Here’s what retirement savers need to know.",
+        "pub": "Thu, 12 Nov 2026 17:23:14 GMT"
       }
     },
     {
-      "id": "b64a3bee7ae479c751607594",
+      "id": "ef43fae27d980a1a35b4d50f",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Cramer's stance on Nvidia's stock amid reports that CEO Jensen Huang may be ousted",
-      "link": "https://www.cnbc.com/investingclub/2026/11/11/jim-cramer-jensen-huang-nvidia-stock-advice.html",
+      "title": "Trump says ‘we don’t need a deal with Iran’",
+      "link": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
       "extra": {
-        "desc": "Jim Cramer said Wednesday night that he was saddened by a news report that indicated Nvidia's board of directors is preparing to fire Huang.",
-        "pub": "Thu, 12 Nov 2026 01:14:21 GMT"
+        "desc": "Trump directed Vice President JD Vance to instead focus his attention on corruption and crime in Democratic cities and states.",
+        "pub": "Thu, 12 Nov 2026 20:34:31 GMT"
       }
     },
     {
-      "id": "59e39f6c6343ac97d2651967",
+      "id": "c06b741a7e8e5535f302bd97",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+      "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
       "extra": {
-        "desc": "Huang was notably opposed to strict export controls on AI chips to China, which ruffled feathers with congressional China hawks.",
-        "pub": "Wed, 11 Nov 2026 22:46:29 GMT"
+        "desc": "Cerebras announced a new deal with Microsoft after partnering with major cloud providers Amazon and Oracle.",
+        "pub": "Fri, 13 Nov 2026 02:43:26 GMT"
       }
     },
     {
-      "id": "e8a9cd3c8b7467b762575761",
+      "id": "c9238c2d35ba4a6fe5e2a486",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Scott Colom wins Mississippi Senate election over incumbent Republican Hyde-Smith",
-      "link": "https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html",
+      "title": "Nvidia: Ex-prosecutor Joon Kim and Wachtell, Lipton bring big track record to investigation",
+      "link": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-joon-kim-wachtell-china-spy.html",
       "extra": {
-        "desc": "Scott Colom will be the first Democrat elected to the Senate from the state since 1982, and Mississippi's first Black senator since Reconstruction.",
-        "pub": "Wed, 11 Nov 2026 23:31:37 GMT"
+        "desc": "The retention of Wachtell, Lipton for the Nvidia probe comes on the heels of the law firm's investigation for the NBA into the Los Angeles Clippers.",
+        "pub": "Fri, 13 Nov 2026 04:07:44 GMT"
       }
     },
     {
-      "id": "454d17e8db7085ca5e7e899d",
+      "id": "6a73256fbe09b8fcdbd98a18",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Feds arrest top official of healthcare company, alleging illegal drug importation",
-      "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
+      "title": "Here's what Nvidia interim CEO Colette Kress and board chair Harvey Jones wrote to Nvidia employees",
+      "link": "https://www.cnbc.com/2026/11/12/nvidia-kress-jones-employee-emails.html",
       "extra": {
-        "desc": "U.S. officials are accusing two top officials of a Canadian company of operating a scheme to illegally import prescription drugs, court records show.",
-        "pub": "Wed, 11 Nov 2026 22:58:11 GMT"
+        "desc": "Interim CEO Colette Kress and board chair Harvey Jones emailed Nvidia employees, expressing gratitude for \"resilience, professionalism and continued dedication",
+        "pub": "Thu, 12 Nov 2026 19:42:41 GMT"
       }
     },
     {
-      "id": "24d5060d3d73cc4136b056ae",
+      "id": "55cd4b824efc22df258fa437",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "American Airlines brings fresh food back to NY-Chicago first class for first time since 2019",
-      "link": "https://www.cnbc.com/2026/11/11/american-airlines-first-class-chicago-new-york.html",
+      "title": "Jensen Huang is out and Nvidia stock is down—what market pros say about buying dips",
+      "link": "https://www.cnbc.com/make-it/2026/11/12/nvidia-what-market-pros-say-about-buying-dips.html",
       "extra": {
-        "desc": "American Airlines' first-class food options include sandwiches, fruit and chia bowls",
-        "pub": "Wed, 11 Nov 2026 22:20:58 GMT"
+        "desc": "Nvidia stock fell 5% on Thursday following the departure of CEO Jensen Huang. Some see it as a signal to sell, others an opportunity to buy.",
+        "pub": "Thu, 12 Nov 2026 20:01:29 GMT"
       }
     },
     {
-      "id": "12be1004a2c4e25a8cd30c12",
+      "id": "3acd2ad84e617b95705768c4",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Canada’s ambassador warns Trump tariffs are driving up costs, threatening U.S. investment",
-      "link": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
+      "title": "Why Nvidia stock drop isn't a big deal for many ETF, mutual fund investors",
+      "link": "https://www.cnbc.com/2026/11/12/nvidia-stock-drop-etf-mutual-fund-investors.html",
       "extra": {
-        "desc": "U.S.-Canada trade tensions persist as Trump's tariffs drive up costs, threaten investment and complicate negotiations between the two countries.",
-        "pub": "Wed, 11 Nov 2026 22:30:57 GMT"
+        "desc": "Nvidia stock accounts for a fairly large share of many mutual funds and ETFs. But losses in the stock don't necessarily mean big losses for the overall fund.",
+        "pub": "Thu, 12 Nov 2026 21:16:37 GMT"
       }
     },
     {
-      "id": "8ea202781f0eae31b2206cd4",
+      "id": "46a27a326d9242587f803f7c",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Mississippi Senate: Scott Colom lead over Hyde-Smith pops to more than 4,400 votes",
-      "link": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html",
+      "title": "Without Jensen Huang, Nvidia's organizational structure isn't 'built to last,' management expert says",
+      "link": "https://www.cnbc.com/make-it/2026/11/12/nvidia-jensen-huang-management-structure.html",
       "extra": {
-        "desc": "Tuesday was the deadline for provisional ballots to be resolved in Mississippi, and the deadline for the receipt of mail-in absentee ballots.",
-        "pub": "Wed, 11 Nov 2026 19:55:39 GMT"
+        "desc": "Nvidia's flat management structure could pose challenges for Huang's successor, according to experts.",
+        "pub": "Thu, 12 Nov 2026 22:06:08 GMT"
       }
     },
     {
-      "id": "e5c4582b0a052e9f11ef9cf9",
+      "id": "758421836438d35a892a7ecb",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "CoreWeave soars more than 24% for best day since April 2025 after strong Q3 report",
-      "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+      "title": "Cisco beats on earnings, says AI infrastructure revenue will double this fiscal year",
+      "link": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html",
       "extra": {
-        "desc": "Neoclouds such as CoreWeave, Nebius and IREN have come under scrutiny this month as investors assessed the sustainability of the AI trade.",
-        "pub": "Wed, 11 Nov 2026 21:11:26 GMT"
+        "desc": "Cisco is trying to become a bigger player in AI after missing out on the early years of the boom.",
+        "pub": "Thu, 12 Nov 2026 21:20:35 GMT"
       }
     },
     {
-      "id": "0ee24b8a8fc7d81ca4e79d4d",
+      "id": "ec4164faa214e2b9d30bcf43",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Prediction markets tied to clinical trials and drug approvals draw lawmakers' ire",
-      "link": "https://www.cnbc.com/2026/11/11/kalsi-polymarket-prediction-market-senators-hhs-drug-approval.html",
+      "title": "Who will replace Jensen Huang? Here's our early thoughts on the search for Nvidia's next CEO",
+      "link": "https://www.cnbc.com/investingclub/2026/11/12/jensen-huang-ceo-replacement-jim-cramer.html",
       "extra": {
-        "desc": "Sens. Angela Alsobrooks and Ron Wyden are asking what steps the Department of Health and Human Services has taken to mitigate risks from the markets.",
-        "pub": "Wed, 11 Nov 2026 19:16:23 GMT"
+        "desc": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+        "pub": "Thu, 12 Nov 2026 20:00:42 GMT"
       }
     },
     {
-      "id": "fc3c30eeadf0587171f5d10e",
+      "id": "48ece7199f1ecd4303bd2fff",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Social Security could pay full benefits until 2059 if taxable payroll kept pace with GDP: AARP report",
-      "link": "https://www.cnbc.com/2026/11/11/social-security-benefits-taxable-payroll-gdp.html",
+      "title": "Cramer says Jensen Huang betrayed Nvidia shareholders. How to pick up the pieces",
+      "link": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-exit-cramer.html",
       "extra": {
-        "desc": "An aging work force is not the only reason Social Security's trust funds now have a looming shortfall, according to AARP Public Policy Institute research.",
-        "pub": "Wed, 11 Nov 2026 19:54:27 GMT"
+        "desc": "Without Huang, Cramer said Thursday, \"There won't be a better Nvidia, just a different one.\"",
+        "pub": "Thu, 12 Nov 2026 23:14:56 GMT"
       }
     },
     {
-      "id": "d7f64c3a22113082733d5ce6",
+      "id": "98cd4d393ac5a0072b31ad1d",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "title": "Measles is surging in the U.S. — and outbreaks can cost millions",
-      "link": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html",
+      "title": "Scout Motors has 212,000 vehicle reservations as $2 billion South Carolina plant nears completion",
+      "link": "https://www.cnbc.com/2026/11/12/scout-motors-reservations-south-carolina-plant.html",
       "extra": {
-        "desc": "A new tool developed by Johns Hopkins researchers estimates that the 2025 measles outbreak in the U.S. carried an economic cost of more than $37 million.",
-        "pub": "Wed, 11 Nov 2026 15:14:53 GMT"
+        "desc": "Scout Motors has roughly 212,000 reservations for its Terra pickup and Traveler SUV, CEO Scott Keogh told CNBC.",
+        "pub": "Thu, 12 Nov 2026 22:17:05 GMT"
       }
     }
   ],
@@ -2341,17 +2462,6 @@
       }
     },
     {
-      "id": "8f1ff558df337493039b7100",
-      "source": "BBC中文",
-      "domain": "国际",
-      "title": "為何特朗普在國宴上送習近平一座華麗的白頭海鵰雕像？",
-      "link": "https://www.bbc.com/zhongwen/articles/c3qjkx1wdyyxo/trad?at_medium=RSS&at_campaign=rss",
-      "extra": {
-        "desc": "從紅杉木長椅到DVD，饋贈禮物一直是外交藝術的重要一環。",
-        "pub": "Fri, 25 Sep 2026 04:56:06 GMT"
-      }
-    },
-    {
       "id": "96477eb739f54876b25b2593",
       "source": "BBC中文",
       "domain": "国际",
@@ -2366,10 +2476,40 @@
       "id": "fx-usd-cny",
       "source": "美元兑人民币",
       "domain": "市场",
-      "title": "USD/CNY = 6.6858",
+      "title": "USD/CNY = 6.6851",
       "link": "https://open.er-api.com/v6/latest/USD",
       "extra": {
-        "rate": 6.685797
+        "rate": 6.685071
+      }
+    },
+    {
+      "id": "6bad3724a18d628e17e33ab9",
+      "source": "GitHub热榜",
+      "domain": "技术趋势",
+      "title": "CopilotKit / OpenBot",
+      "link": "https://github.com/CopilotKit/OpenBot",
+      "extra": {
+        "hot": "1.2万",
+        "hot_num": 12000.0
+      }
+    },
+    {
+      "id": "d0562342c6f391d6e0a46fea",
+      "source": "GitHub Trending",
+      "domain": "技术趋势",
+      "title": "CopilotKit/OpenBot",
+      "link": "https://github.com/CopilotKit/OpenBot",
+      "extra": {}
+    },
+    {
+      "id": "c79042ca09002cc9f29982eb",
+      "source": "Wired",
+      "domain": "科技·海外",
+      "title": "Wayfair Coupons: Up to 80% Off November 2026",
+      "link": "https://www.wired.com/story/wayfair-promo-code/",
+      "extra": {
+        "desc": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
+        "pub": "Thu, 12 Nov 2026 06:00:00 +0000"
       }
     },
     {
@@ -2384,56 +2524,15 @@
       }
     },
     {
-      "id": "fae81b6ae7710b2f05e16d46",
-      "source": "少数派RSS",
-      "domain": "科技数码",
-      "title": "派评 | 近期值得关注的 App",
-      "link": "https://sspai.com/post/118833",
-      "extra": {
-        "desc": ">下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
-        "pub": "Mon, 09 Nov 2026 18:27:59 +0800"
-      }
-    },
-    {
-      "id": "e44ab3d1b2cce35b8ea7ee50",
+      "id": "1f46c49a635d16348c5a7f98",
       "source": "抖音总榜",
       "domain": "舆情热点",
-      "title": "劲爆尾杀 她俩开心极了！#看到最后 #炫迈爆酸口香糖 #爆酸整蛊神器 #根本停不下来",
-      "link": "https://www.douyin.com/video/7702690677549559915",
+      "title": "高燃现场！#5000余名新兵夜间紧急集合 （作者：唐专专 陈梓豪 王建州 徐帆 韩睿 白浩然 编辑：刘劲鹰）",
+      "link": "https://www.douyin.com/video/7704141715749260587",
       "extra": {
         "hot": "12.",
         "hot_num": 12.0
       }
-    },
-    {
-      "id": "0445692d52cc7af17587faf5",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "ArkTS 做应用内\"快捷胶囊\" —— 续航日记踩过的两个鸿蒙声明式 UI workaround",
-      "link": "https://juejin.cn/post/7704389851193606170",
-      "extra": {
-        "hot": "1.3万",
-        "hot_num": 13000.0
-      }
-    },
-    {
-      "id": "bd56f2239a104114164f322a",
-      "source": "GitHub热榜",
-      "domain": "技术趋势",
-      "title": "vercel-labs / agent-browser",
-      "link": "https://github.com/vercel-labs/agent-browser",
-      "extra": {
-        "hot": "5.0万",
-        "hot_num": 50000.0
-      }
-    },
-    {
-      "id": "ff8ff9dfc5a272d02849a235",
-      "source": "GitHub Trending",
-      "domain": "技术趋势",
-      "title": "vercel-labs/agent-browser",
-      "link": "https://github.com/vercel-labs/agent-browser",
-      "extra": {}
     },
     {
       "id": "d16f2277e865a087f2d50d54",
@@ -2455,17 +2554,6 @@
       "extra": {
         "desc": "上個月剛滿30歲的黃之鋒，自2020年底起因不同案件入獄，至今身在獄中超過六年。",
         "pub": "Fri, 06 Nov 2026 02:29:11 GMT"
-      }
-    },
-    {
-      "id": "d10cceed541f28ac09ef6d63",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "ArkTS 做 5 态数据流 —— 咖啡电量的代谢状态机怎么驱动 UI",
-      "link": "https://juejin.cn/post/7704619107316219919",
-      "extra": {
-        "hot": "1.4万",
-        "hot_num": 14000.0
       }
     },
     {
@@ -2491,17 +2579,6 @@
       }
     },
     {
-      "id": "e5847307447854b7fea2234d",
-      "source": "MIT Tech Review",
-      "domain": "科技·海外",
-      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-      "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
-      "extra": {
-        "desc": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. I watched a humanoid robot clean my apartment. It ",
-        "pub": "Fri, 06 Nov 2026 13:10:00 +0000"
-      }
-    },
-    {
       "id": "9bb4464fefbbe90055f69cc9",
       "source": "The Guardian",
       "domain": "国际·英文",
@@ -2513,25 +2590,14 @@
       }
     },
     {
-      "id": "3f6c2a771a55f3af5750b694",
-      "source": "The Guardian",
-      "domain": "国际·英文",
-      "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
-      "link": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
-      "extra": {
-        "desc": "Former liberation movement’s share of national vote almost 14 percentage points below 2021 resultThe African National Congress is on course to suffer a bruising defeat in South Africa’s local election",
-        "pub": "Fri, 06 Nov 2026 12:48:37 GMT"
-      }
-    },
-    {
       "id": "e5f923a93065e6554645f419",
       "source": "GitHub热榜",
       "domain": "技术趋势",
       "title": "meta / astryx",
       "link": "https://github.com/meta/astryx",
       "extra": {
-        "hot": "2.5万",
-        "hot_num": 25000.0
+        "hot": "2.7万",
+        "hot_num": 27000.0
       }
     },
     {
@@ -2541,18 +2607,91 @@
       "title": "meta/astryx",
       "link": "https://github.com/meta/astryx",
       "extra": {}
+    },
+    {
+      "id": "04ee731afbc0ed8ecb8ea7b8",
+      "source": "虎嗅网热文",
+      "domain": "科技商业",
+      "title": "比日本车多交45%税费，中国车企被集体“噶腰子”",
+      "link": "https://www.huxiu.com/article/4903318.html",
+      "extra": {
+        "hot": "10.",
+        "hot_num": 10.0
+      }
+    },
+    {
+      "id": "05cceb26267a3aef8add9ccc",
+      "source": "BBC中文",
+      "domain": "国际",
+      "title": "中式微短劇浪潮席捲英國：為滑動時代而生的「碎片化」劇集",
+      "link": "https://www.bbc.com/zhongwen/articles/c50med2zn8dno/trad?at_medium=RSS&at_campaign=rss",
+      "extra": {
+        "desc": "這些節奏明快、張力十足的短篇劇集透過手機觀看，在中國大受歡迎，在英國也正迅速興起。",
+        "pub": "Mon, 09 Nov 2026 00:20:25 GMT"
+      }
+    },
+    {
+      "id": "30a52fec95414e27825e7854",
+      "source": "The Guardian",
+      "domain": "国际·英文",
+      "title": "Collision of two trains in Egypt kills at least seven",
+      "link": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+      "extra": {
+        "desc": "President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from CairoSeven people were killed and at least 125 injured when two trains collided on Sunday south o",
+        "pub": "Sun, 08 Nov 2026 17:51:17 GMT"
+      }
+    },
+    {
+      "id": "7149790afd2b0c858604902d",
+      "source": "The Guardian",
+      "domain": "国际·英文",
+      "title": "How African philosophies inspired a new approach to staging film festivals in Manchester",
+      "link": "https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester",
+      "extra": {
+        "desc": "See My World, an event highlighting the pan-African thought via film, poetry and dance, builds on momentum sparked by local activists and creativesAfrican philosophies including exploring how lessons ",
+        "pub": "Sun, 08 Nov 2026 12:00:39 GMT"
+      }
+    },
+    {
+      "id": "32e061d95842d559e89096e8",
+      "source": "微博热搜榜",
+      "domain": "舆情热点",
+      "title": "白小纯 王子璇",
+      "link": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF+%E7%8E%8B%E5%AD%90%E7%92%87",
+      "extra": {
+        "hot": "29万",
+        "hot_num": 290000.0
+      }
     }
   ],
   "alerts": [
     {
-      "id": "d4899755a080f4884fec38f0",
+      "id": "3942000f3e37921fcf35ffef",
       "source": "微博热搜榜",
       "domain": "舆情热点",
-      "title": "曝腾讯裁员传闻挤崩同事圈",
-      "link": "https://s.weibo.com/weibo?q=%E6%9B%9D%E8%85%BE%E8%AE%AF%E8%A3%81%E5%91%98%E4%BC%A0%E9%97%BB%E6%8C%A4%E5%B4%A9%E5%90%8C%E4%BA%8B%E5%9C%88",
+      "title": "普通人用AI和会用AI的人",
+      "link": "https://s.weibo.com/weibo?q=%E6%99%AE%E9%80%9A%E4%BA%BA%E7%94%A8AI%E5%92%8C%E4%BC%9A%E7%94%A8AI%E7%9A%84%E4%BA%BA",
       "extra": {
-        "hot": "348万",
-        "hot_num": 3480000.0
+        "hot": "53万",
+        "hot_num": 530000.0
+      },
+      "why": {
+        "keywords": [
+          "ai"
+        ],
+        "hot": false,
+        "priority_domain": false
+      }
+    },
+    {
+      "id": "06d5c2b2d07a731bf86e8685",
+      "source": "知乎热榜",
+      "domain": "舆情热点",
+      "title": "被曝大裁员的腾讯，是业务出了什么问题吗？",
+      "link": "https://www.zhihu.com/question/2104225780083286957",
+      "extra": {
+        "hot": "1.",
+        "hot_num": 1.0
       },
       "why": {
         "keywords": [
@@ -2563,32 +2702,14 @@
       }
     },
     {
-      "id": "555ec68cd6eb5171bd9eb7cb",
+      "id": "fea7a25df98b2ecc2b90bb93",
       "source": "知乎热榜",
       "domain": "舆情热点",
-      "title": "苹果宣布官方社区将于 11 月 20 日永久关闭，即日起停止新帖仅保留只读模式，可能出于什么原因？会有何影响？",
-      "link": "https://www.zhihu.com/question/2103848943562109943",
+      "title": "如何看待 2026 年 10 月特斯拉国内销量暴跌？",
+      "link": "https://www.zhihu.com/question/2103258099138172807",
       "extra": {
-        "hot": "11.",
-        "hot_num": 11.0
-      },
-      "why": {
-        "keywords": [
-          "关闭"
-        ],
-        "hot": false,
-        "priority_domain": false
-      }
-    },
-    {
-      "id": "30bdb969df925a74b6c7c2d1",
-      "source": "知乎热榜",
-      "domain": "舆情热点",
-      "title": "RTX5080 售价暴跌 4000 元，这波降价核心原因是什么，现在适合入手吗？",
-      "link": "https://www.zhihu.com/question/2103812903170318494",
-      "extra": {
-        "hot": "24.",
-        "hot_num": 24.0
+        "hot": "12.",
+        "hot_num": 12.0
       },
       "why": {
         "keywords": [
@@ -2599,444 +2720,70 @@
       }
     },
     {
-      "id": "2af14c50af1cc9a1dcf176cc",
-      "source": "百度实时热点",
+      "id": "844a022c2dad242c81253492",
+      "source": "知乎热榜",
       "domain": "舆情热点",
-      "title": "知情人：腾讯“裁员50%”说法不属实",
-      "link": "https://www.baidu.com/s?wd=%E7%9F%A5%E6%83%85%E4%BA%BA%EF%BC%9A%E8%85%BE%E8%AE%AF%E2%80%9C%E8%A3%81%E5%91%9850%25%E2%80%9D%E8%AF%B4%E6%B3%95%E4%B8%8D%E5%B1%9E%E5%AE%9E",
-      "extra": {
-        "hot": "771.2万",
-        "hot_num": 7712000.0
-      },
-      "why": {
-        "keywords": [
-          "裁员"
-        ],
-        "hot": false,
-        "priority_domain": false
-      }
-    },
-    {
-      "id": "7efe323cf704291e314dd79a",
-      "source": "百度实时热点",
-      "domain": "舆情热点",
-      "title": "警惕车辆召回谣言 已有人受骗",
-      "link": "https://www.baidu.com/s?wd=%E8%AD%A6%E6%83%95%E8%BD%A6%E8%BE%86%E5%8F%AC%E5%9B%9E%E8%B0%A3%E8%A8%80+%E5%B7%B2%E6%9C%89%E4%BA%BA%E5%8F%97%E9%AA%97",
-      "extra": {
-        "hot": "685.4万",
-        "hot_num": 6854000.0
-      },
-      "why": {
-        "keywords": [
-          "召回"
-        ],
-        "hot": false,
-        "priority_domain": false
-      }
-    },
-    {
-      "id": "1240440b3d54441b3e521d26",
-      "source": "抖音总榜",
-      "domain": "舆情热点",
-      "title": "【本视频由OiiOii AI制作】我愿称之为“最强售后”#OiiOii #OiiOii创作者计划 #AI创作浪潮计划#搞笑 #反转",
-      "link": "https://www.douyin.com/video/7706640548836232457",
-      "extra": {
-        "hot": "20.",
-        "hot_num": 20.0
-      },
-      "why": {
-        "keywords": [
-          "ai"
-        ],
-        "hot": false,
-        "priority_domain": false
-      }
-    },
-    {
-      "id": "d8fb25ba091d787fd8012dbe",
-      "source": "B站全站日榜",
-      "domain": "舆情热点",
-      "title": "【1酱赛评四强篇·上】BLG突破LPL对S赛T1不胜历史！几代人的夙愿！14年的等待！终于在S赛战胜T1！爽爽爽爽爽！！！！",
-      "link": "https://www.bilibili.com/video/av117592664643195/",
+      "title": "感觉影之刃里的各种字体都好帅啊，比如「决战、殒命」等，这是单独请人写的吗，还是说能靠 AI 跑一批出来？",
+      "link": "https://www.zhihu.com/question/2101991601568536184",
       "extra": {
         "hot": "22.",
         "hot_num": 22.0
       },
       "why": {
         "keywords": [
-          "突破"
+          "ai"
         ],
         "hot": false,
         "priority_domain": false
       }
     },
     {
-      "id": "b4cdefa1a7b7483b973f55da",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "title": "黄仁勋再曝新婚外情，董事会准备罢免！英伟达盘后跌幅达8%",
-      "link": "https://wallstreetcn.com/articles/3785765",
+      "id": "edde5b54368013e0a7071509",
+      "source": "知乎热榜",
+      "domain": "舆情热点",
+      "title": "十二月份美联储会再加息吗？",
+      "link": "https://www.zhihu.com/question/2100483453045184506",
       "extra": {
-        "hot": "25.0万",
-        "hot_num": 250000.0
+        "hot": "24.",
+        "hot_num": 24.0
       },
       "why": {
-        "keywords": [],
+        "keywords": [
+          "加息"
+        ],
         "hot": false,
-        "priority_domain": true
+        "priority_domain": false
       }
     },
     {
-      "id": "018277a229e1e6805a0c97a7",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "title": "AI交易重燃，美股指反弹，CoreWeave飙升24%，美元续涨，黄金跌破4000",
-      "link": "https://wallstreetcn.com/articles/3785732",
+      "id": "d936b254f49557af301a9118",
+      "source": "百度实时热点",
+      "domain": "舆情热点",
+      "title": "徐峥刷到自己的AI换脸视频惊了",
+      "link": "https://www.baidu.com/s?wd=%E5%BE%90%E5%B3%A5%E5%88%B7%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84AI%E6%8D%A2%E8%84%B8%E8%A7%86%E9%A2%91%E6%83%8A%E4%BA%86",
       "extra": {
-        "hot": "18.8万",
-        "hot_num": 188000.0
+        "hot": "752.1万",
+        "hot_num": 7521000.0
       },
       "why": {
         "keywords": [
           "ai"
         ],
         "hot": false,
-        "priority_domain": true
+        "priority_domain": false
       }
     },
     {
-      "id": "9684a772edf236c1013f347f",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "title": "今日开会决定“黄仁勋是否下台”！英伟达董事会已开始遴选新CEO，考虑任命过渡CEO",
-      "link": "https://wallstreetcn.com/articles/3785773",
-      "extra": {
-        "hot": "13.2万",
-        "hot_num": 132000.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "53eac2af465fb896f53817a2",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "title": "华尔街见闻早餐FM-Radio | 2026年11月12日",
-      "link": "https://wallstreetcn.com/articles/3785764",
-      "extra": {
-        "hot": "11.1万",
-        "hot_num": 111000.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "805f50f7b10b830a07363f73",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "title": "英伟达美股盘后跳水，媒体报道称：黄仁勋曾与英伟达高管有过婚外情",
-      "link": "https://wallstreetcn.com/articles/3785762",
-      "extra": {
-        "hot": "8.5万",
-        "hot_num": 85000.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "fb5ccbcdfbc714b90d480f7d",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "title": "Anthropic IPO遭疯抢！认购需求数倍超额，目标估值1.4万亿美元",
-      "link": "https://wallstreetcn.com/articles/3785750",
-      "extra": {
-        "hot": "6.1万",
-        "hot_num": 61000.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "9d1befbf1be08bacca62131f",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "title": "Anthropic大清洗：Claude最严封号潮来了！11月12日全面生效",
-      "link": "https://wallstreetcn.com/articles/3785747",
-      "extra": {
-        "hot": "6.1万",
-        "hot_num": 61000.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "cc6449e4517fd91698f9a084",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "title": "光回来了？微软发声，CPO概念集体沸腾！",
-      "link": "https://wallstreetcn.com/articles/3785709",
-      "extra": {
-        "hot": "6.0万",
-        "hot_num": 60000.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "c174d9e7eba5fe86dfee1f4f",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "title": "俄美乌三方会谈第二天：不到两小时结束，核心分歧依然难解",
-      "link": "https://wallstreetcn.com/articles/3785738",
-      "extra": {
-        "hot": "6.0万",
-        "hot_num": 60000.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "a4248a7e11a01ca0ed96330f",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "title": "科技老将：Anthropic IPO将是美股AI行情高点，有条件会“大举做多中国AI”",
-      "link": "https://wallstreetcn.com/articles/3785720",
-      "extra": {
-        "hot": "5.3万",
-        "hot_num": 53000.0
-      },
-      "why": {
-        "keywords": [
-          "ai"
-        ],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "6a30eefe36b260d868eb7f6f",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "title": "中日领导人是否将在APEC峰会期间会晤？外交部回应",
-      "link": "https://finance.sina.com.cn/china/2026-11-11/doc-iniyixxz1890596.shtml",
-      "extra": {
-        "hot": "7,348",
-        "hot_num": 7348.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "0dc5b9416d29d2ba2c0c0f20",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "title": "一艘装载约4万吨俄罗斯柴油、原计划驶往美国纽约的油轮途中停航，目前在北大西洋，下一步航向不明",
-      "link": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyipka5301551.shtml",
-      "extra": {
-        "hot": "6,443",
-        "hot_num": 6443.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "f9a445a03efe90dd69f5e10f",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "title": "万亿赛道，利好来了！北京，最新发布！",
-      "link": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniykehe9122897.shtml",
-      "extra": {
-        "hot": "5,146",
-        "hot_num": 5146.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "f51101d09cac69338c7d8d61",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "title": "27只滞涨科技股三季报业绩高增 部分公司拟大举回购",
-      "link": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyiiak8680190.shtml",
-      "extra": {
-        "hot": "4,268",
-        "hot_num": 4268.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "0e1d6f16fbb39008fd12f5b9",
-      "source": "雪球热帖",
-      "domain": "财经",
-      "title": "A股上市企业都是周期股？不值得投资？",
-      "link": "http://www.xueqiu.com/1843761023/416349240",
-      "extra": {
-        "hot": "1.",
-        "hot_num": 1.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "afd5b3140b343b2626bdcce8",
-      "source": "雪球热帖",
-      "domain": "财经",
-      "title": "从左侧到右侧：光模块反转还差这八块拼图",
-      "link": "http://www.xueqiu.com/3196557688/416370980",
-      "extra": {
-        "hot": "2.",
-        "hot_num": 2.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "a874ea069477b5ea1109e967",
-      "source": "雪球热帖",
-      "domain": "财经",
-      "title": "从CoreWeave财报谈谈新云债务与算力博弈",
-      "link": "http://www.xueqiu.com/5332385101/416357406",
+      "id": "d7518bd6013d3bd043a71ca1",
+      "source": "抖音总榜",
+      "domain": "舆情热点",
+      "title": "男子考驾照戴AI眼镜作弊被抓现行，民警实测作弊设备：答案错得离谱，本来正常考他很有希望考过……（总台记者 杨妮 王玉龙 成都台）#媒体原创",
+      "link": "https://www.douyin.com/video/7707217874737319219",
       "extra": {
         "hot": "3.",
         "hot_num": 3.0
       },
       "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "144781a7588988d5607af635",
-      "source": "雪球热帖",
-      "domain": "财经",
-      "title": "泡沫不在估值里，而在时间线上",
-      "link": "http://www.xueqiu.com/7271353740/416401769",
-      "extra": {
-        "hot": "4.",
-        "hot_num": 4.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "ded675827b392ef077e18f45",
-      "source": "雪球热帖",
-      "domain": "财经",
-      "title": "随想387 产能不是开关",
-      "link": "http://www.xueqiu.com/1438190065/416358691",
-      "extra": {
-        "hot": "5.",
-        "hot_num": 5.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "99c1c2361a6628bbc6caf12f",
-      "source": "雪球热帖",
-      "domain": "财经",
-      "title": "2026三季报解读（公共事业）：移动通信、港口、高速、航运",
-      "link": "http://www.xueqiu.com/5385800475/416430804",
-      "extra": {
-        "hot": "6.",
-        "hot_num": 6.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "f5e4b619cc5e8ee64116c0a4",
-      "source": "雪球热帖",
-      "domain": "财经",
-      "title": "红利指数的三大流派",
-      "link": "http://www.xueqiu.com/8867390119/416409883",
-      "extra": {
-        "hot": "7.",
-        "hot_num": 7.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "4c8655e1485f4823d096f553",
-      "source": "雪球热帖",
-      "domain": "财经",
-      "title": "涨得好，分红多的银行股，比定期好？",
-      "link": "http://www.xueqiu.com/2327443043/416393268",
-      "extra": {
-        "hot": "8.",
-        "hot_num": 8.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "9d3f4f8307d39cfb1adde22a",
-      "source": "虎嗅网热文",
-      "domain": "科技商业",
-      "title": "高盛：全球AI只剩两个玩家",
-      "link": "https://www.huxiu.com/article/4904329.html",
-      "extra": {
-        "hot": "5.",
-        "hot_num": 5.0
-      },
-      "why": {
         "keywords": [
           "ai"
         ],
@@ -3045,66 +2792,11 @@
       }
     },
     {
-      "id": "86bc28f4e08493897ba39419",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "title": "AI 作弊越来越难查，大学开始重新考虑如何给学生打分",
-      "link": "https://www.aibase.com/zh/news/32266",
-      "extra": {
-        "hot": "4.",
-        "hot_num": 4.0
-      },
-      "why": {
-        "keywords": [
-          "ai"
-        ],
-        "hot": false,
-        "priority_domain": false
-      }
-    },
-    {
-      "id": "d5cdc39143f2c52c6c4a5c85",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "title": "估值飙升至 70 亿美元！英国 AI 芯片新星 Fractile 获 7.2 亿美元融资，Anthropic 抢当首批客户",
-      "link": "https://www.aibase.com/zh/news/32259",
-      "extra": {
-        "hot": "5.",
-        "hot_num": 5.0
-      },
-      "why": {
-        "keywords": [
-          "ai",
-          "融资"
-        ],
-        "hot": false,
-        "priority_domain": false
-      }
-    },
-    {
-      "id": "e2ad3f9a5f68130afdcee03a",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "title": "马斯克 xAI 面临多起集体诉讼：Grok 被指卷入儿童色情图像风波",
-      "link": "https://www.aibase.com/zh/news/32260",
-      "extra": {
-        "hot": "9.",
-        "hot_num": 9.0
-      },
-      "why": {
-        "keywords": [
-          "ai"
-        ],
-        "hot": false,
-        "priority_domain": false
-      }
-    },
-    {
-      "id": "2b81a66a4e9a75d3f174f58c",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "title": "Claude API 新增「挡位」：对话中可临时调节 AI 努力程度",
-      "link": "https://www.aibase.com/zh/news/32271",
+      "id": "a00375128408126af31c0bf0",
+      "source": "澎湃热榜",
+      "domain": "新闻时政",
+      "title": "赵丽颖起诉红果和抖音，律师：关键是公众能不能认出这个AI人像赵丽颖",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34458622",
       "extra": {
         "hot": "10.",
         "hot_num": 10.0
@@ -3118,11 +2810,515 @@
       }
     },
     {
-      "id": "07258a0d6c1266d94017bdf1",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
-      "link": "https://www.qbitai.com/2026/11/509146.html",
+      "id": "1700f7dc4fe6c8e1276ff34a",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "title": "黄仁勋下台有何影响？市场给出答案：博通、AMD大涨，CoreWeave、Nebius承压，费半指数微跌",
+      "link": "https://wallstreetcn.com/articles/3785829",
+      "extra": {
+        "hot": "51.5万",
+        "hot_num": 515000.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "2b52cf200827da7db05e184e",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "title": "黄仁勋辞职叠加油价走强，美股承压，英伟达市值一度跌破4万亿，美债、黄金遭抛售",
+      "link": "https://wallstreetcn.com/articles/3785806",
+      "extra": {
+        "hot": "21.2万",
+        "hot_num": 212000.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "d53304ce1552f2828c637c46",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "title": "“拯救黄仁勋”！马斯克等硅谷大佬集体声援：调查结束前不应解雇",
+      "link": "https://wallstreetcn.com/articles/3785804",
+      "extra": {
+        "hot": "18.4万",
+        "hot_num": 184000.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "9638f263aabaef05d39718c2",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "title": "英伟达关于黄仁勋辞职及领导团队调整的声明全文",
+      "link": "https://wallstreetcn.com/articles/3785832",
+      "extra": {
+        "hot": "13.0万",
+        "hot_num": 130000.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "2e1ffce1ad940531d571b110",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月13日",
+      "link": "https://wallstreetcn.com/articles/3785833",
+      "extra": {
+        "hot": "10.1万",
+        "hot_num": 101000.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "9aa1930b4c0443b3d391c581",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "title": "苏姿丰、库克、陈立武…谁能接黄仁勋的班？“Nobody”！分权或是更好的解法",
+      "link": "https://wallstreetcn.com/articles/3785791",
+      "extra": {
+        "hot": "8.0万",
+        "hot_num": 80000.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "81e11d704154c905aa0763f0",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "title": "特朗普称美国不需要与伊朗达成协议，油价直线拉升",
+      "link": "https://wallstreetcn.com/articles/3785827",
+      "extra": {
+        "hot": "7.8万",
+        "hot_num": 78000.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "8981b8158ad831873752c049",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "title": "失去黄仁勋，英伟达会怎样？",
+      "link": "https://wallstreetcn.com/articles/3785823",
+      "extra": {
+        "hot": "7.6万",
+        "hot_num": 76000.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "fc5ce4f0a45186376ead9bc6",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "title": "伯恩斯坦：为什么现在绝对不能抄底英伟达？",
+      "link": "https://wallstreetcn.com/articles/3785817",
+      "extra": {
+        "hot": "6.8万",
+        "hot_num": 68000.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "179c9d9a1fa64a2f97dc118f",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "title": "黄仁勋下台，14家华尔街投行火速解读：共识是“无人可替”，有人感叹“他哪来的时间？”",
+      "link": "https://wallstreetcn.com/articles/3785851",
+      "extra": {
+        "hot": "6.7万",
+        "hot_num": 67000.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "f317a534fe0a27fffbd1ca8f",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "第3段婚外情？黄仁勋被曝与另一名英伟达员工存在亲密关系",
+      "link": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypvhn8064919.shtml",
+      "extra": {
+        "hot": "11,965",
+        "hot_num": 11965.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "b91f1a4c77bea4dfbd1b00e7",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "大瓜！黄仁勋第4个情妇曝光",
+      "link": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypvhm1323562.shtml",
+      "extra": {
+        "hot": "6,479",
+        "hot_num": 6479.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "3fd9844aae9f8d9a22196cda",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "牛弹琴：黄仁勋黯然辞职，释放的三重信号",
+      "link": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypvhn8111955.shtml",
+      "extra": {
+        "hot": "6,078",
+        "hot_num": 6078.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "85675a55aa6ca30f7a0f6d78",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "操盘必读：影响股市利好或利空消息_2026年11月13日_财经新闻",
+      "link": "https://finance.sina.com.cn/stock/cpbd/2026-11-13/doc-iniypvhf1056829.shtml",
+      "extra": {
+        "hot": "5,207",
+        "hot_num": 5207.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "a33426e98bc8149ad617612f",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "微软多项服务发生大规模故障，Outlook异常报告超过13万起",
+      "link": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypkss8257052.shtml",
+      "extra": {
+        "hot": "4,010",
+        "hot_num": 4010.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "704e68dde3eb1f6206c5c2e8",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "黄仁勋辞职后，英伟达股价巨震！但斌、段永平最新发声，华尔街集体重新评估",
+      "link": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypvhn8088830.shtml",
+      "extra": {
+        "hot": "3,918",
+        "hot_num": 3918.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "1ca5018c3ccfc0e3e9a55ebe",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "财经早报丨黄仁勋辞职英伟达市值一度跌破4万亿美元，特朗普称不需要与伊朗达成协议丨2026年11月13日",
+      "link": "https://finance.sina.com.cn/stock/y/2026-11-13/doc-iniypvhf1063184.shtml",
+      "extra": {
+        "hot": "3,594",
+        "hot_num": 3594.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "dca996f9ef39a137d35b667b",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "证监会：汇聚各方合力，全力维护市场平稳运行",
+      "link": "https://finance.sina.com.cn/roll/2026-11-13/doc-iniypkss8232687.shtml",
+      "extra": {
+        "hot": "3,533",
+        "hot_num": 3533.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "632de20b3afe667c7a63494e",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "title": "报道：英伟达临时CEO科莱特·克雷斯一直试图遏制公司最激进的豪赌",
+      "link": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypekt1549727.shtml",
+      "extra": {
+        "hot": "3,441",
+        "hot_num": 3441.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "f53e19da589cd04b6b9a2344",
+      "source": "雪球热帖",
+      "domain": "财经",
+      "title": "A股核心红利股数据观察记录-2026/11/11",
+      "link": "http://www.xueqiu.com/6828304753/416496726",
+      "extra": {
+        "hot": "1.",
+        "hot_num": 1.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "3420f52d7e909b789ce6a03d",
+      "source": "雪球热帖",
+      "domain": "财经",
+      "title": "别困在 “持有还是减仓” 里",
+      "link": "http://www.xueqiu.com/8201662520/416436229",
+      "extra": {
+        "hot": "2.",
+        "hot_num": 2.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "a2c7485c2cae8bd42bca78e6",
+      "source": "雪球热帖",
+      "domain": "财经",
+      "title": "招商轮船安全垫探究",
+      "link": "http://www.xueqiu.com/4531216350/416467387",
+      "extra": {
+        "hot": "3.",
+        "hot_num": 3.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "93f34d2bd9c1401d960450d4",
+      "source": "雪球热帖",
+      "domain": "财经",
+      "title": "潮水没有退，它只是换了个方向",
+      "link": "http://www.xueqiu.com/5963406195/416497656",
+      "extra": {
+        "hot": "4.",
+        "hot_num": 4.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "bd79867e8ac16dde6e181af6",
+      "source": "雪球热帖",
+      "domain": "财经",
+      "title": "题材炒作和价值投资的根本逻辑",
+      "link": "http://www.xueqiu.com/4957928282/416519336",
+      "extra": {
+        "hot": "5.",
+        "hot_num": 5.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "734ea8e947684d2397294b5d",
+      "source": "雪球热帖",
+      "domain": "财经",
+      "title": "红利和科技是冤家？让我用七年数据里的三个反常识，告诉你跷跷板是个错觉。",
+      "link": "http://www.xueqiu.com/2884313460/416520968",
+      "extra": {
+        "hot": "6.",
+        "hot_num": 6.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "b27f13529ee8fe3edfbd48df",
+      "source": "雪球热帖",
+      "domain": "财经",
+      "title": "警惕！纳指ETF溢价超20%，如何应对？（11.12）",
+      "link": "http://www.xueqiu.com/9391624441/416516984",
+      "extra": {
+        "hot": "7.",
+        "hot_num": 7.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "2187067c9dde60731232b096",
+      "source": "雪球热帖",
+      "domain": "财经",
+      "title": "谈谈Anthropic当下的估值与定价博弈",
+      "link": "http://www.xueqiu.com/5332385101/416504716",
+      "extra": {
+        "hot": "8.",
+        "hot_num": 8.0
+      },
+      "why": {
+        "keywords": [],
+        "hot": false,
+        "priority_domain": true
+      }
+    },
+    {
+      "id": "63791295e9af10f92574fc63",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "8点1氪丨英伟达宣布CEO黄仁勋辞职，特朗普：建议库克接任；腾讯“裁员50%”？知情人士回应；宣扬错误婚恋观，德芙代运营方被罚80万",
+      "link": "https://www.36kr.com/p/4067443683120000",
+      "extra": {
+        "hot": "2.",
+        "hot_num": 2.0
+      },
+      "why": {
+        "keywords": [
+          "裁员"
+        ],
+        "hot": false,
+        "priority_domain": false
+      }
+    },
+    {
+      "id": "e22e4a823dbf3ea5bb88f289",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "547亿元收购后首次同台，李飞飞对话苏姿丰，详解统一世界模型Atlas",
+      "link": "https://www.36kr.com/p/4066226367632263",
+      "extra": {
+        "hot": "4.",
+        "hot_num": 4.0
+      },
+      "why": {
+        "keywords": [
+          "收购"
+        ],
+        "hot": false,
+        "priority_domain": false
+      }
+    },
+    {
+      "id": "8be9d9d3027cda8ba49482aa",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "古代监控火了，武松打虎「实拍」流出，AI整活快把网友整不会了",
+      "link": "https://www.36kr.com/p/4065518830360449",
+      "extra": {
+        "hot": "5.",
+        "hot_num": 5.0
+      },
+      "why": {
+        "keywords": [
+          "ai"
+        ],
+        "hot": false,
+        "priority_domain": false
+      }
+    },
+    {
+      "id": "43693201046d60b7d11a216e",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "title": "大厂大减员，真的是因为AI抢人类饭碗吗？",
+      "link": "https://www.36kr.com/p/4066248518440832",
+      "extra": {
+        "hot": "6.",
+        "hot_num": 6.0
+      },
+      "why": {
+        "keywords": [
+          "ai"
+        ],
+        "hot": false,
+        "priority_domain": false
+      }
+    },
+    {
+      "id": "2ce602537f3e83b3681cc0f5",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "link": "https://openai.com/business/customer-stories/amplitude",
       "extra": {
         "hot": "1.",
         "hot_num": 1.0
@@ -3134,212 +3330,128 @@
         "hot": false,
         "priority_domain": false
       }
-    },
-    {
-      "id": "e47e44f38bf4cf4efa452e49",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
-      "link": "https://www.qbitai.com/2026/11/509085.html",
-      "extra": {
-        "hot": "3.",
-        "hot_num": 3.0
-      },
-      "why": {
-        "keywords": [
-          "大模型"
-        ],
-        "hot": false,
-        "priority_domain": false
-      }
-    },
-    {
-      "id": "e747322ea9f97f3762b3b0bf",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "title": "桃色丑闻重创 AI 芯片巨头：黄仁勋第二段婚外情曝光，英伟达盘后股价重挫逾 9%",
-      "link": "https://m.ithome.com/html/1025855.htm",
-      "extra": {
-        "hot": "2.",
-        "hot_num": 2.0
-      },
-      "why": {
-        "keywords": [
-          "ai"
-        ],
-        "hot": false,
-        "priority_domain": false
-      }
-    },
-    {
-      "id": "7c968c215adeed695e07f482",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "你们公司有 35 岁以上的前端吗？",
-      "link": "https://juejin.cn/post/7706534471420461098",
-      "extra": {
-        "hot": "3017",
-        "hot_num": 3017.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "cf193c85d1df9aab2ba4fd8a",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "HarmonyOS 做桌面卡片 onAddForm 要同步返回但数据在数据库里的解法",
-      "link": "https://juejin.cn/post/7706832865795702818",
-      "extra": {
-        "hot": "2204",
-        "hot_num": 2204.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
-    },
-    {
-      "id": "d29364000b7cbe815f16b171",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "title": "workbuddy接管我的浏览器，帮我干活了",
-      "link": "https://juejin.cn/post/7705911807923322943",
-      "extra": {
-        "hot": "1363",
-        "hot_num": 1363.0
-      },
-      "why": {
-        "keywords": [],
-        "hot": false,
-        "priority_domain": true
-      }
     }
   ],
   "top_hot": [
     {
-      "id": "0a2a619e1859e641f4f4961e",
+      "id": "ca1c82523343b92207309632",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "纪念孙中山先生诞辰160周年大会举行",
-      "link": "https://www.baidu.com/s?wd=%E7%BA%AA%E5%BF%B5%E5%AD%99%E4%B8%AD%E5%B1%B1%E5%85%88%E7%94%9F%E8%AF%9E%E8%BE%B0160%E5%91%A8%E5%B9%B4%E5%A4%A7%E4%BC%9A%E4%B8%BE%E8%A1%8C",
-      "hot": "790.4万"
+      "title": "同心协力共襄中华民族伟大复兴盛举",
+      "link": "https://www.baidu.com/s?wd=%E5%90%8C%E5%BF%83%E5%8D%8F%E5%8A%9B%E5%85%B1%E8%A5%84%E4%B8%AD%E5%8D%8E%E6%B0%91%E6%97%8F%E4%BC%9F%E5%A4%A7%E5%A4%8D%E5%85%B4%E7%9B%9B%E4%B8%BE",
+      "hot": "790.5万"
     },
     {
-      "id": "0ebe3add63d6039f7d6ca8c1",
+      "id": "6e40f489a9150c7743ac1c0d",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "决不能让一个梗毁掉一个孩子",
-      "link": "https://www.baidu.com/s?wd=%E5%86%B3%E4%B8%8D%E8%83%BD%E8%AE%A9%E4%B8%80%E4%B8%AA%E6%A2%97%E6%AF%81%E6%8E%89%E4%B8%80%E4%B8%AA%E5%AD%A9%E5%AD%90",
-      "hot": "781.0万"
+      "title": "男子失业断供房贷 法院暂不拍卖房产",
+      "link": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E5%A4%B1%E4%B8%9A%E6%96%AD%E4%BE%9B%E6%88%BF%E8%B4%B7+%E6%B3%95%E9%99%A2%E6%9A%82%E4%B8%8D%E6%8B%8D%E5%8D%96%E6%88%BF%E4%BA%A7",
+      "hot": "780.9万"
     },
     {
-      "id": "2af14c50af1cc9a1dcf176cc",
+      "id": "1938ecd91c6aa3f2c5be4133",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "知情人：腾讯“裁员50%”说法不属实",
-      "link": "https://www.baidu.com/s?wd=%E7%9F%A5%E6%83%85%E4%BA%BA%EF%BC%9A%E8%85%BE%E8%AE%AF%E2%80%9C%E8%A3%81%E5%91%9850%25%E2%80%9D%E8%AF%B4%E6%B3%95%E4%B8%8D%E5%B1%9E%E5%AE%9E",
-      "hot": "771.2万"
+      "title": "一站式打卡“未来之城”",
+      "link": "https://www.baidu.com/s?wd=%E4%B8%80%E7%AB%99%E5%BC%8F%E6%89%93%E5%8D%A1%E2%80%9C%E6%9C%AA%E6%9D%A5%E4%B9%8B%E5%9F%8E%E2%80%9D",
+      "hot": "761.6万"
     },
     {
-      "id": "0766ffe12efc65ef774a028f",
+      "id": "d936b254f49557af301a9118",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "深圳准备好了！APEC氛围拉满",
-      "link": "https://www.baidu.com/s?wd=%E6%B7%B1%E5%9C%B3%E5%87%86%E5%A4%87%E5%A5%BD%E4%BA%86%EF%BC%81APEC%E6%B0%9B%E5%9B%B4%E6%8B%89%E6%BB%A1",
-      "hot": "761.8万"
+      "title": "徐峥刷到自己的AI换脸视频惊了",
+      "link": "https://www.baidu.com/s?wd=%E5%BE%90%E5%B3%A5%E5%88%B7%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84AI%E6%8D%A2%E8%84%B8%E8%A7%86%E9%A2%91%E6%83%8A%E4%BA%86",
+      "hot": "752.1万"
     },
     {
-      "id": "e9384f68d86a5fec7ed5d75f",
+      "id": "12bbdd7b1659e06425cbc103",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "10元快剪店爆火 理发刺客好日子到头",
-      "link": "https://www.baidu.com/s?wd=10%E5%85%83%E5%BF%AB%E5%89%AA%E5%BA%97%E7%88%86%E7%81%AB+%E7%90%86%E5%8F%91%E5%88%BA%E5%AE%A2%E5%A5%BD%E6%97%A5%E5%AD%90%E5%88%B0%E5%A4%B4",
-      "hot": "752.4万"
+      "title": "国产苹果卷出新高度",
+      "link": "https://www.baidu.com/s?wd=%E5%9B%BD%E4%BA%A7%E8%8B%B9%E6%9E%9C%E5%8D%B7%E5%87%BA%E6%96%B0%E9%AB%98%E5%BA%A6",
+      "hot": "742.9万"
     },
     {
-      "id": "7f8c70aff02358122e579108",
+      "id": "efbcf130dd652d0e471a7c9f",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "年轻人扎堆到海南“上体校”",
-      "link": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%89%8E%E5%A0%86%E5%88%B0%E6%B5%B7%E5%8D%97%E2%80%9C%E4%B8%8A%E4%BD%93%E6%A0%A1%E2%80%9D",
-      "hot": "742.8万"
+      "title": "刘欢妻子不到10个月失去两个至亲",
+      "link": "https://www.baidu.com/s?wd=%E5%88%98%E6%AC%A2%E5%A6%BB%E5%AD%90%E4%B8%8D%E5%88%B010%E4%B8%AA%E6%9C%88%E5%A4%B1%E5%8E%BB%E4%B8%A4%E4%B8%AA%E8%87%B3%E4%BA%B2",
+      "hot": "732.9万"
     },
     {
-      "id": "8cf5cddb3fe70e094315e187",
+      "id": "1c64fdc9b38977b4ae5915d5",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "韩红基金会回应张雪改口",
-      "link": "https://www.baidu.com/s?wd=%E9%9F%A9%E7%BA%A2%E5%9F%BA%E9%87%91%E4%BC%9A%E5%9B%9E%E5%BA%94%E5%BC%A0%E9%9B%AA%E6%94%B9%E5%8F%A3",
-      "hot": "733.1万"
+      "title": "“一代腿王”黄正利去世",
+      "link": "https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%80%E4%BB%A3%E8%85%BF%E7%8E%8B%E2%80%9D%E9%BB%84%E6%AD%A3%E5%88%A9%E5%8E%BB%E4%B8%96",
+      "hot": "723.3万"
     },
     {
-      "id": "888d90809afa24b7c1fc9acc",
+      "id": "5224c30a827db36f6b622566",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "百度世界2026",
-      "link": "https://www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6%E4%B8%96%E7%95%8C2026",
-      "hot": "723.7万"
+      "title": "台湾青年：我们的身份证写的是台湾省",
+      "link": "https://www.baidu.com/s?wd=%E5%8F%B0%E6%B9%BE%E9%9D%92%E5%B9%B4%EF%BC%9A%E6%88%91%E4%BB%AC%E7%9A%84%E8%BA%AB%E4%BB%BD%E8%AF%81%E5%86%99%E7%9A%84%E6%98%AF%E5%8F%B0%E6%B9%BE%E7%9C%81",
+      "hot": "713.7万"
     },
     {
-      "id": "b1d2d2f65aa2040afbc949db",
+      "id": "d4511486663ed508399ac84e",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "13岁女孩确诊“癌王” 全身多处转移",
-      "link": "https://www.baidu.com/s?wd=13%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%A1%AE%E8%AF%8A%E2%80%9C%E7%99%8C%E7%8E%8B%E2%80%9D+%E5%85%A8%E8%BA%AB%E5%A4%9A%E5%A4%84%E8%BD%AC%E7%A7%BB",
-      "hot": "714.4万"
+      "title": "控烟不能总让乘客忍着",
+      "link": "https://www.baidu.com/s?wd=%E6%8E%A7%E7%83%9F%E4%B8%8D%E8%83%BD%E6%80%BB%E8%AE%A9%E4%B9%98%E5%AE%A2%E5%BF%8D%E7%9D%80",
+      "hot": "704.0万"
     },
     {
-      "id": "5da5c2c61fc44b1df5002d53",
+      "id": "d2d387f28754bb95e7222595",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "油价今晚有望大幅下降",
-      "link": "https://www.baidu.com/s?wd=%E6%B2%B9%E4%BB%B7%E4%BB%8A%E6%99%9A%E6%9C%89%E6%9C%9B%E5%A4%A7%E5%B9%85%E4%B8%8B%E9%99%8D",
-      "hot": "704.2万"
+      "title": "微软大规模宕机持续数小时",
+      "link": "https://www.baidu.com/s?wd=%E5%BE%AE%E8%BD%AF%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%AE%95%E6%9C%BA%E6%8C%81%E7%BB%AD%E6%95%B0%E5%B0%8F%E6%97%B6",
+      "hot": "695.2万"
     },
     {
-      "id": "6bf590c1533460e01195b089",
+      "id": "497701d26f7ad2163f8b47d8",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "C罗宣布个人首部剧集开机",
-      "link": "https://www.baidu.com/s?wd=C%E7%BD%97%E5%AE%A3%E5%B8%83%E4%B8%AA%E4%BA%BA%E9%A6%96%E9%83%A8%E5%89%A7%E9%9B%86%E5%BC%80%E6%9C%BA",
-      "hot": "695.0万"
+      "title": "破译流言 不可不知的100个真相",
+      "link": "https://www.baidu.com/s?wd=%E7%A0%B4%E8%AF%91%E6%B5%81%E8%A8%80+%E4%B8%8D%E5%8F%AF%E4%B8%8D%E7%9F%A5%E7%9A%84100%E4%B8%AA%E7%9C%9F%E7%9B%B8",
+      "hot": "685.5万"
     },
     {
-      "id": "7efe323cf704291e314dd79a",
+      "id": "89765764f2fb42b715650479",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "警惕车辆召回谣言 已有人受骗",
-      "link": "https://www.baidu.com/s?wd=%E8%AD%A6%E6%83%95%E8%BD%A6%E8%BE%86%E5%8F%AC%E5%9B%9E%E8%B0%A3%E8%A8%80+%E5%B7%B2%E6%9C%89%E4%BA%BA%E5%8F%97%E9%AA%97",
-      "hot": "685.4万"
+      "title": "每天坐车吸二手烟 18岁女孩确诊肺癌",
+      "link": "https://www.baidu.com/s?wd=%E6%AF%8F%E5%A4%A9%E5%9D%90%E8%BD%A6%E5%90%B8%E4%BA%8C%E6%89%8B%E7%83%9F+18%E5%B2%81%E5%A5%B3%E5%AD%A9%E7%A1%AE%E8%AF%8A%E8%82%BA%E7%99%8C",
+      "hot": "676.2万"
     },
     {
-      "id": "576bd112bec46c0373356fc2",
+      "id": "b041c772cef26185e3dfb109",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "马志明正式收郭德纲为义子",
-      "link": "https://www.baidu.com/s?wd=%E9%A9%AC%E5%BF%97%E6%98%8E%E6%AD%A3%E5%BC%8F%E6%94%B6%E9%83%AD%E5%BE%B7%E7%BA%B2%E4%B8%BA%E4%B9%89%E5%AD%90",
-      "hot": "675.2万"
+      "title": "张颂文新剧喊李小冉“妈妈”",
+      "link": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%A2%82%E6%96%87%E6%96%B0%E5%89%A7%E5%96%8A%E6%9D%8E%E5%B0%8F%E5%86%89%E2%80%9C%E5%A6%88%E5%A6%88%E2%80%9D",
+      "hot": "665.7万"
     },
     {
-      "id": "247e152a0d413237cf918b7b",
+      "id": "cd7ff8103bf1c79176bc99f0",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "奔驰要变了：100%为中国",
-      "link": "https://www.baidu.com/s?wd=%E5%A5%94%E9%A9%B0%E8%A6%81%E5%8F%98%E4%BA%86%EF%BC%9A100%25%E4%B8%BA%E4%B8%AD%E5%9B%BD",
-      "hot": "656.9万"
+      "title": "谁在经营这些“日本制造”洗发水",
+      "link": "https://www.baidu.com/s?wd=%E8%B0%81%E5%9C%A8%E7%BB%8F%E8%90%A5%E8%BF%99%E4%BA%9B%E2%80%9C%E6%97%A5%E6%9C%AC%E5%88%B6%E9%80%A0%E2%80%9D%E6%B4%97%E5%8F%91%E6%B0%B4",
+      "hot": "657.3万"
     },
     {
-      "id": "d0a82f5beb3f476fe57aa5e0",
+      "id": "4496fb69f6b303f221438ea9",
       "source": "百度实时热点",
       "domain": "舆情热点",
-      "title": "年轻人开始寻找城市“树洞”",
-      "link": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%BC%80%E5%A7%8B%E5%AF%BB%E6%89%BE%E5%9F%8E%E5%B8%82%E2%80%9C%E6%A0%91%E6%B4%9E%E2%80%9D",
-      "hot": "647.3万"
+      "title": "梁家辉高铁站安慰哭泣小朋友",
+      "link": "https://www.baidu.com/s?wd=%E6%A2%81%E5%AE%B6%E8%BE%89%E9%AB%98%E9%93%81%E7%AB%99%E5%AE%89%E6%85%B0%E5%93%AD%E6%B3%A3%E5%B0%8F%E6%9C%8B%E5%8F%8B",
+      "hot": "646.3万"
     }
   ]
 }

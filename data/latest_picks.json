@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "英伟达董事会今日开会决定黄仁勋去留，已启动新CEO遴选与过渡方案",
-      "link": "https://wallstreetcn.com/articles/3785773",
-      "source": "华尔街见闻",
-      "domain": "财经·海外",
+      "title": "黄仁勋辞职后续：美国司法部对英伟达启动多项调查，包括反垄断调查",
+      "link": "https://m.ithome.com/html/1026451.htm",
+      "source": "IT之家",
+      "domain": "科技数码",
       "score": 95,
-      "reason": "全球AI算力核心公司出现治理危机，直接牵动AI芯片供应链、算力成本与相关股票持仓，是今日最高信息密度事件。",
-      "action": "关注董事会决议结果与盘后股价，评估自身AI/半导体相关持仓与算力采购合同风险"
+      "reason": "英伟达CEO辞职叠加司法部反垄断调查，是今天全球AI算力链最大的定价变量，直接影响芯片股、AI概念股与基金持仓。",
+      "action": "检查持仓中英伟达产业链（算力、光模块、服务器）敞口，关注后续调查进展与临时CEO克雷斯的表态"
     },
     {
-      "title": "Anthropic IPO认购数倍超额，目标估值1.4万亿美元；有投资人称这将是美股AI行情高点",
-      "link": "https://wallstreetcn.com/articles/3785750",
+      "title": "伯恩斯坦：为什么现在绝对不能抄底英伟达？",
+      "link": "https://wallstreetcn.com/articles/3785817",
       "source": "华尔街见闻",
       "domain": "财经",
+      "score": 90,
+      "reason": "提供与市场情绪相反的专业卖方观点，对判断'暴跌是否买点'有直接决策价值。",
+      "action": "对照自身风险承受度，暂缓抄底动作，等调查结论明朗"
+    },
+    {
+      "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
+      "link": "https://www.qbitai.com/2026/11/509381.html",
+      "source": "量子位",
+      "domain": "AI前沿",
       "score": 88,
-      "reason": "AI头部公司IPO定价是判断AI资产泡沫位置的关键锚点，且与'做多中国AI'的对立观点形成可操作的分歧信号。",
-      "action": "记录该估值作为AI板块情绪参照点，观察后续AI股与IPO定价的偏离"
+      "reason": "头部大模型公司IPO定价是AI一级/二级市场估值锚，缩水幅度是重要信息差。",
+      "action": "关注路演定价区间，作为AI板块估值参照；仅观察，不参与打新"
     },
     {
-      "title": "Anthropic大清洗：Claude最严封号潮11月12日全面生效",
-      "link": "https://wallstreetcn.com/articles/3785747",
-      "source": "华尔街见闻",
-      "domain": "财经",
+      "title": "547亿元收购后首次同台，李飞飞对话苏姿丰，详解统一世界模型Atlas",
+      "link": "https://www.36kr.com/p/4066226367632263",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
       "score": 85,
-      "reason": "直接影响所有用Claude API做产品或工作流的开发者，封号规则变化可能中断线上服务。",
-      "action": "检查自有账号与API调用合规性，准备备用模型（Gemini/开源模型）做降级方案"
+      "reason": "世界模型是Agent与具身智能的下一技术主线，两位关键人物的对话含技术路线判断，长期学习价值高。",
+      "action": "精读全文，把Atlas加入学习主题跟踪"
     },
     {
-      "title": "CoreWeave财报解读：转向客户预付款与缩短合同来支撑AI扩张",
-      "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
+      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "link": "https://www.qbitai.com/2026/11/509440.html",
+      "source": "量子位",
+      "domain": "AI前沿",
       "score": 82,
-      "reason": "新云厂商的融资结构变化是算力泡沫最真实的先行指标，比股价更能反映AI基建的真实需求强度。",
-      "action": "作为算力/云板块投资与行业判断的观察指标，跟踪其应收账款与合同期限变化"
+      "reason": "开源SOTA生图模型+极低成本，对开发者是可直接上手的工具信号，命中开源/工具/效率兴趣。",
+      "action": "拉取模型试用，评估能否替换现有生图API以降本"
     },
     {
-      "title": "高盛：全球AI只剩两个玩家",
-      "link": "https://www.huxiu.com/article/4904329.html",
-      "source": "虎嗅网热文",
+      "title": "实测 agent-desktop：AI 控制桌面不截图、不占鼠标键盘，连点 55 次计算器 0 失误",
+      "link": "https://juejin.cn/post/7704923158558621750",
+      "source": "掘金热文",
+      "domain": "技术趋势",
+      "score": 80,
+      "reason": "Agent操控桌面的实测数据，直接关系到个人效率工具选型与Agent落地能力边界。",
+      "action": "本地实测该工具，评估接入日常工作流"
+    },
+    {
+      "title": "大厂大减员，真的是因为AI抢人类饭碗吗？",
+      "link": "https://www.36kr.com/p/4066248518440832",
+      "source": "36氪24h热榜",
       "domain": "科技商业",
       "score": 78,
-      "reason": "顶级投行对AI竞争格局的收敛判断，影响职业选择（去哪类AI公司）与投资配置方向。",
-      "action": "阅读全文，对照自身技能与所在赛道判断是否处于'两个玩家'生态内"
+      "reason": "拆解裁员归因，对职业规划与技能选择有直接参考，命中职业/裁员/技能兴趣。",
+      "action": "读完提炼'哪些岗位被AI替代、哪些被放大'，对照自身技能补短板"
     },
     {
-      "title": "英国AI芯片公司Fractile获7.2亿美元融资、估值70亿美元，Anthropic成首批客户",
-      "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
       "source": "TechCrunch",
       "domain": "科技·海外",
       "score": 75,
-      "reason": "英伟达之外的AI芯片新势力获大额融资且有头部模型公司背书，是芯片赛道多元化的早期信号。",
-      "action": "加入芯片赛道跟踪清单，关注其技术路线与后续客户披露"
+      "reason": "真实企业开始对Agent设防，是Agent商业化落地的关键阻力信号，少有人注意但影响深远。",
+      "action": "做Agent产品时把'平台准入与风控'纳入设计考量"
     },
     {
-      "title": "MiniMax开源H3 Image，被称为最强开源图像模型",
-      "link": "https://www.36kr.com/p/4064758500660099",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
       "score": 72,
-      "reason": "开源多模态模型能力跃升，可直接用于降低产品中的图像生成成本，属于可立即试用的工具型信息。",
-      "action": "本地或云端部署试用，评估替换现有闭源图像API的成本收益"
+      "reason": "英伟达开源策略可能转向，影响开发者生态与工具链选择，信息差强。",
+      "action": "跟踪Hugging Face等开源社区表态，评估依赖英伟达开源栈的风险"
     },
     {
-      "title": "Claude API新增'挡位'：对话中可临时调节AI努力程度",
-      "link": "https://www.aibase.com/zh/news/32271",
-      "source": "Readhub",
-      "domain": "科技商业",
+      "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+      "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
       "score": 70,
-      "reason": "推理成本可控性提升，对做Agent产品的开发者是直接降本手段。",
-      "action": "在现有调用中测试低挡位场景，量化token成本节省"
-    },
-    {
-      "title": "谷歌Gemini新旗舰全面上线，一夜复刻OpenCode桌面应用",
-      "link": "https://www.36kr.com/p/4064780118463617",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "score": 68,
-      "reason": "头部模型竞争加剧意味着能力与价格快速变化，是选型与技能更新的直接依据。",
-      "action": "对比测试Gemini与当前主力模型在自身核心任务上的表现"
-    },
-    {
-      "title": "你们公司有35岁以上的前端吗？",
-      "link": "https://juejin.cn/post/7706534471420461098",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "score": 62,
-      "reason": "开发者职业生命周期话题，与职业规划用途直接相关，社区讨论含真实行业样本。",
-      "action": "阅读评论区行业样本，反思自身技能护城河与转型方向"
+      "reason": "英伟达动荡中的算力替代标的财报超预期+微软合作，是算力芯片竞争格局变化的可交易信号。",
+      "action": "加入自选观察，对比英伟达与Cerebras的算力叙事差异"
     }
   ],
-  "noise_note": "排除了黄仁勋桃色丑闻的重复多源报道（仅保留治理与股价影响一条）、微博/百度娱乐与社会琐事热搜、体育赛事、消费促销与Product Hunt日常上新等纯流量内容。"
+  "noise_note": "排除了黄仁勋婚外情八卦、明星AI换脸/起诉、特斯拉销量、百度热搜民生琐事、雪球泛泛投资感悟及Product Hunt新品罗列等纯流量与重复内容。"
 }
