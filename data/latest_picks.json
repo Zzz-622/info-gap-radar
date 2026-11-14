@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "黄仁勋辞职后续：美国司法部对英伟达启动多项调查，包括反垄断调查",
-      "link": "https://m.ithome.com/html/1026451.htm",
-      "source": "IT之家",
-      "domain": "科技数码",
+      "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
+      "link": "https://www.qbitai.com/2026/11/509995.html",
+      "source": "量子位",
+      "domain": "AI前沿",
       "score": 95,
-      "reason": "英伟达CEO辞职叠加司法部反垄断调查，是今天全球AI算力链最大的定价变量，直接影响芯片股、AI概念股与基金持仓。",
-      "action": "检查持仓中英伟达产业链（算力、光模块、服务器）敞口，关注后续调查进展与临时CEO克雷斯的表态"
+      "reason": "英伟达33年来首次更换CEO，是AI算力产业链最大的结构性变化，直接影响芯片供应、AI融资和持仓决策。",
+      "action": "梳理英伟达产业链敞口（算力租赁、服务器、国产替代），关注新掌门对数据中心担保的态度变化"
     },
     {
-      "title": "伯恩斯坦：为什么现在绝对不能抄底英伟达？",
-      "link": "https://wallstreetcn.com/articles/3785817",
+      "title": "英伟达新掌门会给AI融资踩刹车？她曾将2500亿美元数据中心担保砍半",
+      "link": "https://wallstreetcn.com/articles/3785870",
       "source": "华尔街见闻",
       "domain": "财经",
-      "score": 90,
-      "reason": "提供与市场情绪相反的专业卖方观点，对判断'暴跌是否买点'有直接决策价值。",
-      "action": "对照自身风险承受度，暂缓抄底动作，等调查结论明朗"
+      "score": 92,
+      "reason": "新掌门曾大幅削减数据中心担保，若延续这一风格，AI基建融资将收紧，这是市场尚未充分定价的信息差。",
+      "action": "跟踪新CEO上任后首批资本开支和担保政策表态，评估算力租赁类标的的融资风险"
     },
     {
-      "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
-      "link": "https://www.qbitai.com/2026/11/509381.html",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "score": 88,
-      "reason": "头部大模型公司IPO定价是AI一级/二级市场估值锚，缩水幅度是重要信息差。",
-      "action": "关注路演定价区间，作为AI板块估值参照；仅观察，不参与打新"
-    },
-    {
-      "title": "547亿元收购后首次同台，李飞飞对话苏姿丰，详解统一世界模型Atlas",
-      "link": "https://www.36kr.com/p/4066226367632263",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "score": 85,
-      "reason": "世界模型是Agent与具身智能的下一技术主线，两位关键人物的对话含技术路线判断，长期学习价值高。",
-      "action": "精读全文，把Atlas加入学习主题跟踪"
-    },
-    {
-      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
-      "link": "https://www.qbitai.com/2026/11/509440.html",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "score": 82,
-      "reason": "开源SOTA生图模型+极低成本，对开发者是可直接上手的工具信号，命中开源/工具/效率兴趣。",
-      "action": "拉取模型试用，评估能否替换现有生图API以降本"
-    },
-    {
-      "title": "实测 agent-desktop：AI 控制桌面不截图、不占鼠标键盘，连点 55 次计算器 0 失误",
-      "link": "https://juejin.cn/post/7704923158558621750",
-      "source": "掘金热文",
-      "domain": "技术趋势",
-      "score": 80,
-      "reason": "Agent操控桌面的实测数据，直接关系到个人效率工具选型与Agent落地能力边界。",
-      "action": "本地实测该工具，评估接入日常工作流"
-    },
-    {
-      "title": "大厂大减员，真的是因为AI抢人类饭碗吗？",
-      "link": "https://www.36kr.com/p/4066248518440832",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "score": 78,
-      "reason": "拆解裁员归因，对职业规划与技能选择有直接参考，命中职业/裁员/技能兴趣。",
-      "action": "读完提炼'哪些岗位被AI替代、哪些被放大'，对照自身技能补短板"
-    },
-    {
-      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "link": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
-      "score": 75,
-      "reason": "真实企业开始对Agent设防，是Agent商业化落地的关键阻力信号，少有人注意但影响深远。",
-      "action": "做Agent产品时把'平台准入与风控'纳入设计考量"
-    },
-    {
-      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-      "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
-      "score": 72,
-      "reason": "英伟达开源策略可能转向，影响开发者生态与工具链选择，信息差强。",
-      "action": "跟踪Hugging Face等开源社区表态，评估依赖英伟达开源栈的风险"
-    },
-    {
-      "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
-      "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+      "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
+      "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
       "source": "CNBC Markets",
       "domain": "财经·海外",
+      "score": 88,
+      "reason": "美联储调查将AI风险列为金融系统头号威胁，预示监管收紧，影响AI相关资产估值逻辑。",
+      "action": "关注后续美联储和财政部对AI金融应用的监管细则，调整AI主题仓位集中度"
+    },
+    {
+      "title": "美国10月PPI同比6.5%创四年新高、但低于预期，激进加息预期小幅降温",
+      "link": "https://wallstreetcn.com/articles/3785905",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 85,
+      "reason": "通胀数据直接决定加息路径，是债券、基金和股票仓位配置的核心输入变量。",
+      "action": "对照CME利率期货更新降息/加息概率，检视债券久期和成长股仓位"
+    },
+    {
+      "title": "中国10月新增社融1.15万亿元，人民币贷款减少1000亿元，M2同比增长7.1%",
+      "link": "https://wallstreetcn.com/articles/3785892",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 83,
+      "reason": "社融和信贷数据反映实体融资需求走弱，是判断国内政策宽松节奏和A股风格的关键依据。",
+      "action": "关注后续降准降息窗口，评估对利率敏感板块（地产、券商）的配置"
+    },
+    {
+      "title": "OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”",
+      "link": "https://finance.sina.com.cn/roll/2026-11-14/doc-iniysepk7546353.shtml",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "score": 80,
+      "reason": "通用大模型替代专用机器人模型的路线变化，影响具身智能创业方向和技能投入选择。",
+      "action": "学习通用大模型在物理场景的落地案例，评估具身智能相关岗位和项目方向"
+    },
+    {
+      "title": "DeepSeek 发布全家桶应用 API：开发者将能 1:1 复刻完整 DeepSeek App",
+      "link": "https://m.ithome.com/html/1026960.htm",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "score": 78,
+      "reason": "完整App级API开放，开发者可直接复用其产品能力，是低成本构建AI应用的工具红利。",
+      "action": "试用API评估能否接入自己的工具或副业项目，对比现有模型成本"
+    },
+    {
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
+      "score": 76,
+      "reason": "Agent基础设施公司估值达30亿美元，印证Agent赛道商业化提速，与用户对Agent和职业方向的兴趣高度相关。",
+      "action": "关注LangChain产品路线和招聘动向，作为Agent技能学习与求职方向的参考"
+    },
+    {
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
+      "score": 74,
+      "reason": "Agent从对话走向支付闭环，是AI产品形态和商业模式的信号级变化。",
+      "action": "观察Agent支付的安全与合规设计，思考对电商和支付类产品的影响"
+    },
+    {
+      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "link": "http://arxiv.org/abs/2611.17323v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
       "score": 70,
-      "reason": "英伟达动荡中的算力替代标的财报超预期+微软合作，是算力芯片竞争格局变化的可交易信号。",
-      "action": "加入自选观察，对比英伟达与Cerebras的算力叙事差异"
+      "reason": "研究Agent利用无标注数据做机器学习工程，属于Agent能力边界的前沿探索，有长期学习价值。",
+      "action": "仅观察，可加入Agent学习主题的阅读清单"
     }
   ],
-  "noise_note": "排除了黄仁勋婚外情八卦、明星AI换脸/起诉、特斯拉销量、百度热搜民生琐事、雪球泛泛投资感悟及Product Hunt新品罗列等纯流量与重复内容。"
+  "noise_note": "排除了百度/微博热搜中的明星八卦、体育赛事、社会琐事，以及黄仁勋离职的重复报道（只保留信息量最大的换帅与融资两条），还有纯标题党的财经短评。"
 }

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-14-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-14</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-14T04:33:38</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [AI前沿] 黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 英伟达33年来首次更换CEO，是AI算力产业链最大的结构性变化，直接影响芯片供应、AI融资和持仓决策。</li>
+<li><strong>可行动作</strong>: 梳理英伟达产业链敞口（算力租赁、服务器、国产替代），关注新掌门对数据中心担保的态度变化</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/509995.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [财经] 英伟达新掌门会给AI融资踩刹车？她曾将2500亿美元数据中心担保砍半</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 新掌门曾大幅削减数据中心担保，若延续这一风格，AI基建融资将收紧，这是市场尚未充分定价的信息差。</li>
+<li><strong>可行动作</strong>: 跟踪新CEO上任后首批资本开支和担保政策表态，评估算力租赁类标的的融资风险</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785870" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [财经·海外] AI risks are the biggest threat to the financial system, Fed survey finds</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 美联储调查将AI风险列为金融系统头号威胁，预示监管收紧，影响AI相关资产估值逻辑。</li>
+<li><strong>可行动作</strong>: 关注后续美联储和财政部对AI金融应用的监管细则，调整AI主题仓位集中度</li>
+<li><strong>来源</strong>: CNBC Markets · <a href="https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [财经] 美国10月PPI同比6.5%创四年新高、但低于预期，激进加息预期小幅降温</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 通胀数据直接决定加息路径，是债券、基金和股票仓位配置的核心输入变量。</li>
+<li><strong>可行动作</strong>: 对照CME利率期货更新降息/加息概率，检视债券久期和成长股仓位</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785905" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [财经] 中国10月新增社融1.15万亿元，人民币贷款减少1000亿元，M2同比增长7.1%</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 社融和信贷数据反映实体融资需求走弱，是判断国内政策宽松节奏和A股风格的关键依据。</li>
+<li><strong>可行动作</strong>: 关注后续降准降息窗口，评估对利率敏感板块（地产、券商）的配置</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785892" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [财经] OpenAI解散机器人团队！GPT-6 Astra证明：通用大模型已可直接用于“物理AI”</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 通用大模型替代专用机器人模型的路线变化，影响具身智能创业方向和技能投入选择。</li>
+<li><strong>可行动作</strong>: 学习通用大模型在物理场景的落地案例，评估具身智能相关岗位和项目方向</li>
+<li><strong>来源</strong>: 新浪财经新闻 · <a href="https://finance.sina.com.cn/roll/2026-11-14/doc-iniysepk7546353.shtml" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [科技数码] DeepSeek 发布全家桶应用 API：开发者将能 1:1 复刻完整 DeepSeek App</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 完整App级API开放，开发者可直接复用其产品能力，是低成本构建AI应用的工具红利。</li>
+<li><strong>可行动作</strong>: 试用API评估能否接入自己的工具或副业项目，对比现有模型成本</li>
+<li><strong>来源</strong>: IT之家 · <a href="https://m.ithome.com/html/1026960.htm" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [科技·海外] AI agent startup LangChain hits $3B valuation</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Agent基础设施公司估值达30亿美元，印证Agent赛道商业化提速，与用户对Agent和职业方向的兴趣高度相关。</li>
+<li><strong>可行动作</strong>: 关注LangChain产品路线和招聘动向，作为Agent技能学习与求职方向的参考</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [科技·海外] ChatGPT’s new Wallet lets AI agents shop and check out for you</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Agent从对话走向支付闭环，是AI产品形态和商业模式的信号级变化。</li>
+<li><strong>可行动作</strong>: 观察Agent支付的安全与合规设计，思考对电商和支付类产品的影响</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [学术前沿] AgentSSL: Can MLE Agents Leverage Unlabeled Data?</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 研究Agent利用无标注数据做机器学习工程，属于Agent能力边界的前沿探索，有长期学习价值。</li>
+<li><strong>可行动作</strong>: 仅观察，可加入Agent学习主题的阅读清单</li>
+<li><strong>来源</strong>: arXiv cs.AI · <a href="http://arxiv.org/abs/2611.17323v1" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了百度/微博热搜中的明星八卦、体育赛事、社会琐事，以及黄仁勋离职的重复报道（只保留信息量最大的换帅与融资两条），还有纯标题党的财经短评。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. 黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿</h3>
+<h3>摘要</h3>
+<p>英伟达宣布黄仁勋辞去总裁、CEO及董事职务，即刻生效，结束其33年掌舵生涯。CFO Colette Kress出任临时CEO，董事会启动正式继任者遴选，并首次设立董事会主席一职，由Harvey C. Jones担任。消息公布后英伟达盘前股价一度跌约13.58%，开盘后跌幅超10%，随后收窄至约4.63%。公司确认运营、客户承诺及产品路线图不变，将按原计划于11月17日发布财报。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是全球AI算力龙头最高管理层的突发变动，短期股价剧烈波动，需关注继任者确定前的估值风险与市场情绪；对职业与学习成长而言，创始人与公司深度绑定的治理结构突然切换，是观察大型科技公司权力交接与组织韧性的典型案例。</p>
+<h3>值得记住</h3>
+<p>盘前一度跌13.58%、开盘跌超10%，但发稿前收窄至-4.63%——市场对“创始人离场”的恐慌在当日即被部分消化，说明短期情绪冲击与长期基本面判断之间存在明显落差。</p>
+<hr>
+<h3>2. 英伟达新掌门会给AI融资踩刹车？她曾将2500亿美元数据中心担保砍半</h3>
+<h3>摘要</h3>
+<p>文章以“黄仁勋因丑闻离职、CFO Colette Kress接任临时CEO”为设定，讨论英伟达从“AI央行”角色转向更审慎融资的可能性。过去三年英伟达通过股权投资、信贷担保和租约兜底，搭建了规模超5000亿美元的循环融资网络，资金以GPU订单形式回流。Kress曾将OpenAI俄亥俄数据中心担保从2500亿美元砍至约1050亿美元，并质疑担保定价与回报，市场预计她不会以黄仁勋的速度推进新交易。已签合同大概率履行，但谈判中的交易和下一轮生态投资面临更大不确定性。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这篇文章提示AI行情的核心支撑之一可能是“英伟达信用扩张”，掌门更替可能触发AI生态风险溢价重定价；对职业与学习成长而言，它展示了财务风控视角与创始人扩张视角的冲突，值得在判断公司战略时参考。</p>
+<h3>值得记住</h3>
+<p>英伟达或有负债与承诺总规模达5305亿美元，且每季度500亿至600亿美元自由现金流中有很大一部分回流客户、供应商和新兴云计算商；即便只是短暂暂停，也可能从AI生态抽走500亿美元以上。</p>
+<hr>
+<h3>3. AI risks are the biggest threat to the financial system, Fed survey finds</h3>
+<h3>摘要</h3>
+<p>这篇 CNBC 报道称，美联储的一项调查显示，AI 相关风险已被受访者视为金融系统面临的最大威胁。原文抓取到的正文只有标题和大量网站导航、菜单内容，没有调查方法、样本、具体风险描述或数据细节。因此只能确认“AI 风险在美联储调查中排名金融系统威胁首位”这一核心结论，无法进一步核实其依据和范围。</p>
+<h3>为什么重要</h3>
+<p>对关注投资理财的人，这提示 AI 不只是产业机会，也可能成为金融稳定的系统性风险来源；对职场和学习者，则说明理解 AI 风险治理正变成金融与科技交叉领域的基础素养。</p>
+<h3>值得记住</h3>
+<p>关键信息是：在美联储调查中，AI 风险被列为金融系统最大威胁。但原文正文缺失，具体机制和数据无法确认，不宜延伸解读。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>
