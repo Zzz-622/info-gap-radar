@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-15-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-15</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-15T04:22:18</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [财经] 高盛2027年全球股市展望：AI资本开支见顶，盈利增长“大减速”，云巨头成“防御性资产”</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 顶级投行对AI资本开支周期拐点的前瞻判断，直接决定未来1-2年科技股配置逻辑，属高信息差投资信号。</li>
+<li><strong>可行动作</strong>: 读原文，梳理AI算力链（芯片/服务器/光模块）与云巨头两类资产的仓位再平衡思路</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785935" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [财经] 英伟达财报、Anthropic万亿IPO接连登场！AI交易更大的考验在下周</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 明确给出下周两个关键事件节点，是AI板块短期风险与机会的日历型信号，可提前布局或避险。</li>
+<li><strong>可行动作</strong>: 把英伟达财报日与Anthropic IPO定价日记入日历，提前设定观察清单与止损位</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785944" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [财经·海外] Nvidia board urged to consider &#x27;potential return of Jensen Huang&#x27; by two major investors</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 黄仁勋去留已从舆论升级为机构投资者正式施压董事会，是英伟达治理风险的核心变量，多源交叉（TechCrunch/IT之家/36氪）强信号。</li>
+<li><strong>可行动作</strong>: 跟踪董事会回应与请愿进展，评估对英伟达及AI板块估值的传导</li>
+<li><strong>来源</strong>: CNBC Markets · <a href="https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [财经] 解读证监会主席吴清讲话：回应近期部分科技企业上市估值溢价泡沫，“加强科技企业发行上市制度适配性和风险应对机制研究”</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 监管层首次正面回应科技股IPO估值泡沫，直接影响打新、Pre-IPO投资与科技股定价预期。</li>
+<li><strong>可行动作</strong>: 关注后续发行制度细则，调整科技类打新与一级市场参与节奏</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3785951" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [科技商业] OpenAI 再次解散机器人团队：GPT-6 太强，决定 All in 通用模型</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 头部AI公司战略收缩具身智能、押注通用模型，是判断AI技术路线与就业方向的强信号。</li>
+<li><strong>可行动作</strong>: 重新评估机器人/具身智能方向的学习与职业投入权重，关注GPT-6能力边界</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.mittrchina.com/news/detail/17243" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [科技商业] 李沐加入 Aimotion，出任联合创始人兼 CTO</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 顶级AI研究者动向往往预示新赛道，对关注AI职业机会与技术趋势的用户有前瞻价值。</li>
+<li><strong>可行动作</strong>: 关注Aimotion技术方向与招聘动态，可作为职业/学习方向参考</li>
+<li><strong>来源</strong>: Readhub · <a href="https://news.qq.com/rain/a/20261115A06QKB00" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [科技商业] 中科院自动化所、美团等推出 RSI 综述：Agent 如何越用越强</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Agent自我进化（RSI）系统性综述，命中Agent+学习成长，是值得进学习主题的高质量材料。</li>
+<li><strong>可行动作</strong>: 读综述，整理Agent自进化方法脉络，纳入个人技术学习清单</li>
+<li><strong>来源</strong>: Readhub · <a href="https://news.qq.com/rain/a/20261115A06QKQ00" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [AI前沿] 突发！DeepSeek开放全家桶API</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 国产大模型API全面开放，对开发者是可直接落地的工具与成本信号。</li>
+<li><strong>可行动作</strong>: 试用DeepSeek API，对比现有模型成本与效果，评估迁移或接入方案</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/510003.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [技术趋势] 别再连线了：Coze、n8n、Dify 退潮，AI 正式终结工作流时代</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 对AI工作流工具退潮的判断，关系到开发者工具选型与技能投资方向，具信息差。</li>
+<li><strong>可行动作</strong>: 读文并复盘自己正在用的工作流工具，评估是否转向Agent原生方案</li>
+<li><strong>来源</strong>: 掘金热文 · <a href="https://juejin.cn/post/7706394247621443599" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [科技商业] Kimi 估值 500 亿美元，月之暗面为什么急着拆掉海外架构？</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 估值与架构调整指向IPO路径，对关注AI融资与一级市场机会的用户有参考价值。</li>
+<li><strong>可行动作</strong>: 仅观察，跟踪其上市进程与估值变化</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.tmtpost.com/8205584.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了BLG夺冠、金价暴跌、浓雾雪假等纯流量舆情，以及黄仁勋离职的重复报道（仅保留信息量最大的机构施压与财报节点两条）。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. 高盛2027年全球股市展望：AI资本开支见顶，盈利增长“大减速”，云巨头成“防御性资产”</h3>
+<h3>摘要</h3>
+<p>高盛发布2027年全球股市策略展望，核心判断是AI资本开支热潮接近顶点，全球主要市场盈利增速将大幅放缓，标普500盈利增速预计从36%降至11%。报告认为，此前被抛售的美国超大规模云巨头估值已回调至19.7倍预期市盈率，低于必需消费品板块，因而被重新定性为“相对防御性”资产。高盛给出标普500未来12个月8700点目标价（约涨14%），地区配置上超配美国和日本、低配欧洲，同时对亚洲维持中性。报告还提示，其低油价与降息假设与当前市场现实存在明显落差。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是一份直接给出资产配置方向与估值锚点的卖方策略：它提示AI“卖铲人”（芯片、工业、能源设备）增长减速风险，同时把估值回调后的云巨头纳入防御框架，可作为调整科技仓位与地区配置的参考。对职业与学习成长而言，报告展示了“叙事见顶—估值下修—重新定价”的完整分析链条，是理解资本开支周期如何传导至盈利与估值的良好案例。</p>
+<h3>值得记住</h3>
+<p>云巨头资本开支对标普500 EPS增长的贡献预计从今年的12个百分点降至2027年的9个百分点，到2028年转为拖累5个百分点——资本开支从“盈利引擎”变成“折旧负担”的拐点，是全文最关键的机制。</p>
+<hr>
+<h3>2. 英伟达财报、Anthropic万亿IPO接连登场！AI交易更大的考验在下周</h3>
+<h3>摘要</h3>
+<p>本文指出，在英伟达CEO黄仁勋因丑闻突然辞职的背景下，下周AI赛道将迎来两场关键考验：英伟达“后黄仁勋时代”的首份财报，以及Anthropic以约1.2万亿至1.4万亿美元估值进行的IPO。文章认为，这两大事件将直接检验市场对AI叙事的信心，若结果令人失望，可能成为投资者从乐观情绪中警醒的转折点。同时，宏观层面通胀高于预期、加息预期升温及中东局势紧张，进一步加大了AI交易面临的压力。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是判断AI板块短期风险与机会的关键窗口：英伟达财报和Anthropic上市表现可能引发相关资产剧烈波动，需提前评估持仓与仓位。对职业与学习成长而言，文章展示了“关键人物风险”和“高估值叙事脆弱性”的典型案例，有助于理解科技公司治理与市场预期管理。</p>
+<h3>值得记住</h3>
+<p>英伟达股价六周内累计下跌逾30%，市值从约5.8万亿美元缩水至约3.9万亿美元；而Anthropic主动将IPO估值从约2万亿美元下调至1.2万亿至1.4万亿美元，按2026年底预计1000亿美元年化营收计算约对应12倍ARR——主动“让价”以换取上市表现，反常识地被视为明智之举。</p>
+<hr>
+<h3>3. Nvidia board urged to consider &#x27;potential return of Jensen Huang&#x27; by two major investors</h3>
+<h3>摘要</h3>
+<p>原文实际可读内容仅为 CNBC 的页面导航菜单和标题，正文在截断处之前并未出现。标题显示：两位主要投资者敦促英伟达董事会考虑“黄仁勋潜在回归”的可能性。但文中没有交代这两位投资者是谁、为何提出这一诉求、黄仁勋当前与英伟达的关系状态，以及董事会的回应。因此无法基于现有材料还原事件主线，任何进一步解读都缺乏原文依据。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这类公司治理信号可能影响英伟达的估值叙事与市场情绪，但本文缺少事实细节，暂不足以支撑判断。对职业与学习成长而言，标题本身提示了一个值得留意的治理议题，但同样需要等完整报道再做分析。</p>
+<h3>值得记住</h3>
+<p>无特别值得记的（原文正文缺失，仅有标题信息，不编造细节）。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>
