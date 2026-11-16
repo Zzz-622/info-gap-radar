@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "高盛2027年全球股市展望：AI资本开支见顶，盈利增长“大减速”，云巨头成“防御性资产”",
-      "link": "https://wallstreetcn.com/articles/3785935",
+      "title": "本周重磅日程：APEC峰会、Anthropic IPO、黄仁勋听证会、英伟达与阿里腾讯财报",
+      "link": "https://wallstreetcn.com/articles/3785932",
       "source": "华尔街见闻",
       "domain": "财经",
       "score": 95,
-      "reason": "顶级投行对AI资本开支周期拐点的前瞻判断，直接决定未来1-2年科技股配置逻辑，属高信息差投资信号。",
-      "action": "读原文，梳理AI算力链（芯片/服务器/光模块）与云巨头两类资产的仓位再平衡思路"
+      "reason": "一周内集中出现Anthropic IPO、英伟达与阿里腾讯财报、黄仁勋听证会，是判断AI与中概股走向的关键日历。",
+      "action": "把四个时间点记入日程，提前决定财报前后是否调整仓位"
     },
     {
-      "title": "英伟达财报、Anthropic万亿IPO接连登场！AI交易更大的考验在下周",
-      "link": "https://wallstreetcn.com/articles/3785944",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "score": 92,
-      "reason": "明确给出下周两个关键事件节点，是AI板块短期风险与机会的日历型信号，可提前布局或避险。",
-      "action": "把英伟达财报日与Anthropic IPO定价日记入日历，提前设定观察清单与止损位"
-    },
-    {
-      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
-      "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "title": "中国10月工业产出、零售、投资全面不及预期",
+      "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "score": 90,
-      "reason": "黄仁勋去留已从舆论升级为机构投资者正式施压董事会，是英伟达治理风险的核心变量，多源交叉（TechCrunch/IT之家/36氪）强信号。",
-      "action": "跟踪董事会回应与请愿进展，评估对英伟达及AI板块估值的传导"
+      "score": 92,
+      "reason": "三大宏观指标同时低于预期，直接影响A股、港股与人民币资产定价，是今天最重要的基本面信号。",
+      "action": "对照自己持仓的中概、消费、周期板块做一次压力测试"
     },
     {
-      "title": "解读证监会主席吴清讲话：回应近期部分科技企业上市估值溢价泡沫，“加强科技企业发行上市制度适配性和风险应对机制研究”",
-      "link": "https://wallstreetcn.com/articles/3785951",
+      "title": "存储正在分化，美银：DRAM依然坚挺，NAND已悄然走弱",
+      "link": "https://wallstreetcn.com/articles/3785963",
       "source": "华尔街见闻",
       "domain": "财经",
       "score": 88,
-      "reason": "监管层首次正面回应科技股IPO估值泡沫，直接影响打新、Pre-IPO投资与科技股定价预期。",
-      "action": "关注后续发行制度细则，调整科技类打新与一级市场参与节奏"
+      "reason": "存储内部DRAM与NAND走势分化，是少有人注意但影响半导体投资逻辑的结构性信息。",
+      "action": "检查存储相关持仓或基金是否过度暴露在NAND环节"
     },
     {
-      "title": "OpenAI 再次解散机器人团队：GPT-6 太强，决定 All in 通用模型",
-      "link": "https://www.mittrchina.com/news/detail/17243",
-      "source": "Readhub",
-      "domain": "科技商业",
+      "title": "Anthropic IPO：动荡的AI交易急需一个亮点",
+      "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
       "score": 86,
-      "reason": "头部AI公司战略收缩具身智能、押注通用模型，是判断AI技术路线与就业方向的强信号。",
-      "action": "重新评估机器人/具身智能方向的学习与职业投入权重，关注GPT-6能力边界"
+      "reason": "Anthropic上市被视为AI板块的成败关键，对AI相关投资与行业估值有直接参照意义。",
+      "action": "关注招股定价与首日表现，作为AI资产情绪风向标"
     },
     {
-      "title": "李沐加入 Aimotion，出任联合创始人兼 CTO",
-      "link": "https://news.qq.com/rain/a/20261115A06QKB00",
+      "title": "阿里千问发布Qwen4-Max：架构升级压低token消耗，单任务费用降58%",
+      "link": "https://www.aibase.com/zh/news/32332",
       "source": "Readhub",
       "domain": "科技商业",
-      "score": 84,
-      "reason": "顶级AI研究者动向往往预示新赛道，对关注AI职业机会与技术趋势的用户有前瞻价值。",
-      "action": "关注Aimotion技术方向与招聘动态，可作为职业/学习方向参考"
+      "score": 85,
+      "reason": "单任务成本降58%直接改变大模型应用的开发经济性，对做AI产品与选型的人有实际决策价值。",
+      "action": "评估现有调用模型是否值得迁移或重新比价"
     },
     {
-      "title": "中科院自动化所、美团等推出 RSI 综述：Agent 如何越用越强",
-      "link": "https://news.qq.com/rain/a/20261115A06QKQ00",
-      "source": "Readhub",
-      "domain": "科技商业",
+      "title": "开源盘古模型openPangu-2.1-Pro上线华为云，围绕Agent开发、AI编码、推理优化升级",
+      "link": "https://m.ithome.com/html/1027450.htm",
+      "source": "IT之家",
+      "domain": "科技数码",
       "score": 83,
-      "reason": "Agent自我进化（RSI）系统性综述，命中Agent+学习成长，是值得进学习主题的高质量材料。",
-      "action": "读综述，整理Agent自进化方法脉络，纳入个人技术学习清单"
+      "reason": "开源且主打Agent开发与AI编码，是可直接上手试用的国产模型选项，命中开源+Agent+编程兴趣。",
+      "action": "拉取模型做一次Agent或编码任务的实测对比"
     },
     {
-      "title": "突发！DeepSeek开放全家桶API",
-      "link": "https://www.qbitai.com/2026/11/510003.html",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "score": 82,
-      "reason": "国产大模型API全面开放，对开发者是可直接落地的工具与成本信号。",
-      "action": "试用DeepSeek API，对比现有模型成本与效果，评估迁移或接入方案"
-    },
-    {
-      "title": "别再连线了：Coze、n8n、Dify 退潮，AI 正式终结工作流时代",
-      "link": "https://juejin.cn/post/7706394247621443599",
+      "title": "官方点名，DeepSeek Harness的4个神级插件",
+      "link": "https://juejin.cn/post/7707231949409026058",
       "source": "掘金热文",
       "domain": "技术趋势",
       "score": 78,
-      "reason": "对AI工作流工具退潮的判断，关系到开发者工具选型与技能投资方向，具信息差。",
-      "action": "读文并复盘自己正在用的工作流工具，评估是否转向Agent原生方案"
+      "reason": "围绕DeepSeek开发工具链的实用插件清单，属于能立刻提升开发效率的工具类内容。",
+      "action": "挑1-2个插件装到本地工作流试用"
     },
     {
-      "title": "Kimi 估值 500 亿美元，月之暗面为什么急着拆掉海外架构？",
-      "link": "https://www.tmtpost.com/8205584.html",
+      "title": "美银Hartnett：美元正在“破坏一切”，美元下跌前保持避险",
+      "link": "https://wallstreetcn.com/articles/3785968",
+      "source": "华尔街见闻",
+      "domain": "财经",
+      "score": 76,
+      "reason": "来自大行策略师的美元与避险判断，对全球资产配置与汇率敏感持仓有参考价值。",
+      "action": "仅观察，留意美元指数与避险资产联动"
+    },
+    {
+      "title": "谷歌Gemini接入Google Wallet，美国用户可用AI分析个人财务",
+      "link": "https://www.aibase.com/zh/news/32329",
       "source": "Readhub",
       "domain": "科技商业",
-      "score": 76,
-      "reason": "估值与架构调整指向IPO路径，对关注AI融资与一级市场机会的用户有参考价值。",
-      "action": "仅观察，跟踪其上市进程与估值变化"
+      "score": 72,
+      "reason": "AI进入个人财务管理是产品形态信号，对关注AI应用落地与理财工具的人有前瞻价值。",
+      "action": "仅观察，跟踪国内是否出现同类AI理财助手"
+    },
+    {
+      "title": "黄仁勋考虑重返英伟达担任CEO，硅谷盟友正施压董事会",
+      "link": "https://m.ithome.com/html/1027470.htm",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "score": 70,
+      "reason": "多源交叉出现（IT之家、BBC、CNBC、华尔街见闻），英伟达治理变动对AI算力链影响大。",
+      "action": "仅观察，等待听证会与财报给出方向"
     }
   ],
-  "noise_note": "排除了BLG夺冠、金价暴跌、浓雾雪假等纯流量舆情，以及黄仁勋离职的重复报道（仅保留信息量最大的机构施压与财报节点两条）。"
+  "noise_note": "排除了微博、百度热搜中的娱乐八卦、社会琐事与标题党，以及重复的英伟达人事传闻（只保留信息量最大的一条）和与画像无关的日常消费类新闻。"
 }
