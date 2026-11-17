@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-17-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-17</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-17T06:04:47</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [财经] SemiAnalysis大幅下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%，英伟达受冲击最严重</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 算力需求预测被权威机构大幅下修，直接冲击AI芯片与算力产业链的投资逻辑，是今日信息差最强的一条。</li>
+<li><strong>可行动作</strong>: 重读原文核对下修依据，检查自己持仓或关注清单中算力、芯片相关标的的敞口</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3786019" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [科技商业] 美联储报告拆解AI算力债务：6800亿美元发行、3万亿美元表外承诺，循环融资何解？</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 揭示AI基建背后的债务与循环融资结构，与算力下修形成交叉信号，是判断AI泡沫风险的关键拼图。</li>
+<li><strong>可行动作</strong>: 与SemiAnalysis下修一文对照阅读，梳理AI资本开支的融资链条风险点</li>
+<li><strong>来源</strong>: 36氪24h热榜 · <a href="https://www.36kr.com/p/4071919873922948" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [财经] 沃什：美联储正为三种AI影响制定预案，若泡沫破裂，或引发股市走弱并拖累经济与就业</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 美联储主席亲口给出AI泡沫破裂的政策预案，意味着货币政策可能已把AI风险纳入框架，影响降息路径判断。</li>
+<li><strong>可行动作</strong>: 关注后续美联储对AI就业影响的表态，作为利率与仓位调整的输入</li>
+<li><strong>来源</strong>: 华尔街见闻 · <a href="https://wallstreetcn.com/articles/3786043" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [AI前沿] 阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 国产头部大模型新版本强化Agent与编程能力，直接关系到开发工具选型与技能学习方向。</li>
+<li><strong>可行动作</strong>: 试用Qwen4的编程与Agent能力，评估是否接入现有工作流</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/510486.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [舆情热点] 字节被曝正研发「中国版 Muse」，Personal Agent 会成为大厂争夺的新方向吗？字节有何优势？</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Personal Agent成为大厂新战场，与Qwen4智能体能力形成交叉信号，指向Agent产品化加速。</li>
+<li><strong>可行动作</strong>: 仅观察，跟踪字节Agent产品落地节奏</li>
+<li><strong>来源</strong>: 知乎热榜 · <a href="https://www.zhihu.com/question/2104136484013826621" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [财经] 腾讯发文：已到生死存亡时刻，未来不一定要那么多管理岗位，需要一半人去打新的战役</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 头部大厂公开承认AI冲击下的组织重构与管理岗收缩，对职业规划与行业就业判断有直接参考价值。</li>
+<li><strong>可行动作</strong>: 关注腾讯后续组织调整细节，评估自身所在行业的管理岗风险</li>
+<li><strong>来源</strong>: 新浪财经新闻 · <a href="https://finance.sina.com.cn/stock/marketresearch/2026-11-17/doc-iniyyvsr7802869.shtml" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [技术趋势] 代码都能让 Agent 写了，我们为什么还要学前端？</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 直面Agent替代编程工作下的技能价值问题，与用户学习成长、职业用途高度相关。</li>
+<li><strong>可行动作</strong>: 阅读并提炼可迁移技能清单，调整学习重点</li>
+<li><strong>来源</strong>: 掘金热文 · <a href="https://juejin.cn/post/7706354193472995391" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [科技·海外] 加州总检察长就失控Agent事件起诉OpenAI</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Agent失控引发法律诉讼，是Agent大规模落地前必须关注的合规与风险信号。</li>
+<li><strong>可行动作</strong>: 仅观察，关注Agent安全与合规监管走向</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [科技·海外] 苹果为Mac增加新的安全控制，因AI Agent带来隐私风险</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 操作系统层面开始为Agent隐私风险设防，对开发者构建Agent工具的安全设计有实操参考。</li>
+<li><strong>可行动作</strong>: 了解新安全控制机制，评估对自建Agent工具的影响</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [财经] 高分红股十年盘点：3900余只高股息股，超一半跑赢大盘</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 在芯片股领跌、避险情绪主导的市场环境下，高股息策略的历史回测数据对配置有参考价值。</li>
+<li><strong>可行动作</strong>: 仅观察，结合当前避险情绪评估防御性仓位</li>
+<li><strong>来源</strong>: 新浪财经新闻 · <a href="https://finance.sina.com.cn/wm/2026-11-17/doc-iniyyvsp5569294.shtml" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了APEC外交礼仪、明星八卦、健康养生、体育赛事等纯流量话题，以及黄仁勋去留的多条重复报道（仅保留算力与债务两条信息量最大的）。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. SemiAnalysis大幅下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%，英伟达受冲击最严重</h3>
+<h3>摘要</h3>
+<p>SemiAnalysis大幅下修AI算力预测：2028年全球AI加速器资本开支预测下调28%，2029年和2030年分别下调41%和40%，2030年预测从1.531万亿美元降至9230亿美元。2026—2030年加速器逻辑硅片出货面积累计预测下调17%，2028年HBM需求预测下调30%，2030年功耗需求预测下调34%。英伟达是最大受冲击者，占硅片出货削减幅度的66%，其2030年按计算收入测算的出货预测下调66%，同时Feynman等新一代产品平均售价假设也被调低。下修主因是前沿AI实验室ARR增速放缓和融资环境收紧，美国中期选举导致的数据中心延迟只是额外因素。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是AI算力叙事的一次重要校准信号，提示此前建立在持续融资和高价硬件上的增长预期可能过于乐观，需重新审视AI芯片产业链的估值假设。对职业与学习成长而言，竞争焦点正从单纯性能转向性能成本比、能效和融资能力的综合较量，值得关注这一能力模型的变化。</p>
+<h3>值得记住</h3>
+<p>英伟达占全球硅片出货面积削减幅度的66%，且其2030年按计算收入测算的出货预测下调幅度同样高达66%——冲击高度集中于单一龙头，而非全行业平均分摊。</p>
+<hr>
+<h3>2. 美联储报告拆解AI算力债务：6800亿美元发行、3万亿美元表外承诺，循环融资何解？</h3>
+<h3>摘要</h3>
+<p>美联储2026年11月发布的半年度《金融稳定报告》首次以专章拆解AI算力基建的融资结构：年内先进算力相关债务发行超6800亿美元，约为2023年的5倍，占非金融投资级公司债发行比例从不足6%升至约31%。报告点名亚马逊、Alphabet、Meta、微软、Oracle、博通、英伟达七家公司，其尚未生效的租约、采购承诺与GPU残值担保等表外义务合计超3万亿美元。报告还描述了正在成形的“循环融资”模式——云厂商与芯片方通过租约、担保、股权投资为第三方开发商增信，后者再向银行、债市和私人信贷融资。市场联系人调查中，87%的机构将AI列为金融稳定显著风险，较春季的50%大幅上升。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是理解AI行情“杠杆底色”的关键材料：算力扩张已从科技公司自有现金流转向债务与表外承诺驱动，一旦项目现金流不及预期，风险可能沿担保链传导至债市和私人信贷。对职业与学习成长而言，报告提示AI产业链的融资结构、SPV与表外义务是值得补课的分析框架。</p>
+<h3>值得记住</h3>
+<p>最反常识的一点是表外规模：七家巨头未生效的租约与合同承诺超3万亿美元（未折现），远超已发行的1.1万亿美元相关公共债务存量，且这些义务不计入资产负债表——真实杠杆被系统性低估。</p>
+<hr>
+<h3>3. 沃什：美联储正为三种AI影响制定预案，若泡沫破裂，或引发股市走弱并拖累经济与就业</h3>
+<h3>摘要</h3>
+<p>美联储主席沃什表示，美联储工作人员已开始为AI对美国经济的三种潜在影响制定应急预案：生产力繁荣、大规模失业、技术泡沫破裂。沃什重点警示第三种情景——AI预期回报下降导致股市下跌，进而引发经济放缓和失业率明显上升，且复苏后不伴随生产力提升。此次讲话未涉及货币政策走向，但标志着美联储正式将AI冲击纳入宏观政策审视框架。美联储还设立了AI专项工作组，预计年底前提交建议供FOMC审议。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，美联储明确将AI资产估值泡沫列为政策推演情景，意味着AI相关股票的政策敏感度上升，需关注估值回调的宏观溢出风险；对工作与学习而言，文中指出AI目前对劳动生产率只是边际贡献、尚未成为主导驱动力，提示对&quot;AI立刻颠覆一切&quot;的叙事保持审慎。</p>
+<h3>值得记住</h3>
+<p>反常识点：沃什判断AI当前&quot;正在冲击经济需求侧，而非供给侧&quot;——即AI的通胀压制效应尚未显现，短期内反而可能加剧价格压力，这与&quot;AI天然抗通胀&quot;的直觉相反。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>

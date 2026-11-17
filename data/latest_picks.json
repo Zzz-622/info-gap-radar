@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "本周重磅日程：APEC峰会、Anthropic IPO、黄仁勋听证会、英伟达与阿里腾讯财报",
-      "link": "https://wallstreetcn.com/articles/3785932",
+      "title": "SemiAnalysis大幅下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%，英伟达受冲击最严重",
+      "link": "https://wallstreetcn.com/articles/3786019",
       "source": "华尔街见闻",
       "domain": "财经",
       "score": 95,
-      "reason": "一周内集中出现Anthropic IPO、英伟达与阿里腾讯财报、黄仁勋听证会，是判断AI与中概股走向的关键日历。",
-      "action": "把四个时间点记入日程，提前决定财报前后是否调整仓位"
+      "reason": "算力需求预测被权威机构大幅下修，直接冲击AI芯片与算力产业链的投资逻辑，是今日信息差最强的一条。",
+      "action": "重读原文核对下修依据，检查自己持仓或关注清单中算力、芯片相关标的的敞口"
     },
     {
-      "title": "中国10月工业产出、零售、投资全面不及预期",
-      "link": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
+      "title": "美联储报告拆解AI算力债务：6800亿美元发行、3万亿美元表外承诺，循环融资何解？",
+      "link": "https://www.36kr.com/p/4071919873922948",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
       "score": 92,
-      "reason": "三大宏观指标同时低于预期，直接影响A股、港股与人民币资产定价，是今天最重要的基本面信号。",
-      "action": "对照自己持仓的中概、消费、周期板块做一次压力测试"
+      "reason": "揭示AI基建背后的债务与循环融资结构，与算力下修形成交叉信号，是判断AI泡沫风险的关键拼图。",
+      "action": "与SemiAnalysis下修一文对照阅读，梳理AI资本开支的融资链条风险点"
     },
     {
-      "title": "存储正在分化，美银：DRAM依然坚挺，NAND已悄然走弱",
-      "link": "https://wallstreetcn.com/articles/3785963",
+      "title": "沃什：美联储正为三种AI影响制定预案，若泡沫破裂，或引发股市走弱并拖累经济与就业",
+      "link": "https://wallstreetcn.com/articles/3786043",
       "source": "华尔街见闻",
       "domain": "财经",
+      "score": 90,
+      "reason": "美联储主席亲口给出AI泡沫破裂的政策预案，意味着货币政策可能已把AI风险纳入框架，影响降息路径判断。",
+      "action": "关注后续美联储对AI就业影响的表态，作为利率与仓位调整的输入"
+    },
+    {
+      "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
+      "link": "https://www.qbitai.com/2026/11/510486.html",
+      "source": "量子位",
+      "domain": "AI前沿",
       "score": 88,
-      "reason": "存储内部DRAM与NAND走势分化，是少有人注意但影响半导体投资逻辑的结构性信息。",
-      "action": "检查存储相关持仓或基金是否过度暴露在NAND环节"
+      "reason": "国产头部大模型新版本强化Agent与编程能力，直接关系到开发工具选型与技能学习方向。",
+      "action": "试用Qwen4的编程与Agent能力，评估是否接入现有工作流"
     },
     {
-      "title": "Anthropic IPO：动荡的AI交易急需一个亮点",
-      "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
-      "score": 86,
-      "reason": "Anthropic上市被视为AI板块的成败关键，对AI相关投资与行业估值有直接参照意义。",
-      "action": "关注招股定价与首日表现，作为AI资产情绪风向标"
-    },
-    {
-      "title": "阿里千问发布Qwen4-Max：架构升级压低token消耗，单任务费用降58%",
-      "link": "https://www.aibase.com/zh/news/32332",
-      "source": "Readhub",
-      "domain": "科技商业",
+      "title": "字节被曝正研发「中国版 Muse」，Personal Agent 会成为大厂争夺的新方向吗？字节有何优势？",
+      "link": "https://www.zhihu.com/question/2104136484013826621",
+      "source": "知乎热榜",
+      "domain": "舆情热点",
       "score": 85,
-      "reason": "单任务成本降58%直接改变大模型应用的开发经济性，对做AI产品与选型的人有实际决策价值。",
-      "action": "评估现有调用模型是否值得迁移或重新比价"
+      "reason": "Personal Agent成为大厂新战场，与Qwen4智能体能力形成交叉信号，指向Agent产品化加速。",
+      "action": "仅观察，跟踪字节Agent产品落地节奏"
     },
     {
-      "title": "开源盘古模型openPangu-2.1-Pro上线华为云，围绕Agent开发、AI编码、推理优化升级",
-      "link": "https://m.ithome.com/html/1027450.htm",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "score": 83,
-      "reason": "开源且主打Agent开发与AI编码，是可直接上手试用的国产模型选项，命中开源+Agent+编程兴趣。",
-      "action": "拉取模型做一次Agent或编码任务的实测对比"
+      "title": "腾讯发文：已到生死存亡时刻，未来不一定要那么多管理岗位，需要一半人去打新的战役",
+      "link": "https://finance.sina.com.cn/stock/marketresearch/2026-11-17/doc-iniyyvsr7802869.shtml",
+      "source": "新浪财经新闻",
+      "domain": "财经",
+      "score": 84,
+      "reason": "头部大厂公开承认AI冲击下的组织重构与管理岗收缩，对职业规划与行业就业判断有直接参考价值。",
+      "action": "关注腾讯后续组织调整细节，评估自身所在行业的管理岗风险"
     },
     {
-      "title": "官方点名，DeepSeek Harness的4个神级插件",
-      "link": "https://juejin.cn/post/7707231949409026058",
+      "title": "代码都能让 Agent 写了，我们为什么还要学前端？",
+      "link": "https://juejin.cn/post/7706354193472995391",
       "source": "掘金热文",
       "domain": "技术趋势",
+      "score": 80,
+      "reason": "直面Agent替代编程工作下的技能价值问题，与用户学习成长、职业用途高度相关。",
+      "action": "阅读并提炼可迁移技能清单，调整学习重点"
+    },
+    {
+      "title": "加州总检察长就失控Agent事件起诉OpenAI",
+      "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
       "score": 78,
-      "reason": "围绕DeepSeek开发工具链的实用插件清单，属于能立刻提升开发效率的工具类内容。",
-      "action": "挑1-2个插件装到本地工作流试用"
+      "reason": "Agent失控引发法律诉讼，是Agent大规模落地前必须关注的合规与风险信号。",
+      "action": "仅观察，关注Agent安全与合规监管走向"
     },
     {
-      "title": "美银Hartnett：美元正在“破坏一切”，美元下跌前保持避险",
-      "link": "https://wallstreetcn.com/articles/3785968",
-      "source": "华尔街见闻",
-      "domain": "财经",
+      "title": "苹果为Mac增加新的安全控制，因AI Agent带来隐私风险",
+      "link": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
       "score": 76,
-      "reason": "来自大行策略师的美元与避险判断，对全球资产配置与汇率敏感持仓有参考价值。",
-      "action": "仅观察，留意美元指数与避险资产联动"
+      "reason": "操作系统层面开始为Agent隐私风险设防，对开发者构建Agent工具的安全设计有实操参考。",
+      "action": "了解新安全控制机制，评估对自建Agent工具的影响"
     },
     {
-      "title": "谷歌Gemini接入Google Wallet，美国用户可用AI分析个人财务",
-      "link": "https://www.aibase.com/zh/news/32329",
-      "source": "Readhub",
-      "domain": "科技商业",
+      "title": "高分红股十年盘点：3900余只高股息股，超一半跑赢大盘",
+      "link": "https://finance.sina.com.cn/wm/2026-11-17/doc-iniyyvsp5569294.shtml",
+      "source": "新浪财经新闻",
+      "domain": "财经",
       "score": 72,
-      "reason": "AI进入个人财务管理是产品形态信号，对关注AI应用落地与理财工具的人有前瞻价值。",
-      "action": "仅观察，跟踪国内是否出现同类AI理财助手"
-    },
-    {
-      "title": "黄仁勋考虑重返英伟达担任CEO，硅谷盟友正施压董事会",
-      "link": "https://m.ithome.com/html/1027470.htm",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "score": 70,
-      "reason": "多源交叉出现（IT之家、BBC、CNBC、华尔街见闻），英伟达治理变动对AI算力链影响大。",
-      "action": "仅观察，等待听证会与财报给出方向"
+      "reason": "在芯片股领跌、避险情绪主导的市场环境下，高股息策略的历史回测数据对配置有参考价值。",
+      "action": "仅观察，结合当前避险情绪评估防御性仓位"
     }
   ],
-  "noise_note": "排除了微博、百度热搜中的娱乐八卦、社会琐事与标题党，以及重复的英伟达人事传闻（只保留信息量最大的一条）和与画像无关的日常消费类新闻。"
+  "noise_note": "排除了APEC外交礼仪、明星八卦、健康养生、体育赛事等纯流量话题，以及黄仁勋去留的多条重复报道（仅保留算力与债务两条信息量最大的）。"
 }
