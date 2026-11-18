@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-18-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-18</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-18T05:33:53</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [财经·海外] 黄仁勋：愿回归，董事会：无意让他复职，业绩超预期，英伟达盘后涨超4%</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 英伟达CEO变动、业绩超预期、盘后涨4%三件事叠加，是今天对持仓和AI算力链最直接的定价信号，且多源交叉（新浪、IT之家、TechCrunch、CNBC）确认。</li>
+<li><strong>可行动作</strong>: 核对英伟达财报关键数字与SEC调查进展，评估A股算力链（光模块、服务器）次日情绪传导</li>
+<li><strong>来源</strong>: 新浪财经新闻 · <a href="https://finance.sina.com.cn/stock/marketresearch/2026-11-18/doc-inizcexi1210044.shtml" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [科技·海外] SEC reportedly investigating Nvidia amid Huang exit</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: SEC调查叠加CEO离任，是中文源普遍没展开的信息差，直接影响英伟达估值与供应链订单预期。</li>
+<li><strong>可行动作</strong>: 跟踪SEC调查是否正式立案，作为减仓/对冲英伟达相关敞口的触发条件</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huangs-exit/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [科技·海外] Nvidia is abandoning China after Jensen Huang’s ouster</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 英伟达退出中国市场的判断对国产算力替代、芯片板块是重大变量，中文源仅停留在人事层面。</li>
+<li><strong>可行动作</strong>: 梳理国产GPU/算力替代受益标的，观察后续官方口径</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [国际] 特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 东南亚租算力被堵，直接改变国内大模型公司的训练成本与合规路径，是少有人注意但影响深远的政策信号。</li>
+<li><strong>可行动作</strong>: 评估所在团队/公司是否有海外算力依赖，提前规划合规与成本</li>
+<li><strong>来源</strong>: BBC中文 · <a href="https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [科技·海外] Amazon and Google will together own nearly 30% of Anthropic after its IPO</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Anthropic IPO前股权结构决定AI大模型竞争格局与云厂商绑定关系，对投资和职业选择都有参考价值。</li>
+<li><strong>可行动作</strong>: 关注Anthropic招股书披露的算力采购与云分成条款</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [财经·海外] JPMorgan is working on AI agent transactions that don’t involve humans</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Agent自主完成支付交易是Agent落地的关键基础设施突破，直接对应画像中的Agent与投资双兴趣。</li>
+<li><strong>可行动作</strong>: 研究其Agent身份认证与风控方案，作为Agent产品设计的参考</li>
+<li><strong>来源</strong>: CNBC Markets · <a href="https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [科技商业] DeepSeek开始限额了，这里是一份最全“搬家”手册</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 主力模型限额直接影响开发者的工具选型与成本，配套搬家手册具备强可行动性。</li>
+<li><strong>可行动作</strong>: 按手册评估自有项目的模型迁移成本，准备备用API方案</li>
+<li><strong>来源</strong>: 36氪24h热榜 · <a href="https://www.36kr.com/p/4073271553102724" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [技术趋势] 真狠啊，DeepSeek 开放全家桶 API。</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 与上条形成交叉信号：一边限额一边开放全家桶，说明定价与配额策略在调整，开发者需重新算账。</li>
+<li><strong>可行动作</strong>: 对比新旧API价格与配额，更新项目成本模型</li>
+<li><strong>来源</strong>: 掘金热文 · <a href="https://juejin.cn/post/7708954185542172710" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [科技商业] External sandboxes for coding agents</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 编码Agent的外部沙箱是当前工程落地的核心痛点，属于值得进学习主题的方法论内容。</li>
+<li><strong>可行动作</strong>: 阅读后在自己的Agent项目里试接入沙箱隔离方案</li>
+<li><strong>来源</strong>: Readhub · <a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [学术前沿] Higher-Scoring Coding Models Did Not Get More Work Done</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 榜单分数与实际完成工作量脱钩，对选模型和评估Agent效率有直接纠偏价值，信息差强。</li>
+<li><strong>可行动作</strong>: 仅观察，后续用自己任务集做一次小规模复现验证</li>
+<li><strong>来源</strong>: arXiv cs.AI · <a href="http://arxiv.org/abs/2611.23216v1" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了APEC外交与深圳本地花絮、雷军发名片等纯流量话题、知网AI检测争议的重复报道，以及雪球散户随笔类无信息增量内容。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. 黄仁勋：愿回归，董事会：无意让他复职，业绩超预期，英伟达盘后涨超4%</h3>
+<p>（深读失败: HTTPError, 请点链接阅读）</p>
+<hr>
+<h3>2. SEC reportedly investigating Nvidia amid Huang exit</h3>
+<h3>摘要</h3>
+<p>该链接实际返回的是 TechCrunch 的 404“页面未找到”页，原文正文并未抓到，无法确认“SEC 调查英伟达”这一报道的具体内容。页面仅保留了标题线索和同站其他文章链接，其中提到英伟达初创投资规模升至 650 亿美元、黄仁勋离任令未来交易存疑，以及英伟达称营收将继续增长、放弃中国业务等。由于正文缺失，不能据此还原 SEC 调查的细节、时间线或官方回应。</p>
+<h3>为什么重要</h3>
+<p>对关注科技与投资理财的读者，英伟达是 AI 核心资产，高管变动与监管调查传闻都可能影响市场情绪和估值判断；但本文正文不可用，不宜作为决策依据，应等待原始报道或官方披露。</p>
+<h3>值得记住</h3>
+<p>无特别值得记的（原文为 404 页面，未提供可核实的正文内容）。</p>
+<hr>
+<h3>3. Nvidia is abandoning China after Jensen Huang’s ouster</h3>
+<h3>摘要</h3>
+<p>这篇 TechCrunch 报道称，在黄仁勋被免职后，Nvidia 临时 CEO 表示公司将停止向中国销售芯片，即“放弃中国市场”。文章标题与导语指向这一重大战略转向，并追问此举代价几何。但提供的原文在导语后即被截断，正文细节（如免职原因、决策过程、财务影响）均未给出，无法核实或展开。因此只能确认文章的核心主张，不能补充具体事实。</p>
+<h3>为什么重要</h3>
+<p>对关注科技与投资的人来说，Nvidia 退出中国是 AI 芯片供应链和地缘政治的重大变量，可能影响相关公司估值与行业格局；但本文正文缺失，不宜据此做判断。</p>
+<h3>值得记住</h3>
+<p>无特别值得记的（原文正文截断，缺乏可验证的数据或机制细节）。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>

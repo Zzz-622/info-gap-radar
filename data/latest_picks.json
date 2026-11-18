@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "SemiAnalysis大幅下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%，英伟达受冲击最严重",
-      "link": "https://wallstreetcn.com/articles/3786019",
-      "source": "华尔街见闻",
-      "domain": "财经",
+      "title": "黄仁勋：愿回归，董事会：无意让他复职，业绩超预期，英伟达盘后涨超4%",
+      "link": "https://finance.sina.com.cn/stock/marketresearch/2026-11-18/doc-inizcexi1210044.shtml",
+      "source": "新浪财经新闻",
+      "domain": "财经·海外",
       "score": 95,
-      "reason": "算力需求预测被权威机构大幅下修，直接冲击AI芯片与算力产业链的投资逻辑，是今日信息差最强的一条。",
-      "action": "重读原文核对下修依据，检查自己持仓或关注清单中算力、芯片相关标的的敞口"
+      "reason": "英伟达CEO变动、业绩超预期、盘后涨4%三件事叠加，是今天对持仓和AI算力链最直接的定价信号，且多源交叉（新浪、IT之家、TechCrunch、CNBC）确认。",
+      "action": "核对英伟达财报关键数字与SEC调查进展，评估A股算力链（光模块、服务器）次日情绪传导"
     },
     {
-      "title": "美联储报告拆解AI算力债务：6800亿美元发行、3万亿美元表外承诺，循环融资何解？",
-      "link": "https://www.36kr.com/p/4071919873922948",
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huangs-exit/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
+      "score": 92,
+      "reason": "SEC调查叠加CEO离任，是中文源普遍没展开的信息差，直接影响英伟达估值与供应链订单预期。",
+      "action": "跟踪SEC调查是否正式立案，作为减仓/对冲英伟达相关敞口的触发条件"
+    },
+    {
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "link": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
+      "score": 90,
+      "reason": "英伟达退出中国市场的判断对国产算力替代、芯片板块是重大变量，中文源仅停留在人事层面。",
+      "action": "梳理国产GPU/算力替代受益标的，观察后续官方口径"
+    },
+    {
+      "title": "特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」",
+      "link": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&at_campaign=rss",
+      "source": "BBC中文",
+      "domain": "国际",
+      "score": 88,
+      "reason": "东南亚租算力被堵，直接改变国内大模型公司的训练成本与合规路径，是少有人注意但影响深远的政策信号。",
+      "action": "评估所在团队/公司是否有海外算力依赖，提前规划合规与成本"
+    },
+    {
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
+      "score": 86,
+      "reason": "Anthropic IPO前股权结构决定AI大模型竞争格局与云厂商绑定关系，对投资和职业选择都有参考价值。",
+      "action": "关注Anthropic招股书披露的算力采购与云分成条款"
+    },
+    {
+      "title": "JPMorgan is working on AI agent transactions that don’t involve humans",
+      "link": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
+      "score": 84,
+      "reason": "Agent自主完成支付交易是Agent落地的关键基础设施突破，直接对应画像中的Agent与投资双兴趣。",
+      "action": "研究其Agent身份认证与风控方案，作为Agent产品设计的参考"
+    },
+    {
+      "title": "DeepSeek开始限额了，这里是一份最全“搬家”手册",
+      "link": "https://www.36kr.com/p/4073271553102724",
       "source": "36氪24h热榜",
       "domain": "科技商业",
-      "score": 92,
-      "reason": "揭示AI基建背后的债务与循环融资结构，与算力下修形成交叉信号，是判断AI泡沫风险的关键拼图。",
-      "action": "与SemiAnalysis下修一文对照阅读，梳理AI资本开支的融资链条风险点"
+      "score": 82,
+      "reason": "主力模型限额直接影响开发者的工具选型与成本，配套搬家手册具备强可行动性。",
+      "action": "按手册评估自有项目的模型迁移成本，准备备用API方案"
     },
     {
-      "title": "沃什：美联储正为三种AI影响制定预案，若泡沫破裂，或引发股市走弱并拖累经济与就业",
-      "link": "https://wallstreetcn.com/articles/3786043",
-      "source": "华尔街见闻",
-      "domain": "财经",
-      "score": 90,
-      "reason": "美联储主席亲口给出AI泡沫破裂的政策预案，意味着货币政策可能已把AI风险纳入框架，影响降息路径判断。",
-      "action": "关注后续美联储对AI就业影响的表态，作为利率与仓位调整的输入"
-    },
-    {
-      "title": "阿里正式发布Qwen4，智能体及编程能力进阶，迈向真实全场景",
-      "link": "https://www.qbitai.com/2026/11/510486.html",
-      "source": "量子位",
-      "domain": "AI前沿",
-      "score": 88,
-      "reason": "国产头部大模型新版本强化Agent与编程能力，直接关系到开发工具选型与技能学习方向。",
-      "action": "试用Qwen4的编程与Agent能力，评估是否接入现有工作流"
-    },
-    {
-      "title": "字节被曝正研发「中国版 Muse」，Personal Agent 会成为大厂争夺的新方向吗？字节有何优势？",
-      "link": "https://www.zhihu.com/question/2104136484013826621",
-      "source": "知乎热榜",
-      "domain": "舆情热点",
-      "score": 85,
-      "reason": "Personal Agent成为大厂新战场，与Qwen4智能体能力形成交叉信号，指向Agent产品化加速。",
-      "action": "仅观察，跟踪字节Agent产品落地节奏"
-    },
-    {
-      "title": "腾讯发文：已到生死存亡时刻，未来不一定要那么多管理岗位，需要一半人去打新的战役",
-      "link": "https://finance.sina.com.cn/stock/marketresearch/2026-11-17/doc-iniyyvsr7802869.shtml",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "score": 84,
-      "reason": "头部大厂公开承认AI冲击下的组织重构与管理岗收缩，对职业规划与行业就业判断有直接参考价值。",
-      "action": "关注腾讯后续组织调整细节，评估自身所在行业的管理岗风险"
-    },
-    {
-      "title": "代码都能让 Agent 写了，我们为什么还要学前端？",
-      "link": "https://juejin.cn/post/7706354193472995391",
+      "title": "真狠啊，DeepSeek 开放全家桶 API。",
+      "link": "https://juejin.cn/post/7708954185542172710",
       "source": "掘金热文",
       "domain": "技术趋势",
-      "score": 80,
-      "reason": "直面Agent替代编程工作下的技能价值问题，与用户学习成长、职业用途高度相关。",
-      "action": "阅读并提炼可迁移技能清单，调整学习重点"
-    },
-    {
-      "title": "加州总检察长就失控Agent事件起诉OpenAI",
-      "link": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
       "score": 78,
-      "reason": "Agent失控引发法律诉讼，是Agent大规模落地前必须关注的合规与风险信号。",
-      "action": "仅观察，关注Agent安全与合规监管走向"
+      "reason": "与上条形成交叉信号：一边限额一边开放全家桶，说明定价与配额策略在调整，开发者需重新算账。",
+      "action": "对比新旧API价格与配额，更新项目成本模型"
     },
     {
-      "title": "苹果为Mac增加新的安全控制，因AI Agent带来隐私风险",
-      "link": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
+      "title": "External sandboxes for coding agents",
+      "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 76,
-      "reason": "操作系统层面开始为Agent隐私风险设防，对开发者构建Agent工具的安全设计有实操参考。",
-      "action": "了解新安全控制机制，评估对自建Agent工具的影响"
+      "reason": "编码Agent的外部沙箱是当前工程落地的核心痛点，属于值得进学习主题的方法论内容。",
+      "action": "阅读后在自己的Agent项目里试接入沙箱隔离方案"
     },
     {
-      "title": "高分红股十年盘点：3900余只高股息股，超一半跑赢大盘",
-      "link": "https://finance.sina.com.cn/wm/2026-11-17/doc-iniyyvsp5569294.shtml",
-      "source": "新浪财经新闻",
-      "domain": "财经",
-      "score": 72,
-      "reason": "在芯片股领跌、避险情绪主导的市场环境下，高股息策略的历史回测数据对配置有参考价值。",
-      "action": "仅观察，结合当前避险情绪评估防御性仓位"
+      "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
+      "link": "http://arxiv.org/abs/2611.23216v1",
+      "source": "arXiv cs.AI",
+      "domain": "学术前沿",
+      "score": 74,
+      "reason": "榜单分数与实际完成工作量脱钩，对选模型和评估Agent效率有直接纠偏价值，信息差强。",
+      "action": "仅观察，后续用自己任务集做一次小规模复现验证"
     }
   ],
-  "noise_note": "排除了APEC外交礼仪、明星八卦、健康养生、体育赛事等纯流量话题，以及黄仁勋去留的多条重复报道（仅保留算力与债务两条信息量最大的）。"
+  "noise_note": "排除了APEC外交与深圳本地花絮、雷军发名片等纯流量话题、知网AI检测争议的重复报道，以及雪球散户随笔类无信息增量内容。"
 }
