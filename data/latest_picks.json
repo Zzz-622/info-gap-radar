@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "黄仁勋：愿回归，董事会：无意让他复职，业绩超预期，英伟达盘后涨超4%",
-      "link": "https://finance.sina.com.cn/stock/marketresearch/2026-11-18/doc-inizcexi1210044.shtml",
-      "source": "新浪财经新闻",
-      "domain": "财经·海外",
-      "score": 95,
-      "reason": "英伟达CEO变动、业绩超预期、盘后涨4%三件事叠加，是今天对持仓和AI算力链最直接的定价信号，且多源交叉（新浪、IT之家、TechCrunch、CNBC）确认。",
-      "action": "核对英伟达财报关键数字与SEC调查进展，评估A股算力链（光模块、服务器）次日情绪传导"
-    },
-    {
-      "title": "SEC reportedly investigating Nvidia amid Huang exit",
-      "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huangs-exit/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
-      "score": 92,
-      "reason": "SEC调查叠加CEO离任，是中文源普遍没展开的信息差，直接影响英伟达估值与供应链订单预期。",
-      "action": "跟踪SEC调查是否正式立案，作为减仓/对冲英伟达相关敞口的触发条件"
-    },
-    {
-      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
-      "link": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
-      "score": 90,
-      "reason": "英伟达退出中国市场的判断对国产算力替代、芯片板块是重大变量，中文源仅停留在人事层面。",
-      "action": "梳理国产GPU/算力替代受益标的，观察后续官方口径"
-    },
-    {
-      "title": "特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」",
-      "link": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&at_campaign=rss",
-      "source": "BBC中文",
-      "domain": "国际",
-      "score": 88,
-      "reason": "东南亚租算力被堵，直接改变国内大模型公司的训练成本与合规路径，是少有人注意但影响深远的政策信号。",
-      "action": "评估所在团队/公司是否有海外算力依赖，提前规划合规与成本"
-    },
-    {
-      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
-      "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
-      "score": 86,
-      "reason": "Anthropic IPO前股权结构决定AI大模型竞争格局与云厂商绑定关系，对投资和职业选择都有参考价值。",
-      "action": "关注Anthropic招股书披露的算力采购与云分成条款"
-    },
-    {
-      "title": "JPMorgan is working on AI agent transactions that don’t involve humans",
-      "link": "https://www.cnbc.com/2026/11/18/jpmorgan-hyundai-card-ai-agents-payments.html",
+      "title": "Anthropic IPO 定价 83 美元/股，募资超 810 亿美元创史上最大 IPO，估值最高 1.5 万亿美元",
+      "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "score": 84,
-      "reason": "Agent自主完成支付交易是Agent落地的关键基础设施突破，直接对应画像中的Agent与投资双兴趣。",
-      "action": "研究其Agent身份认证与风控方案，作为Agent产品设计的参考"
+      "score": 95,
+      "reason": "AI 头部公司上市定价与估值锚点，直接影响一级/二级市场对 AI 资产的定价逻辑，多源交叉（CNBC、TechCrunch、BBC）确认。",
+      "action": "关注上市首日表现与破发风险，作为判断 AI 泡沫是否见顶的观察指标；若参与打新需评估锁定期与估值合理性"
     },
     {
-      "title": "DeepSeek开始限额了，这里是一份最全“搬家”手册",
-      "link": "https://www.36kr.com/p/4073271553102724",
+      "title": "美联储会议纪要：官员预计还将加息，并担忧 AI 对通胀的影响",
+      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
+      "score": 92,
+      "reason": "加息预期+AI 通胀叙事是当前资产定价的核心变量，直接关系股票/债券/基金仓位。",
+      "action": "复盘持仓中对利率敏感的成长股与债券久期，评估加息情景下的回撤"
+    },
+    {
+      "title": "英伟达季度营收破千亿美金，但昨日的世界已经远去；黄仁勋离任、临时 CEO Kress 首次全员会",
+      "link": "https://www.36kr.com/p/4074562529645445",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "score": 90,
+      "reason": "算力龙头业绩+管理层剧变双重信号，多源交叉（36氪、CNBC、TechCrunch、IT之家），对算力/芯片投资判断关键。",
+      "action": "跟踪新 CEO 遴选进展与下季度指引，重估算力产业链持仓逻辑"
+    },
+    {
+      "title": "英伟达未提交例行 SEC 报告引发市场猜疑",
+      "link": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
+      "score": 85,
+      "reason": "信息差强：少有人注意的合规异常，可能是治理风险的早期信号。",
+      "action": "仅观察，留意后续 SEC 文件补交或解释"
+    },
+    {
+      "title": "DeepSeek API 定价调整：服务端搜索、网页抓取不再计费，仅按 Token 计费",
+      "link": "https://m.ithome.com/html/1029058.htm",
+      "source": "IT之家",
+      "domain": "科技数码",
+      "score": 84,
+      "reason": "直接影响开发者调用成本与 Agent/RAG 应用的成本结构，可行动性极强。",
+      "action": "重算现有 AI 应用的成本模型，评估是否将搜索/抓取链路迁到 DeepSeek"
+    },
+    {
+      "title": "GPT-6.2 Astra 与 Sol 突袭发布，任务成本仅为 Claude 的 5%，但口碑分化",
+      "link": "https://www.36kr.com/p/4074370835977092",
       "source": "36氪24h热榜",
       "domain": "科技商业",
       "score": 82,
-      "reason": "主力模型限额直接影响开发者的工具选型与成本，配套搬家手册具备强可行动性。",
-      "action": "按手册评估自有项目的模型迁移成本，准备备用API方案"
+      "reason": "模型选型与成本对比是开发者/产品决策的直接输入，多源交叉（36氪、掘金、量子位）。",
+      "action": "在自有任务集上做 A/B 评测，对比 Astra 与现有模型的性价比再决定是否切换"
     },
     {
-      "title": "真狠啊，DeepSeek 开放全家桶 API。",
-      "link": "https://juejin.cn/post/7708954185542172710",
-      "source": "掘金热文",
-      "domain": "技术趋势",
+      "title": "OpenAI 自曝模型失控险情：最强 AI 曾突破网络封锁，紧急停训 11 天",
+      "link": "https://www.aibase.com/zh/news/32394",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 78,
-      "reason": "与上条形成交叉信号：一边限额一边开放全家桶，说明定价与配额策略在调整，开发者需重新算账。",
-      "action": "对比新旧API价格与配额，更新项目成本模型"
+      "reason": "AI 安全治理的一手案例，对理解监管走向与 Agent 权限设计有长期学习价值。",
+      "action": "仅观察；做 Agent 产品时参考其权限隔离与沙箱设计教训"
     },
     {
-      "title": "External sandboxes for coding agents",
-      "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "title": "AI 自己动手改电路：OpenAI 让模型优化芯片，AMD 旗舰 GPU 性效比最高提 14%",
+      "link": "https://www.aibase.com/zh/news/32398",
       "source": "Readhub",
       "domain": "科技商业",
       "score": 76,
-      "reason": "编码Agent的外部沙箱是当前工程落地的核心痛点，属于值得进学习主题的方法论内容。",
-      "action": "阅读后在自己的Agent项目里试接入沙箱隔离方案"
+      "reason": "AI for 芯片设计从概念走向可量化收益，关联算力/芯片长期主题。",
+      "action": "仅观察，纳入'AI+EDA'学习主题跟踪"
     },
     {
-      "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
-      "link": "http://arxiv.org/abs/2611.23216v1",
-      "source": "arXiv cs.AI",
-      "domain": "学术前沿",
+      "title": "AI 算力推高内存成本，苹果拟与三星签四年期 DRAM 长约",
+      "link": "https://www.aibase.com/zh/news/32401",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 74,
-      "reason": "榜单分数与实际完成工作量脱钩，对选模型和评估Agent效率有直接纠偏价值，信息差强。",
-      "action": "仅观察，后续用自己任务集做一次小规模复现验证"
+      "reason": "AI 需求外溢到存储涨价，是产业链传导的早期信号，对芯片投资有参考价值。",
+      "action": "关注 DRAM/存储板块涨价周期，评估相关标的与消费电子成本压力"
+    },
+    {
+      "title": "腾讯大幅削减元宝投入，微信 AI 助手「小微」日活达 3000 万",
+      "link": "https://www.aibase.com/zh/news/32407",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 72,
+      "reason": "大厂 AI 入口战略转向的信号，反映 C 端 AI 助手竞争格局变化。",
+      "action": "仅观察，关注微信生态内 AI 助手的开放能力与开发者机会"
     }
   ],
-  "noise_note": "排除了APEC外交与深圳本地花絮、雷军发名片等纯流量话题、知网AI检测争议的重复报道，以及雪球散户随笔类无信息增量内容。"
+  "noise_note": "排除了 APEC/中美元首会晤等时政流量话题、明星八卦与影视综艺、AI 生成猎奇视频、雪球泛泛投资感悟帖、手机新品预热及 GTA6 等消费娱乐内容。"
 }
