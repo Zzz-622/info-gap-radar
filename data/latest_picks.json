@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "Anthropic IPO 定价 83 美元/股，募资超 810 亿美元创史上最大 IPO，估值最高 1.5 万亿美元",
-      "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
+      "title": "Anthropic 成功上市，创史上最大 IPO 融资纪录：7 个 OpenAI 前员工，5 年造出万亿美金公司",
+      "link": "https://www.mittrchina.com/news/detail/17266",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 95,
-      "reason": "AI 头部公司上市定价与估值锚点，直接影响一级/二级市场对 AI 资产的定价逻辑，多源交叉（CNBC、TechCrunch、BBC）确认。",
-      "action": "关注上市首日表现与破发风险，作为判断 AI 泡沫是否见顶的观察指标；若参与打新需评估锁定期与估值合理性"
+      "reason": "AI 头部公司 IPO 定价与估值锚点，直接决定一级市场融资与二级市场 AI 板块估值逻辑，多源交叉（Readhub/IT之家/BBC/TechCrunch/CNBC）确认。",
+      "action": "读原文记下估值、募资额与创始人套现结构，作为后续 AI 公司估值参照；关注 A 股/港股 AI 概念联动"
     },
     {
-      "title": "美联储会议纪要：官员预计还将加息，并担忧 AI 对通胀的影响",
-      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "title": "Anthropic was supposed to save the AI trade. What went wrong?",
+      "link": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
       "source": "CNBC Markets",
       "domain": "财经·海外",
-      "score": 92,
-      "reason": "加息预期+AI 通胀叙事是当前资产定价的核心变量，直接关系股票/债券/基金仓位。",
-      "action": "复盘持仓中对利率敏感的成长股与债券久期，评估加息情景下的回撤"
+      "score": 93,
+      "reason": "史上最大 IPO 反而引发 AI 股抛售、软银暴跌 16%，这是与主流叙事相反的信息差，对持仓判断最有用。",
+      "action": "对照自己 AI 相关持仓/基金，评估是否需降低对'AI 叙事'的敞口；观察后续 1-2 周资金流向"
     },
     {
-      "title": "英伟达季度营收破千亿美金，但昨日的世界已经远去；黄仁勋离任、临时 CEO Kress 首次全员会",
-      "link": "https://www.36kr.com/p/4074562529645445",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
+      "title": "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+      "link": "https://www.cnbc.com/2026/11/20/softbank-ai-tech-stocks-slide-anthropic-debut.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
       "score": 90,
-      "reason": "算力龙头业绩+管理层剧变双重信号，多源交叉（36氪、CNBC、TechCrunch、IT之家），对算力/芯片投资判断关键。",
-      "action": "跟踪新 CEO 遴选进展与下季度指引，重估算力产业链持仓逻辑"
+      "reason": "AI 一级市场狂欢与二级市场杀跌同时发生，是判断 AI 泡沫阶段的关键信号，且影响亚洲科技股。",
+      "action": "关注港股/日股科技板块开盘反应，作为 A 股 AI 板块情绪的前瞻指标"
     },
     {
-      "title": "英伟达未提交例行 SEC 报告引发市场猜疑",
-      "link": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
+      "title": "DeepSeek Harness 实战与架构解析：让 Agent 从“会聊”到“能交付”",
+      "link": "https://juejin.cn/post/7708058421904392242",
+      "source": "掘金热文",
+      "domain": "技术趋势",
+      "score": 88,
+      "reason": "Agent 工程化落地的架构拆解，直接对应'Agent/开发/技能'兴趣，可迁移到工作项目。",
+      "action": "精读并复现最小 demo，把'会聊→能交付'的工程模式整理成自己的笔记"
+    },
+    {
+      "title": "改提示词不如改代码：谷歌让 AI 自改运行框架",
+      "link": "https://www.aibase.com/zh/news/32426",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 85,
-      "reason": "信息差强：少有人注意的合规异常，可能是治理风险的早期信号。",
-      "action": "仅观察，留意后续 SEC 文件补交或解释"
+      "reason": "从 prompt engineering 转向让模型改运行框架，是 AI 应用开发范式的方向性变化，对开发者有长期价值。",
+      "action": "了解其实现思路，评估是否可在自己的 Agent 流程中引入'自改框架'环节"
     },
     {
-      "title": "DeepSeek API 定价调整：服务端搜索、网页抓取不再计费，仅按 Token 计费",
-      "link": "https://m.ithome.com/html/1029058.htm",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "score": 84,
-      "reason": "直接影响开发者调用成本与 Agent/RAG 应用的成本结构，可行动性极强。",
-      "action": "重算现有 AI 应用的成本模型，评估是否将搜索/抓取链路迁到 DeepSeek"
-    },
-    {
-      "title": "GPT-6.2 Astra 与 Sol 突袭发布，任务成本仅为 Claude 的 5%，但口碑分化",
-      "link": "https://www.36kr.com/p/4074370835977092",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "score": 82,
-      "reason": "模型选型与成本对比是开发者/产品决策的直接输入，多源交叉（36氪、掘金、量子位）。",
-      "action": "在自有任务集上做 A/B 评测，对比 Astra 与现有模型的性价比再决定是否切换"
-    },
-    {
-      "title": "OpenAI 自曝模型失控险情：最强 AI 曾突破网络封锁，紧急停训 11 天",
-      "link": "https://www.aibase.com/zh/news/32394",
+      "title": "谷歌 Gemini 上线 Mac「电脑操控」功能：后台自动干活，支持修图与做 PPT",
+      "link": "https://www.aibase.com/zh/news/32419",
       "source": "Readhub",
       "domain": "科技商业",
+      "score": 83,
+      "reason": "桌面级 Agent 从演示走向可用产品，与 Apple 自研 Mac AI agent 消息交叉印证，是效率工具的直接升级。",
+      "action": "试用并评估能否替代日常重复操作（做 PPT/修图），沉淀一套个人自动化流程"
+    },
+    {
+      "title": "从腾讯三季报谈谈AI投入周期与商业化",
+      "link": "http://www.xueqiu.com/5332385101/417517625",
+      "source": "雪球热帖",
+      "domain": "财经",
+      "score": 80,
+      "reason": "把 AI 资本开支周期与商业化节奏落到具体财报数据上，对判断中概 AI 投入回报期有实操价值。",
+      "action": "对照腾讯财报原文核对 AI 相关投入与收入口径，更新自己的中概持仓假设"
+    },
+    {
+      "title": "AMD dives on short seller report of alleged China exposure",
+      "link": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
       "score": 78,
-      "reason": "AI 安全治理的一手案例，对理解监管走向与 Agent 权限设计有长期学习价值。",
-      "action": "仅观察；做 Agent 产品时参考其权限隔离与沙箱设计教训"
+      "reason": "做空报告+中国敞口+加州总检察长传票英伟达，芯片出口监管风险在升级，影响算力链投资判断。",
+      "action": "跟踪 AMD/英伟达后续回应与监管进展，评估算力/芯片相关标的的政策风险敞口"
     },
     {
-      "title": "AI 自己动手改电路：OpenAI 让模型优化芯片，AMD 旗舰 GPU 性效比最高提 14%",
-      "link": "https://www.aibase.com/zh/news/32398",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "score": 76,
-      "reason": "AI for 芯片设计从概念走向可量化收益，关联算力/芯片长期主题。",
-      "action": "仅观察，纳入'AI+EDA'学习主题跟踪"
+      "title": "面试了20个前端，我发现高薪的都不怎么拼“底层原理”",
+      "link": "https://juejin.cn/post/7709222846370807827",
+      "source": "掘金热文",
+      "domain": "技术趋势",
+      "score": 75,
+      "reason": "直接命中'职业/招聘/薪资/技能'，提供市场对开发者能力定价的一线观察，可指导技能投入方向。",
+      "action": "对照文中高薪能力项自查，调整接下来 1-3 个月的学习优先级"
     },
     {
-      "title": "AI 算力推高内存成本，苹果拟与三星签四年期 DRAM 长约",
-      "link": "https://www.aibase.com/zh/news/32401",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "score": 74,
-      "reason": "AI 需求外溢到存储涨价，是产业链传导的早期信号，对芯片投资有参考价值。",
-      "action": "关注 DRAM/存储板块涨价周期，评估相关标的与消费电子成本压力"
-    },
-    {
-      "title": "腾讯大幅削减元宝投入，微信 AI 助手「小微」日活达 3000 万",
-      "link": "https://www.aibase.com/zh/news/32407",
+      "title": "Google 开放 Genie4 世界模型 API，支持实时交互与原生音频生成",
+      "link": "https://www.aibase.com/zh/news/32424",
       "source": "Readhub",
       "domain": "科技商业",
       "score": 72,
-      "reason": "大厂 AI 入口战略转向的信号，反映 C 端 AI 助手竞争格局变化。",
-      "action": "仅观察，关注微信生态内 AI 助手的开放能力与开发者机会"
+      "reason": "世界模型 API 开放意味着新的产品能力边界，对做 AI 产品/工具的人有先发信息价值。",
+      "action": "申请 API 试用，评估能否嵌入自己的产品或做原型验证"
     }
   ],
-  "noise_note": "排除了 APEC/中美元首会晤等时政流量话题、明星八卦与影视综艺、AI 生成猎奇视频、雪球泛泛投资感悟帖、手机新品预热及 GTA6 等消费娱乐内容。"
+  "noise_note": "排除了 APEC/元首会晤等时政流量、微博娱乐八卦与日常琐事、手机新品爆料、雪球泛泛而谈的'抄底误区/确定性之王'类无信息量帖子，以及同主题重复的 Anthropic IPO 报道（只保留信息量最大的几条）。"
 }
