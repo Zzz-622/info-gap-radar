@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-      "link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
-      "score": 95,
-      "reason": "英伟达七周连跌创2008年以来最长纪录，叠加芯片股巨额空头交易，是判断AI算力投资周期拐点的核心信号。",
-      "action": "检查持仓中算力、芯片相关敞口，关注下周英伟达财报与黄仁勋参议院作证"
-    },
-    {
-      "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
-      "link": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
-      "score": 92,
-      "reason": "若落地将重塑全球AI算力布局与云厂商资本开支路径，直接影响算力产业链与海外数据中心相关标的。",
-      "action": "跟踪政策细则，评估对云厂商海外扩张与算力租赁公司的影响"
-    },
-    {
-      "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive",
-      "link": "https://www.cnbc.com/2026/11/20/as-anthropic-shares-tank-investors-scramble-to-hedge-it-could-be-very-expensive.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
-      "score": 90,
-      "reason": "超级AI第一股上市次日即暴跌、对冲成本高企，是AI估值泡沫争论最直接的定价证据。",
-      "action": "仅观察，作为AI板块风险偏好的风向标"
-    },
-    {
-      "title": "DeepSeek 新一轮千亿级融资落地，梁文锋保留绝对控制权",
-      "link": "https://m.ithome.com/html/1030199.htm",
-      "source": "IT之家",
-      "domain": "科技数码",
-      "score": 88,
-      "reason": "国内头部大模型公司千亿级融资与股权结构安排，是判断国产大模型竞争格局与人才流向的关键信息。",
-      "action": "关注融资用途与后续招聘动向，可作为职业选择参考"
-    },
-    {
-      "title": "刚刚，DeepSeek张博创业曝光：开源个人Agent",
-      "link": "https://www.36kr.com/p/4077377119245191",
+      "title": "Anthropic万亿IPO冲击波：智谱、MiniMax大跌，市场或重估大模型定价逻辑",
+      "link": "https://www.36kr.com/p/4079074198705280",
       "source": "36氪24h热榜",
       "domain": "科技商业",
-      "score": 86,
-      "reason": "DeepSeek核心成员出走做开源个人Agent，指向Agent赛道创业窗口与开源生态机会。",
-      "action": "收藏项目仓库，评估是否可复用其Agent框架"
+      "score": 95,
+      "reason": "Anthropic创纪录IPO与科技股2020年以来最差单周撞车，大模型公司估值定价逻辑可能被系统性重估，直接关系AI板块持仓与一级市场判断。",
+      "action": "梳理手中AI相关标的（含智谱/MiniMax概念、算力链）敞口，关注后续定价锚变化"
     },
     {
-      "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
-      "link": "https://www.qbitai.com/2026/11/511582.html",
+      "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+      "link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
+      "score": 93,
+      "reason": "与36氪同题互为交叉验证，海外一手口径补充IPO规模与抛售细节，是判断AI交易是否见顶的关键信号。",
+      "action": "对照两篇做多源交叉，记录IPO定价与首日表现作为估值锚"
+    },
+    {
+      "title": "深夜，美股AI血崩，英伟达市值已跌去2.7万亿美元",
+      "link": "https://www.36kr.com/p/4078935983182722",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "score": 90,
+      "reason": "英伟达累计蒸发2.7万亿美元是AI资本开支叙事的核心变量，直接影响算力链、芯片股与基金配置。",
+      "action": "检查算力/芯片相关持仓与基金暴露，设定观察位而非追跌"
+    },
+    {
+      "title": "谷歌重磅论文：内部已实现RSI，Opus经验喂给Gemini，AI拥有进化记忆",
+      "link": "https://www.36kr.com/p/4078984519750789",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "score": 88,
+      "reason": "递归自我改进（RSI）从概念走向工程实现，是理解下一代模型能力跃迁与竞争格局的关键技术信号。",
+      "action": "精读论文要点，纳入个人AI技术学习主题"
+    },
+    {
+      "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+      "link": "https://www.qbitai.com/2026/11/511570.html",
       "source": "量子位",
       "domain": "AI前沿",
-      "score": 84,
-      "reason": "Agent效率与成本数量级优化，直接关系到自建Agent方案的成本可行性与技术选型。",
-      "action": "阅读方法细节，评估能否迁移到现有Agent工作流"
+      "score": 86,
+      "reason": "顶级模型作者转向开源Agent创业，开源Agent生态可能出现新的可复用框架，对开发者有直接工具价值。",
+      "action": "关注项目仓库，评估是否可接入现有工作流"
     },
     {
-      "title": "OpenAI 公布反蒸馏防护进展：GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%",
-      "link": "https://www.ithome.com/1/030/319.htm",
+      "title": "全球 PCB 供应告急，AI 数据中心抢占产能，其它产业遇断供风险",
+      "link": "https://www.mittrchina.com/news/detail/17272",
       "source": "Readhub",
       "domain": "科技商业",
-      "score": 82,
-      "reason": "模型蒸馏攻防数据大幅变化，影响依赖蒸馏做小模型/降本的技术路线可行性。",
-      "action": "若团队有蒸馏微调方案，重新评估合规与成功率风险"
+      "score": 84,
+      "reason": "信息差强：AI数据中心挤占PCB产能的外溢效应少被讨论，涉及电子、汽车等产业链成本与投资机会。",
+      "action": "排查PCB/电子元器件相关标的与供应链风险，仅观察为主"
     },
     {
-      "title": "近 200 万条请求揭开 AI 隐私漏洞：「零数据保留」也会泄密",
-      "link": "https://www.ithome.com/1/030/322.htm",
+      "title": "腾讯姚顺雨团队深夜回应一切：算力不足、模型刷榜、雷霆大思考",
+      "link": "https://www.36kr.com/p/4078768364754050",
+      "source": "36氪24h热榜",
+      "domain": "科技商业",
+      "score": 82,
+      "reason": "一线大模型团队公开回应算力瓶颈与刷榜质疑，是判断国内大模型真实水平与资源约束的一手材料。",
+      "action": "阅读全文，更新对国产大模型能力边界的认知"
+    },
+    {
+      "title": "资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段",
+      "link": "http://www.geekpark.net/news/374302",
       "source": "Readhub",
       "domain": "科技商业",
       "score": 80,
-      "reason": "实证揭示零数据保留承诺下的隐私泄露路径，对企业选型与合规有直接警示价值。",
-      "action": "审查所用AI服务的隐私条款与数据流向"
+      "reason": "资本开支+226%而利润被吞噬，量化了AI投入对龙头财报的实际冲击，与雪球腾讯讨论形成交叉。",
+      "action": "结合财报数据评估腾讯AI投入回报周期，仅观察"
     },
     {
-      "title": "多名美联储官员继续释放加息信号，幅度和节奏存分歧",
-      "link": "https://www.thepaper.cn/newsDetail_forward_34520495",
-      "source": "澎湃热榜",
-      "domain": "新闻时政",
+      "title": "英特尔 CEO 陈立武最新访谈：芯片周期未见顶，英特尔的翻盘节点在 2028",
+      "link": "https://www.huxiu.com/article/4907461.html?f=rss",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 78,
-      "reason": "加息预期反复是当前股债定价的核心变量，与投资理财用途强相关。",
-      "action": "关注利率期货隐含路径，调整债券与成长股仓位假设"
+      "reason": "CEO亲口给出芯片周期与公司拐点时间表，对半导体投资节奏判断有直接参考价值。",
+      "action": "记录2028节点作为长期跟踪锚点"
     },
     {
-      "title": "阿里巴巴天快亮了：资本开支降了四分之一，云反而跑得更快了",
-      "link": "http://www.xueqiu.com/7318086163/417688771",
-      "source": "雪球热帖",
-      "domain": "财经",
-      "score": 75,
-      "reason": "阿里资本开支与云增速背离，是判断国内AI算力投入节奏与云厂商盈利改善的重要观察点。",
-      "action": "对照财报数据验证，关注云业务利润率变化"
+      "title": "Together.ai: Prompt Leakage for Requests",
+      "link": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "source": "HackerNews·AI",
+      "domain": "技术趋势",
+      "score": 76,
+      "reason": "推理服务商发生提示词泄露安全事件，对使用第三方API的开发者是直接的安全与合规警示。",
+      "action": "检查自身是否使用相关服务，评估敏感prompt外泄风险"
     }
   ],
-  "noise_note": "排除了黎曼猜想AI证明、Anthropic上市暴涨暴跌等已被多源重复的流量话题，以及华为新机发布、明星八卦、健康养生、纯情绪化雪球帖等与用户用途无关的内容。"
+  "noise_note": "排除了黎曼猜想AI证明的系列刷屏讨论（同主题多源重复，仅保留技术信号价值）、雪球情绪化投资随笔与金价涨跌类流量话题、明星八卦与体育娱乐热搜、Product Hunt新品罗列及与画像无关的时政国际琐事。"
 }
