@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#c96845">
+<link rel="manifest" href="../manifest.json">
+<link rel="icon" href="../icon.svg">
+<title>radar-2026-11-23-picks · 信息差雷达</title>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#f7f4ef;
+  --paper-deep:#eee9e1;
+  --surface:#fffdfa;
+  --surface-soft:#fbf8f3;
+  --ink:#2f2a26;
+  --ink-soft:#766d65;
+  --line:#e6dfd6;
+  --line-strong:#d8cec3;
+  --accent:#c96845;
+  --accent-deep:#a94f32;
+  --accent-soft:#f5e5dc;
+  --shadow:0 18px 50px rgba(72,53,39,.08),0 2px 8px rgba(72,53,39,.04);
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{
+  max-width:1080px;
+  margin:0 auto;
+  padding:28px clamp(18px,4vw,56px) 52px;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:16px;
+  line-height:1.78;
+  word-break:break-word;
+  -webkit-font-smoothing:antialiased;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  margin-bottom:30px;
+}
+header h1{
+  margin:0;
+  color:var(--ink);
+  font-size:1.05rem;
+  font-weight:700;
+  letter-spacing:.01em;
+  line-height:1.3;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+  margin:0;
+  padding:4px;
+  background:rgba(255,253,250,.72);
+  border:1px solid var(--line);
+  border-radius:999px;
+  box-shadow:0 2px 7px rgba(72,53,39,.04);
+}
+nav a{
+  padding:5px 15px;
+  border:1px solid transparent;
+  border-radius:999px;
+  color:var(--ink-soft);
+  font-size:.88rem;
+  font-weight:600;
+  line-height:1.25;
+  text-decoration:none;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+nav a:hover{color:var(--accent-deep);background:var(--accent-soft)}
+nav a.on{background:var(--accent);border-color:var(--accent);color:#fffaf6}
+main{
+  min-height:360px;
+  padding:clamp(24px,5vw,58px);
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+h1,h2,h3{color:var(--ink);text-wrap:balance}
+main h1{
+  margin:0 0 1.35rem;
+  font-family:Georgia,"Songti SC","Noto Serif CJK SC",serif;
+  font-size:clamp(1.8rem,3vw,2.45rem);
+  font-weight:600;
+  letter-spacing:-.025em;
+  line-height:1.28;
+}
+h2{
+  display:flex;
+  align-items:center;
+  gap:11px;
+  margin:2.35rem 0 .9rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--line);
+  font-size:1.16rem;
+  font-weight:700;
+  letter-spacing:-.01em;
+  line-height:1.4;
+}
+h2::before{
+  width:5px;
+  height:1.05em;
+  flex:0 0 5px;
+  border-radius:999px;
+  background:var(--accent);
+  content:"";
+}
+h3{
+  margin:1.5rem 0 .45rem;
+  font-size:1rem;
+  font-weight:700;
+  line-height:1.55;
+}
+p{margin:.72rem 0}
+a{color:var(--accent-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--accent);text-decoration-thickness:2px}
+blockquote{
+  margin:0 0 1.8rem;
+  padding:12px 16px;
+  background:var(--accent-soft);
+  border:1px solid #edcfc1;
+  border-left:4px solid var(--accent);
+  border-radius:0 12px 12px 0;
+  color:#70574c;
+  font-size:.93rem;
+}
+li{margin:7px 0;padding-left:3px}
+li::marker{color:var(--accent);font-weight:700}
+ul,ol{padding-left:24px}
+strong{color:var(--ink);font-weight:750}
+code{
+  padding:.14em .42em;
+  background:var(--paper-deep);
+  border:1px solid var(--line);
+  border-radius:5px;
+  color:var(--accent-deep);
+  font-size:.9em;
+}
+hr{margin:2.2rem 0;border:0;border-top:1px solid var(--line)}
+footer{
+  margin:24px 6px 0;
+  padding-top:16px;
+  color:var(--ink-soft);
+  border-top:1px solid var(--line-strong);
+  font-size:.78rem;
+  letter-spacing:.01em;
+  text-align:center;
+}
+.meta{margin:-.55rem 0 2rem;color:var(--ink-soft);font-size:.85rem}
+.cover{
+  overflow:hidden;
+  margin:0 0 22px;
+  background:var(--surface);
+  border:1px solid rgba(216,206,195,.72);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+}
+.cover img{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+@media (max-width:700px){
+  body{padding:18px 12px 32px;font-size:15px}
+  header{align-items:flex-start;flex-direction:column;gap:12px;margin:0 4px 18px}
+  nav{width:100%}
+  nav a{flex:1;text-align:center}
+  .cover{margin-bottom:14px;border-radius:18px}
+  main{padding:24px 20px;border-radius:18px}
+  main h1{font-size:1.8rem}
+  h2{margin-top:2rem}
+}
+</style></head>
+<body>
+<header><h1>📡 信息差雷达</h1><nav><a href="../index.html">今日</a><a href="../archive.html" class=on>归档</a></nav></header>
+
+<main><h1>今日精选 · 2026-11-23</h1>
+<blockquote>私人编辑 · 画像: 职业与工作/学习成长/投资理财 · 模式: LLM 精选 · 数据时间: 2026-11-23T05:14:31</blockquote>
+<h2>🎯 值得你看的 10 条</h2>
+<h3>1. [新闻时政] 100%降至80%！融资保证金比例下调，预计4000亿增量资金在路上</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 融资保证金比例下调直接降低杠杆资金成本，4000亿增量资金预期对A股流动性和持仓结构有实质影响。</li>
+<li><strong>可行动作</strong>: 核对自身两融账户保证金比例变化，评估是否调整仓位或杠杆策略</li>
+<li><strong>来源</strong>: 澎湃热榜 · <a href="https://www.thepaper.cn/newsDetail_forward_34534889" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>2. [科技商业] Anthropic开出2.7亿天价疯抢CS本科生！OpenAI迎史上最惨一周</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: AI头部公司人才定价与竞争格局变化，直接关系技术从业者的薪资锚点和职业选择。</li>
+<li><strong>可行动作</strong>: 对照自身技能栈评估在AI人才市场的定位，关注目标公司招聘动向</li>
+<li><strong>来源</strong>: 36氪24h热榜 · <a href="https://www.36kr.com/p/4080641504875396" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>3. [AI前沿] 蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗AI能力</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 医疗垂直大模型开源，是可本地部署的实用模型资产，对开发者和行业应用有直接复用价值。</li>
+<li><strong>可行动作</strong>: 拉取模型权重与许可条款，评估在自身业务或学习项目中试跑</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/511998.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>4. [AI前沿] 豆姐威武！豆包工作上新21个专业工作台，AI直接替你上班</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 21个专业工作台是可直接上手的效率工具，能立刻替换部分重复性工作流。</li>
+<li><strong>可行动作</strong>: 挑1-2个与自身岗位最贴近的工作台实测，记录可替代的具体任务</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/511933.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>5. [AI前沿] 8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Agent记忆是当前工程落地的核心瓶颈，首个群聊记忆基准提供了可复用的评测方法。</li>
+<li><strong>可行动作</strong>: 收藏基准与数据集，作为Agent项目记忆模块的评测参考</li>
+<li><strong>来源</strong>: 量子位 · <a href="https://www.qbitai.com/2026/11/511841.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>6. [科技商业] Pre-training is (still) not plateauing</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 对预训练是否见顶给出有据可查的反驳，影响对算力与模型路线的长期判断。</li>
+<li><strong>可行动作</strong>: 精读并纳入学习主题，作为判断算力投资逻辑的参考</li>
+<li><strong>来源</strong>: Readhub · <a href="https://sebastianraschka.com/blog/2026/pretraining-is-still-not-plateauing.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>7. [科技商业] 为OpenAI的巨额订单备好钱：甲骨文称融资已就位</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 算力订单背后的融资落地情况，是判断AI资本开支可持续性的关键信号。</li>
+<li><strong>可行动作</strong>: 仅观察，跟踪甲骨文与OpenAI相关资本开支披露</li>
+<li><strong>来源</strong>: Readhub · <a href="https://www.aibase.com/zh/news/32457" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>8. [科技·海外] How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: Anthropic IPO前的机构持仓与估值路径，对AI一级市场投资判断有参考价值。</li>
+<li><strong>可行动作</strong>: 仅观察，记录主要机构成本与IPO时间线</li>
+<li><strong>来源</strong>: TechCrunch · <a href="https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>9. [财经·海外] U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 芯片出口管制执法出现新人物与调查线，可能影响算力供应链与相关标的。</li>
+<li><strong>可行动作</strong>: 仅观察，关注后续调查对芯片流通渠道的影响</li>
+<li><strong>来源</strong>: CNBC Markets · <a href="https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h3>10. [新闻时政] 创业板将引入做市商制度：有哪些亮点安排，市场影响几何？</h3>
+<ul>
+<li><strong>为什么对你有用</strong>: 做市商制度改变创业板流动性结构，对交易策略和标的筛选有实际影响。</li>
+<li><strong>可行动作</strong>: 梳理做市标的筛选规则，评估对自身持仓流动性的影响</li>
+<li><strong>来源</strong>: 澎湃热榜 · <a href="https://www.thepaper.cn/newsDetail_forward_34535483" target="_blank" rel="noopener">阅读原文</a></li>
+</ul>
+<h2>📉 排除说明</h2>
+<p>排除了GTA6、明星八卦、炸鸡外卖、天气等纯流量话题，以及雪球无信息量短帖和重复的AI数学难题报道。</p>
+<h2>📖 深读摘要</h2>
+<h3>1. 100%降至80%！融资保证金比例下调，预计4000亿增量资金在路上</h3>
+<h3>摘要</h3>
+<p>沪深北交易所经证监会批准，将融资保证金比例下限从100%下调至80%，自2026年11月30日起实施，设一周过渡期。此举属融资融券逆周期调节工具，背景是近期融资交易活跃度明显下降、整体杠杆水平不高，政策意图在于适度提高杠杆、释放融资空间、提升市场流动性。据监管人士估算，存量保证金按80%比例开仓可带来近1000亿元增量资金，对存量约2.2万亿元融资合约适用新比例可再释放近3000亿元，合计理论上可带来近4000亿元增量资金。同时通知要求券商加强对异常交易行为的管理，对情节严重者从严适用保证金比例等措施。</p>
+<h3>为什么重要</h3>
+<p>对投资理财而言，这是一条直接影响A股资金面与杠杆环境的政策信号：融资买入能力提升25%，且存量合约也被盘活，短期对市场流动性和情绪有支撑作用；但杠杆是把双刃剑，放大收益的同时也放大回撤，需结合自身风险承受能力看待。对职业与学习成长而言，该案例是理解“逆周期调节”机制的典型样本——同一工具在2023年8月下调稳市、2026年1月上调防过热，方向随市场冷热切换。</p>
+<h3>值得记住</h3>
+<p>关键机制：保证金比例从100%降至80%，杠杆倍数由1倍升至1.25倍，可融资买入规模提升25%；增量资金测算分两块——存量保证金释放近1000亿元、存量合约重估释放近3000亿元，合计近4000亿元，但这是“理论上”的上限，实际落地取决于投资者是否真的加杠杆买入。</p>
+<hr>
+<h3>2. Anthropic开出2.7亿天价疯抢CS本科生！OpenAI迎史上最惨一周</h3>
+<h3>摘要</h3>
+<p>这篇报道聚焦AI人才争夺战与竞争格局的急剧变化：Anthropic被曝为应届计算机本科生开出4年4000万美元（约2.7亿人民币）的股权包，投资人借此公开质疑OpenAI的吸引力。与此同时，OpenAI被描述为经历“史上最惨一周”——新模型口碑翻车、编程Agent第一被谷歌夺走、Anthropic又拿下黎曼猜想证明认证并以超两万亿美元市值完成IPO，而OpenAI自身私募融资缩水、烧钱压力上升。文章整体传达的判断是：AI行业“轻松领先”的时代正在结束，头部公司之间进入贴身肉搏。</p>
+<h3>为什么重要</h3>
+<p>对关注职业与学习成长的人来说，这是AI顶尖人才定价与竞争风向的强信号；对投资理财而言，它提示AI龙头的估值与格局可能在快速重排，不能只看单一领跑者。</p>
+<h3>值得记住</h3>
+<p>最反常识的点是抢人价格：一个刚毕业的CS本科生被开出4年4000万美元股权（年均1000万美元），人才争夺已到“天价锁定应届生”的程度。</p>
+<hr>
+<h3>3. 蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗AI能力</h3>
+<h3>摘要</h3>
+<p>蚂蚁集团发布百灵医疗健康大模型家族（统一命名&quot;Sante&quot;），覆盖多模态理解、复杂医学推理、疾病风险预测、安全防护和实时智能体等方向，其中两款核心模型LingSante-3.1-air-VL与LingSante-3.1-flash同步开源。多模态模型支持文字、图片、视频理解，可在笔记本电脑本地部署；深度推理模型总参数560B、支持1M Token上下文，据称在全球医疗AI评测平台InclusionMed综合指数中位列开源模型首位。这些能力同步落地到蚂蚁阿福App，使其能通过视频&quot;望闻问切&quot;、连线真人医生，并提供控糖、减重等定制化健康管理方案。</p>
+<h3>为什么重要</h3>
+<p>对关注AI应用落地的职场人和学习者而言，这是&quot;专业垂直模型+开源+消费级产品&quot;三位一体的典型案例，可作为观察AI商业化路径的样本；对投资者来说，医疗AI的开源策略意味着蚂蚁选择以生态和用户规模（阿福1.5亿用户、日均近2000万次咨询）而非模型授权构建壁垒，值得留意其对医疗AI竞争格局的影响。</p>
+<h3>值得记住</h3>
+<p>多模态模型LingSante-3.1-air-VL总参数124B但激活参数仅5.5B，因此能在笔记本电脑等本地设备部署——&quot;大模型小激活&quot;让专业医疗AI从云端走进医生个人电脑，这是本次开源最具反常识意味的一点。</p></main>
+<footer>自动生成 · 数据来自公开信息源 · 仅供个人学习研究，不构成投资建议</footer>
+</body></html>

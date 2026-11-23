@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "Anthropic万亿IPO冲击波：智谱、MiniMax大跌，市场或重估大模型定价逻辑",
-      "link": "https://www.36kr.com/p/4079074198705280",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
+      "title": "100%降至80%！融资保证金比例下调，预计4000亿增量资金在路上",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34534889",
+      "source": "澎湃热榜",
+      "domain": "新闻时政",
       "score": 95,
-      "reason": "Anthropic创纪录IPO与科技股2020年以来最差单周撞车，大模型公司估值定价逻辑可能被系统性重估，直接关系AI板块持仓与一级市场判断。",
-      "action": "梳理手中AI相关标的（含智谱/MiniMax概念、算力链）敞口，关注后续定价锚变化"
+      "reason": "融资保证金比例下调直接降低杠杆资金成本，4000亿增量资金预期对A股流动性和持仓结构有实质影响。",
+      "action": "核对自身两融账户保证金比例变化，评估是否调整仓位或杠杆策略"
     },
     {
-      "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
-      "link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
-      "source": "CNBC Markets",
-      "domain": "财经·海外",
-      "score": 93,
-      "reason": "与36氪同题互为交叉验证，海外一手口径补充IPO规模与抛售细节，是判断AI交易是否见顶的关键信号。",
-      "action": "对照两篇做多源交叉，记录IPO定价与首日表现作为估值锚"
-    },
-    {
-      "title": "深夜，美股AI血崩，英伟达市值已跌去2.7万亿美元",
-      "link": "https://www.36kr.com/p/4078935983182722",
+      "title": "Anthropic开出2.7亿天价疯抢CS本科生！OpenAI迎史上最惨一周",
+      "link": "https://www.36kr.com/p/4080641504875396",
       "source": "36氪24h热榜",
       "domain": "科技商业",
-      "score": 90,
-      "reason": "英伟达累计蒸发2.7万亿美元是AI资本开支叙事的核心变量，直接影响算力链、芯片股与基金配置。",
-      "action": "检查算力/芯片相关持仓与基金暴露，设定观察位而非追跌"
+      "score": 92,
+      "reason": "AI头部公司人才定价与竞争格局变化，直接关系技术从业者的薪资锚点和职业选择。",
+      "action": "对照自身技能栈评估在AI人才市场的定位，关注目标公司招聘动向"
     },
     {
-      "title": "谷歌重磅论文：内部已实现RSI，Opus经验喂给Gemini，AI拥有进化记忆",
-      "link": "https://www.36kr.com/p/4078984519750789",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "score": 88,
-      "reason": "递归自我改进（RSI）从概念走向工程实现，是理解下一代模型能力跃迁与竞争格局的关键技术信号。",
-      "action": "精读论文要点，纳入个人AI技术学习主题"
-    },
-    {
-      "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
-      "link": "https://www.qbitai.com/2026/11/511570.html",
+      "title": "蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗AI能力",
+      "link": "https://www.qbitai.com/2026/11/511998.html",
       "source": "量子位",
       "domain": "AI前沿",
-      "score": 86,
-      "reason": "顶级模型作者转向开源Agent创业，开源Agent生态可能出现新的可复用框架，对开发者有直接工具价值。",
-      "action": "关注项目仓库，评估是否可接入现有工作流"
+      "score": 88,
+      "reason": "医疗垂直大模型开源，是可本地部署的实用模型资产，对开发者和行业应用有直接复用价值。",
+      "action": "拉取模型权重与许可条款，评估在自身业务或学习项目中试跑"
     },
     {
-      "title": "全球 PCB 供应告急，AI 数据中心抢占产能，其它产业遇断供风险",
-      "link": "https://www.mittrchina.com/news/detail/17272",
-      "source": "Readhub",
-      "domain": "科技商业",
-      "score": 84,
-      "reason": "信息差强：AI数据中心挤占PCB产能的外溢效应少被讨论，涉及电子、汽车等产业链成本与投资机会。",
-      "action": "排查PCB/电子元器件相关标的与供应链风险，仅观察为主"
+      "title": "豆姐威武！豆包工作上新21个专业工作台，AI直接替你上班",
+      "link": "https://www.qbitai.com/2026/11/511933.html",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "score": 85,
+      "reason": "21个专业工作台是可直接上手的效率工具，能立刻替换部分重复性工作流。",
+      "action": "挑1-2个与自身岗位最贴近的工作台实测，记录可替代的具体任务"
     },
     {
-      "title": "腾讯姚顺雨团队深夜回应一切：算力不足、模型刷榜、雷霆大思考",
-      "link": "https://www.36kr.com/p/4078768364754050",
-      "source": "36氪24h热榜",
-      "domain": "科技商业",
-      "score": 82,
-      "reason": "一线大模型团队公开回应算力瓶颈与刷榜质疑，是判断国内大模型真实水平与资源约束的一手材料。",
-      "action": "阅读全文，更新对国产大模型能力边界的认知"
+      "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+      "link": "https://www.qbitai.com/2026/11/511841.html",
+      "source": "量子位",
+      "domain": "AI前沿",
+      "score": 83,
+      "reason": "Agent记忆是当前工程落地的核心瓶颈，首个群聊记忆基准提供了可复用的评测方法。",
+      "action": "收藏基准与数据集，作为Agent项目记忆模块的评测参考"
     },
     {
-      "title": "资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段",
-      "link": "http://www.geekpark.net/news/374302",
+      "title": "Pre-training is (still) not plateauing",
+      "link": "https://sebastianraschka.com/blog/2026/pretraining-is-still-not-plateauing.html",
       "source": "Readhub",
       "domain": "科技商业",
       "score": 80,
-      "reason": "资本开支+226%而利润被吞噬，量化了AI投入对龙头财报的实际冲击，与雪球腾讯讨论形成交叉。",
-      "action": "结合财报数据评估腾讯AI投入回报周期，仅观察"
+      "reason": "对预训练是否见顶给出有据可查的反驳，影响对算力与模型路线的长期判断。",
+      "action": "精读并纳入学习主题，作为判断算力投资逻辑的参考"
     },
     {
-      "title": "英特尔 CEO 陈立武最新访谈：芯片周期未见顶，英特尔的翻盘节点在 2028",
-      "link": "https://www.huxiu.com/article/4907461.html?f=rss",
+      "title": "为OpenAI的巨额订单备好钱：甲骨文称融资已就位",
+      "link": "https://www.aibase.com/zh/news/32457",
       "source": "Readhub",
       "domain": "科技商业",
       "score": 78,
-      "reason": "CEO亲口给出芯片周期与公司拐点时间表，对半导体投资节奏判断有直接参考价值。",
-      "action": "记录2028节点作为长期跟踪锚点"
+      "reason": "算力订单背后的融资落地情况，是判断AI资本开支可持续性的关键信号。",
+      "action": "仅观察，跟踪甲骨文与OpenAI相关资本开支披露"
     },
     {
-      "title": "Together.ai: Prompt Leakage for Requests",
-      "link": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
-      "source": "HackerNews·AI",
-      "domain": "技术趋势",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
       "score": 76,
-      "reason": "推理服务商发生提示词泄露安全事件，对使用第三方API的开发者是直接的安全与合规警示。",
-      "action": "检查自身是否使用相关服务，评估敏感prompt外泄风险"
+      "reason": "Anthropic IPO前的机构持仓与估值路径，对AI一级市场投资判断有参考价值。",
+      "action": "仅观察，记录主要机构成本与IPO时间线"
+    },
+    {
+      "title": "U.S. probes Megaspeed, Alice Huang as new figure emerges in Nvidia chip case",
+      "link": "https://www.cnbc.com/2026/11/23/nvidia-megaspeed-chipmaker-us.html",
+      "source": "CNBC Markets",
+      "domain": "财经·海外",
+      "score": 74,
+      "reason": "芯片出口管制执法出现新人物与调查线，可能影响算力供应链与相关标的。",
+      "action": "仅观察，关注后续调查对芯片流通渠道的影响"
+    },
+    {
+      "title": "创业板将引入做市商制度：有哪些亮点安排，市场影响几何？",
+      "link": "https://www.thepaper.cn/newsDetail_forward_34535483",
+      "source": "澎湃热榜",
+      "domain": "新闻时政",
+      "score": 72,
+      "reason": "做市商制度改变创业板流动性结构，对交易策略和标的筛选有实际影响。",
+      "action": "梳理做市标的筛选规则，评估对自身持仓流动性的影响"
     }
   ],
-  "noise_note": "排除了黎曼猜想AI证明的系列刷屏讨论（同主题多源重复，仅保留技术信号价值）、雪球情绪化投资随笔与金价涨跌类流量话题、明星八卦与体育娱乐热搜、Product Hunt新品罗列及与画像无关的时政国际琐事。"
+  "noise_note": "排除了GTA6、明星八卦、炸鸡外卖、天气等纯流量话题，以及雪球无信息量短帖和重复的AI数学难题报道。"
 }
