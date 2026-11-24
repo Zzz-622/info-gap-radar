@@ -1,36 +1,36 @@
 {
-  "run_ts": 1795410864,
-  "time": "2026-11-23T05:14:31",
+  "run_ts": 1795507019,
+  "time": "2026-11-24T07:57:12",
   "per_source": [
     {
       "id": "weibo-hot",
-      "fetched": 30,
-      "new": 29
+      "fetched": 29,
+      "new": 28
     },
     {
       "id": "zhihu-hot",
-      "fetched": 30,
-      "new": 30
-    },
-    {
-      "id": "baidu-hot",
       "fetched": 29,
       "new": 29
     },
     {
+      "id": "baidu-hot",
+      "fetched": 28,
+      "new": 28
+    },
+    {
       "id": "douyin-hot",
-      "fetched": 18,
-      "new": 9
+      "fetched": 17,
+      "new": 11
     },
     {
       "id": "bili-hot",
       "fetched": 28,
-      "new": 15
+      "new": 10
     },
     {
       "id": "pengpai-hot",
-      "fetched": 19,
-      "new": 19
+      "fetched": 20,
+      "new": 20
     },
     {
       "id": "wallstreetcn",
@@ -45,7 +45,7 @@
     {
       "id": "xueqiu",
       "fetched": 20,
-      "new": 7
+      "new": 8
     },
     {
       "id": "36kr-hot",
@@ -55,7 +55,7 @@
     {
       "id": "huxiu",
       "fetched": 15,
-      "new": 4
+      "new": 5
     },
     {
       "id": "readhub",
@@ -69,23 +69,23 @@
     },
     {
       "id": "liangziwei",
-      "fetched": 8,
-      "new": 7
+      "fetched": 10,
+      "new": 10
     },
     {
       "id": "ithome-hot",
-      "fetched": 11,
-      "new": 11
+      "fetched": 12,
+      "new": 12
     },
     {
       "id": "sspai-rss",
       "fetched": 10,
-      "new": 1
+      "new": 5
     },
     {
       "id": "juejin",
       "fetched": 20,
-      "new": 1
+      "new": 8
     },
     {
       "id": "github-top",
@@ -105,7 +105,7 @@
     {
       "id": "producthunt",
       "fetched": 30,
-      "new": 17
+      "new": 22
     },
     {
       "id": "freebuf",
@@ -115,7 +115,12 @@
     {
       "id": "bbc-zh",
       "fetched": 30,
-      "new": 7
+      "new": 9
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "fetched": 10,
+      "new": 10
     },
     {
       "id": "fx-usd-cny",
@@ -125,12 +130,12 @@
     {
       "id": "hn-front",
       "fetched": 30,
-      "new": 27
+      "new": 28
     },
     {
       "id": "lobsters",
       "fetched": 25,
-      "new": 11
+      "new": 20
     },
     {
       "id": "devto-ai",
@@ -140,56 +145,54 @@
     {
       "id": "techcrunch",
       "fetched": 20,
-      "new": 7
+      "new": 19
     },
     {
       "id": "verge",
       "fetched": 10,
-      "new": 10
+      "new": 9
     },
     {
       "id": "arstechnica",
       "fetched": 20,
-      "new": 1
+      "new": 13
     },
     {
       "id": "wired",
       "fetched": 30,
-      "new": 6
+      "new": 24
     },
     {
       "id": "mit-tr",
       "fetched": 10,
-      "new": 0
+      "new": 3
     },
     {
       "id": "bbc-en",
       "fetched": 30,
-      "new": 27
+      "new": 28
     },
     {
       "id": "guardian-world",
       "fetched": 30,
-      "new": 17
+      "new": 21
     },
     {
       "id": "nyt-home",
-      "fetched": 18,
-      "new": 18
+      "fetched": 17,
+      "new": 17
     },
     {
       "id": "cnbc-markets",
       "fetched": 30,
-      "new": 15
+      "new": 30
     },
     {
       "id": "google-news-ai",
       "fetched": 30,
-      "new": 27
+      "new": 30
     }
   ],
-  "errors": [
-    "arxiv-cs-ai: HTTPError: HTTP Error 429: Unknown Error"
-  ],
-  "db_items": 11716
+  "errors": [],
+  "db_items": 12233
 }
