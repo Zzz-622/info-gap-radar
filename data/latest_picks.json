@@ -1,97 +1,97 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "mode": "LLM 精选",
   "picks": [
     {
-      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-      "source": "TechCrunch",
-      "domain": "科技·海外",
-      "score": 92,
-      "reason": "Agent 直接接管代码评审、修复与合入，是开发者工作流里最可能立刻改变日常的一条，且属少有人注意的产品级信号。",
-      "action": "注册试用 Claude Ship，评估能否接入现有 CI/PR 流程，对比 Copilot 评审效果"
-    },
-    {
-      "title": "大厂Personal Agent，到底来不来？",
-      "link": "https://www.36kr.com/p/4082207223075718",
+      "title": "字节“小豆”开启公测，大厂Personal Agent之战正式打响",
+      "link": "https://www.36kr.com/p/4083642845615751",
       "source": "36氪24h热榜",
       "domain": "科技商业",
+      "score": 92,
+      "reason": "字节首款个人智能体公测，Personal Agent 赛道从概念进入产品竞争，直接关系 AI Agent 从业者的产品判断与技能方向。",
+      "action": "注册体验小豆，对比豆包/Manus 的能力边界，记录可复用的 Agent 产品设计模式"
+    },
+    {
+      "title": "PrismML 发布三值压缩 Bonsai 2.5 27B：九分之一体积保留 93.7% 编程能力",
+      "link": "https://www.aibase.com/zh/news/32522",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 88,
-      "reason": "Personal Agent 是大模型落地最关键的形态之争，直接关系工具选型与职业方向判断。",
-      "action": "精读并记录各家路线差异，作为个人 Agent 产品/技能投入的判断依据"
+      "reason": "27B 模型压缩到 1/9 体积仍保留 93.7% 编程能力，对本地部署、推理成本和开发者工具选型有直接参考价值。",
+      "action": "查模型权重与许可，评估能否在本地/低成本环境替代现有编码模型"
     },
     {
-      "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
-      "link": "https://www.qbitai.com/2026/11/512354.html",
-      "source": "量子位",
-      "domain": "AI前沿",
+      "title": "METR 最新报告：AI 能力仍在指数级增长，但判断力仍不如人类",
+      "link": "https://www.mittrchina.com/news/detail/17292",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 86,
-      "reason": "Apache 2.0 开源的可商用大模型，对开发选型和成本控制有直接价值。",
-      "action": "拉取模型做一次本地/API 基准测试，评估替代现有闭源调用的可行性"
+      "reason": "权威评测给出“能力涨、判断力不涨”的量化结论，是理解 AI 能力边界与职业护城河的高价值信息差。",
+      "action": "读原报告，提炼“判断力”维度作为个人技能与 Agent 产品设计的重点"
     },
     {
-      "title": "刚刚，GLM-5.4 正式发布，实测来了：看图用 Blender 建凉亭、做技术视频，再画一辆真能传动的自行车",
-      "link": "https://juejin.cn/post/7711193473663991818",
+      "title": "ShellBench 发布：GPT-6Astra 等先进 AI 模型日常任务失败率超三分之一",
+      "link": "https://www.aibase.com/zh/news/32504",
+      "source": "Readhub",
+      "domain": "科技商业",
+      "score": 84,
+      "reason": "与 METR 结论交叉印证：顶尖模型日常任务失败率超 1/3，直接决定 Agent 产品该做多少人工兜底。",
+      "action": "查 ShellBench 评测方法与任务集，用于自建 Agent 的可靠性基线"
+    },
+    {
+      "title": "这 3 年 AI Agent 到底进化了啥？万字大白话，一次讲透！",
+      "link": "https://juejin.cn/post/7709771529751199780",
       "source": "掘金热文",
       "domain": "技术趋势",
-      "score": 84,
-      "reason": "国产多模态模型实测含具体工程案例，比发布会通稿更有信息量，可判断能力边界。",
-      "action": "对照实测结论决定是否在图像/3D 类任务中试用"
-    },
-    {
-      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
-      "link": "https://www.qbitai.com/2026/11/512362.html",
-      "source": "量子位",
-      "domain": "AI前沿",
       "score": 82,
-      "reason": "不换硬件靠组队提升端侧效率，是算力受限场景下少见的低成本思路，长期值得跟踪。",
-      "action": "仅观察，关注是否有开源实现或论文细节"
+      "reason": "系统梳理三年 Agent 演进，适合作为学习主题的骨架材料，命中 Agent/学习成长双用途。",
+      "action": "精读并整理成个人 Agent 技术演进笔记/知识图谱"
     },
     {
-      "title": "AI硬件股下跌：需求拐点，还是流动性冲击？",
-      "link": "http://www.xueqiu.com/1481565998/418066248",
-      "source": "雪球热帖",
-      "domain": "财经",
+      "title": "Anthropic 搭建 Siren 蜜罐诱测 AI 越狱：新 Claude 仍有 21%~32% 沙盒场景试图逃逸",
+      "link": "https://www.aibase.com/zh/news/32508",
+      "source": "Readhub",
+      "domain": "科技商业",
       "score": 80,
-      "reason": "把 AI 硬件回调拆成基本面与流动性两种解释，直接服务投资决策框架。",
-      "action": "读完形成自己的判断清单，对照持仓做一次压力测试"
+      "reason": "给出 Agent 安全的具体量化数据，对做 Agent 落地和安全边界设计的人是一手参考。",
+      "action": "读 Siren 方法，把沙盒逃逸测试纳入自建 Agent 的验收清单"
     },
     {
-      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-      "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "link": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
       "source": "TechCrunch",
       "domain": "科技·海外",
       "score": 78,
-      "reason": "75 亿美元收购 AI 优化技术并配套卖自研芯片，是算力格局变化的强信号，易被英伟达新闻淹没。",
-      "action": "跟踪 Trainium 生态进展，评估对算力成本与相关标的的影响"
+      "reason": "头部 AI 公司跌破发行价，是 AI 一级/二级市场估值转向的强信号，与“AI 泡沫”讨论多源交叉。",
+      "action": "仅观察：跟踪后续 AI 公司 IPO 定价与融资节奏，作为投资情绪指标"
     },
     {
-      "title": "Signal joins United Airlines, banks in limiting AI agents over customer risks",
-      "link": "https://www.cnbc.com/2026/11/24/signal-airlines-banks-ai-limit.html",
+      "title": "SoftBank drops 15% as Wall Street AI sell-off ripples across Asian tech names",
+      "link": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
       "source": "CNBC Markets",
       "domain": "财经·海外",
       "score": 76,
-      "reason": "企业开始主动限制 Agent 权限，是 Agent 落地风险面的反向信号，做产品与合规都要知道。",
-      "action": "梳理自己 Agent 项目的权限边界与风控设计"
+      "reason": "AI 抛售已传导至亚洲科技股（软银、SK海力士、三星），对持仓与算力/芯片链判断有直接参考。",
+      "action": "检查个人持仓中算力/半导体相关敞口，评估是否需要再平衡"
     },
     {
-      "title": "美国六成AI风投资金涌入旧金山，但崩盘忧虑日益加深",
-      "link": "https://www.bbc.com/zhongwen/articles/cmlyj36xxek1o/trad?at_medium=RSS&at_campaign=rss",
-      "source": "BBC中文",
-      "domain": "国际",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "link": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "source": "TechCrunch",
+      "domain": "科技·海外",
       "score": 74,
-      "reason": "资金高度集中叠加崩盘担忧，是判断 AI 投资周期位置的重要背景数据。",
-      "action": "仅观察，作为仓位与风险偏好的参考"
+      "reason": "零售巨头把交易入口接进 AI Agent，是 Agent 商业化落地的首个大规模案例，对产品与投资判断都有价值。",
+      "action": "仅观察：跟踪 Agent 内交易/广告模式的后续数据与效仿者"
     },
     {
-      "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
-      "link": "http://arxiv.org/abs/2611.31228v1",
-      "source": "arXiv cs.AI",
-      "domain": "学术前沿",
+      "title": "SpringBoot4.2正式发布，人麻了！",
+      "link": "https://juejin.cn/post/7711285721428492303",
+      "source": "掘金热文",
+      "domain": "技术趋势",
       "score": 70,
-      "reason": "揭示模型无法就地自我监控不确定性，对做 Agent 可靠性与评估的人有直接启发。",
-      "action": "读摘要与方法，考虑引入不确定性检测到自己的 Agent 流程"
+      "reason": "主流后端框架大版本更新，直接影响开发者的升级决策与技能跟进。",
+      "action": "看升级要点与破坏性变更，评估现有项目升级成本"
     }
   ],
-  "noise_note": "排除了黄仁勋回归英伟达的十余条同质刷屏、微博娱乐八卦与明星AI视频、地方民生琐事及各类会议报名软文。"
+  "noise_note": "排除了航天/时政热搜、明星八卦、雪球个股吹票与泛情绪帖、黄仁勋个人绯闻及重复的英伟达股价波动报道，以及 Product Hunt 无信息量的新品列表。"
 }
